@@ -70,7 +70,6 @@ Let's setup a simple Object literal that returns a `String` value only.
 
 {% highlight javascript %}
 function getDrink (type) {
-  var drink;
   var drinks = {
     'coke': 'Coke',
     'pepsi': 'Pepsi',
