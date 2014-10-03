@@ -7,6 +7,27 @@ path: 2014-05-26-digging-into-angulars-controller-as-syntax.md
 
 AngularJS Controllers have recently gone under some changes (version 1.2 to be precise). What this means for scopes, Controllers and Angular development is some very subtle but powerful changes. One of those changes I believe is improved architecture, clearer scoping and smarter Controllers.
 
+<div class="airpairme">
+ <a href="http://airpair.me/toddmotto?utm_source=expert&utm_medium=homepage&utm_content=button&utm_campaign=airpairme">
+  <img src="http://www.airpair.com/images/me.png" />
+ </a>
+ <p>For live <a href="http://www.airpair.com/angularjs" style="color:#CE5424">AngularJS help</a> on AirPair</p>
+ <style>
+  .airpairme > a {
+   width:100%;
+   display:block;
+   padding:10px 0;
+   margin: 10px 0;
+   background:#fff;
+   text-align:center;
+   border:1px solid #d3d3d3;
+   border-radius:5px;
+  }
+  .airpairme > a:hover { background: #f9f9f9 }
+  .airpairme p { font:11px arial;text-align:center;margin:0;padding:3px 0 0 6px }
+ </style>
+</div>
+
 Controllers as we know them are class-like Objects that drive Model and View changes, but they all seem to revolve around this mystical `$scope` Object. Angular Controllers have been pushed to change the way `$scope` is declared, with many developers suggesting using the `this` keyword instead of `$scope`.
 
 Pre v1.2.0 Controllers looked similar to this:
