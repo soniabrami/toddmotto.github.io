@@ -7,6 +7,34 @@ path: 2014-07-23-opinionated-angular-js-styleguide-for-teams.md
 
 <h5>Official styleguide repo <a href="//github.com/toddmotto/angularjs-styleguide" style="text-decoration: underline;">now on GitHub</a>, all future styleguide updates will be here!</h5>
 
+<div class="airpairme">
+ <a href="http://airpair.me/toddmotto?utm_source=expert&utm_medium=homepage&utm_content=button&utm_campaign=airpairme">
+  <img src="http://www.airpair.com/images/me.png" />
+ </a>
+ <p>For live <a href="http://www.airpair.com/HTML5" style="color:#CE5424">HTML5 help</a> on AirPair</p>
+ <style type="text/css">
+  .airpairme > a {
+   height:36px;
+   width:100%;
+   display:block;
+   padding:10px 0 0 0;
+   margin:0;
+   background:white;
+   text-align:center;
+   border:1px solid #d3d3d3;
+   border-radius:5px;
+   box-shadow:0px 1px 0px 0px #fce2c1 inset;
+   -moz-box-shadow:inset 0px 1px 0px 0px  #fce2c1;
+   -webkit-box-shadow:inset 0px 1px 0px 0px  #fce2c1;
+   -webkit-transition: background 0.5s;
+   transition: background 0.5s
+  }
+  .airpairme > a:hover { background: #f9f9f9 }
+  .airpairme p { font:11px arial;text-align:center;margin:0;padding:3px 0 0 6px }
+ </style>
+</div>
+
+
 After reading [Google's AngularJS guidelines](//google-styleguide.googlecode.com/svn/trunk/angularjs-google-style.html), I felt they were a little too incomplete and also guided towards using the Closure library. They [also state](//blog.angularjs.org/2014/02/an-angularjs-style-guide-and-best.html) _"We don't think this makes sense for all projects that use AngularJS, and we'd love to see our community of developers come up with a more general Style that's applicable to AngularJS projects large and small"_, so here goes.
 
 From my experience with Angular, [several talks](//speakerdeck.com/toddmotto) and working in teams, here's my opinionated styleguide for syntax, building and structuring Angular applications.
