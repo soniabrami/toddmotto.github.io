@@ -7,6 +7,27 @@ path: 2013-10-02-ultimate-guide-to-learning-angular-js-in-one-day.md
 
 <h5>Mastered this? Try my <a href="//toddmotto.com/opinionated-angular-js-styleguide-for-teams" style="text-decoration: underline;">Opinionated AngularJS styleguide for teams</a></h5>
 
+<div class="airpairme">
+ <a href="http://airpair.me/toddmotto?utm_source=expert&utm_medium=homepage&utm_content=button&utm_campaign=airpairme">
+  <img src="http://www.airpair.com/images/me.png" />
+ </a>
+ <p>For live <a href="http://www.airpair.com/angularjs" style="color:#CE5424">AngularJS help</a> on AirPair</p>
+ <style>
+  .airpairme > a {
+   width:100%;
+   display:block;
+   padding:10px 0;
+   margin: 10px 0;
+   background:#fff;
+   text-align:center;
+   border:1px solid #d3d3d3;
+   border-radius:5px;
+  }
+  .airpairme > a:hover { background: #f9f9f9 }
+  .airpairme p { font:11px arial;text-align:center;margin:0;padding:3px 0 0 6px }
+ </style>
+</div>
+
 ### What is AngularJS?
 Angular is a client-side MVC/MVVM framework built in JavaScript, essential for modern single page web applications (and even websites). This post is a full end to end crash course from my experiences, advice and best practices I've picked up from using it.
 
