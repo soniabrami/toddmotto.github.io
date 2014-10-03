@@ -12,13 +12,13 @@ path: 2014-07-23-opinionated-angular-js-styleguide-for-teams.md
   <img src="http://www.airpair.com/images/me.png" />
  </a>
  <p>For live <a href="http://www.airpair.com/angularjs" style="color:#CE5424">AngularJS help</a> on AirPair</p>
- <style type="text/css">
+ <style>
   .airpairme > a {
    width:100%;
    display:block;
    padding:10px 0;
-   margin:0;
-   background:white;
+   margin: 10px 0;
+   background:#fff;
    text-align:center;
    border:1px solid #d3d3d3;
    border-radius:5px;
