@@ -52,11 +52,11 @@ function getDrink (type) {
 }
 {% endhighlight %}
 
-This implementation is too loose, there is room for error, plus it's a very verbose syntax to keep repeating yourself. There's also the room for hacks as you can evaluate multiple expressions inside each `else if`, such as `else if (type === 'coke' && somethingElse !== 'apples')`. The `switch` was the best tool for the job, albeit you need to keep adding `break;` statements to prevent cases falling through, one of it's many issues.
+This implementation is too loose, there is room for error, plus it's a very verbose syntax to keep repeating yourself. There's also the room for hacks as you can evaluate multiple expressions inside each `else if`, such as `else if (type === 'coke' && somethingElse !== 'apples')`. The `switch` was the best tool for the job, albeit you need to keep adding `break;` statements to prevent cases falling through, one of its many issues.
 
 ### Problems with switch
 
-There are multiple issues with `switch`, from it's procedural control flow to it's non-standard-looking way it handles code blocks, the rest of JavaScript uses curly braces yet switch does not. Syntactically, it's not one of JavaScript's best, nor is its design. We're forced to manually add `break;` statements within each `case`, which can lead to difficult debugging and nested errors further down the case should we forget! Douglas Crockford has written and spoken about it numerous times, his recommendations are to treat it with caution.
+There are multiple issues with `switch`, from its procedural control flow to its non-standard-looking way it handles code blocks, the rest of JavaScript uses curly braces yet switch does not. Syntactically, it's not one of JavaScript's best, nor is its design. We're forced to manually add `break;` statements within each `case`, which can lead to difficult debugging and nested errors further down the case should we forget! Douglas Crockford has written and spoken about it numerous times, his recommendations are to treat it with caution.
 
 We often use Object lookups for things in JavaScript, often for things we would never contemplate using `switch` for - so why not use an Object literal to replace `switch`? Objects are much more flexible, have better readability and maintainability and we don't need to manually `break;` each "case". They're a lot friendlier on new JavaScript developers as well, as they're standard Objects.
 
