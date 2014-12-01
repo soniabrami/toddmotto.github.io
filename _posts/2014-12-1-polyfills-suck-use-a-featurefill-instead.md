@@ -43,7 +43,7 @@ The thing I'm questioning though, is this a good way to do things? Our `if` stat
 
 I'm thinking there may be better ways to do this. Instead of checking for something that doesn't exist, and hope there are no other polyfills that create strange behaviour from modifying our Objects, we could wrap the contents of our polyfill inside a clever closure, and return if the API _does_ exist, rather than if it doesn't.
 
-This would require us to construct our own methods, however, but it tighly packs the functionality for solid code reuse in later projects.
+This would require us to construct our own methods, however, but it tightly packs the functionality for solid code reuse in later projects.
 
 A quick starting function to demonstrate the concept, we'll create an `isArray` method, instead of polyfilling the ES5 method:
 
