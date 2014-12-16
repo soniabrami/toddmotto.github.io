@@ -14,7 +14,7 @@ Thankfully, Angular 1.3 has put a lot of effort into performance, so we can util
 ### What does it mean?
 One-time binding is very simple, from the docs: _One-time expressions will stop recalculating once they are stable, which happens after the first digest if the expression result is a non-undefined value._
 
-In a nut shell, when we declare a value such as `{{ foo }}` inside the DOM, once this value becomes defined, Angular will render it, unbind it from the watchers and thus reduce the volume of bindings inside the `$digest` loop. Simple!
+In a nut shell, when we declare a value such as `{% raw %}{{ foo }}{% endraw %}` inside the DOM, once this value becomes defined, Angular will render it, unbind it from the watchers and thus reduce the volume of bindings inside the `$digest` loop. Simple!
 
 ### The Syntax
 The syntax is actually very simple, typically we're used to seeing something like this:
