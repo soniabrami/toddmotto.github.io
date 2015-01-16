@@ -217,7 +217,7 @@ myApp.directive('customButton', function () {
 
 I define my directive using the _.directive()_ method, and pass in the directive's name 'customButton'. When you capitalise a letter in a Directive's name, it's use case is then split via a hyphen in the DOM (as above).
 
-A directive simply returns itself via an Object and takes a number of parameters. The most important for me to master first are, _restrict_, _replace_, _transclude_, _template_ and _templateUrl_, and of ours the _link_ property. Let's add those others in:
+A directive simply returns itself via an Object and takes a number of parameters. The most important for me to master first are, _restrict_, _replace_, _transclude_, _template_ and _templateUrl_, and of course the _link_ property. Let's add those others in:
 
 {% highlight javascript %}
 myApp.directive('customButton', function () {
