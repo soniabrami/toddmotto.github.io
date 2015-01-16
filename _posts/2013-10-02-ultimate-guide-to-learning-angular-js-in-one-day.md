@@ -130,7 +130,7 @@ The key rule concept here is the _$scope_ concept, which you'll tie to all your 
 
 The _$scope_ concept may seem scary at first, but it's your way in to the DOM from the server (and static data if you have that too)! The demo gives you a basic idea of how you can 'push' data to the DOM.
 
-Let's look at a more representative data structure that we've hypothetically retrieved from the server to display a user's login details, for now I'll use static data, I'll show you how to fetch dynamic JSON data later.
+Let's look at a more representative data structure that we've hypothetically retrieved from the server to display a user's login details. For now I'll use static data; I'll show you how to fetch dynamic JSON data later.
 
 First we'll setup the JavaScript:
 
