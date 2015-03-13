@@ -8,7 +8,7 @@ class: about
   <img src="img/shuffle/html5devconf.jpg">
 </div>
 
-I'm lead front-end engineer at [Appsbroker](//www.appsbroker.com), a [Developer Expert](https://developers.google.com/experts) at Google, [conference speaker](https://speakerdeck.com/toddmotto) and [open source](//github.com/toddmotto) evangelist.
+I'm Todd, a JavaScript and HTML5 developer focusing on AngularJS. I'm Director of Web Development at [Mozio](https://mozio.com/#/?utm_source=toddmotto.com) (San Francisco based start-up), a [Developer Expert](https://developers.google.com/experts at Google, [conference speaker](https://speakerdeck.com/toddmotto) and [open source](//github.com/toddmotto) evangelist.
 
 By day I'm part of a software engineering team at Appsbroker where we build custom web applications for large organisations. We're the UK's leading Google Enterprise partner and EMEA partner of the year 2012, using the latest HTML5 and JavaScript technology with tools such as [AngularJS](//angularjs.org).
 
