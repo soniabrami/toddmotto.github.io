@@ -7,7 +7,7 @@ path: 2014-01-29-mastering-the-module-pattern.md
 
 I'm a massive fan of JavaScript's Module Pattern and I'd like to share some use cases and differences in the pattern, and why they're important. The Module Pattern is what we'd call a "design pattern", and it's extremely useful for a vast amount of reasons. My main attraction to the Module Pattern (and it's variant, the Revealing Module Pattern) are because it makes scoping a breeze, and doesn't overcomplicate JavaScript design.
 
-It also keeps things very simple and easy to read and use, uses Objects in a very nice way, and doesn't bloat your code with repetitive `this` and `prototype` declarations. I thought I'd share some insight as to the awesome parts of the Module, and how you can master it and it's variants and features.
+It also keeps things very simple and easy to read and use, uses Objects in a very nice way, and doesn't bloat your code with repetitive `this` and `prototype` declarations. I thought I'd share some insight as to the awesome parts of the Module, and how you can master it and its variants and features.
 
 ### Creating a Module
 To understand what a Module can give you, you'll need to understand what the following `function` concept does:
