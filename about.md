@@ -27,9 +27,10 @@ Partnered with Intel and [Rolling Stone](//rollingstone.com/feature/the-geeks-on
 * 07.05.2014: [Intel XDK interview](//www.youtube.com/watch?v=5L_gW1K7vqg) at HTML5 Dev Conf
 * 15.04.2014: Future of Web Design conference talk, [Demystifying JavaScript: you don't need jQuery](//toddmotto.com/talks/fowd-2014)
 * 03.04.2014: Accepted by Google as a Google Developer Expert ([GDE](//developers.google.com/experts))
-* 25.09.2013: Visited Google in San Francisco teaching a half-day AngularJS workshop [slides](//speakerdeck.com/toddmotto/angularjs-in-one-day)
+* 25.10.2013: Taught half-day AngularJS workshop at Google HQ: [slides](//speakerdeck.com/toddmotto/angularjs-in-one-day)
+* 22.10.2013: Toured Googleplex HQ campus
+* 22.10.2013: Represented Intel at HTML5 Dev Conf in San Francisco evangelising the [HTML5 Hub](//html5hub.com)
 * 23.09.2013: Re-engineered [Conditionizr 4](//conditionizr.com) with 5 public APIs and architecture rewrite
-* 22.09.2013: Represented Intel at HTML5 Dev Conf in San Francisco evangelising the [HTML5 Hub](//html5hub.com)
 * 15.09.2013: Launched [FireShell](//getfireshell.com) to promote full end to end HTML5 developer workflow with Sass/SCSS and Grunt
 * 09.09.2013: Developed [Rolling Stone's](//rollingstone.com/feature/the-geeks-on-the-frontlines) HTML5 experience as part of Intel's HTML5 Hub
 * 30.08.2013: [KitKat.com](//kitkat.com) Android launch used my JavaScript SVG script
