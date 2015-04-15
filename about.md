@@ -10,13 +10,20 @@ class: about
 
 I'm Todd, a JavaScript and HTML5 developer focusing on AngularJS. I'm Director of Web Development at [Mozio](https://mozio.com/#/?utm_source=toddmotto.com) (San Francisco based start-up), a [Developer Expert](https://developers.google.com/experts at Google, [conference speaker](https://speakerdeck.com/toddmotto) and [open source](//github.com/toddmotto) evangelist.
 
-By day I'm part of a software engineering team at Appsbroker where we build custom web applications for large organisations. We're the UK's leading Google Enterprise partner and EMEA partner of the year 2012, using the latest HTML5 and JavaScript technology with tools such as [AngularJS](//angularjs.org).
-
-I created [Conditionizr](//conditionizr.com) (.NET Magazine's Open Source Project of the Year finalist), a standalone JavaScript tool that detects front-end environments and returns an Object with boolean values on given test states. You can use Conditionizr with various public APIs to make your cross platform/device/browser development much easier and manageable. These APIs include adding your own tests, dynamic polyfills (eradicating conditional comments), callbacks for specific environment tests.
+Co-created [Conditionizr](//conditionizr.com) (.NET Magazine's Open Source Project of the Year finalist), a standalone JavaScript tool that detects front-end environments and returns an Object with boolean values on given test states. You can use Conditionizr with various public APIs to make your cross platform/device/browser development much easier and manageable. These APIs include adding your own tests, dynamic polyfills (eradicating conditional comments), callbacks for specific environment tests.
 
 Partnered with Intel and [Rolling Stone](//rollingstone.com/feature/the-geeks-on-the-frontlines) to bring an HTML5 experience to life. Many other brands have recognised and used/shared my ideas/code: Rolling Stone, Intel, Adobe, NASA, HTML5 Hub, AppendTo, Google, Esquire, Microsoft/MSDN, Wired, Huffington Post, KitKat, Smashing Magazine, Net Magazine, TechPro.
 
 ### Timeline
+* 06.04.2015: New York Public Library use my AngularJS style-guide in [v1.3 app migration](http://www.nypl.org/blog/2015/04/06/upgrading-angularjs-1-3)
+* 16.02.2015: Director of Web Development role at [Mozio, Inc.](//mozio.com)
+* 14.11.2015: Launched [ngAir](http://ng-air.github.io), an Angular hangout/podcast
+* 28.10.2014: AngularJS, the bridge between today and tomorrow's web (Boston, USA): [video](//toddmotto.com/talks/fowd-2014)
+* 27.10.2014: AngularJS workshop, Future of Web Apps (Boston, USA)
+* 22.10.2014: Name-dropped in ngEurope's keynote by the Google team
+* 30.11.2014: AngularJS, the bridge between today and tomorrow's web (London, UK)
+* 29.11.2014: AngularJS workshop, Future of Web Apps (London, UK)
+* 25/26.06.2014: Attended [Google I/O](https://www.google.com/events/io) San Francisco
 * 07.05.2014: [Intel XDK interview](//www.youtube.com/watch?v=5L_gW1K7vqg) at HTML5 Dev Conf
 * 15.04.2014: Future of Web Design conference talk, [Demystifying JavaScript: you don't need jQuery](//toddmotto.com/talks/fowd-2014)
 * 03.04.2014: Accepted by Google as a Google Developer Expert ([GDE](//developers.google.com/experts))
