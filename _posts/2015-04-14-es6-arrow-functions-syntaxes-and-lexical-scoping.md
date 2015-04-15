@@ -133,7 +133,7 @@ function FooCtrl (FooService) {
 }
 {% endhighlight %}
 
-Or you may be used to keeping a top level `this` reference, which can make more sense when dealing with many nested contexts, we don't want an gross tree of `.bind(this), .bind(this), .bind(this)` and a tonne of wasted time binding those new functions (`.bind` is very slow). So we could look at `that = this` to save the day:
+Or you may be used to keeping a top level `this` reference, which can make more sense when dealing with many nested contexts, we don't want a gross tree of `.bind(this), .bind(this), .bind(this)` and a tonne of wasted time binding those new functions (`.bind` is very slow). So we could look at `that = this` to save the day:
 
 {% highlight javascript %}
 function FooCtrl (FooService) {
