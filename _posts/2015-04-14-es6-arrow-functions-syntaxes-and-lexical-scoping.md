@@ -7,7 +7,7 @@ path: 2015-04-14-es6-arrow-functions-syntaxes-and-lexical-scoping.md
 
 ES6/Harmony/whatever introduces a really nice feature that punches above it's weight in terms of simplicity to integrate versus time saving and feature output. This feature is the arrow function.
 
-Before we dive into the features of the arrow function and what it actually does for us, let's understand what an arrow function is _not_. It's not a replacement for the `function` keyword, at all. This doesn't mean you can do a find and replace on every single `function` keyword and everything works perfectly, because it likely won't.
+Before we dive into the features of the arrow function and what it actually does for us, let's understand what an arrow function is _not_. It's not a replacement for the `function` keyword, at all. This means you can't do a find and replace on every single `function` keyword and everything works perfectly, because it likely won't.
 
 If you're competent with the way [JavaScript scope](//toddmotto.com/everything-you-wanted-to-know-about-javascript-scope) works, and have a great understanding of lexical scope, the `this` keyword and Prototype methods such as `.call()`, `.apply()` and `.bind()`, then you're in good hands to continue reading.
 
