@@ -485,8 +485,6 @@ angular
   .directive('fileUpload', fileUpload);
 {% endhighlight %}
 
-{% highlight javascript %}
-
 ### Recapping and MVVM (Model-View-ViewModel)
 This approach allows the Controller to be used as a ViewModel, and to use the `link` function to properly deal with DOM manipulation whilst making easy work of communicating back to our Controller. The approach also promotes better separation of concerns, as well as separation of the code itself, such as breaking the functions out and assigning them, rather than nesting under another layer of code (such as inside an Object).
 
