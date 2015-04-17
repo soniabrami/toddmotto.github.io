@@ -7,7 +7,7 @@ path: 2015-04-14-es6-arrow-functions-syntaxes-and-lexical-scoping.md
 
 ES6/Harmony/whatever introduces a really nice feature that punches above it's weight in terms of simplicity to integrate versus time saving and feature output. This feature is the arrow function.
 
-Before we dive into the features of the arrow function and what it actually does for us, let's understand what an arrow function is _not_. It's not a replacement for the `function` keyword, at all. This doesn't mean you can do a find and replace on every single `function` keyword and everything works perfectly, because it likely won't.
+Before we dive into the features of the arrow function and what it actually does for us, let's understand what an arrow function is _not_. It's not a replacement for the `function` keyword, at all. This means you can't do a find and replace on every single `function` keyword and everything works perfectly, because it likely won't.
 
 If you're competent with the way [JavaScript scope](//toddmotto.com/everything-you-wanted-to-know-about-javascript-scope) works, and have a great understanding of lexical scope, the `this` keyword and Prototype methods such as `.call()`, `.apply()` and `.bind()`, then you're in good hands to continue reading.
 
@@ -133,7 +133,7 @@ function FooCtrl (FooService) {
 }
 {% endhighlight %}
 
-Or you may be used to keeping a top level `this` reference, which can make more sense when dealing with many nested contexts, we don't want an gross tree of `.bind(this), .bind(this), .bind(this)` and a tonne of wasted time binding those new functions (`.bind` is very slow). So we could look at `that = this` to save the day:
+Or you may be used to keeping a top level `this` reference, which can make more sense when dealing with many nested contexts, we don't want a gross tree of `.bind(this), .bind(this), .bind(this)` and a tonne of wasted time binding those new functions (`.bind` is very slow). So we could look at `that = this` to save the day:
 
 {% highlight javascript %}
 function FooCtrl (FooService) {
