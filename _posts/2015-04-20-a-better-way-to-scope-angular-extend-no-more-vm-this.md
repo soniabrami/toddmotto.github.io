@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /a-better-way-to-scope-angular-extend-no-more-vm-this
-title: A better way to $scope, angular.extend, &#44; no more &ldquo;vm &#61; this&rdquo;
+title: A better way to $scope&#44; angular.extend&#44; no more &ldquo;vm &#61; this&rdquo;
 path: 2015-04-20-a-better-way-to-scope-angular-extend-no-more-vm-this.md
 ---
 
