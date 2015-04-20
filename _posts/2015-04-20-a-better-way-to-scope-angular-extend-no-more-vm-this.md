@@ -91,8 +91,8 @@ function MainCtrl () {
     someVar: {
       name: 'Todd'
     },
-    anotherVar = [],
-    doSomething = function doSomething() {
+    anotherVar: [],
+    doSomething: function doSomething() {
 
     }
   });
@@ -120,8 +120,8 @@ function MainCtrl () {
     someVar: {
       name: 'Todd'
     },
-    anotherVar = [],
-    doSomething = function doSomething() {
+    anotherVar: [],
+    doSomething: function doSomething() {
       someMethod();
     }
   });
