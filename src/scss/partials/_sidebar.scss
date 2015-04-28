@@ -14,8 +14,8 @@
 .sidebar__profile-img {
   @include vendor(border-radius, 50%);
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 125px;
+  height: 125px;
 }
 .sidebar__profile-name {
   font-size: 30px;
