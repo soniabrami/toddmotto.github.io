@@ -116,14 +116,17 @@ function MainCtrl () {
   }
 
   // public
+  var someVar = { name: 'Todd' };
+  var anotherVar = [];
+  function doSomething() {
+    someMethod();
+  }
+  
+  // exports
   angular.extend(this, {
-    someVar: {
-      name: 'Todd'
-    },
-    anotherVar: [],
-    doSomething: function doSomething() {
-      someMethod();
-    }
+    someVar: someVar,
+    anotherVar: anotherVar,
+    doSomething: doSomething
   });
 }
 
