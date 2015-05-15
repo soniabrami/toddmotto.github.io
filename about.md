@@ -8,7 +8,7 @@ class: about
   <img src="img/shuffle/html5devconf.jpg">
 </div>
 
-I'm Todd, a JavaScript and HTML5 developer focusing on AngularJS. I'm Director of Web Development at [Mozio](https://mozio.com/#/?utm_source=toddmotto.com) (San Francisco based start-up), a [Developer Expert](https://developers.google.com/experts at Google, [conference speaker](https://speakerdeck.com/toddmotto) and [open source](//github.com/toddmotto) evangelist.
+I'm Todd, a JavaScript and HTML5 developer focusing on AngularJS. I'm Director of Web Development at [Mozio](https://mozio.com/#/?utm_source=toddmotto.com) (San Francisco based start-up), a [Developer Expert](https://developers.google.com/experts) at Google, [conference speaker](https://speakerdeck.com/toddmotto) and [open source](//github.com/toddmotto) evangelist.
 
 Co-created [Conditionizr](//conditionizr.com) (.NET Magazine's Open Source Project of the Year finalist), a standalone JavaScript tool that detects front-end environments and returns an Object with boolean values on given test states. You can use Conditionizr with various public APIs to make your cross platform/device/browser development much easier and manageable. These APIs include adding your own tests, dynamic polyfills (eradicating conditional comments), callbacks for specific environment tests.
 
