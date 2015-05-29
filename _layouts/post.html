@@ -33,26 +33,24 @@ layout: default
         </div>
       </div>
       <div>
-          <div id="contentad57147"></div>
-<script type="text/javascript">
-    (function() {
-        var params = {
-            id: "0f483162-3064-43ef-bc3f-79880b5677a9",
-            d:  "dG9kZG1vdHRvLmNvbQ==",
-            wid: "57147",
-            cb: (new Date()).getTime()
-        };
-
-        var qs="";
-        for(var key in params){qs+=key+"="+params[key]+"&"}
-        qs=qs.substring(0,qs.length-1);
-        var s = document.createElement("script");
-        s.type= 'text/javascript';
-        s.src = "http://api.content.ad/Scripts/widget.aspx?" + qs;
-        s.async = true;
-        document.getElementById("contentad57147").appendChild(s);
-    })();
-</script>
+        <div id="contentad57147"></div>
+        <script>
+        (function (a, b) {
+          var params = {
+            id: '0f483162-3064-43ef-bc3f-79880b5677a9',
+            d: 'dG9kZG1vdHRvLmNvbQ==',
+            wid: '57147',
+            cb: +new Date()
+          };
+          var qs = [];
+          for (var key in params) {
+            qs.push(key + '=' + params[key]);
+          }
+          var s = a.createElement(b);
+          s.async = s.src = '//api.content.ad/Scripts/widget.aspx?' + qs.join('&');
+          a.getElementById('contentad57147').appendChild(s);
+        })(document, 'script');
+        </script>
       </div>
       <div class="disqus">
         <div id="disqus_thread"></div>
