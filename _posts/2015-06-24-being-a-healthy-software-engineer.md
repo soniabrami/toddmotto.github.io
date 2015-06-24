@@ -9,6 +9,10 @@ A post a little off topic today, but after a few tweets of mine a few people hav
 
 From the top, a little less than a year ago I was a little overweight, weighing 15stone 3lbs (96.6kg), today I'm 12stone 7lbs (79kg) and feeling the best I've felt in years.
 
+Before we start, a little before and after:
+
+<img src="assets/img/posts/before-after.jpg">
+
 When I first started out as a developer, I stayed up for hours and hours every single night learning as much as I could about HTML/CSS and JavaScript. I created open source projects, blog articles and much more. And to do all this and have a day job, you need some extra power. That power came down to Red Bull, energy drinks, coffee, a lot of caffeine!
 
 You might have noticed lately I'm not as active in speaking engagements, blogging or open source contributing - and that's okay.
