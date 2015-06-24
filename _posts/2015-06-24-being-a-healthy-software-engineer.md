@@ -11,7 +11,7 @@ From the top, a little less than a year ago I was a little overweight, weighing 
 
 Before we start, a little before and after:
 
-<img src="assets/img/posts/before-after.jpg">
+<img src="/assets/img/posts/before-after.jpg">
 
 When I first started out as a developer, I stayed up for hours and hours every single night learning as much as I could about HTML/CSS and JavaScript. I created open source projects, blog articles and much more. And to do all this and have a day job, you need some extra power. That power came down to Red Bull, energy drinks, coffee, a lot of caffeine!
 
