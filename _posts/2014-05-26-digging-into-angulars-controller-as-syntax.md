@@ -189,7 +189,7 @@ app.controller('MainCtrl', function ($scope) {
   this.title = 'Some title';
   // doesn't work!
   $scope.$watch('title', function (newVal, oldVal) {});
-  // doens't work!
+  // doesn't work!
   $scope.$watch('this.title', function (newVal, oldVal) {});
 });
 {% endhighlight %}
