@@ -7,7 +7,7 @@ path: 2015-06-24-being-a-healthy-software-engineer.md
 
 A post a little off topic today, but after a few tweets of mine a few people have suggested a write up on what changes I've made and how they've affected me.
 
-From the top, a little less than a year ago I was a little overweight, weighing 15stone 3lbs (96.6kg), today I'm 12stone 7lbs (79kg) and feeling the best I've felt in years.
+From the top, a little less than a year ago I was a little overweight, weighing 15stone 3lbs (96.6kg), today I'm 12stone 4lbs (78kg) and feeling the best I've felt in years.
 
 Before we start, a little before and after:
 
