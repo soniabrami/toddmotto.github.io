@@ -18,7 +18,7 @@ Partnered with Intel and [Rolling Stone](//rollingstone.com/feature/the-geeks-on
 * 06.04.2015: New York Public Library use my AngularJS style-guide in [v1.3 app migration](http://www.nypl.org/blog/2015/04/06/upgrading-angularjs-1-3)
 * 16.02.2015: Director of Web Development role at [Mozio, Inc.](//mozio.com)
 * 14.11.2015: Launched [ngAir](http://ng-air.github.io), an Angular hangout/podcast
-* 28.10.2014: AngularJS, the bridge between today and tomorrow's web (Boston, USA): [video](//toddmotto.com/talks/fowd-2014)
+* 28.10.2014: AngularJS, the bridge between today and tomorrow's web (Boston, USA): [video](https://www.youtube.com/watch?v=Po2JDV6Iebc)
 * 27.10.2014: AngularJS workshop, Future of Web Apps (Boston, USA)
 * 22.10.2014: Name-dropped in ngEurope's keynote by the Google team
 * 30.11.2014: AngularJS, the bridge between today and tomorrow's web (London, UK)
