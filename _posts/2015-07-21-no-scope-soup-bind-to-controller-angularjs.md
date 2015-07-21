@@ -13,18 +13,17 @@ I'd like to show you some techniques using the `bindToController` property on Di
 
 Use `bindToController` alongside `controllerAs` syntax, which treats Controllers as Class-like Objects, instantiating them as constructors and allowing us to namespace them once instantiated, such as the following:
 
-```html
-&lt;div ng-controller="MainCtrl as vm">
+{% highlight html %}
+<div ng-controller="MainCtrl as vm">
   {% raw %}{{ vm.name }}{% endraw %}
-&lt;/div>
-```
+</div>
+{% endhighlight %}
 
 Previously, without `controllerAs` we'd have no native namespacing of a Controller, and JavaScript Object properties simply floated around the DOM making it harder to keep code consistent inside Controllers, as well as running into inheritance issues with `$parent`. That's all we'll cover on this during this article, there's a [mighty post](//toddmotto.com/digging-into-angulars-controller-as-syntax) I've already published about it.
 
 ### Problem
 
 Issues arise when writing Controllers that use the `controllerAs` syntax, we begin writing our components using a Class-like Object, only to end up needing to inject `$scope` to get access to inherited data (from "isolate scope"). A simple example of what we'd start with:
-
 
 {% highlight javascript %}
 // controller
@@ -45,7 +44,7 @@ function fooDirective() {
     controller: 'FooDirCtrl',
     controllerAs: 'vm',
     template: [
-        '&lt;div>&lt;input ng-model="name">&lt;/div>'
+        '<div><input ng-model="name"></div>'
     ].join('')
   };
 }
@@ -88,12 +87,12 @@ At this point, we've likely ruined all excitement we had about the new Directive
 
 Not only this, but our template would be affected with an un-namespaced variable floating amidst `vm.` prefixed ones:
 
-```html
-&lt;div>
+{% highlight html %}
+<div>
   {% raw %}{{ name }}{% endraw %}
-  &lt;input type="text" ng-model="vm.username">
-&lt;/div>
-```
+  <input type="text" ng-model="vm.username">
+</div>
+{% endhighlight %}
 
 ### Solution
 
@@ -133,11 +132,11 @@ _Note: for this example I'm using `Function.prototype.bind`, however in producti
 
 The Angular documentation doesn't suggest that you can use an Object instead of `bindToController: true`, but in the [Angular source code](https://code.angularjs.org/1.4.3/angular.js) this line is present:
 
-```js
+{% highlight javascript %}
 if (isObject(directive.bindToController)) {
   bindings.bindToController = parseIsolateBindings(directive.bindToController, directiveName, true);
 }
-```
+{% endhighlight %}
 
 If it's an Object, parse the isolate bindings there instead. This means we can move our `scope: { name: '=' }` example binding across to it to make it more explicit that isolate bindings are in fact inherited and bound to the controller (my preferred syntax):
 
@@ -158,12 +157,12 @@ Now we've solved the JavaScript solution, let's look at the template change impa
 
 Previously, we might have had `name` inherited and bound to `$scope`, whereas now we can use the same namespace as our Controller - rejoice. This keeps everything very consistent and readable. Finally we can `vm.` prefix our inherited `name` property to keep things in our template consistent!
 
-```html
-&lt;div>
+{% highlight html %}
+<div>
   {% raw %}{{ vm.name }}{% endraw %}
-  &lt;input type="text" ng-model="vm.username">
-&lt;/div>
-```
+  <input type="text" ng-model="vm.username">
+</div>
+{% endhighlight %}
 
 ### Live Refactor examples
 
