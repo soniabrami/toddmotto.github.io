@@ -14,9 +14,9 @@ I'd like to show you some techniques using the `bindToController` property on Di
 Use `bindToController` alongside `controllerAs` syntax, which treats Controllers as Class-like Objects, instantiating them as constructors and allowing us to namespace them once instantiated, such as the following:
 
 ```html
-<div ng-controller="MainCtrl as vm">
-  {{ vm.name }}
-</div>
+&lt;div ng-controller="MainCtrl as vm">
+  {% raw %}{{ vm.name }}{% endraw %}
+&lt;/div>
 ```
 
 Previously, without `controllerAs` we'd have no native namespacing of a Controller, and JavaScript Object properties simply floated around the DOM making it harder to keep code consistent inside Controllers, as well as running into inheritance issues with `$parent`. That's all we'll cover on this during this article, there's a [mighty post](//toddmotto.com/digging-into-angulars-controller-as-syntax) I've already published about it.
@@ -45,7 +45,7 @@ function fooDirective() {
     controller: 'FooDirCtrl',
     controllerAs: 'vm',
     template: [
-        '<div><input ng-model="name"></div>'
+        '&lt;div>&lt;input ng-model="name">&lt;/div>'
     ].join('')
   };
 }
@@ -89,10 +89,10 @@ At this point, we've likely ruined all excitement we had about the new Directive
 Not only this, but our template would be affected with an un-namespaced variable floating amidst `vm.` prefixed ones:
 
 ```html
-<div>
-  {{ name }}
-  <input type="text" ng-model="vm.username">
-</div>
+&lt;div>
+  {% raw %}{{ name }}{% endraw %}
+  &lt;input type="text" ng-model="vm.username">
+&lt;/div>
 ```
 
 ### Solution
@@ -159,10 +159,10 @@ Now we've solved the JavaScript solution, let's look at the template change impa
 Previously, we might have had `name` inherited and bound to `$scope`, whereas now we can use the same namespace as our Controller - rejoice. This keeps everything very consistent and readable. Finally we can `vm.` prefix our inherited `name` property to keep things in our template consistent!
 
 ```html
-<div>
-  {{ vm.name }}
-  <input type="text" ng-model="vm.username">
-</div>
+&lt;div>
+  {% raw %}{{ vm.name }}{% endraw %}
+  &lt;input type="text" ng-model="vm.username">
+&lt;/div>
 ```
 
 ### Live Refactor examples
@@ -173,12 +173,12 @@ _Note: Each example uses two way isolate binding from a parent Controller passed
 
 First example, using `$scope` Object's passed in. Would leave templating inconsistencies and Controller logic `$scope` and `this` mashups.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/2n5skwqj/embedded/result, js" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/2n5skwqj/embedded/result,js" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Second example, refactor `$scope` with `bindToController: true` Boolean value. Fixes templating namespace issues as well as keeping the Controller logic consistent under the `this` Object.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/2n5skwqj/1/embedded/result, js" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/2n5skwqj/1/embedded/result,js" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Third example (preferred), refactor `bindToController: true` into an Object, moving `scope: {}` properties across to it for clarity. Fixes same as example two, but adds clarity for other developers working/revisiting the piece of code.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/2n5skwqj/2/embedded/result, js" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/2n5skwqj/2/embedded/result,js" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
