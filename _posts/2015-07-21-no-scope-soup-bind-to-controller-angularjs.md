@@ -68,7 +68,7 @@ function fooDirective() {
 }
 {% endhighlight %}
 
-Oh, so now we need to inject `$scope`, my Class-like Object has been demonised by this `$scope` Object I've tried so hard to get rid of to adopt better design principles, and now I've got to inject it.
+Oh, so now we need to inject `$scope`, my Class-like Object has been vandalised by this `$scope` Object I've tried so hard to get rid of to adopt better design principles, and now I've got to inject it.
 
 {% highlight javascript %}
 // controller
