@@ -23,7 +23,7 @@ Previously, without `controllerAs` we'd have no native namespacing of a Controll
 
 ### Problem
 
-Issues arise when writing Controllers that use the `controllerAs` syntax, we begin writing our components using a Class-like Object, only to end up needing to inject `$scope` to get access to inherited data (from "isolate scope"). A simple example of what we'd start with:
+Issues arise when writing Controllers that use the `controllerAs` syntax, we begin writing our components using a Class-like Object, only to end up injecting `$scope` to get access to inherited data (from "isolate scope"). A simple example of what we'd start with:
 
 {% highlight javascript %}
 // controller
@@ -31,8 +31,8 @@ function FooDirCtrl() {
 
   this.bar = {};
   this.doSomething = function doSomething(arg) {
-    bar.foobar = arg;
-  };
+    this.bar.foobar = arg;
+  }.bind(this);
 
 }
 
@@ -76,9 +76,9 @@ function FooDirCtrl($scope) {
 
   this.bar = {};
   this.doSomething = function doSomething(arg) {
-    bar.foobar = arg;
+    this.bar.foobar = arg;
     $scope.name = arg.prop; // reference the isolate property
-  };
+  }.bind(this);
 
 }
 {% endhighlight %}
@@ -121,14 +121,12 @@ function FooDirCtrl() {
 
   this.bar = {};
   this.doSomething = function doSomething(arg) {
-    bar.foobar = arg;
+    this.bar.foobar = arg;
     this.name = arg.prop; // reference the isolate property using `this`
   }.bind(this);
 
 }
 {% endhighlight %}
-
-_Note: for this example I'm using `Function.prototype.bind`, however in production I'd recommend [ES6 Arrow Functions](http://toddmotto.com/es6-arrow-functions-syntaxes-and-lexical-scoping) alongside Babel.js, if you're not there yet a `var vm = this;` variable will suffice, or adopting an `angular.extend(this, { // scopeProps })` [method](http://toddmotto.com/a-better-way-to-scope-angular-extend-no-more-vm-this) which I prefer._
 
 The Angular documentation doesn't suggest that you can use an Object instead of `bindToController: true`, but in the [Angular source code](https://code.angularjs.org/1.4.3/angular.js) this line is present:
 
