@@ -44,7 +44,8 @@ function fooDirective() {
     controller: 'FooDirCtrl',
     controllerAs: 'vm',
     template: [
-        '<div><input ng-model="name"></div>'
+        // vm.name doesn't exist just yet!
+        '<div><input ng-model="vm.name"></div>'
     ].join('')
   };
 }
@@ -54,7 +55,7 @@ angular
   .controller('FooDirCtrl', FooDirCtrl);
 {% endhighlight %}
 
-But now we need to "inherit" scope, so let's create the isolation hash in `scope: {}` to reference a binding passed in:
+Now we need to "inherit" scope, so let's create the isolation hash in `scope: {}` to reference the binding we want:
 
 {% highlight javascript %}
 function fooDirective() {
@@ -68,7 +69,9 @@ function fooDirective() {
 }
 {% endhighlight %}
 
-Oh, so now we need to inject `$scope`, my Class-like Object has been vandalised by this `$scope` Object I've tried so hard to get rid of to adopt better design principles, and now I've got to inject it.
+And stop. Now we need to inject `$scope`, my Class-like Object has been vandalised by this `$scope` Object I've tried so hard to get rid of to adopt better design principles, and now I've got to inject it.
+
+Onwards with the mess:
 
 {% highlight javascript %}
 // controller
@@ -83,9 +86,9 @@ function FooDirCtrl($scope) {
 }
 {% endhighlight %}
 
-At this point, we've likely ruined all excitement we had about the new Directive now our Class-like Object pattern has been ruined by `$scope`. Fear not.
+At this point, we've likely ruined all excitement we had about the new Directive now our Class-like Object pattern has been ruined by `$scope`.
 
-Not only this, but our template would be affected with an un-namespaced variable floating amidst `vm.` prefixed ones:
+Not only this, but our pseudo-template would be affected with an un-namespaced variable floating amidst `vm.` prefixed ones:
 
 {% highlight html %}
 <div>
