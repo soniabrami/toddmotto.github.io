@@ -834,5 +834,6 @@ Happy coding.
 - [$scope and $rootScope event system $emit, $broadcast and $on](http://toddmotto.com/all-about-angulars-emit-broadcast-on-publish-subscribing)
 - [Modular IIFE modules](http://toddmotto.com/minimal-angular-module-syntax-approach-using-an-iife)
 - This post, translated in [French!](http://vfsvp.fr/article/apprendre-angular-en-un-jour-le-guide-ultime)
+- [German translation](https://github.com/futape/angularjs-in-one-day-german/blob/master/angularjs-in-einem-tag.md) of this post
 - This post, on [SpeakerDeck in slides](https://speakerdeck.com/toddmotto/angularjs-in-one-day)
 - [Code your own Directive](http://toddmotto.com/creating-an-angularjs-directive-from-one-of-your-existing-plugins-scripts) from a custom script or plugin
