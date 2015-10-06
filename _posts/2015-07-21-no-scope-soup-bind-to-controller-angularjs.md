@@ -52,6 +52,7 @@ function fooDirective() {
 
 angular
   .module('app')
+  .directive('fooDirective', fooDirective)
   .controller('FooDirCtrl', FooDirCtrl);
 {% endhighlight %}
 
