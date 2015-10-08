@@ -15,13 +15,14 @@ Co-created [Conditionizr](//conditionizr.com) (.NET Magazine's Open Source Proje
 Partnered with Intel and [Rolling Stone](//rollingstone.com/feature/the-geeks-on-the-frontlines) to bring an HTML5 experience to life. Many other brands have recognised and used/shared my ideas/code: Rolling Stone, Intel, Adobe, NASA, HTML5 Hub, AppendTo, Google, Esquire, Microsoft/MSDN, Wired, Huffington Post, KitKat, Smashing Magazine, Net Magazine, TechPro.
 
 ### Timeline
+* 07.10.2015: AngularJS: The Performance Parts (London, UK) [slides](https://speakerdeck.com/toddmotto/angularjs-the-performance-parts)
 * 06.04.2015: New York Public Library use my AngularJS style-guide in [v1.3 app migration](http://www.nypl.org/blog/2015/04/06/upgrading-angularjs-1-3)
 * 16.02.2015: Director of Web Development role at [Mozio, Inc.](//mozio.com)
 * 14.11.2015: Launched [ngAir](http://ng-air.github.io), an Angular hangout/podcast
 * 28.10.2014: AngularJS, the bridge between today and tomorrow's web (Boston, USA): [video](https://www.youtube.com/watch?v=Po2JDV6Iebc)
 * 27.10.2014: AngularJS workshop, Future of Web Apps (Boston, USA)
 * 22.10.2014: Name-dropped in ngEurope's keynote by the Google team
-* 30.11.2014: AngularJS, the bridge between today and tomorrow's web (London, UK)
+* 30.11.2014: AngularJS, the bridge between today and tomorrow's web (London, UK) [slides](https://speakerdeck.com/toddmotto/angularjs-the-bridge-between-today-and-tomorrows-web)
 * 29.11.2014: AngularJS workshop, Future of Web Apps (London, UK)
 * 25/26.06.2014: Attended [Google I/O](https://www.google.com/events/io) San Francisco
 * 07.05.2014: [Intel XDK interview](//www.youtube.com/watch?v=5L_gW1K7vqg) at HTML5 Dev Conf
