@@ -5,7 +5,7 @@ class: about
 ---
 
 <div class="about__talk">
-  <img src="img/shuffle/html5devconf.jpg">
+  <img src="img/workshop.jpg">
 </div>
 
 I'm Todd, a JavaScript and HTML5 developer focusing on AngularJS. I'm Director of Web Development at [Mozio](https://mozio.com/#/?utm_source=toddmotto.com) (San Francisco based start-up), a [Developer Expert](https://developers.google.com/experts) at Google, [conference speaker](https://speakerdeck.com/toddmotto) and [open source](//github.com/toddmotto) evangelist.
