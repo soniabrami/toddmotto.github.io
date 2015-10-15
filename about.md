@@ -8,13 +8,15 @@ class: about
   <img src="img/workshop.jpg">
 </div>
 
-I'm Todd, a JavaScript and HTML5 developer focusing on AngularJS. I'm Director of Web Development at [Mozio](https://mozio.com/#/?utm_source=toddmotto.com) (San Francisco based start-up), a [Developer Expert](https://developers.google.com/experts) at Google, [conference speaker](https://speakerdeck.com/toddmotto) and [open source](//github.com/toddmotto) evangelist.
+I'm Todd, a JavaScript and HTML5 developer with a passion for AngularJS. I'm Director of Web Development at [Mozio](https://mozio.com/#/?utm_source=toddmotto.com) (San Francisco based start-up), a [Developer Expert](https://developers.google.com/experts) at Google, [conference speaker](https://speakerdeck.com/toddmotto) and [open source](//github.com/toddmotto) evangelist.
 
-Co-created [Conditionizr](//conditionizr.com) (.NET Magazine's Open Source Project of the Year finalist), a standalone JavaScript tool that detects front-end environments and returns an Object with boolean values on given test states. You can use Conditionizr with various public APIs to make your cross platform/device/browser development much easier and manageable. These APIs include adding your own tests, dynamic polyfills (eradicating conditional comments), callbacks for specific environment tests.
+I've been fortunate enough to travel the world speaking and teaching AngularJS and JavaScript. I've taught workshops for Google (San Francisco, USA), [Falsy Values](https://2015.falsyvalues.com) (Warsaw, Poland), [Future of Web Apps](https://futureofwebapps.com) (Boston, USA 2014 and London, UK (2014 and 2015)), [Future of Web Design](https://futureofwebdesign.com) (London, UK).
 
-Partnered with Intel and [Rolling Stone](//rollingstone.com/feature/the-geeks-on-the-frontlines) to bring an HTML5 experience to life. Many other brands have recognised and used/shared my ideas/code: Rolling Stone, Intel, Adobe, NASA, HTML5 Hub, AppendTo, Google, Esquire, Microsoft/MSDN, Wired, Huffington Post, KitKat, Smashing Magazine, Net Magazine, TechPro.
+Co-created [Conditionizr](//conditionizr.com) (.NET Magazine's Open Source Project of the Year finalist), partnered with Intel and [Rolling Stone](//rollingstone.com/feature/the-geeks-on-the-frontlines) to bring an HTML5 experience to life. Many other brands have recognised and used/shared my ideas/code: Rolling Stone, Intel, Adobe, NASA, HTML5 Hub, AppendTo, Google, Esquire, Microsoft/MSDN, Wired, Huffington Post, KitKat, Smashing Magazine, Net Magazine, TechPro.
 
 ### Timeline
+* 13.10.2015: AngularJS workshop, Falsy Values (Warsaw, Poland)
+* 12.10.2015: AngularJS: The Performance Parts (Warsaw, Poland) [slides](https://speakerdeck.com/toddmotto/angularjs-the-performance-parts)
 * 07.10.2015: AngularJS: The Performance Parts (London, UK) [slides](https://speakerdeck.com/toddmotto/angularjs-the-performance-parts)
 * 06.04.2015: New York Public Library use my AngularJS style-guide in [v1.3 app migration](http://www.nypl.org/blog/2015/04/06/upgrading-angularjs-1-3)
 * 16.02.2015: Director of Web Development role at [Mozio, Inc.](//mozio.com)
