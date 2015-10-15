@@ -28,7 +28,7 @@ I used to probably consume around 3000-4000 calories worth of food and drink a d
 I've started eating whole grain cereal, namely Shredded Wheat, this stuff is packed full of fibre and iron and very low on sugars and other bad stuff. Semi-skimmed milk seals the deal on a good low calorie start to the day.
 
 #### Typical lunch
-Lunch now involves a simple sandwich, preferably brown bread or white if I fancy something a little different. Around 500-600 calories for lunch, watching the fat intake for eat one. I'll grab a fruit pot as well from the local shop. Previously I'd eat a sandwich, and probably a chocolate bar/crisps and a sausage roll if I was particularly hungry that day.
+Lunch now involves a simple sandwich, preferably brown bread or white if I fancy something a little different. Around 500-600 calories for lunch, watching the fat intake for each one. I'll grab a fruit pot as well from the local shop. Previously I'd eat a sandwich, and probably a chocolate bar/crisps and a sausage roll if I was particularly hungry that day.
 
 #### Typical dinner
 I've always been all about pasta, so I regularly make pasta and sauces, good for decent carb intake and pretty good across the board on calories/fats etc. Besides that, I have tried digging into new foods, cooking a fresh fillet steak or making some kind of chicken and higher protein meal.

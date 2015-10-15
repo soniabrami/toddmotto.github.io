@@ -5,9 +5,9 @@ title: No $scope soup, bindToController in AngularJS
 path: 2015-07-21-no-scope-soup-bind-to-controller-angularjs.md
 ---
 
-Namespacing, code consistency and proper design patterns _really_ matter in software engineering, and Angular address a lot of issues we face as front-end engineers really nicely.
+Namespacing, code consistency and proper design patterns _really_ matter in software engineering, and Angular addresses a lot of issues we face as front-end engineers really nicely.
 
-I'd like to show you some techniques using the `bindToController` property on Directives, that helps clean up your DOM-Controller namespacing, helps keep code consistent and help follow an even better design pattern when constructing Controller Objects and inheriting data from elsewhere.
+I'd like to show you some techniques using the `bindToController` property on Directives that will help clean up your DOM-Controller namespacing, help keep code consistent, and help follow an even better design pattern when constructing Controller Objects and inheriting data from elsewhere.
 
 ### Prerequisites
 
@@ -52,6 +52,7 @@ function fooDirective() {
 
 angular
   .module('app')
+  .directive('fooDirective', fooDirective)
   .controller('FooDirCtrl', FooDirCtrl);
 {% endhighlight %}
 
