@@ -1,10 +1,15 @@
 ---
 layout: default
 ---
-
-    <article class="page clear">
-      <h1 class="page__title">
+<main class="wrapper">
+  <article class="article page">
+    <header class="article__header">
+      <h1 class="alpha article__title" itemprop="name headline">
         {{ page.title }}
       </h1>
+    </header>
+    <div class="post-content">
       {{ content }}
-    </article>
+    </div>
+  </article>
+</main>

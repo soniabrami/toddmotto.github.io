@@ -1,73 +1,18 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <base href="http://toddmotto.com/assets/">
-    <meta name="description" content="JavaScript, AngularJS and HTML5 engineer helping build a better web.">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-    <link href="//www.google-analytics.com" rel="dns-prefetch">
-    <link href="//plus.google.com/+ToddMotto" rel="author">
-    <link href="css/style.min.css" rel="stylesheet">
-  </head>
-  <body{% if page.class %} class="{{ page.class }}"{% endif %}>
-
-    <div class="sidebar clear">
-      <div class="sidebar__profile">
-        <a href="/">
-          <img src="img/todd.jpg" alt="Todd Motto" class="sidebar__profile-img">
-        </a>
-        <h1 class="sidebar__profile-name">
-          Todd Motto
-        </h1>
-        <div class="sidebar__profile-bio clear">
-          <p>
-            Director of Web Development @<a href="https://mozio.com/#/?utm_source=toddmotto.com" target="_blank">Mozio</a><br>
-            JavaScript, AngularJS. Conference speaker.<br>
-            Developer Expert <a href="//twitter.com/google">@google</a>.
-          </p>
-        </div>
-        <div class="sidebar__profile-social">
-          <a href="//twitter.com/toddmotto" class="twitter-follow-button" data-show-count="true">
-            Follow @toddmotto
+<header class="header" role="banner">
+  <nav class="nav">
+    <ul>
+      <li>
+        <a href="/">Posts</a>
+      </li>
+      {% for my_page in site.pages %}
+        {% if my_page.title %}
+        <li>
+          <a {% if page.url == page.title %} class="active" {% endif %} href="{{ my_page.url | prepend: site.baseurl }}">
+            {{ my_page.title }}
           </a>
-        </div>
-        <nav class="sidebar__profile-nav">
-          <ul>
-            <li>
-              <a href="/">
-                Posts
-              </a>
-            </li><!--
-            --><li>
-              <a href="/about">
-                About
-              </a>
-            </li><!--
-            --><li>
-              <a href="/speaking">
-                Speaking
-              </a>
-            </li><!--
-            --><li>
-              <a href="//toddmotto.com/feed.xml">
-                RSS
-              </a>
-            </li><!--
-            --><li>
-              <a href="//github.com/toddmotto">
-                GitHub
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <div id="carbonads-container">
-          <div class="carbonad">
-            <div id="azcarbon"></div>
-          </div>
-        </div>
-        <style>
-          .carbonad {margin: 15px auto 0 !important;}
-        </style>
-      </div>
-    </div>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

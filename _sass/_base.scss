@@ -1,0 +1,222 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+// Colours
+$white: #fff;
+$blue: #2996d6;
+$purple: #d82c99;
+$text-color: #444;
+$text-color-light: #999;
+$border-color: #E6E6E6;
+
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html, body { margin: 0; padding: 0; }
+
+html,
+button,
+input,
+select,
+textarea {
+  font: 400 62.5% 'Source Sans Pro', 'Helvetica Neue', sans-serif;
+  color: $text-color;
+  letter-spacing: 0.5px;
+}
+
+body {
+  font-size: 1.4rem; /* 14px */
+  line-height: 1.4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+ hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+  vertical-align: middle;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+input, textarea, button, a {
+  transition: 0.2s color ease,
+              0.2s background ease;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+a {
+  color: $purple;
+  text-decoration: none;
+  &:hover {
+    color: darken($purple, 10%);
+  }
+}
+
+::selection {
+  background: $purple;
+  color: $white;
+  text-shadow: none;
+}
+::-moz-selection {
+  background: $purple;
+  color: $white;
+  text-shadow: none;
+}
+::-webkit-selection {
+  background: $purple;
+  color: $white;
+  text-shadow: none;
+}
+
+
+/* ==========================================================================
+   Typography styles
+   ========================================================================== */
+
+h1, .alpha {
+  font-size: 2.2rem; /* 22px */
+  font-family: 'Merriweather', serif;
+  margin: 0 0 20px;
+}
+
+h2, .beta {
+  margin: 0;
+  font-size: 2.0rem; /* 20px */
+}
+
+h3, .gamma {
+  margin: 0;
+  font-size: 1.8rem; /* 18px */
+}
+
+h4, .delta {
+  margin: 0;
+  font-size: 1.6rem; /* 16px */
+}
+
+h5, .epsilon {
+  margin: 0;
+  font-size: 1.4rem; /* 14px */
+}
+
+h6, .zeta {
+  margin: 0;
+  font-size: 1.2rem; /* 12px */
+}
+
+h2 {
+  font-size: 24px;
+  padding: 0 0 10px;
+}
+h3 {
+  font-size: 20px;
+  padding: 0 0 10px;
+}
+h4 {
+  font-size: 18px;
+  padding: 0 0 10px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  position: relative;
+  border-bottom: 1px solid #E6E6E6;
+  margin: 15px 0 30px;
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    margin-left: -7.5px;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    background: $white;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    margin-left: -4.5px;
+    left: 50%;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1px solid $border-color;
+    background: $white;
+  }
+}
