@@ -425,7 +425,7 @@ Moving onto the list of todo items. There's quite a lot going on here, the `ng-r
 </ul>
 {% endhighlight %}
 
-The differences here are mainly in the `ng-repeat` syntax and moving across to `ng-for`, which uses `#item in Array` syntax. Interestingly enough, `$index` isn't given to us "for free" anymore, we have to request it and assign it to a variable to gain access to it (`#i = $index`) which then allows us to pass that specific Array index into the `deleteItem` method.
+The differences here are mainly in the `ng-repeat` syntax and moving across to `ng-for`, which uses `#item of Array` syntax. Interestingly enough, `$index` isn't given to us "for free" anymore, we have to request it and assign it to a variable to gain access to it (`#i = $index`) which then allows us to pass that specific Array index into the `deleteItem` method.
 
 Altogether we have our finished Angular 2 component markup migration:
 
