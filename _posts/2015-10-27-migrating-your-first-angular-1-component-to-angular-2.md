@@ -604,4 +604,4 @@ Note how we're using ES6 `import`, with TypeScript `@` annotations (`@Component`
 
 We're also not using _any_ browser globals (`window.ng`) which is fantastic, all dependencies we need get imported from `'angular2/angular2'`, even our `directives: []` dependency Array.
 
-Visit [angular.io](https://angular.io) for everything else!
+Visit [angular.io](https://angular.io) for everything else.
