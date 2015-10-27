@@ -385,7 +385,7 @@ This sets up two-way binding on `ng-model`, also dropping the `vm.` prefix. This
 
 {% highlight html %}
 <form (submit)="onSubmit($event);">
-  <h3>Todo List: ({{ updateIncomplete() }} of {{ todos.length }})</h3>
+  <h3>Todo List: ({% raw %}{{ updateIncomplete() }}{% endraw %} of {% raw %}{{ todos.length }}{% endraw %})</h3>
   <div class="todo__fields">
     <input [(ng-model)]="label" class="todo__input">
     <button type="submit" class="todo__submit">
@@ -417,7 +417,7 @@ Moving onto the list of todo items. There's quite a lot going on here, the `ng-r
     'todo__list--complete': item.complete
   }">
     <input type="checkbox" [(ng-model)]="item.complete">
-    <p>{{ item.label }}</p>
+    <p>{% raw %}{{ item.label }}{% endraw %}</p>
     <span (click)="deleteItem(i);">
       <i class="fa fa-times-circle"></i>
     </span>
@@ -432,7 +432,7 @@ Altogether we have our finished Angular 2 component markup migration:
 {% highlight html %}
 <div class="todo">
   <form (submit)="onSubmit($event);">
-    <h3>Todo List: ({{ updateIncomplete() }} of {{ todos.length }})</h3>
+    <h3>Todo List: ({% raw %}{{ updateIncomplete() }}{% endraw %} of {% raw %}{{ todos.length }}{% endraw %})</h3>
     <div class="todo__fields">
       <input [(ng-model)]="label" class="todo__input">
       <button type="submit" class="todo__submit">
@@ -445,7 +445,7 @@ Altogether we have our finished Angular 2 component markup migration:
       'todo__list--complete': item.complete
     }">
       <input type="checkbox" [(ng-model)]="item.complete">
-      <p>{{ item.label }}</p>
+      <p>{% raw %}{{ item.label }}{% endraw %}</p>
       <span (click)="deleteItem(i);">
         <i class="fa fa-times-circle"></i>
       </span>
@@ -465,7 +465,7 @@ var Todo = ng
   template: [
     '<div class="todo">',
       '<form (submit)="onSubmit($event);">',
-        '<h3>Todo List: ({{ updateIncomplete() }} of {{ todos.length }})</h3>',
+        '<h3>Todo List: ({% raw %}{{ updateIncomplete() }}{% endraw %} of {% raw %}{{ todos.length }}{% endraw %})</h3>',
         '<div class="todo__fields">',
           '<input [(ng-model)]="label" class="todo__input">',
           '<button type="submit" class="todo__submit">',
@@ -478,7 +478,7 @@ var Todo = ng
           '\'todo__list--complete\': item.complete',
         '}">',
           '<input type="checkbox" [(ng-model)]="item.complete">',
-          '<p>{{ item.label }}</p>',
+          '<p>{% raw %}{{ item.label }}{% endraw %}</p>',
           '<span (click)="deleteItem(i);">',
             '<i class="fa fa-times-circle"></i>',
           '</span>',
