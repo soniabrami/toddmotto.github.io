@@ -598,3 +598,9 @@ Note how we're using ES6 `import`, with TypeScript `@` decorators (`@Component`)
 We're also not using _any_ browser globals (`window.ng`) which is fantastic, all dependencies we need get imported from `'angular2/angular2'`, even our `directives: []` dependency Array.
 
 Visit [angular.io](https://angular.io) for everything else.
+
+### Steps to take now to prepare for Angular 2
+
+* Convert your application to ES6 + TypeScript
+* Refactor any Directives using a [decoupled component](http://www.bennadel.com/blog/2922-decoupling-component-directives-from-layout-in-angularjs.htm) approach
+* Refactor any Controllers to use [controllerAs](http://toddmotto.com/digging-into-angulars-controller-as-syntax) syntax
