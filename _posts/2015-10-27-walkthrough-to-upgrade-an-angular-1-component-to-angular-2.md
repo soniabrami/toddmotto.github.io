@@ -5,11 +5,13 @@ title: Walkthrough to upgrade an Angular 1.x component to Angular 2
 path: 2015-10-27-walkthrough-to-upgrade-an-angular-1-component-to-angular-2.md
 ---
 
-In this article we're going to look at migrating your first Angular 1.x component, a simple todo app, across to Angular 2 code. We'll compare the API differences, templating syntaxes and hopefully it'll shed some light on migrating to Angular 2, and well as making it appear less daunting.
+In this article we're going to look at upgrading your first Angular 1.x component, a simple todo app, across to Angular 2 code. We'll compare the API differences, templating syntaxes and hopefully it'll shed some light on upgrading to Angular 2, and well as making it appear less daunting.
+
+_Please note: Angular 2 is still in "alpha" state, so APIs/conventions may be subject to change, however I will aim to keep this article and the working code updated._
 
 ### Angular 1.x Todo App
 
-We'll be migrating this small component across to Angular 2, so let's look at the existing functionality:
+We'll be rewriting this small component in Angular 2, so let's look at the existing functionality:
 
 * Add items to todo list
 * Ability to delete items
@@ -191,7 +193,7 @@ So far everything is super simple, instead of `window.angular` we have `window.n
 
 ### Component definition
 
-Migrating the Directive to an Angular 2 component.
+Upgrading the Directive to an Angular 2 component.
 
 ##### Angular 1.x
 
