@@ -20,12 +20,10 @@
   <meta property="og:image" content="http://toddmotto.com/img/og.jpg">
   <meta property="og:publisher" content="http://www.facebook.com/toddmotto">
 
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@toddmotto">
+  <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:image" content="http://toddmotto.com/img/og.jpg">
-  <meta name="twitter:site" content="@toddmotto">
-  <meta name="twitter:creator" content="@toddmotto">
-  <meta name="twitter:title" content="{{ page.title }}">
-
   {% endif %}
 </head>
