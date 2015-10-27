@@ -214,20 +214,16 @@ angular
 
 ##### Angular 2
 
-In Angular 2, we create a `Todo` variable, which assigns the result of `ng` to it with corresponding chained definitions (`Component`, `View`, `Class`) - these are all new in Angular 2.
+In Angular 2, we create a `Todo` variable, which assigns the result of `ng` to it with corresponding chained definitions (`Component`, `Class`) - these are all new in Angular 2.
 
-Inside `.Component()`, we tell Angular to use the `selector: 'todo'`, which is exactly the same as `.directive('todo', todo);` in Angular 1.x.
+Inside `.Component()`, we tell Angular to use the `selector: 'todo'`, which is exactly the same as `.directive('todo', todo);` in Angular 1.x. We also tell Angular where to find our template, just like in Angular 1.x we use the `templateUrl` property.
 
-Inside the `.View()` method we tell Angular where to find our template, just like in Angular 1.x we use the `templateUrl` property.
-
-And finally the `.Class()` method is what holds the logic for our component, we kick things off with a `constructor` property that acts as the "constructor" class. So far so good!
+Finally, the `.Class()` method is what holds the logic for our component, we kick things off with a `constructor` property that acts as the "constructor" class. So far so good!
 
 {% highlight javascript %}
 var Todo = ng
 .Component({
   selector: 'todo',
-})
-.View({
   templateUrl: '../partials/todo.html'
 })
 .Class({
@@ -460,8 +456,6 @@ Altogether our Angular 2 component will look like so:
 var Todo = ng
 .Component({
   selector: 'todo',
-})
-.View({
   template: [
     '<div class="todo">',
       '<form (submit)="onSubmit($event);">',
@@ -526,7 +520,7 @@ var Todo = ng
 });
 {% endhighlight %}
 
-It's important to note an additional `directives: []` property inside the `.View()` method, this tells the component what Directives to include for us to use. We have used `ng-for` and `ng-model` which are from the `CORE` and `FORM` Directive modules, so we need to explicitly define them inside the Array as dependencies:
+It's important to note an additional `directives: []` property inside the `.Component()` method, this tells the component what Directives to include for us to use. We have used `ng-for` and `ng-model` which are from the `CORE` and `FORM` Directive modules, so we need to explicitly define them inside the Array as dependencies:
 
 {% highlight javascript %}
 directives: [
@@ -537,7 +531,7 @@ directives: [
 
 And that's it! The working solution:
 
-<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/oguL1e06/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/mtv8qhw5/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Check out the [Angular 2 cheatsheet](https://angular.io/docs/ts/latest/guide/cheatsheet.html), this is extremely handy when refactoring your templates from Angular 1.x to 2.
 
@@ -545,7 +539,6 @@ Check out the [Angular 2 cheatsheet](https://angular.io/docs/ts/latest/guide/che
 
 {% highlight javascript %}
 import {
-  View, 
   Component,
   CORE_DIRECTIVES,
   FORM_DIRECTIVES
@@ -553,8 +546,6 @@ import {
 
 @Component({
   selector: 'todo'
-})
-@View({
   templateUrl: '../partials/todo.html',
   directives: [
     CORE_DIRECTIVES,
@@ -600,7 +591,7 @@ export class Todo {
 }
 {% endhighlight %}
 
-Note how we're using ES6 `import`, with TypeScript `@` annotations (`@Component`), as well as the ES6 `class` syntax to define a new Class to be exported.
+Note how we're using ES6 `import`, with TypeScript `@` decorators (`@Component`), as well as the ES6 `class` syntax to define a new Class to be exported.
 
 We're also not using _any_ browser globals (`window.ng`) which is fantastic, all dependencies we need get imported from `'angular2/angular2'`, even our `directives: []` dependency Array.
 
