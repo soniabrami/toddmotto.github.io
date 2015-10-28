@@ -262,3 +262,63 @@ app.config(function ($routeProvider) {
   });
 });
 {% endhighlight %}
+
+## Test it!
+
+Controllers should be tested, and you can do that without injecting $scope inside.
+There is also no reference to the alias (FTW!) inside the test.
+
+{% highlight javascript %}
+// controller
+angular
+  .module('myModule')
+  .controller('MainCtrl', MainCtrl);
+
+function MainCtrl() {
+  this.title = 'Some title';
+};
+
+// tests
+describe('MainCtrl', function() {
+  var MainController;
+
+  beforeEarch(function(){
+    module('myModule');
+
+    inject(function($controller) {
+      MainController = $controller('MainCtrl');
+    });
+  });
+
+  it('should expose title', function() {
+    expect(MainController.title).equal('Some title');
+  });
+});
+{% endhighlight %}
+
+You can also use the controllerAs syntax in the controller instanciation but you will need to
+inject a scope to the local injection object in $controller. The alias for the controller will be
+added to this scope. It is less elegant.
+
+{% highlight javascript %}
+// Same test becomes
+describe('MainCtrl', function() {
+  var scope;
+
+  beforeEarch(function(){
+    module('myModule');
+
+    inject(function($controller, $rootScope) {
+      scope = $rootScope.$new();
+      var localInjections = {
+        $scope: scope,
+      };
+      $controller('MainCtrl as main', localInjections);
+    });
+  });
+
+  it('should expose title', function() {
+    expect(scope.main.title).equal('Some title');
+  });
+});
+{% endhighlight %}
