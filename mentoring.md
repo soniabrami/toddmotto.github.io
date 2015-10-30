@@ -5,7 +5,7 @@ layout: page
 
 Book a one-to-one development session with me on Google Hangouts or Skype. Sessions are booked in hourly slots and aim to help developers learn new technology, get code advice or help with anything they're working on.
 
-_Had an online workshop with Todd to tune up the AngularJS muscle after hitting a couple of problems in the week and not much progress investigating myself. Todd got me set straight within about 35 minutes. Should'a done it sooner. Cheers man! - [Jordan Fish](https://twitter.com/jordanfish)_
+_"Had an online workshop with Todd to tune up the AngularJS muscle after hitting a couple of problems in the week and not much progress investigating myself. Todd got me set straight within about 35 minutes. Should'a done it sooner. Cheers man!" - [Jordan Fish](https://twitter.com/jordanfish)_
 
 ### Topics
 Sessions booked with me can cover any of the following topics:
