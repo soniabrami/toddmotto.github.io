@@ -19,7 +19,7 @@ Sessions booked with me can cover any of the following topics:
 Sessions can be on any project you're working on, website or application.
 
 ### Prices
-Rates vary from $50USD - $250USD an hour depending on your requirements and business type. For instance if you're a student or freelancer, the rates would be lesser than a large corporation. I like to think this is a fair and relative pricing model.
+Rates are fixed at $120USD/hour, charged in 15 minute ($30USD) intervals.
 
 ### Booking
 Make a booking by [dropping me an email](/contact) with the following details:
