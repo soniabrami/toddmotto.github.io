@@ -7,27 +7,6 @@ path: 2014-05-26-digging-into-angulars-controller-as-syntax.md
 
 AngularJS Controllers have recently gone under some changes (version 1.2 to be precise). What this means for scopes, Controllers and Angular development is some very subtle but powerful changes. One of those changes I believe is improved architecture, clearer scoping and smarter Controllers.
 
-<div class="airpairme">
- <a href="http://airpair.me/toddmotto?utm_source=expert&utm_medium=homepage&utm_content=button&utm_campaign=airpairme">
-  <img src="http://www.airpair.com/images/me.png" />
- </a>
- <p>For live <a href="http://www.airpair.com/angularjs" style="color:#CE5424">AngularJS help</a> on AirPair</p>
- <style>
-  .airpairme > a {
-   width:100%;
-   display:block;
-   padding:10px 0;
-   margin: 10px 0;
-   background:#fff;
-   text-align:center;
-   border:1px solid #d3d3d3;
-   border-radius:5px;
-  }
-  .airpairme > a:hover { background: #f9f9f9 }
-  .airpairme p { font:11px arial;text-align:center;margin:0;padding:3px 0 0 6px }
- </style>
-</div>
-
 Controllers as we know them are class-like Objects that drive Model and View changes, but they all seem to revolve around this mystical `$scope` Object. Angular Controllers have been pushed to change the way `$scope` is declared, with many developers suggesting using the `this` keyword instead of `$scope`.
 
 Pre v1.2.0 Controllers looked similar to this:
@@ -259,6 +238,63 @@ app.config(function ($routeProvider) {
   })
   .otherwise({
     redirectTo: '/'
+  });
+});
+{% endhighlight %}
+
+### Testing controllerAs syntax
+
+There's a subtle difference when testing `controllerAs`, and thankfully we no longer need to dependency inject `$scope`. This means we also don't need to have a reference property when testing the Controller (such as `vm.prop`), we can simply use the variable name we assign `$controller` to.
+
+{% highlight javascript %}
+// controller
+angular
+  .module('myModule')
+  .controller('MainCtrl', MainCtrl);
+
+function MainCtrl() {
+  this.title = 'Some title';
+};
+
+// tests
+describe('MainCtrl', function() {
+  var MainController;
+
+  beforeEarch(function(){
+    module('myModule');
+
+    inject(function($controller) {
+      MainController = $controller('MainCtrl');
+    });
+  });
+
+  it('should expose title', function() {
+    expect(MainController.title).equal('Some title');
+  });
+});
+{% endhighlight %}
+
+You can alternatively use the `controllerAs` syntax in the `$controller` instantiation but you will need to inject a `$scope` instance into the Object that is passed into `$controller`. The alias (for instance `scope.main`) for the Controller will be added to this `$scope` (like it is in our actual Angular apps), however this is a less elegant solution.
+
+{% highlight javascript %}
+// Same test becomes
+describe('MainCtrl', function() {
+  var scope;
+
+  beforeEarch(function(){
+    module('myModule');
+
+    inject(function($controller, $rootScope) {
+      scope = $rootScope.$new();
+      var localInjections = {
+        $scope: scope,
+      };
+      $controller('MainCtrl as main', localInjections);
+    });
+  });
+
+  it('should expose title', function() {
+    expect(scope.main.title).equal('Some title');
   });
 });
 {% endhighlight %}

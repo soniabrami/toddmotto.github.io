@@ -5,6 +5,8 @@ layout: page
 
 Book a one-to-one development session with me on Google Hangouts or Skype. Sessions are booked in hourly slots and aim to help developers learn new technology, get code advice or help with anything they're working on.
 
+_"Had an online workshop with Todd to tune up the AngularJS muscle after hitting a couple of problems in the week and not much progress investigating myself. Todd got me set straight within about 35 minutes. Should'a done it sooner. Cheers man!" - [Jordan Fish](https://twitter.com/jordanfish)_
+
 ### Topics
 Sessions booked with me can cover any of the following topics:
 
@@ -19,7 +21,7 @@ Sessions booked with me can cover any of the following topics:
 Sessions can be on any project you're working on, website or application.
 
 ### Prices
-Rates vary from $50USD - $250USD an hour depending on your requirements and business type. For instance if you're a student or freelancer, the rates would be lesser than a large corporation. I like to think this is a fair and relative pricing model.
+Rates are fixed at $120USD/hour, charged in 15 minute ($30USD) intervals.
 
 ### Booking
 Make a booking by [dropping me an email](/contact) with the following details:
