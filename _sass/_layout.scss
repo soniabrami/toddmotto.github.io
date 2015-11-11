@@ -97,6 +97,18 @@
   padding: 60px 0;
 }
 
+.voux {
+  a {
+    display: block;
+  }
+  &--top {
+    margin: 0 0 25px;
+  }
+  &--bottom {
+    margin: 25px 0 0;
+  }
+}
+
 .article {
   ul {
     list-style: disc;

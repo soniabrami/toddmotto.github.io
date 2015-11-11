@@ -8,3 +8,4 @@ node_modules
 .tmp
 .sass-cache
 *.sublime-*
+.jekyll-metadata
