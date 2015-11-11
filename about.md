@@ -8,7 +8,7 @@ class: about
   <img src="img/workshop.jpg">
 </div>
 
-I'm Todd, a JavaScript and HTML5 developer with a passion for AngularJS. I'm Director of Web Development at [Mozio](https://mozio.com/#/?utm_source=toddmotto.com) (San Francisco based start-up), a [Developer Expert](https://developers.google.com/experts) at Google, [conference speaker](https://speakerdeck.com/toddmotto) and [open source](//github.com/toddmotto) evangelist.
+I'm Todd, a JavaScript and HTML5 developer with a passion for AngularJS. I'm the founder of [Voux.io](http://voux.io) and Director of Web Development at [Mozio](https://mozio.com/#/?utm_source=toddmotto.com) (San Francisco based start-up), a [Developer Expert](https://developers.google.com/experts) at Google, [conference speaker](https://speakerdeck.com/toddmotto) and [open source](//github.com/toddmotto) evangelist.
 
 I've been fortunate enough to travel the world speaking and teaching AngularJS and JavaScript. I've taught workshops for Google (San Francisco, USA), [Falsy Values](https://2015.falsyvalues.com) (Warsaw, Poland), [Future of Web Apps](https://futureofwebapps.com) (Boston, USA 2014 and London, UK (2014 and 2015)), [Future of Web Design](https://futureofwebdesign.com) (London, UK).
 

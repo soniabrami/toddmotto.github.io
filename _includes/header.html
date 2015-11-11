@@ -4,15 +4,21 @@
       <li>
         <a href="/">Posts</a>
       </li>
-      {% for my_page in site.pages %}
-        {% if my_page.title %}
-        <li>
-          <a {% if page.url == page.title %} class="active" {% endif %} href="{{ my_page.url | prepend: site.baseurl }}">
-            {{ my_page.title }}
-          </a>
-        </li>
-        {% endif %}
-      {% endfor %}
+      <li>
+        <a href="/about.html">
+          About
+        </a>
+      </li>
+      <li>
+        <a  href="/contact.html">
+          Contact
+        </a>
+      </li>
+      <li>
+        <a  href="//voux.io">
+          Training
+        </a>
+      </li>
     </ul>
   </nav>
 </header>
