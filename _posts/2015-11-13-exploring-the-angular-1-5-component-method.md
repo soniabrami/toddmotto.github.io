@@ -25,7 +25,7 @@ module.component(name, options);
 
 The `name` argument is what we want to define our Component as, the `options` argument is a definition Object passed into the component, rather than a function that we know so well in versions 1.4 and below.
 
-I've prebuilt a simple `counter` component for the purposes of this exercise in Angular `1.4.x` which we'll refactor into version `1.5.0-beta-1` to use `.component()`.
+I've prebuilt a simple `counter` component for the purposes of this exercise in Angular `1.4.x` which we'll refactor into a version `v1.5.0` build to use `.component()`.
 
 {% highlight javascript %}
 .directive('counter', function counter() {
