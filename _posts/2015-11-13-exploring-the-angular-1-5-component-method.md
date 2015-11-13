@@ -16,6 +16,10 @@ _Please note: Angular 1.5 is still in `beta` phase, keep an eye out for it's rel
 The syntax change is very simple:
 
 {% highlight javascript %}
+// before
+module.directive(name, fn);
+
+// after
 module.component(name, options);
 {% endhighlight %}
 
