@@ -11,6 +11,12 @@ Let's compare the differences in syntax and the super neat abstraction that `.co
 
 _Please note: Angular 1.5 is still in `beta` phase, keep an eye out for it's release!_
 
+My screencast overview from [Voux.io](http://voux.io):
+
+<div class="embed">
+  <iframe src="https://www.youtube.com/embed/Ca5rzXGmld4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ### .directive() to .component()
 
 The syntax change is very simple:
