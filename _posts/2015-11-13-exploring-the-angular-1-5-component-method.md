@@ -247,7 +247,7 @@ Things are becoming much simpler to use and define with this change.
 
 ### Template
 
-There's a subtle difference in the `template` property worth nothing. Let's add the `template` property to finish off our rework and then take a look.
+There's a subtle difference in the `template` property worth noting. Let's add the `template` property to finish off our rework and then take a look.
 
 {% highlight javascript %}
 .component('counter', {
