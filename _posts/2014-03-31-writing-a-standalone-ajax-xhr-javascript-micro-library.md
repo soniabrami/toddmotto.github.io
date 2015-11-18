@@ -208,6 +208,7 @@ Look familiar? ;)
 So working from what we've already got above, I created some chained methods for the module, adding in some automatic JSON parsing when available, and ended up with the following (which is atomic.js v1.0.0):
 
 {% highlight javascript %}
+/*! atomic v1.0.0 | (c) 2015 @toddmotto | github.com/toddmotto/atomic */
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
     define(factory);
@@ -243,7 +244,7 @@ So working from what we've already got above, I created some chained methods for
     request.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
     request.onreadystatechange = function () {
       if (request.readyState === 4) {
-        if (request.status === 200) {
+        if (request.status >= 200 && request.status < 300) {
           methods.success.apply(methods, parse(request));
         } else {
           methods.error.apply(methods, parse(request));
@@ -251,16 +252,18 @@ So working from what we've already got above, I created some chained methods for
       }
     };
     request.send(data);
-    return {
+    var callbacks = {
       success: function (callback) {
         methods.success = callback;
-        return methods;
+        return callbacks;
       },
       error: function (callback) {
         methods.error = callback;
-        return methods;
+        return callbacks;
       }
     };
+
+    return callbacks;
   };
 
   exports['get'] = function (src) {
