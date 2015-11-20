@@ -208,6 +208,7 @@ Look familiar? ;)
 So working from what we've already got above, I created some chained methods for the module, adding in some automatic JSON parsing when available, and ended up with the following (which is atomic.js v1.0.0):
 
 {% highlight javascript %}
+/*! atomic v1.0.0 | (c) 2015 @toddmotto | github.com/toddmotto/atomic */
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
     define(factory);
@@ -222,6 +223,10 @@ So working from what we've already got above, I created some chained methods for
 
   var exports = {};
 
+  var config = {
+    contentType: 'application/x-www-form-urlencoded'
+  };
+
   var parse = function (req) {
     var result;
     try {
@@ -235,48 +240,64 @@ So working from what we've already got above, I created some chained methods for
   var xhr = function (type, url, data) {
     var methods = {
       success: function () {},
-      error: function () {}
+      error: function () {},
+      always: function () {}
     };
     var XHR = root.XMLHttpRequest || ActiveXObject;
     var request = new XHR('MSXML2.XMLHTTP.3.0');
+
     request.open(type, url, true);
-    request.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+    request.setRequestHeader('Content-type', config.contentType);
     request.onreadystatechange = function () {
+      var req;
       if (request.readyState === 4) {
-        if (request.status === 200) {
-          methods.success.apply(methods, parse(request));
+        req = parse(request);
+        if (request.status >= 200 && request.status < 300) {
+          methods.success.apply(methods, req);
         } else {
-          methods.error.apply(methods, parse(request));
+          methods.error.apply(methods, req);
         }
+        methods.always.apply(methods, req);
       }
     };
     request.send(data);
-    return {
+
+    var atomXHR = {
       success: function (callback) {
         methods.success = callback;
-        return methods;
+        return atomXHR;
       },
       error: function (callback) {
         methods.error = callback;
-        return methods;
+        return atomXHR;
+      },
+      always: function (callback) {
+        methods.always = callback;
+        return atomXHR;
       }
     };
+
+    return atomXHR;
   };
 
-  exports['get'] = function (src) {
+  exports.get = function (src) {
     return xhr('GET', src);
   };
 
-  exports['put'] = function (url, data) {
+  exports.put = function (url, data) {
     return xhr('PUT', url, data);
   };
 
-  exports['post'] = function (url, data) {
+  exports.post= function (url, data) {
     return xhr('POST', url, data);
   };
 
-  exports['delete'] = function (url) {
+  exports.delete = function (url) {
     return xhr('DELETE', url);
+  };
+
+  exports.setContentType = function(value) {
+    config.contentType = value;
   };
 
   return exports;
