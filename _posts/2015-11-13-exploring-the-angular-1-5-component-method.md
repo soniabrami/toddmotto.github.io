@@ -11,7 +11,7 @@ Let's compare the differences in syntax and the super neat abstraction that `.co
 
 _Please note: Angular 1.5 is still in `beta` phase, keep an eye out for it's release!_
 
-### Use component() now!
+### Update: use component() now in Angular 1.3+
 
 I've back-ported the Angular 1.5 `component()` functionality to Angular 1.3 and above! [Read the article](/angular-component-method-back-ported-to-1.3) and grab the [code on GitHub](https://github.com/toddmotto/angular-component).
 
