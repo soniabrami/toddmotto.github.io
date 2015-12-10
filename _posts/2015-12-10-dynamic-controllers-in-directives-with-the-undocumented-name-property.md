@@ -12,7 +12,7 @@ Assigning Controllers to Angular Directives is the norm when building out compon
 Let's look at a "hard-coded" Directive Controller which we use everyday:
 
 {% highlight javascript %}
-function FirstCtrl () {
+function FirstCtrl() {
   this.name = 'First Controller';
 }
 function fooDirective() {
@@ -38,7 +38,7 @@ We have `FirstCtrl` which is passed into the Angular module, and then we referen
 Let's add another Controller and call it `SecondCtrl`:
 
 {% highlight javascript %}
-function SecondCtrl () {
+function SecondCtrl() {
   this.name = 'Second Controller';
 }
 {% endhighlight %}
