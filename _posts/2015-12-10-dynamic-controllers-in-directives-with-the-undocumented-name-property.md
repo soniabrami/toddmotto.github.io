@@ -5,7 +5,7 @@ title: Dynamic Controllers in Directives with the undocumented "name" property
 path: 2015-12-10-dynamic-controllers-in-directives-with-the-undocumented-name-property.md
 ---
 
-Assigning Controllers to Angular Directives is the norm when building out components. But what if you wanted to dynamically assign a Controller to the same Directive template? There are many reasons (though uncommon) for using this technique, however an undocumented `name` property bound to each Directive's definition Object can allow us to do exactly that.
+Assigning Controllers to Angular Directives is the norm when building out components. But what if you wanted to dynamically assign a Controller to the same Directive and template? There are reasons for using this technique (though uncommon), and the undocumented `name` property bound to each Directive's definition Object can allow us to do exactly that.
 
 ### Hard-coded Controller lookups
 
@@ -57,7 +57,7 @@ function fooDirective() {
 }
 {% endhighlight %}
 
-What does name do? It allows us to pass an attribute with a value into the Directive which we can use as a dynamic String for looking up Controllers in the module. The value of `name` becomes the attribute we bind to the Directive. For instance our `fooDirective` element will have an attribute `ctrl`.
+What does `name: [value]` do? It allows us to pass value through an attribute into the Directive which we can use as a dynamic String for looking up Controllers in the module. The value of `name` becomes the attribute we bind to the Directive. For instance our `fooDirective` element will have an attribute `ctrl`.
 
 If assigning a Controller, we would simply declare it as an attribute:
 
@@ -126,4 +126,20 @@ Live output:
 
 ### Link function
 
-Inside the `link` function we also get the fourth argument (which I alias as `$ctrl`) given to us, with the correct instance of each dynamically assigned Controller.
+Inside the `link` function we also get the fourth argument (which I alias as `$ctrl`) given to us, with the correct instance of each dynamically assigned Controller:
+
+
+{% highlight javascript %}
+function fooDirective() {
+  return {
+    scope: {},
+    name: 'ctrl',
+    controller: '@',
+    controllerAs: 'foo',
+    template: '<div>{{ foo.name }}</div>',
+    link: function ($scope, $element, $attrs, $ctrl) {
+      console.log($ctrl.name);
+    }
+  };
+}
+{% endhighlight %}
