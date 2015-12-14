@@ -193,7 +193,7 @@ This technique relies on hoisting. This means do not wrap all your files inside 
 
 ### DI resolve naming conventions
 
-I'm not happy with simply injecting `messages` in this case, as route resolving is a special use case when injecting into Controllers, so from a developer perspective I'd like to know what dependencies are bound to the router's resolve Object without even looking.
+I'm not happy with simply injecting `messages` in this case, as route resolving is a special use case when injecting into Controllers, so from a developer perspective I'd like to know what dependencies are bound to the router's resolve Object without even looking at the `resolve = {}` Object.
 
 Saying that, I'm also not settled on a specific convention, however I do consider prefixing dependencies a potential idea. Something like:
 
