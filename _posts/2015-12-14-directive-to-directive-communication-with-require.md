@@ -195,7 +195,7 @@ function tabs() {
 
 We might however want to be more clever and allow an attribute to set an initial tab, allowing more choice for the developer:
 
-{% highlight javascript %}
+{% highlight html %}
 <tabs active="2">
   <tab>...</tab>
   <tab>...</tab>
@@ -216,5 +216,7 @@ function tabs() {
   };
 }
 {% endhighlight %}
+
+And of course, the live demonstration of using `require` to pass new `tab` information back up into the parent Directive:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/4comjcdm/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
