@@ -152,7 +152,7 @@ function InboxCtrl(messages) {
 }
 {% endhighlight %}
 
-It's easy to lose sight on what `messages` means whilst inspecting this file (a made-up `InboxCtrl.js`), as well as the overhead of having to go back to the pseudo `router.js` file, and scrolling through all our routes and resolve logic that continues to grow.
+It's easy to lose sight on what `messages` means whilst inspecting this file (a made-up `InboxCtrl.js`), as well as the overhead of having to go back to the pseudo `router.js` file, and scrolling through all our routes and resolve logic that continues to grow to make any changes.
 
 The solution? Add a `.resolve` property to each Controller, full file example:
 
