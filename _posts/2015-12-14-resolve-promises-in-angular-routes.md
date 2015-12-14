@@ -215,3 +215,26 @@ angular
 {% endhighlight %}
 
 Nothing huge from the naming convention side, however could be an important decision when deciding for your application or team.
+
+### Minification
+
+To play nicely with minification you'll need to annotate in the following ways. If you're using ng-annotate then `@ngInject` is your friend here.
+
+{% highlight javascript %}
+// InboxCtrl.js
+function InboxCtrl(_messages) {
+  this.messages = _messages;
+}
+
+InboxCtrl.$inject = ['_messages'];
+
+InboxCtrl.resolve = {
+  _messages: ['InboxService', function (InboxService) {
+    return InboxService.getMessages();
+  }]
+}
+
+angular
+  .module('app')
+  .controller('InboxCtrl', InboxCtrl);
+{% endhighlight %}
