@@ -26,7 +26,7 @@ angular
   .controller('InboxCtrl', InboxCtrl);
 {% endhighlight %}
 
-We'll then probably have an `ng-repeat` that populates the DOM from `this.messages` once it's updated and the `$digest` has ran.
+We'll then probably have an `ng-repeat` that populates the DOM from `this.messages` once it has updated and the `$digest` has looped.
 
 ### Phase 2: Service abstraction
 
