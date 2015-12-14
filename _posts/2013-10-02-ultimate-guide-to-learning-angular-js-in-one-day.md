@@ -7,27 +7,6 @@ path: 2013-10-02-ultimate-guide-to-learning-angular-js-in-one-day.md
 
 <h5>Mastered this? Try my <a href="//toddmotto.com/opinionated-angular-js-styleguide-for-teams" style="text-decoration: underline;">Opinionated AngularJS styleguide for teams</a></h5>
 
-<div class="airpairme">
- <a href="http://airpair.me/toddmotto?utm_source=expert&utm_medium=homepage&utm_content=button&utm_campaign=airpairme">
-  <img src="http://www.airpair.com/images/me.png" />
- </a>
- <p>For live <a href="http://www.airpair.com/angularjs" style="color:#CE5424">AngularJS help</a> on AirPair</p>
- <style>
-  .airpairme > a {
-   width:100%;
-   display:block;
-   padding:10px 0;
-   margin: 10px 0;
-   background:#fff;
-   text-align:center;
-   border:1px solid #d3d3d3;
-   border-radius:5px;
-  }
-  .airpairme > a:hover { background: #f9f9f9 }
-  .airpairme p { font:11px arial;text-align:center;margin:0;padding:3px 0 0 6px }
- </style>
-</div>
-
 ### What is AngularJS?
 Angular is a client-side MVC/MVVM framework built in JavaScript, essential for modern single page web applications (and even websites). This post is a full end to end crash course from my experiences, advice and best practices I've picked up from using it.
 
@@ -770,35 +749,6 @@ function (a,b,c,d) {
 {% endhighlight %}
 
 Just remember to keep the injectors in the order the appear, or you'll probably cause you and your team a headache.
-
-### Differences in MVC and MVVM
-We're closing up on the gigantic AngularJS post, and I'm going to briefly cover the differences in MVC/MVVM which Angular prides itself on:
-
-- _MVC_: talks to a Controller, Model-View-Controller
-- _MVVM_: encapsulates declarative data-binding that technically talks to itself. Model-View-View-Model. Model talks to the View, and the View can talk to the Model. Angular's two way data-binding allows it to keep itself in sync without you doing anything. It also allows you to write logic without a Controller!
-
-A quick example of this, you could create an _ng-repeat_ without a Controller providing data:
-
-{% highlight html %}
-<li ng-repeat="number in [1,2,3,4,5,6,7,8,9]">
-  {% raw %}{{ number }}{% endraw %}
-</li>
-{% endhighlight %}
-
-For quick testing this is okay, but I'd always recommend a Controller when you tidy things up.
-
-Output:
-
-<iframe width="100%" height="300" src="http://jsfiddle.net/toddmotto/C9GHF/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-
-### HTML5 Web Components
-You'll probably have caught it earlier, but AngularJS allows you to create custom elements:
-
-{% highlight html %}
-<myCustomElement></myCustomElement>
-{% endhighlight %}
-
-This is actually bringing the web inline with the future of HTML5. HTML5 introduces Web Components and the `<template>` element, Angular lets us use this today. Web Components comprises of custom elements complete with dynamic JavaScript injection for View population that's incredibly exciting - we can do this stuff now with Angular! They're thinking ahead and future proofing upcoming web practices - hats off.
 
 ### Scope comments
 Scope comments I think are a really nice addition to my workflow, instead of declaring chunks of my HTML with comments like this:
