@@ -88,7 +88,8 @@ function tab() {
     template: `
       <div class="tabs__content" ng-if="tab.selected">
         <div ng-transclude></div>
-      </div>`,
+      </div>
+    `,
     link: function ($scope, $element, $attrs) {
       
     }
