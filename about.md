@@ -5,7 +5,7 @@ class: about
 ---
 
 <div class="about__talk">
-  <img src="img/workshop.jpg">
+  <img src="img/about.jpg">
 </div>
 
 I'm Todd, a JavaScript and HTML5 developer with a passion for AngularJS. I'm the founder of [Voux.io](http://voux.io) and Director of Web Development at [Mozio](https://mozio.com/#/?utm_source=toddmotto.com) (San Francisco based start-up), a [Developer Expert](https://developers.google.com/experts) at Google, [conference speaker](https://speakerdeck.com/toddmotto) and [open source](//github.com/toddmotto) evangelist.
