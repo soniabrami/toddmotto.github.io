@@ -11,7 +11,7 @@ path: 2015-12-20-a-year-in-review-of-todd-motto.md
 
 First of all, a huge thank you to anyone who's a read my blog once or is a regular reader. Thank you for sharing my content and leaving such fantastic feedback in post comment sections.
 
-Feedback through comments really inspire me to improve myself and provide even better content to help you learn, as well as getting a great buzz on teaching whoever you are in the world something new!
+Feedback through comments really inspires me to improve myself and provide even better content to help you learn, as well as getting a great buzz on teaching whoever you are in the world something new!
 
 I get a tonne of comments a week throughout various different articles, and there's a great buzz when I wake up and read a comment from someone across the globe thanking me for the article.
 
