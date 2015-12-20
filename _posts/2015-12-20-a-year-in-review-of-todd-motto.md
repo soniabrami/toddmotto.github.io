@@ -30,7 +30,7 @@ Page Views: 1,674,190
 ##### 2015:
 
 {% highlight javascript %}
-Sessions: 1,440,912
+Visits: 1,440,912
 Users: 972,189
 Page Views: 2,184,550
 {% endhighlight %}
@@ -38,7 +38,7 @@ Page Views: 2,184,550
 ##### Growth:
 
 {% highlight javascript %}
-Sessions: 463,238
+Visits: 463,238
 Users: 299,025
 Page Views: 510,360
 {% endhighlight %}
