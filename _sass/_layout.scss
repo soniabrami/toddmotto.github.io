@@ -492,3 +492,32 @@
     visibility: visible;
   }
 }
+
+table {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-collapse: inherit;
+  border-spacing: 0;
+  border-color: inherit;
+  vertical-align: inherit;
+  text-align: left;
+  font-weight: inherit;
+  -webkit-border-horizontal-spacing: 0;
+  -webkit-border-vertical-spacing: 0;
+  th {
+    padding: 5px 15px;
+    text-align: left;
+    background: #d82c99;
+    color: #fff;
+  }
+  tr {
+    &:nth-child(2n) {
+      background: #f5f5f5;
+    }
+  }
+  td {
+    padding: 5px 15px;
+  }
+}
