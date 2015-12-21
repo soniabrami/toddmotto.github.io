@@ -31,13 +31,26 @@ class: angular-1
 
 * Creating a Directive (todo)
 * Defintion Object walkthrough (todo)
+* Restricting Directive usage (todo)
+* Replacing root Custom Elements
+* template/templateUrl syntaxes explained (todo)
+* Isolate versus inherited scope (todo)
+* Using Directive Controllers (todo)
 * controllerAs syntax with Directives (todo)
-* Using track by inside ng-repeat (todo)
+* Link versus compile (todo)
+* Using native DOM APIs inside Directives (todo)
+* Transclusion with ng-transclude (todo)
+* Manual transclusion (todo)
+* Multi-slot transclusion (todo)
+* [bindToController with Directives](/no-scope-soup-bind-to-controller-angularjs)
+* [Directive communication with "require"](/directive-to-directive-communication-with-require)
+
+
 * ng-if versus ng-show/ng-hide (todo)
 * ng-bind versus {{ handlebars }} (todo)
-* [bindToController with Directives](/no-scope-soup-bind-to-controller-angularjs)
+* Using track by inside ng-repeat (todo)
+
 * [Creating a Directive from a Plugin](/creating-an-angularjs-directive-from-one-of-your-existing-plugins-scripts)
-* [Directive communication with "require"](/directive-to-directive-communication-with-require)
 * [Dynamic Controllers in Directives](/dynamic-controllers-in-directives-with-the-undocumented-name-property)
 * [Using the component() method](/exploring-the-angular-1-5-component-method)
 * [Using ngModelOptions](/super-fast-angular-ng-model-options-limit-digest-cycles)
@@ -54,6 +67,11 @@ class: angular-1
 * [Filters in Controllers](/use-controller-filters-to-prevent-digest-performance-issues)
 * [Creating custom filters](/everything-about-custom-filters-in-angular-js)
 
+### XHR/APIs
+
+* $http (todo)
+* $resource (todo)
+
 ### Routing
 
 * Using ngRoute (todo)
@@ -68,12 +86,15 @@ class: angular-1
 ### Events
 
 * [Understanding $emit, $broadcast and $on](/all-about-angulars-emit-broadcast-on-publish-subscribing)
+* Event lifecycles in Angular (todo)
 * Unbinding events with $destroy (todo)
 
 ### Forms
 
 * Form validation overview (todo)
+* $parsers and $formatters
 * [Custom validation with $validators](/moving-from-ng-model-parsers-to-ng-model-validates-ng-messages)
+* Using ngMessage and ngMessages
 
 ### Performance
 
