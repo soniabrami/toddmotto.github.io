@@ -91,7 +91,7 @@ layout: default
     <div id="disqus_thread"></div>
   </div>
   <script>
-    var disqus_url = {%if page.disqus %}'{{ page.disqus }}'{%else %}'{{ site.url}}{{ page.url }}'{% endif %};
+    var disqus_url = {%if page.disqus %}'{{ page.disqus }}'{%else %}'http://toddmotto.com{{ page.url }}'{% endif %};
     var disqus_title = '{{ page.title }}';
     var disqus_shortname = 'toddmotto';
     (function() {
