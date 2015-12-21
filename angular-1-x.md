@@ -47,7 +47,7 @@ class: angular-1
 
 
 * ng-if versus ng-show/ng-hide (todo)
-* ng-bind versus {{ handlebars }} (todo)
+* ng-bind versus {% raw %}{{ handlebars }}{% endraw %} (todo)
 * Using track by inside ng-repeat (todo)
 
 * [Creating a Directive from a Plugin](/creating-an-angularjs-directive-from-one-of-your-existing-plugins-scripts)
