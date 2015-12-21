@@ -5,13 +5,13 @@ title: A year in review of toddmotto​.com
 path: 2015-12-20-a-year-in-review-of-todd-motto.md
 ---
 
-2015 was a crazy year for me, a lot happened and much of it is down to this blog and you as a wonderful reader/sharer of my content. I've grown immensely professionally, in my writing capabilities, ability to articulate things in an easy-to-read fashion so you readers can learn in the best way I can attempt to teach you. I've also spoke at a lot more conferences, meetups, and my blog and feedback has really helped me learn new things, dive more in-depth into technology and provide a lot more business value to companies I worked and work for.
+2015 was a crazy year for me, a lot happened and much of it is down to this blog and you as a wonderful reader/sharer of my content. I've grown immensely professionally, in my writing capabilities, ability to articulate things in an easy-to-read fashion so you readers can learn in the best way I can attempt to teach you. I've also spoken at a lot more conferences, meetups, and my blog and feedback has really helped me learn new things, dive more in-depth into technology and provide a lot more business value to companies I worked and work for.
 
 ### Thank you
 
 First of all, a huge thank you to anyone who's a read my blog once or is a regular reader. Thank you for sharing my content and leaving such fantastic feedback in post comment sections.
 
-Feedback through comments really inspire me to improve myself and provide even better content to help you learn, as well as getting a great buzz on teaching whoever you are in the world something new!
+Feedback through comments really inspires me to improve myself and provide even better content to help you learn, as well as getting a great buzz on teaching whoever you are in the world something new!
 
 I get a tonne of comments a week throughout various different articles, and there's a great buzz when I wake up and read a comment from someone across the globe thanking me for the article.
 
@@ -30,7 +30,7 @@ Page Views: 1,674,190
 ##### 2015:
 
 {% highlight javascript %}
-Sessions: 1,440,912
+Visits: 1,440,912
 Users: 972,189
 Page Views: 2,184,550
 {% endhighlight %}
@@ -38,7 +38,7 @@ Page Views: 2,184,550
 ##### Growth:
 
 {% highlight javascript %}
-Sessions: 463,238
+Visits: 463,238
 Users: 299,025
 Page Views: 510,360
 {% endhighlight %}
