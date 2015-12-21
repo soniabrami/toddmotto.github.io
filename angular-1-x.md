@@ -6,7 +6,7 @@ class: angular-1
 
 ### Modules
 
-* Setting and getting modules (todo)
+* [Setters/getters and module bootstrapping](/angular-modules-setters-getters)
 * Including submodules (todo)
 
 ### Controllers
