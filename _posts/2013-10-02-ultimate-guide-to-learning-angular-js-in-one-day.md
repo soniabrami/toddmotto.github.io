@@ -103,7 +103,7 @@ myApp.controller('MainCtrl', ['$scope', function ($scope) {
 
 And the live output:
 
-<iframe width="100%" height="300" src="http://jsfiddle.net/toddmotto/mN7QB/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/mN7QB/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 The key rule concept here is the _$scope_ concept, which you'll tie to all your functions inside a specific controller. The _$scope_ refers to the current element/area in the DOM (no, not the same as _this_), and encapsulates a very clever scoping capability that keeps data and logic completely scoped inside elements. It brings JavaScript public/private scoping to the DOM, which is fantastic.
 
@@ -142,7 +142,7 @@ Then port it over to DOM to display this data:
 
 Output:
 
-<iframe width="100%" height="300" src="http://jsfiddle.net/toddmotto/425KU/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/425KU/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 It's important to remember that Controllers are for _data_ only, and creating functions (event functions too!) that talk to the server and push/pull JSON data. No DOM manipulation should be done here, so put your jQuery toolkit away. Directives are for DOM manipulation, and that's up next.
 
@@ -160,7 +160,7 @@ function MainCtrl ($scope) {
 
 #### Directives
 
-A directive ([checkout my post on Directives from existing scripts/plugins](http://toddmotto.com/creating-an-angularjs-directive-from-one-of-your-existing-plugins-scripts)) in it's simplest form is a small piece of templated HTML, preferably used multiple times throughout an application where needed. It's an easy way to inject DOM into your application with no effort at all, or perform custom DOM interactions. Directives are not simple at all; there is an incredible learning curve to fully conquering them, but this next phase will let you hit the ground running.
+A directive ([checkout my post on Directives from existing scripts/plugins](//toddmotto.com/creating-an-angularjs-directive-from-one-of-your-existing-plugins-scripts)) in it's simplest form is a small piece of templated HTML, preferably used multiple times throughout an application where needed. It's an easy way to inject DOM into your application with no effort at all, or perform custom DOM interactions. Directives are not simple at all; there is an incredible learning curve to fully conquering them, but this next phase will let you hit the ground running.
 
 So what are directives useful for? A lot of things, including DOM components, for example tabs or navigation elements - really depends on what your app makes use of in the UI. Let me put it this way, if you've toyed with _ng-show_ or _ng-hide_, those are directives (though they don't inject DOM).
 
@@ -216,7 +216,7 @@ myApp.directive('customButton', function () {
 
 Output:
 
-<iframe width="100%" height="300" src="http://jsfiddle.net/toddmotto/VC4H2/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/VC4H2/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Make sure you _Inspect Element_ to see the additional markup injected. Yes, I know, there is no icon included as I never included Font Awesome, but you see how it works. Now for the Directive properties explanations:
 
@@ -316,8 +316,8 @@ Here I'm creating a custom wrapper for Angular's XHR's. After dependency injecti
 
 {% highlight javascript %}
 myApp.controller('MainCtrl', ['$scope', 'Server', function ($scope, Server) {
-    var jsonGet = 'http://myserver/getURL';
-    var jsonPost = 'http://myserver/postURL';
+    var jsonGet = '//myserver/getURL';
+    var jsonPost = '//myserver/postURL';
     Server.get(jsonGet);
     Server.post(jsonPost);
 }]);
@@ -361,7 +361,7 @@ DOM usage:
 
 Output:
 
-<iframe width="100%" height="300" src="http://jsfiddle.net/toddmotto/pmh4s/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/pmh4s/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 You can see that we passed the greeting data to a filter via the pipe (|) character, applying the reverse filter to the greeting data.
 
@@ -400,7 +400,7 @@ And it's usage inside an _ng-repeat_:
 
 Output:
 
-<iframe width="100%" height="300" src="http://jsfiddle.net/toddmotto/cZbCf/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/cZbCf/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 That's the main bulk behind AngularJS and it's APIs, this only only diving into the shallow end of the waters, but this is more than enough to get you building your own Angular application.
 
@@ -428,7 +428,7 @@ myApp.controller('MainCtrl', ['$scope', function ($scope) {
 
 Output:
 
-<iframe width="100%" height="300" src="http://jsfiddle.net/toddmotto/qrr3q/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/qrr3q/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ### XHR/Ajax/$http calls and binding JSON
 You've got the idea when it comes to pushing basic data to the _$scope_ now, and a rough idea of how the models and two-way data-binding works, so now it's time to emulate some real XHR calls to a server. For websites, this isn't essential unless you have specific Ajax requirements, this is mainly focused on grabbing data for a web application.
@@ -563,7 +563,7 @@ Now we need to plug it into our HTML. This is where we'll use declarative bindin
 
 Output:
 
-<iframe width="100%" height="300" src="http://jsfiddle.net/toddmotto/TAVQc/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/TAVQc/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 I've also snuck in a _date filter_ in there too so you can see how to render UTC dates.
 
@@ -594,7 +594,7 @@ This is way different to inline click handlers, for many reasons. This will be c
 
 Output (delete some emails!):
 
-<iframe width="100%" height="300" src="http://jsfiddle.net/toddmotto/BgZmt/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/BgZmt/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ### Declarative DOM methods
 Now we'll move onto _DOM Methods_, these are also Directives and simulate functionality in the DOM which you'd normally end up writing even more script logic for. A great example of this would be a simple toggling navigation. Using _ng-show_ and a simple _ng-click_ setup, we can create a flawless toggling nav:
@@ -612,7 +612,7 @@ This is where we enter MVVM, you'll notice there is no Controller being introduc
 
 Output (get toggling!):
 
-<iframe width="100%" height="300" src="http://jsfiddle.net/toddmotto/ZUyW5/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/ZUyW5/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ### Expressions
 One of my favourite parts of Angular, what you'd usually use JavaScript for and write a lot of repetitive code.
@@ -639,7 +639,7 @@ This will just update itself dynamically without callbacks as your application p
 
 Output:
 
-<iframe width="100%" height="300" src="http://jsfiddle.net/toddmotto/XCwcr/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/XCwcr/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ### Dynamic views and routing
 The philosophy behind single-page web applications (and also websites!). You have a header, footer, sidebar, and the content in the middle magically injects new content based on your URL.
@@ -778,12 +778,12 @@ Happy coding.
 
 ### Further reading
 
-- [Structuring Angular Controllers](http://toddmotto.com/rethinking-angular-js-controllers)
-- [All about custom Angular filters](http://toddmotto.com/everything-about-custom-filters-in-angular-js)
-- [Controller as syntax](http://toddmotto.com/digging-into-angulars-controller-as-syntax)
-- [$scope and $rootScope event system $emit, $broadcast and $on](http://toddmotto.com/all-about-angulars-emit-broadcast-on-publish-subscribing)
-- [Modular IIFE modules](http://toddmotto.com/minimal-angular-module-syntax-approach-using-an-iife)
+- [Structuring Angular Controllers](/rethinking-angular-js-controllers)
+- [All about custom Angular filters](/everything-about-custom-filters-in-angular-js)
+- [Controller as syntax](/digging-into-angulars-controller-as-syntax)
+- [$scope and $rootScope event system $emit, $broadcast and $on](/all-about-angulars-emit-broadcast-on-publish-subscribing)
+- [Modular IIFE modules](/minimal-angular-module-syntax-approach-using-an-iife)
 - This post, translated in [French!](http://vfsvp.fr/article/apprendre-angular-en-un-jour-le-guide-ultime)
 - [German translation](https://github.com/futape/angularjs-in-one-day-german/blob/master/angularjs-in-einem-tag.md) of this post
 - This post, on [SpeakerDeck in slides](https://speakerdeck.com/toddmotto/angularjs-in-one-day)
-- [Code your own Directive](http://toddmotto.com/creating-an-angularjs-directive-from-one-of-your-existing-plugins-scripts) from a custom script or plugin
+- [Code your own Directive](/creating-an-angularjs-directive-from-one-of-your-existing-plugins-scripts) from a custom script or plugin
