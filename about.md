@@ -41,7 +41,7 @@ To chat to me about something else such as a JavaScript/Angular training, speaki
 | 22.10.2014 | Name-dropped in ngEurope's keynote by the Google team |
 | 30.11.2014 | Angular, the bridge between today and tomorrow's web (London, UK) [slides](https://speakerdeck.com/toddmotto/angularjs-the-bridge-between-today-and-tomorrows-web) |
 | 29.11.2014 | Angular workshop, Future of Web Apps (London, UK) |
-| 25/26.06 |2014: Attended [Google I/O](https://www.google.com/events/io) San Francisco |
+| 25.06.2014 | Attended [Google I/O](https://www.google.com/events/io) San Francisco |
 | 07.05.2014 | [Intel XDK interview](//www.youtube.com/watch?v=5L_gW1K7vqg) at HTML5 Dev Conf |
 | 15.04.2014 | Future of Web Design conference talk, [Demystifying JavaScript: you don't need jQuery](/talks/fowd-2014) |
 | 03.04.2014 | Accepted by Google as a Google Developer Expert ([GDE](//developers.google.com/experts)) |
