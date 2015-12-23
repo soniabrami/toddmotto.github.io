@@ -5,7 +5,7 @@ class: about
 ---
 
 
-I'm Todd, a JavaScript and HTML5 developer with a passion for Angular. I'm the founder of [Voux.io](http://voux) and lead front-end engineer at [Mozio Inc](//mozio.com/#/?utm_source=toddmotto.com), a [Developer Expert](//developers.google.com/experts/people/todd-motto) at Google, [conference speaker](https://speakerdeck.com/toddmotto) and [open source](//github.com/toddmotto) evangelist.
+I'm Todd, a 25 year old front-end engineer from England, UK. I'm founder of [Voux](http://voux) and lead front-end engineer at [Mozio Inc](//mozio.com/#/?utm_source=toddmotto.com), a [Developer Expert](//developers.google.com/experts/people/todd-motto) at Google, [conference speaker](https://speakerdeck.com/toddmotto) and [open source](//github.com/toddmotto) evangelist.
 
 <div class="about__talk">
   <img src="img/about.jpg">
