@@ -1,134 +1,85 @@
 ---
 layout: default
 ---
-<div class="wrapper">
-  <article class="article single">
+<article class="post single">
 
-    <header class="article__header">
-      <h1 class="alpha article__title" itemprop="name headline">
-        {{ page.title }}
-      </h1>
-      <span class="article__timestamp">
-      	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-      		{{ page.date | date: "%b %-d, %Y" }}
-      	</time>
-      	{% if page.path %}
-        <a class="article__edit" href="//github.com/toddmotto/toddmotto.github.io/blob/master/_posts/{{ page.path }}">
-          <i class="fa fa-github"></i>
-          Edit this page on GitHub
-        </a>
-        {% endif %}
-      </span>
-    </header>
+  <header class="post__header">
+    <h1 class="alpha post__title" itemprop="name headline">
+      {{ page.title }}
+    </h1>
+    <span class="post__meta">
+    	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+    		Posted on {{ page.date | date: "%b %-d, %Y" }}
+    	</time>
+    	{% if page.path %}
+      -
+      <a class="post__edit" href="//github.com/toddmotto/toddmotto.github.io/blob/master/_posts/{{ page.path }}">
+        Edit this page on GitHub
+      </a>
+      {% endif %}
+    </span>
+  </header>
 
-    <main class="article__content">
-      <div class="voux voux--top">
-        <a href="http://voux.io/giveaway?utm_source=toddmotto.com&utm_medium=top" target="_blank">
-          <img src="//toddmotto.com/img/tshirt.jpg" alt="Get a free Voux t-shirt!">
-        </a>
-      </div>
+  <section class="post__content">
+    <div class="post__ad">
       <div id="carbonads-container">
         <div class="carbonad">
           <div id="azcarbon"></div>
         </div>
       </div>
       <script>
-      (function () {
-        var carbon = document.createElement('script');
+      (function (a) {
+        var carbon = document.createElement(a);
         carbon.async = carbon.src = '//engine.carbonads.com/z/20676/azcarbon_2_1_0_HORIZ';
-        var s = document.getElementsByTagName('script')[0];
+        var s = document.getElementsByTagName(a)[0];
         s.parentNode.insertBefore(carbon, s);
-      })();
+      })('script');
       </script>
-      {{ content }}
-      <div class="voux voux--bottom">
-        <a href="http://voux.io?utm_source=toddmotto.com&utm_medium=bottom" target="_blank">
-          <img src="//toddmotto.com/img/voux.svg" alt="Voux.io AngularJS and JavaScript training">
-        </a>
+    </div>
+    {{ content }}
+  </section>
+
+</article>
+
+<div class="signup">
+  <div id="mc_embed_signup">
+    <form action="//toddmotto.us12.list-manage.com/subscribe/post?u=fb4d73e892f0d123a57dbd8bc&amp;id=0653182c3c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+      <h3 class="signup__title">Never miss an article!</h3>
+      <p class="signup__sub">All the awesomeness straight to your inbox. Plus exclusive workshop and training discounts, and more!</p>
+      <div class="mc-field-group">
+        <input type="email" placeholder="Email address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
       </div>
-    </main>
-
-  </article>
-
-  <div class="signup">
-    <div id="mc_embed_signup">
-      <form action="//toddmotto.us12.list-manage.com/subscribe/post?u=fb4d73e892f0d123a57dbd8bc&amp;id=0653182c3c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div id="mc_embed_signup_scroll">
-        <p class="signup__title">Subscribe</p>
-        <p class="signup__sub">Get new article notifications, workshop discounts and more!</p>
-        <div class="mc-field-group">
-          <input type="email" placeholder="Email address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+      <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div>
+      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+        <input type="text" name="b_fb4d73e892f0d123a57dbd8bc_0653182c3c" tabindex="-1" value=""></div>
+        <div class="clear">
+        <button type="submit" name="subscribe" id="mc-embedded-subscribe">
+          Sign up
+          <img src="{{ site.baseurl }}/img/icons/next.svg" alt="">
+        </button>
         </div>
-        <div id="mce-responses" class="clear">
-          <div class="response" id="mce-error-response" style="display:none"></div>
-          <div class="response" id="mce-success-response" style="display:none"></div>
-        </div>
-        <div style="position: absolute; left: -5000px;" aria-hidden="true">
-          <input type="text" name="b_fb4d73e892f0d123a57dbd8bc_0653182c3c" tabindex="-1" value=""></div>
-          <div class="clear">
-          <button type="submit" name="subscribe" id="mc-embedded-subscribe">Sign up</button>
-          </div>
-        </div>
-      </form>
-    </div>
+      </div>
+    </form>
   </div>
-
-  <div class="social">
-    <div class="social__button">
-      <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
-    </div>
-    <div class="social__button">
-      <div id="fb-root"></div>
-      <div class="fb-like" data-send="false" data-layout="button_count"
-      data-width="1" data-show-faces="false" data-action="like"></div>
-    </div>
-    <div class="social__button">
-      <g:plusone size="medium"></g:plusone>
-    </div>
-  </div>
-
-  <div class="disqus">
-    <div id="disqus_thread"></div>
-  </div>
-  <script>
-    var disqus_url = {%if page.disqus %}'{{ page.disqus }}'{%else %}'http://toddmotto.com{{ page.url }}'{% endif %};
-    var disqus_title = '{{ page.title }}';
-    var disqus_shortname = 'toddmotto';
-    (function() {
-      var dsq = document.createElement('script');
-      dsq.async = dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-      document.getElementsByTagName('head')[0].appendChild(dsq);
-    })();
-    (function (d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) {
-      return;
-    }
-    js = d.createElement(s);
-    js.id = id;
-    js.src = '//connect.facebook.net/en_GB/all.js#xfbml=1&appId=252993844735607';
-    fjs.parentNode.insertBefore(js, fjs);
-  })(document, 'script', 'facebook-jssdk');
-
-  (function(doc,s) {
-    var js, fjs = doc.getElementsByTagName(s)[0];
-    var frag = doc.createDocumentFragment();
-    var add = function (url, id) {
-      if (doc.getElementById(id)) {
-        return;
-      }
-      js = doc.createElement(s);
-      js.src = url;
-      if (id) {
-        js.id = id;
-      }
-      frag.appendChild(js);
-    };
-    add('//connect.facebook.net/en_US/all.js#xfbml=1','facebook-jssdk');
-    add('//platform.twitter.com/widgets.js');
-    add('//apis.google.com/js/plusone.js');
-    fjs.parentNode.insertBefore(frag, fjs);
-  })(document,'script');
-  </script>
-
 </div>
+
+<div class="share">
+  <div class="addthis_sharing_toolbox"></div>
+</div>
+
+<div class="disqus">
+  <div id="disqus_thread"></div>
+</div>
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-567a0f80a03a6fbe" async></script>
+<script>
+  var disqus_url = {%if page.disqus %}'{{ page.disqus }}'{%else %}'http://toddmotto.com{{ page.url }}'{% endif %};
+  var disqus_title = '{{ page.title }}';
+  var disqus_shortname = 'toddmotto';
+  var dsq = document.createElement('script');
+  dsq.async = dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  document.getElementsByTagName('head')[0].appendChild(dsq);
+</script>

@@ -1,15 +1,13 @@
 ---
 layout: default
 ---
-<main class="wrapper">
-  <article class="article page">
-    <header class="article__header">
-      <h1 class="alpha article__title" itemprop="name headline">
-        {{ page.title }}
-      </h1>
-    </header>
-    <div class="post-content">
-      {{ content }}
-    </div>
-  </article>
-</main>
+<article class="post single">
+  <header class="post__header">
+    <h1 class="alpha post__title" itemprop="name headline">
+      {{ page.title }}
+    </h1>
+  </header>
+  <div class="page__content">
+    {{ content }}
+  </div>
+</article>

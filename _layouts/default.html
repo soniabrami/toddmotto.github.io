@@ -1,53 +1,13 @@
 <!doctype html>
 <html>
-
   {% include head.html %}
-
   <body>
-
-    {% include header.html %}
-
-    <section class="introduction">
-      <div class="wrapper">
-        <p>
-          Founder of <a href="http://voux.io">Voux</a>, lead front-end engineer at <a href="//www.mozio.com/#/?utm_source=toddmotto.com">Mozio</a>
-        </p>
-        <p>
-          JavaScript, AngularJS, conference speaker
-        </p>
-        <p>
-        Developer Expert at <a href="https://developers.google.com/experts/people/todd-motto">Google</a>
-        </p>
-        <div class="introduction__follow">
-          <a href="https://twitter.com/toddmotto" class="twitter-follow-button" data-show-count="true"></a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        </div>
-      </div>
-    </section>
-
-    <div class="event">
-
-      <a href="http://voux.io/events" class="event__link">
-        <div class="event__container clear">
-          <div class="wrapper">
-            <div class="event__details">
-              <p>
-                Master Angular, the right way.
-              </p>
-              <p>
-                Attend one of my beginner/advanced workshops in 2016
-              </p>
-              <img src="//toddmotto.com/img/event/shield.svg" alt="AngularJS">
-            </div>
-          </div>
-        </div>
-      </a>
+    <div class="wrapper">
+      {% include header.html %}
+      <main class="content">
+        {{ content }}
+      </main>
+      {% include footer.html %}
     </div>
-
-    {{ content }}
-
-    {% include footer.html %}
-
   </body>
-
 </html>
