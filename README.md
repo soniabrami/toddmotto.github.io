@@ -1,6 +1,6 @@
 # toddmotto.github.io
 
-Uncompiled [Jekyll](https://jekyllrb.com) source code for [toddmotto.com](http://toddmotto.com).
+Uncompiled [Jekyll](https://jekyllrb.com) source code for [toddmotto.com](//toddmotto.com).
 
 ### Steps to use
 
@@ -10,4 +10,4 @@ Uncompiled [Jekyll](https://jekyllrb.com) source code for [toddmotto.com](http:/
 
 ### Notes
 
-Despite being open sourced, all and content remain copyright of Todd Motto.
+Despite being open sourced, all and content remain copyright of Todd Motto. Please don't steal!
