@@ -9,7 +9,9 @@ React v0.14.0 introduces "stateless" components, which takes a more functional a
 
 ### Traditional components
 
-Prior to v0.14.0, we would create React components using `React.createClass()` (or extending `React.Component` with ES6 Classes) and pass in an Object definition. Taking the `Pane` component from the previous article, let's look how that looks.
+Prior to v0.14.0, we would create React components using `React.createClass()` (or extending `React.Component` with ES6 Classes) and pass in an Object definition. This is great, _however_ many components we can create are merely template boilerplate code that's injected into another component, therefore there becomes boilerplate bloat for small reusable chunks of code.
+
+Taking the `Pane` component from the previous article, let's look how that looks.
 
 Here we use `React.createClass()`, where we have a `propTypes` property and `render` property.
 
@@ -51,7 +53,7 @@ This component has a `displayName` which isn't a necessity, however `propTypes` 
 
 ### Enter stateless components
 
-With stateless components, we can kill the entire boilerplate code and keep everything in (some cases) a single line of code.
+With stateless components, we can kill the entire boilerplate code and keep everything (in some cases) a single line of code. Stateless functions are merely intended to return a specific template that can take dynamic properties, which could be higher level components such as lists, inputs and so on. They will not have any `state` Objects bound to them.
 
 Let's look at how we can refactor the above example to use a stateless component approach.
 
