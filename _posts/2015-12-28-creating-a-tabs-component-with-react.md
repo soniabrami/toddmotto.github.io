@@ -489,3 +489,5 @@ And of course the live demo:
 <iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/rzv6Lrjh/embedded/result,js/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 By all means this is not a complete solution for someone to use in production, but could be adapted to suit for sure. Please feel free to fork/improve/share :)
+
+P.S big thanks to [Ken Wheeler](//twitter.com/ken_wheeler) for letting me pester him with syntax and obscure questions.
