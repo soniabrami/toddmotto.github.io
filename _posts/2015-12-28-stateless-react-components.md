@@ -63,6 +63,14 @@ const Pane = (props) => <div>{props.children}</div>;
 
 Done.
 
+Or in ES5:
+
+{% highlight javascript %}
+var Pane = function (props) {
+  return <div>{props.children}</div>;
+};
+{% endhighlight %}
+
 Adding in `propTypes` we mirror the ES6 syntax by adding a property to the `Pane` constant:
 
 {% highlight javascript %}
