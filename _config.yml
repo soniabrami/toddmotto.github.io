@@ -2,7 +2,7 @@
 title: 'Todd Motto'
 email: todd@toddmotto.com
 description: > # this means to ignore newlines until "baseurl:"
-  Engineering articles on JavaScript, AngularJS, HTML5 to help build a better web.
+  Articles on JavaScript, Angular, React and HTML5
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://toddmotto.com" # the base hostname & protocol for your site
 twitter_username: toddmotto
