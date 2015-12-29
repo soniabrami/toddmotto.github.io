@@ -401,7 +401,7 @@ var Tabs = React.createClass({
   },
   getInitialState: function () {
     return {
-      selected: parseInt(this.props.selected, 10)
+      selected: this.props.selected
     };
   },
   handleClick: function (index, event) {
