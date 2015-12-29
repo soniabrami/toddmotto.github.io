@@ -32,9 +32,9 @@ This means we need a `Tabs` component and `Pane` child component.
 This component will do most of the leg work, so let's start by defining the Class:
 
 {% highlight javascript %}
-var Tabs = React.createClass({
+const Tabs = React.createClass({
   displayName: 'Tabs',
-  render: function () {
+  render() {
     return (
       <div className="tabs">
 
@@ -51,16 +51,16 @@ Next up I've added the `render` function that returns the chunk of HTML I need.
 Now it's time to show the tab's contents passed through. I'll create a "private" method on the Class, it won't actually be private but it's naming convention with the underscore prefix will let me know it is.
 
 {% highlight javascript %}
-var Tabs = React.createClass({
+const Tabs = React.createClass({
   displayName: 'Tabs',
-  _renderContent: function () {
+  _renderContent() {
     return (
       <div className="tabs__content">
         {this.props.children}
       </div>
     );
   },
-  render: function () {
+  render() {
     return (
       <div className="tabs">
         {this._renderContent()}
@@ -75,16 +75,16 @@ I've then added the `{this._renderContent()}` call inside the `render` function 
 At this point, all the tab contents gets pushed into the tab, so it's not actually working as we'd like it to. Next up is setting up the `_renderContent` method to take a dynamic child state using an Array index lookup using `[this.state.selected]`.
 
 {% highlight javascript %}
-var Tabs = React.createClass({
+const Tabs = React.createClass({
   displayName: 'Tabs',
-  _renderContent: function () {
+  _renderContent() {
     return (
       <div className="tabs__content">
         {this.props.children[this.state.selected]}
       </div>
     );
   },
-  render: function () {
+  render() {
     return (
       <div className="tabs">
         {this._renderContent()}
@@ -97,26 +97,26 @@ var Tabs = React.createClass({
 Currently `this.state.selected` doesn't exist, so we need to add some default props and states:
 
 {% highlight javascript %}
-var Tabs = React.createClass({
+const Tabs = React.createClass({
   displayName: 'Tabs',
-  getDefaultProps: function () {
+  getDefaultProps() {
     return {
       selected: 0
     };
   },
-  getInitialState: function () {
+  getInitialState() {
     return {
       selected: this.props.selected
     };
   },
-  _renderContent: function () {
+  _renderContent() {
     return (
       <div className="tabs__content">
         {this.props.children[this.state.selected]}
       </div>
     );
   },
-  render: function () {
+  render() {
     return (
       <div className="tabs">
         {this._renderContent()}
@@ -133,9 +133,9 @@ One thing we want users to do is be able to pass in a default `selected` tab, th
 Now the tab content is setup, we need to actually create the clickable tab links and bind the corresponding click events. Let's add another pseudo "private" method to the component called `_renderTitles`:
 
 {% highlight javascript %}
-var Tabs = React.createClass({
+const Tabs = React.createClass({
   ...
-  _renderTitles: function () {
+  _renderTitles() {
     function labels(child, index) {
       return (
         <li key={index}>
@@ -152,7 +152,7 @@ var Tabs = React.createClass({
     );
   },
   ...
-  render: function () {
+  render() {
     return (
       <div className="tabs">
         {this._renderTitles()}
@@ -168,9 +168,9 @@ This one's a little more complex, it maps over the `this.props.children` Nodes a
 So far each tab item is an `<a>` element, however no click events are bound. Let's bind them by adding a `handleClick` method, which uses `preventDefault()` to stop the `#` bouncing when clicked. Then I can update the selected item using `this.setState()` by assigning the clicked `index`.
 
 {% highlight javascript %}
-var Tabs = React.createClass({
+const Tabs = React.createClass({
   ...
-  handleClick: function (index, event) {
+  handleClick(index, event) {
     event.preventDefault();
     this.setState({
       selected: index
@@ -183,9 +183,9 @@ var Tabs = React.createClass({
 We can then bind this event listener in the JSX using `onClick={this.handleClick.bind(this, index, child)}`:
 
 {% highlight javascript %}
-var Tabs = React.createClass({
+const Tabs = React.createClass({
   ...
-  _renderTitles: function () {
+  _renderTitles() {
     function labels(child, index) {
       return (
         <li key={index}>
@@ -211,11 +211,11 @@ Using `this.handleClick.bind()` allows me to set the context of the `handleClick
 This now works nicely, but I want to allow the `selected` tab to be highlighted using an `active` className:
 
 {% highlight javascript %}
-var Tabs = React.createClass({
+const Tabs = React.createClass({
   ...
-  _renderTitles: function () {
+  _renderTitles() {
     function labels(child, index) {
-      var activeClass = (this.state.selected === index ? 'active' : '');
+      let activeClass = (this.state.selected === index ? 'active' : '');
       return (
         <li key={index}>
           <a href="#" 
@@ -241,27 +241,27 @@ This ternary operator allows me to conditionally assign the `'active'` String as
 Put together we have our completed `Tab` component:
 
 {% highlight javascript %}
-var Tabs = React.createClass({
+const Tabs = React.createClass({
   displayName: 'Tabs',
-  getDefaultProps: function () {
+  getDefaultProps() {
     return {
       selected: 0
     };
   },
-  getInitialState: function () {
+  getInitialState() {
     return {
       selected: this.props.selected
     };
   },
-  handleClick: function (index, event) {
+  handleClick(index, event) {
     event.preventDefault();
     this.setState({
       selected: index
     });
   },
-  _renderTitles: function () {
+  _renderTitles() {
     function labels(child, index) {
-      var activeClass = (this.state.selected === index ? 'active' : '');
+      let activeClass = (this.state.selected === index ? 'active' : '');
       return (
         <li key={index}>
           <a href="#" 
@@ -278,14 +278,14 @@ var Tabs = React.createClass({
       </ul>
     );
   },
-  _renderContent: function () {
+  _renderContent() {
     return (
       <div className="tabs__content">
         {this.props.children[this.state.selected]}
       </div>
     );
   },
-  render: function () {
+  render() {
     return (
       <div className="tabs">
         {this._renderTitles()}
@@ -301,9 +301,9 @@ var Tabs = React.createClass({
 The `Pane` component is much more simple, and simply passes the contents of the component into itself:
 
 {% highlight javascript %}
-var Pane = React.createClass({
+const Pane = React.createClass({
   displayName: 'Pane',
-  render: function () {
+  render() {
     return (
       <div>
         {this.props.children}
@@ -318,7 +318,7 @@ var Pane = React.createClass({
 React is absolutely fantastic with it's debugging error messages, and we can improve that inline by using `propTypes` and the relevant validation of the type. Let's start with the tab component:
 
 {% highlight javascript %}
-var Tabs = React.createClass({
+const Tabs = React.createClass({
   ...
   propTypes: {
     selected: React.PropTypes.number,
@@ -368,7 +368,7 @@ I'm using JSX's `{}` syntax to ensure that plain JavaScript runs in between the 
 Let's also add some validation to the `Pane` component:
 
 {% highlight javascript %}
-var Pane = React.createClass({
+const Pane = React.createClass({
   ...
   propTypes: {
     label: React.PropTypes.string.isRequired,
@@ -385,7 +385,7 @@ I'm telling React here that `label` is absolutely required and is a String, and 
 Now for the cherry on top, let's render it to the DOM:
 
 {% highlight javascript %}
-var Tabs = React.createClass({
+const Tabs = React.createClass({
   displayName: 'Tabs',
   propTypes: {
     selected: React.PropTypes.number,
@@ -394,25 +394,25 @@ var Tabs = React.createClass({
       React.PropTypes.element
     ]).isRequired
   },
-  getDefaultProps: function () {
+  getDefaultProps() {
     return {
       selected: 0
     };
   },
-  getInitialState: function () {
+  getInitialState() {
     return {
       selected: this.props.selected
     };
   },
-  handleClick: function (index, event) {
+  handleClick(index, event) {
     event.preventDefault();
     this.setState({
       selected: index
     });
   },
-  _renderTitles: function () {
+  _renderTitles() {
     function labels(child, index) {
-      var activeClass = (this.state.selected === index ? 'active' : '');
+      let activeClass = (this.state.selected === index ? 'active' : '');
       return (
         <li key={index}>
           <a href="#" 
@@ -429,14 +429,14 @@ var Tabs = React.createClass({
       </ul>
     );
   },
-  _renderContent: function () {
+  _renderContent() {
     return (
       <div className="tabs__content">
         {this.props.children[this.state.selected]}
       </div>
     );
   },
-  render: function () {
+  render() {
     return (
       <div className="tabs">
         {this._renderTitles()}
@@ -446,13 +446,13 @@ var Tabs = React.createClass({
   }
 });
 
-var Pane = React.createClass({
+const Pane = React.createClass({
   displayName: 'Pane',
   propTypes: {
     label: React.PropTypes.string.isRequired,
     children: React.PropTypes.element.isRequired
   },
-  render: function () {
+  render() {
     return (
       <div>
         {this.props.children}
@@ -461,8 +461,8 @@ var Pane = React.createClass({
   }
 });
 
-var App = React.createClass({
-  render: function () {
+const App = React.createClass({
+  render() {
     return (
       <div>
         <Tabs selected={0}>
