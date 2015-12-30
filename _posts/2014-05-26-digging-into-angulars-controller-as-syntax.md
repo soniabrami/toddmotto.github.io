@@ -260,7 +260,7 @@ function MainCtrl() {
 describe('MainCtrl', function() {
   var MainController;
 
-  beforeEarch(function(){
+  beforeEach(function(){
     module('myModule');
 
     inject(function($controller) {
@@ -281,7 +281,7 @@ You can alternatively use the `controllerAs` syntax in the `$controller` instant
 describe('MainCtrl', function() {
   var scope;
 
-  beforeEarch(function(){
+  beforeEach(function(){
     module('myModule');
 
     inject(function($controller, $rootScope) {
