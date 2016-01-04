@@ -118,7 +118,7 @@ export default Contacts;
 
 ### State differences
 
-State is an interesting change, now we're using constructors we need to use get initial states differently.
+State is an interesting change, now we're using constructors the implementation of initial states changes.
 
 ##### React.createClass
 
