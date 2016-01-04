@@ -3,6 +3,9 @@ layout: post
 permalink: /being-a-healthy-software-engineer
 title: Being a healthy software engineer
 path: 2015-06-24-being-a-healthy-software-engineer.md
+tags:
+- Personal
+- Health
 ---
 
 A post a little off topic today, but after a few tweets of mine a few people have suggested a write up on what changes I've made and how they've affected me.

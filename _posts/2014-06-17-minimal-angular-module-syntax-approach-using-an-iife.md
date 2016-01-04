@@ -3,6 +3,12 @@ layout: post
 permalink: /minimal-angular-module-syntax-approach-using-an-iife
 title: Minimal Angular module/syntax approach using an IIFE
 path: 2014-06-17-minimal-angular-module-syntax-approach-using-an-iife.md
+tags:
+- Syntax
+- Clean code
+- Style
+- Angular
+- JavaScript
 ---
 
 Since day one using Angular, I've always debated on _how_ I should be extending modules. This post talks through some common Angular patterns, from variable to chaining and a variant.

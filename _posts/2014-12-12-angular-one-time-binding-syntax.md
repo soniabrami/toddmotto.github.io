@@ -3,6 +3,9 @@ layout: post
 permalink: /angular-one-time-binding-syntax
 title: AngularJS one-time binding syntax
 path: 2014-12-12-angular-one-time-binding-syntax.md
+tags:
+- Performance
+- Angular
 ---
 
 Angular 1.3 shipped with an awesome new performance enhancing feature - one-time binding. What does this mean for us Angular developers and the performance of our apps? A lot! For us developers, adoption is really simple, and the performance gains for our apps are huge.

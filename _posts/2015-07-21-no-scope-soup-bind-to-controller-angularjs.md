@@ -3,6 +3,11 @@ layout: post
 permalink: /no-scope-soup-bind-to-controller-angularjs
 title: No $scope soup, bindToController in AngularJS
 path: 2015-07-21-no-scope-soup-bind-to-controller-angularjs.md
+tags:
+- Scope
+- Clean code
+- Controllers
+- Angular
 ---
 
 Namespacing, code consistency and proper design patterns _really_ matter in software engineering, and Angular addresses a lot of issues we face as front-end engineers really nicely.

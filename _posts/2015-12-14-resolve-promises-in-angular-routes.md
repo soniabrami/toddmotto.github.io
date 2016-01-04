@@ -3,6 +3,10 @@ layout: post
 permalink: /resolve-promises-in-angular-routes
 title: Resolve promises in Angular routes
 path: 2015-12-14-resolve-promises-in-angular-routes.md
+tags:
+- Routing
+- Promises
+- Angular
 ---
 
 Phase 1 of our Angular careers involved `$http` inside a Controller. Phase 2 involved abstracting into a Service and calling the Service inside a Controller. Phase 3 is the `resolve` property.

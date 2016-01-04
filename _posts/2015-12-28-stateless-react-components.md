@@ -4,10 +4,8 @@ permalink: /stateless-react-components
 title: Stateless React components
 path: 2015-12-28-stateless-react-components.md
 tags:
-- React
-- JavaScript
-- Classes
 - Components
+- Classes
 ---
 
 React v0.14.0 introduces "stateless" components, which takes a more functional approach to creating chunks of JSX and templates. In my previous article on [creating a tab component](/creating-a-tabs-component-with-react) I created the components using the traditional way, using `React.createClass()` or ES6 Classes that extend `React.Component`.

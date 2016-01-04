@@ -3,6 +3,10 @@ layout: post
 permalink: /deprecating-the-switch-statement-for-object-literals
 title: Replacing switch statements with Object literals
 path: 2014-07-17-deprecating-the-switch-statement-for-object-literals.md
+tags:
+- Opinions
+- Style
+- JavaScript
 ---
 
 In many programming languages, the `switch` statement exists - but should it any longer? If you're a JavaScript programmer, you're often jumping in and out of Objects, creating, instantiating and manipulating them. Objects are really flexible, they're at the heart of pretty much everything in JavaScript, and using them instead of the `switch` statement has been something I've been doing lately.

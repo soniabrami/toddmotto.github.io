@@ -3,6 +3,10 @@ layout: post
 permalink: /es6-arrow-functions-syntaxes-and-lexical-scoping
 title: ES6 arrow functions, syntax and lexical scoping
 path: 2015-04-14-es6-arrow-functions-syntaxes-and-lexical-scoping.md
+tags:
+- Arrow functions
+- ES6
+- JavaScript
 ---
 
 ES6/Harmony/whatever introduces a really nice feature that punches above it's weight in terms of simplicity to integrate versus time saving and feature output. This feature is the arrow function.

@@ -3,6 +3,11 @@ layout: post
 permalink: /rethinking-angular-js-controllers
 title: Rethinking AngularJS Controllers
 path: 2014-06-09-rethinking-angular-js-controllers.md
+tags:
+- Controllers
+- MVVM
+- Angular
+- JavaScript
 ---
 
 Last month [Jonathan Creamer](https://twitter.com/jcreamer898) wrote an awesome article on Angular and MVC, _[The state of AngularJS Controllers](http://jonathancreamer.com/the-state-of-angularjs-controllers/)_. The article touches on misconceptions of client-side MVC and true Model and Controller separation, as well as things we often do wrong by incorrectly using a Controller as a Model.

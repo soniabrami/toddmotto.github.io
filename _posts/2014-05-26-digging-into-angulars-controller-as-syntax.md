@@ -3,6 +3,11 @@ layout: post
 permalink: /digging-into-angulars-controller-as-syntax
 title: Digging into Angular’s “Controller as” syntax
 path: 2014-05-26-digging-into-angulars-controller-as-syntax.md
+tags:
+- ControllerAs
+- Controllers
+- Angular
+- JavaScript
 ---
 
 AngularJS Controllers have recently gone under some changes (version 1.2 to be precise). What this means for scopes, Controllers and Angular development is some very subtle but powerful changes. One of those changes I believe is improved architecture, clearer scoping and smarter Controllers.

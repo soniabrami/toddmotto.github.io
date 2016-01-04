@@ -3,6 +3,9 @@ layout: post
 permalink: /walkthrough-to-migrate-an-angular-1-component-to-angular-2
 title: Walkthrough to upgrade an Angular 1.x component to Angular 2
 path: 2015-10-27-walkthrough-to-upgrade-an-angular-1-component-to-angular-2.md
+tags:
+- Components
+- Angular 2
 ---
 
 In this article we're going to look at upgrading your first Angular 1.x component, a simple todo app, across to Angular 2 code. We'll compare the API differences, templating syntaxes and hopefully it'll shed some light on upgrading to Angular 2, and well as making it appear less daunting.

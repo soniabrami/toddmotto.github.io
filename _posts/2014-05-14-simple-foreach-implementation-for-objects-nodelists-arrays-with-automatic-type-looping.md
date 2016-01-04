@@ -3,6 +3,12 @@ layout: post
 permalink: /simple-foreach-implementation-for-objects-nodelists-arrays-with-automatic-type-looping
 title: Simple forEach implementation for Objects/NodeLists/Arrays
 path: 2014-05-14-simple-foreach-implementation-for-objects-nodelists-arrays-with-automatic-type-looping.md
+tags:
+- Loops
+- NodeList
+- Objects
+- Arrays
+- JavaScript
 ---
 
 Looping Objects is easy. Looping Arrays is also easy. Looping NodeLists is easy. They can be a little repetitive though and often take time to construct each loop and pass in the index, property, element or whatever...

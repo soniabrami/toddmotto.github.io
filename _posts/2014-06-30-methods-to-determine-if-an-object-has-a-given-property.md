@@ -3,6 +3,9 @@ layout: post
 permalink: /methods-to-determine-if-an-object-has-a-given-property
 title: Methods to determine if an Object has a given property
 path: 2014-06-30-methods-to-determine-if-an-object-has-a-given-property.md
+tags:
+- Performance
+- JavaScript
 ---
 
 There are multiple ways to detect whether an Object has a property. You'd think it'd be as easy as `myObject.hasOwnProperty('prop');` - but no, there are a few different ways with their own problems and gotchas. Let's look at the few ways to check property existence, concepts that confuse JavaScript developers, prototype chain lookups and problems JavaScript might provide us.

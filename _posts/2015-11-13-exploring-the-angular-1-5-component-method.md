@@ -3,6 +3,12 @@ layout: post
 permalink: /exploring-the-angular-1-5-component-method
 title: Exploring the Angular 1.5 .component() method
 path: 2015-11-13-exploring-the-angular-1-5-component-method.md
+tags:
+- New features
+- Performance
+- Components
+- Directives
+- Angular
 ---
 
 Angular 1.5 is set to introduce the `.component()` helper method, which is much simpler than the `.directive()` definition and advocates best practices and common default behaviours. Using `.component()` will allow developers to write in an Angular 2 style as well, which will in turn make upgrading to Angular 2 an easier feat.

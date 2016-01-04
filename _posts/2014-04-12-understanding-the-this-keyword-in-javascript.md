@@ -3,6 +3,10 @@ layout: post
 permalink: /understanding-the-this-keyword-in-javascript
 title: Understanding the “this” keyword in JavaScript
 path: 2014-04-12-understanding-the-this-keyword-in-javascript.md
+tags:
+- this
+- Scope
+- JavaScript
 ---
 
 It's safe to say that the `this` keyword is probably one of the misunderstood parts of JavaScript. Admittedly, I used to throw the `this` keyword around until my script worked and it confused the hell out of me (and still does many other JS developers) around the world. Only when I learned about lexical scope, how functions are invoked, scope context, a few context changing methods - I really understood it.

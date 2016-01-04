@@ -3,6 +3,10 @@ layout: post
 permalink: /what-function-window-document-undefined-iife-really-means
 title: What (function (window, document, undefined) {})(window, document); really means
 path: 2014-06-03-what-function-window-document-undefined-iife-really-means.md
+- Scope
+- this
+- Performance
+- JavaScript
 ---
 
 Interestingly enough I get asked about the IIFE (immediately-invoked function expression) a lot, which takes the following setup:

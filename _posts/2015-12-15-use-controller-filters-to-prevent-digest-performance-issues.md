@@ -3,6 +3,11 @@ layout: post
 permalink: /use-controller-filters-to-prevent-digest-performance-issues
 title: Using Controller $filters to prevent $digest performance issues
 path: 2015-12-15-use-controller-filters-to-prevent-digest-performance-issues.md
+tags:
+- Performance
+- Filters
+- Controllers
+- Angular
 ---
 
 Filters in Angular massively contribute to slow performance, so let's adopt a sensible way of doing things, which may take you an additional ten minute to code, but will dramatically enhance your application's performance.
