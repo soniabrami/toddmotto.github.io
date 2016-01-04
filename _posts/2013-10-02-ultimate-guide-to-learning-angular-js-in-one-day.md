@@ -18,7 +18,7 @@ tags:
 Angular is a client-side MVC/MVVM framework built in JavaScript, essential for modern single page web applications (and even websites). This post is a full end to end crash course from my experiences, advice and best practices I've picked up from using it.
 
 ### Terminology
-Angular has a initial short learning curve, you'll find it's up and down after mastering the basics. It's mainly getting to grips with the terminology and "thinking MVC". MVC stands for _Model-View-Controller_. Here are the higher level and essential APIs that Angular comes with, and some terminology.
+Angular has an initial short learning curve, you'll find it's up and down after mastering the basics. It's mainly getting to grips with the terminology and "thinking MVC". MVC stands for _Model-View-Controller_. Here are the higher level and essential APIs that Angular comes with, and some terminology.
 
 #### MVC
 You've probably heard of MVC, used in many programming languages as a means of structuring/architecting applications/software. Here's a quick breakdown of meanings:
@@ -114,7 +114,7 @@ And the live output:
 
 The key rule concept here is the _$scope_ concept, which you'll tie to all your functions inside a specific controller. The _$scope_ refers to the current element/area in the DOM (no, not the same as _this_), and encapsulates a very clever scoping capability that keeps data and logic completely scoped inside elements. It brings JavaScript public/private scoping to the DOM, which is fantastic.
 
-The _$scope_ concept may seem scary at first, but it's your way in to the DOM from the server (and static data if you have that too)! The demo gives you a basic idea of how you can 'push' data to the DOM.
+The _$scope_ concept may seem scary at first, but it's your way into the DOM from the server (and static data if you have that too)! The demo gives you a basic idea of how you can 'push' data to the DOM.
 
 Let's look at a more representative data structure that we've hypothetically retrieved from the server to display a user's login details. For now I'll use static data; I'll show you how to fetch dynamic JSON data later.
 
@@ -167,7 +167,7 @@ function MainCtrl ($scope) {
 
 #### Directives
 
-A directive ([checkout my post on Directives from existing scripts/plugins](//toddmotto.com/creating-an-angularjs-directive-from-one-of-your-existing-plugins-scripts)) in it's simplest form is a small piece of templated HTML, preferably used multiple times throughout an application where needed. It's an easy way to inject DOM into your application with no effort at all, or perform custom DOM interactions. Directives are not simple at all; there is an incredible learning curve to fully conquering them, but this next phase will let you hit the ground running.
+A directive ([checkout my post on Directives from existing scripts/plugins](//toddmotto.com/creating-an-angularjs-directive-from-one-of-your-existing-plugins-scripts)) in its simplest form is a small piece of templated HTML, preferably used multiple times throughout an application where needed. It's an easy way to inject DOM into your application with no effort at all, or perform custom DOM interactions. Directives are not simple at all; there is an incredible learning curve to fully conquering them, but this next phase will let you hit the ground running.
 
 So what are directives useful for? A lot of things, including DOM components, for example tabs or navigation elements - really depends on what your app makes use of in the UI. Let me put it this way, if you've toyed with _ng-show_ or _ng-hide_, those are directives (though they don't inject DOM).
 
@@ -231,7 +231,7 @@ Make sure you _Inspect Element_ to see the additional markup injected. Yes, I kn
 - _replace_: This replaces the markup in the DOM that defines the directive, used in the example, you'll notice how initial DOM is replaced with the Directive's template.
 - _transclude_: Put simply, using transclude allows for existing DOM content to be copied into the directive. You'll see the words 'Click me' have 'moved' into the Directive once rendered.
 - _template_: A template (as above) allows you to declare markup to be injected. It's a good idea to use this for tiny pieces of HTML only. Injected templates are all compiled through Angular, which means you can declare the handlebar template tags in them too for binding. 
-- _templateUrl_: Similar to a template, but kept in it's own file _or_ &lt;script&gt; tag. You can do this to specify a template URL, which you'll want to use for manageable chunks of HTML that require being kept in their own file, just specify the path and filename, preferably kept inside their own _templates_ directory:
+- _templateUrl_: Similar to a template, but kept in its own file _or_ &lt;script&gt; tag. You can do this to specify a template URL, which you'll want to use for manageable chunks of HTML that require being kept in their own file, just specify the path and filename, preferably kept inside their own _templates_ directory:
 
 {% highlight javascript %}
 myApp.directive('customButton', function () {
@@ -409,7 +409,7 @@ Output:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/cZbCf/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-That's the main bulk behind AngularJS and it's APIs, this only only diving into the shallow end of the waters, but this is more than enough to get you building your own Angular application.
+That's the main bulk behind AngularJS and its APIs, this is only diving into the shallow end of the waters, but is more than enough to get you building your own Angular application.
 
 ### Two-way data-binding
 When I first heard about two-way data-binding, I wasn't really sure what it was. Two-way data-binding is best described as a full-circle of synchronised data: update the _Model_ and it updates the _View_, update the _View_ and it updates the _Model_. This means that data is kept in sync without making any fuss. If I bind an _ng-model_ to an &lt;input&gt; and start typing, this creates (or updates an existing) model at the same time.
