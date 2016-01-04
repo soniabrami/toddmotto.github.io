@@ -76,10 +76,10 @@ layout: default
                 </div>
                 <h3>
                   {{ post.title }}
+                  <span>
+                    Posted on {{ post.date | date: "%b %-d, %Y" }}
+                  </span>
                 </h3>
-                <p>
-                  {{ post.content | strip_html | truncatewords: 20 }}
-                </p>
               </a>
             </li>
           {% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %}

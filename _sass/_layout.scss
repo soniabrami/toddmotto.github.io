@@ -279,7 +279,7 @@
   &__posts {
     li {
       position: relative;
-      border-bottom: 1px solid rgba(0,0,0,.1);
+      border-bottom: 1px solid rgba(0,0,0,.05);
       &:last-child {
         border-bottom: 0;
         a {
@@ -300,10 +300,15 @@
           color: #888;
         }
         h3 {
-
-        }
-        p {
-
+          span {
+            font-family: 'Lora', serif;
+            letter-spacing: 0.5px;
+            display: block;
+            font-size: 14px;
+            font-weight: 300;
+            color: #b1b1b1;
+            font-style: italic;
+          }
         }
       }
     }
