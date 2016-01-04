@@ -15,7 +15,7 @@ First, let's explore the syntax differences by looking at two code examples and 
 
 ##### React.createClass
 
-Here we have a `const` with a React class bound, with the important `render` function following on to complete a typical base component definition.
+Here we have a `const` with a React class assigned, with the important `render` function following on to complete a typical base component definition.
 
 {% highlight javascript %}
 import React from 'react';
