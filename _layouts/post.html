@@ -55,7 +55,6 @@ layout: default
   </div>
 </div>
 
-<div class="similar">
 {% assign hasSimilar = '' %}
 {% for post in site.related_posts %}
   {% assign postHasSimilar = false %}
@@ -63,36 +62,37 @@ layout: default
     {% for thisTag in page.tags %}
       {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and tag == thisTag %}
         {% if hasSimilar.size == 0 %}
-        <div class="similar__content">
-          <h3 class="similar__title gamma">
-            Similar posts
-          </h3>
-          <ul class="similar__posts">
-          {% endif %}
-          <li>
-            <a href="{{ site.url }}{{ post.url }}">
-              <div class="similar__icon">
-                <img src="{{ site.baseurl }}/img/icons/more.svg" alt="{{ post.title }}">
-              </div>
-              <h3>
-                {{ post.title }}
-              </h3>
-              <p>
-                {{ post.content | strip_html | truncatewords: 20 }}
-              </p>
-            </a>
-          </li>
-        {% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %}
-        {% assign postHasSimilar = true %}
-      {% endif %}
+        <div class="similar">
+          <div class="similar__content">
+            <h3 class="similar__title gamma">
+              Similar posts
+            </h3>
+            <ul class="similar__posts">
+            {% endif %}
+            <li>
+              <a href="{{ site.url }}{{ post.url }}">
+                <div class="similar__icon">
+                  <img src="{{ site.baseurl }}/img/icons/more.svg" alt="{{ post.title }}">
+                </div>
+                <h3>
+                  {{ post.title }}
+                </h3>
+                <p>
+                  {{ post.content | strip_html | truncatewords: 20 }}
+                </p>
+              </a>
+            </li>
+          {% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %}
+          {% assign postHasSimilar = true %}
+        {% endif %}
+      {% endfor %}
     {% endfor %}
   {% endfor %}
-{% endfor %}
-{% if hasSimilar.size > 0 %}
+  {% if hasSimilar.size > 0 %}
     </ul>
   </div>
-{% endif %}
 </div>
+{% endif %}
 
 <div class="signup">
   <div id="mc_embed_signup">
