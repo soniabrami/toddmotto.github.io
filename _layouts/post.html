@@ -38,6 +38,23 @@ layout: default
   </section>
 </article>
 
+<div class="author">
+  <div class="author__content">
+    <div class="author__pic">
+      <img src="{{ site.baseurl }}/img/todd.jpg" alt="Todd Motto">
+    </div>
+    <div class="author__bio">
+      <h3>
+        Todd Motto
+      </h3>
+      <p>
+        Founder of <a href="//voux.io" target="_blank">Voux</a>, lead front-end engineer at <a href="//mozio.com" target="_blank">Mozio Inc</a>. JavaScript, Angular, React, conference speaker. Developer Expert at <a href="//developers.google.com/experts/people/todd-motto" target="_blank">Google</a>.
+      </p>
+      <a href="https://twitter.com/toddmotto" class="twitter-follow-button" data-show-count="true"></a>
+    </div>
+  </div>
+</div>
+
 <div class="similar">
 {% assign hasSimilar = '' %}
 {% for post in site.related_posts %}
@@ -61,7 +78,7 @@ layout: default
                 {{ post.title }}
               </h3>
               <p>
-                {{ post.content | strip_html | truncatewords: 15 }}
+                {{ post.content | strip_html | truncatewords: 20 }}
               </p>
             </a>
           </li>
