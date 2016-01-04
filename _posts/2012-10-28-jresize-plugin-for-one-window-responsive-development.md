@@ -5,6 +5,10 @@ layout: post
 permalink: /jresize-plugin-for-one-window-responsive-development
 disqus: http://www.toddmotto.com/jresize-plugin-for-one-window-responsive-development
 path: 2012-10-28-jresize-plugin-for-one-window-responsive-development.md
+tags:
+- Library
+- jQuery
+- JavaScript
 --- 
 
 jResize is a responsive web development tool, built in jQuery to assist the workflow of developers on responsive projects. There are various tools for responsive development, iframes at different widths embedded in the page, and the tedious resizing of the browser. So here’s a different approach which grabs all your HTML, and resizes it inside the browser when you click the width you want. It’s dead simple.

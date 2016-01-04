@@ -5,6 +5,10 @@ layout: post
 permalink: /html5-and-jquery-super-simple-drop-down-nav
 disqus: http://www.toddmotto.com/html5-and-jquery-super-simple-drop-down-nav
 path: 2012-09-05-html5-and-jquery-super-simple-drop-down-nav.md
+tags:
+- Library
+- jQuery
+- JavaScript
 ---
 
 How hard is it to find a decent and lightweight navigation that actually works and is easy to implement? The web presents us thousands of options, but often the most simple are the best. It can take time to create your own, especially under deadlines, or alternatively you could chance a plugin.

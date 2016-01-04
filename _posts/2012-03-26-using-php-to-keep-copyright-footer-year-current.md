@@ -5,13 +5,16 @@ layout: post
 permalink: /using-php-to-keep-copyright-footer-year-current
 disqus: http://www.toddmotto.com/using-php-to-keep-copyright-footer-year-current
 path: 2012-03-26-using-php-to-keep-copyright-footer-year-current.md
+tags:
+- PHP
+- Performance
+- jQuery
+- JavaScript
 ---
 
 Here’s the start of the Web Development series as part of the new addition to my Blog, including code tutorials and code snippets free for use. This article includes a small snippet of code that you can add to your site to ensure your footer PHP date is always at the current year. I’m sure the eagle-eyed users of the web are still seeing sites stuck on ‘© 2011 Copyright’ – so here’s a few easy ways to overcome it, forever!
 
-First thing you’ll need is a PHP web page. If your server handles PHP, then use the code below to insert into your website’s footer. Please note this will only work with PHP web pages not static HTML. Read more on [PHP here][1].
-
- [1]: http://www.php.net
+First thing you’ll need is a PHP web page. If your server handles PHP, then use the code below to insert into your website’s footer. Please note this will only work with PHP web pages not static HTML.
 
 ### Single Year Display
 
@@ -21,7 +24,7 @@ This literally just pulls in the current date using server technology, and is re
 &copy; <?php echo date("Y"); ?> Copyright.
 {% endhighlight %}
 
-Gives you: © 2013 Copyright.
+Gives you: &copy; 2016 Copyright.
 
 ### Website Start and Current Year
 

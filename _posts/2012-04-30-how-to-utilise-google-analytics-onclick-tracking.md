@@ -5,6 +5,12 @@ layout: post
 permalink: /how-to-utilise-google-analytics-onclick-tracking
 disqus: http://www.toddmotto.com/how-to-utilise-google-analytics-onclick-tracking
 path: 2012-04-30-how-to-utilise-google-analytics-onclick-tracking.md
+tags:
+- Google
+- Analytics
+- Library
+- jQuery
+- JavaScript
 ---
 
 Collecting data on how web users scurry through our websites is a great performance indicator as well as an interesting statistic provider. Google Analytics offers a pretty awesome feature which allows you to track outbound and on-page click events. Using some inline Javascript provided by Google, you can setup your onclick tracking instantly and see results straight away. 

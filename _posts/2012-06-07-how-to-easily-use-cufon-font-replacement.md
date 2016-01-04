@@ -5,6 +5,11 @@ layout: post
 permalink: /how-to-easily-use-cufon-font-replacement
 disqus: http://www.toddmotto.com/how-to-easily-use-cufon-font-replacement
 path: 2012-06-07-how-to-easily-use-cufon-font-replacement.md
+tags:
+- Cufon
+- Fonts
+- jQuery
+- JavaScript
 ---
 
 <strong>Stop! (27.11.2023 update):</strong> I highly recommend you find an alternative to Cufon, use @font-face. Cufon is a very poor method for loading custom font resources in a modern web environment. Only proceed if you have no other choice, but if you have a choice, use [Font Squirrel's](http://www.fontsquirrel.com/tools/webfont-generator) Web Font generator.

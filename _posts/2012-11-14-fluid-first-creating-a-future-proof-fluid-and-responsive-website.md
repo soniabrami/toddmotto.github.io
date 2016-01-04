@@ -5,6 +5,10 @@ layout: post
 permalink: /fluid-first-creating-a-future-proof-fluid-and-responsive-website
 disqus: http://www.toddmotto.com/fluid-first-creating-a-future-proof-fluid-and-responsive-website
 path: 2012-11-14-fluid-first-creating-a-future-proof-fluid-and-responsive-website.md
+tags:
+- Responsive
+- Mobile
+- JavaScript
 ---
 
 Fluid-first is a way of thinking, then designing, then coding. It’s not media query heavy, it’s not thousands of lines of inherited and overwritten code. It’s a minimalistic approach to create scalable responsive websites with ease. Fluid-first I believe to be desktop-down building, which I much prefer over mobile-first. (Mobile-first is where you code your mobile styles first as a base layer). I want the full picture before I see the snapshot, so desktop down for me.
