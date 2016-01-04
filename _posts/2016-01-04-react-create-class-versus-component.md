@@ -298,4 +298,4 @@ Mixins aren't supported in ES6 classes.
 
 ### Recommendations
 
-Use what makes sense, they're both just syntax with different semantics that do the same thing, they're both classes!
+Facebook does suggest the future removal of `React.createClass` completely in favour of ES6 classes. For now, use what makes sense, they're both just syntax with different semantics that do the same thing - they're both classes!
