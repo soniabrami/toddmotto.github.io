@@ -7,7 +7,6 @@ disqus: http://www.toddmotto.com/using-php-to-keep-copyright-footer-year-current
 path: 2012-03-26-using-php-to-keep-copyright-footer-year-current.md
 tags:
 - PHP
-- Performance
 - jQuery
 - JavaScript
 ---

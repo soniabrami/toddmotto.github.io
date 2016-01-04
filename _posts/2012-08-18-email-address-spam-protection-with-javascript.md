@@ -5,6 +5,11 @@ layout: post
 permalink: /email-address-spam-protection-with-javascript
 disqus: http://www.toddmotto.com/email-address-spam-protection-with-javascript
 path: 2012-08-18-email-address-spam-protection-with-javascript.md
+tags:
+- Opinion
+- Library
+- jQuery
+- JavaScript
 ---
 
 This is a simple code snippet to prevent any spambots crawling your Contact pages, finding your email address and sending you automated spam. It’s good to include a text-based email address alongside any contact forms you may have. Here’s a quick tutorial to add some simple JavaScript to your website using the document.write command, which prevents spambots sweeping your site for text-based emails.
