@@ -5,6 +5,11 @@ layout: post
 permalink: /meet-conditionizr-the-conditional-free-legacy-retina-script-and-style-loader
 disqus: http://www.toddmotto.com/meet-conditionizr-the-conditional-free-legacy-retina-script-and-style-loader
 path: 2012-12-17-meet-conditionizr-the-conditional-free-legacy-retina-script-and-style-loader.md
+tags:
+- Conditionizr
+- Library
+- jQuery
+- JavaScript
 ---
 
 After much debate about a way forward past conditional statements, retina detection, and legacy content serving, [Mark Goodyear][1] and I have been working hard on a proposed solution: Conditionizr.

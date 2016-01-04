@@ -3,6 +3,11 @@ layout: post
 permalink: /storing-data-in-the-browser-with-the-html5-local-storage-api
 title: Storing data in the browser with the HTML5 localStorage API
 path: 2013-03-14-storing-data-in-the-browser-with-the-html5-local-storage-api.md
+tags:
+- LocalStorage
+- Chrome
+- HTML5
+- Performance
 ---
 
 HTML5 localStorage is an HTML5 API that allows us to save string data in the browser. localStorage is part of the web storage specification, it also has a sister called sessionStorage which is slightly different - but very similar. localStorage stores the data and has no expiration - it's persistent, whereas sessionStorage is limited to the session only, meaning when you close your browser - it's gone. In this tutorial we're going to create a small localStorage app that autosaves your data in the browser.

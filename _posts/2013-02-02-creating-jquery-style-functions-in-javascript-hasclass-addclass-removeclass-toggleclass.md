@@ -5,6 +5,10 @@ layout: post
 permalink: /creating-jquery-style-functions-in-javascript-hasclass-addclass-removeclass-toggleclass
 disqus: http://www.toddmotto.com/creating-jquery-style-functions-in-javascript-hasclass-addclass-removeclass-toggleclass
 path: 2013-02-02-creating-jquery-style-functions-in-javascript-hasclass-addclass-removeclass-toggleclass.md
+tags:
+- Classnames
+- jQuery
+- JavaScript
 ---
 
 #### UPDATE: Check out [Apollo.js](/apollo-js-standalone-class-manipulation-api-for-html5-and-legacy-dom/), the latest version of these scripts integrated with HTML APIs, the most powerful class API on the web!

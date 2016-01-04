@@ -3,6 +3,10 @@ layout: post
 permalink: /fireshell-fiercely-quick-front-end-boilerplate-and-workflows
 title: FireShell, fiercely quick front-end boilerplate and workflows
 path: 2013-09-15-fireshell-fiercely-quick-front-end-boilerplate-and-workflows.md
+tags:
+- Library
+- Opinion
+- JavaScript
 ---
 
 Built for the modern developer. For teams and the individual, encouraging a better workflow. JavaScript task running, build processes, autominification and file concatenation, wrapped with an enhanced HTML5 boilerplated framework.

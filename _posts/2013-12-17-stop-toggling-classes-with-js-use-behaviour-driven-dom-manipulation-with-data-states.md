@@ -3,6 +3,10 @@ layout: post
 permalink: /stop-toggling-classes-with-js-use-behaviour-driven-dom-manipulation-with-data-states
 title: Stop toggling classes with JS, use behaviour driven DOM manipulation with data-states
 path: 2013-12-17-stop-toggling-classes-with-js-use-behaviour-driven-dom-manipulation-with-data-states.md
+tags:
+- Opinions
+- Classnames
+- JavaScript
 ---
 
 Using a class to manipulate the DOM is dead (or at least should be). Let's not do that anymore, it has many issues, the main one for me is that adding classes to elements to change their state crosses the behaviour and styling paradigm. Behaviour is separate to style and as our web becomes more rich with functionality, the behaviour side of things is harder to control.

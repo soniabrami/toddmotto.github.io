@@ -3,6 +3,9 @@ layout: post
 permalink: /vault-js-html5-local-session-web-storage-api-with-automatic-json-support
 title: Vault.js, HTML5 (local/session) Web Storage API with automatic JSON support
 path: 2013-12-07-vault-js-html5-local-session-web-storage-api-with-automatic-json-support.md
+tags:
+- Library
+- JavaScript
 ---
 
 Vault is a 0.6KB standalone HTML5 (local/session) Web Storage API with automatic JSON support. Web Storage only accepts a String as value of an Object property, Vault makes it possible to store entire JavaScript Objects using JSON when setting/getting. It also abstracts the storage APIs for both localStorage and sessionStorage, making it easy to work with both simultaneously.

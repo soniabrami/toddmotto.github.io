@@ -4,6 +4,11 @@ permalink: /progressively-enhancing-html5-forms-creating-a-required-attribute-fa
 title: Progressively enhancing HTML5 forms, creating a required attribute fallback with jQuery
 external: http://tech.pro/tutorial/1318/progressively-enhancing-html5-forms-creating-a--required--attribute-fallback-with-jquery
 path: 2013-05-20-progressively-enhancing-html5-forms-creating-a-required-attribute-fallback-with-jquery.md
+tags:
+- jQuery
+- Forms
+- HTML5
+- JavaScript
 ---
 
 Note: this article first featured on [Tech.Pro](//tech.pro/tutorial/1318/progressively-enhancing-html5-forms-creating-a--required--attribute-fallback-with-jquery), please check out the full article there!

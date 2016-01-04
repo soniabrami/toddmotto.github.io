@@ -3,6 +3,10 @@ layout: post
 permalink: /conditionizr-reloaded-what-every-developer-has-been-waiting-for
 title: Conditionizr reloaded, what every developer has been waiting for
 path: 2013-10-24-conditionizr-reloaded-what-every-developer-has-been-waiting-for.md
+tags:
+- Conditionizr
+- Library
+- JavaScript
 ---
 
 Wouldn't it be ideal to target any browser, mobile browser, mobile device, touch device, screen resolution, operating system and conditionally load assets or tweak your code based on any environments? In a perfect world, Conditionizr wouldn't be needed, but it's here to save your ass...

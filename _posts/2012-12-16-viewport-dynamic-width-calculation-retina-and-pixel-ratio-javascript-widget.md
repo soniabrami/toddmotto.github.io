@@ -5,6 +5,10 @@ layout: post
 permalink: /viewport-dynamic-width-calculation-retina-and-pixel-ratio-javascript-widget
 disqus: http://www.toddmotto.com/viewport-dynamic-width-calculation-retina-and-pixel-ratio-javascript-widget
 path: 2012-12-16-viewport-dynamic-width-calculation-retina-and-pixel-ratio-javascript-widget.md
+tags:
+- Library
+- jQuery
+- JavaScript
 ---
 
 Dynamically adjusted screen dimensions, retina detection and device pixel ratio. When working on website projects that are responsive, it’s imperative to easily know the exact ViewPort dimensions for calculating media query breakpoints. And what comes with responsive design nowadays? Retina and HiDPi displays.

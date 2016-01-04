@@ -5,6 +5,11 @@ layout: post
 permalink: /mastering-svg-use-for-a-retina-web-fallbacks-with-png-script
 disqus: http://www.toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script
 path: 2012-11-25-flawless-clickable-drop-down-navigation.md
+tags:
+- SVG
+- Library
+- jQuery
+- JavaScript
 ---
 
 SVGs (Scalable Vector Graphics) are the future graphics format of the web, they offer resolution-independent, fully scalable and crystal clear graphics. SVGs use XML to define paths and shapes, to create our graphic. Moving past JPG and PNG, SVG is the answer to Retina (HiDPI) displays, they even look better on standard display.

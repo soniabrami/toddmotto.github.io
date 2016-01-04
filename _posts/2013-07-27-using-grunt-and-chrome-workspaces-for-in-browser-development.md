@@ -3,6 +3,11 @@ layout: post
 permalink: /using-grunt-and-chrome-workspaces-for-in-browser-development
 title: Using Grunt and Chrome Workspaces for in-browser development
 path: 2013-07-27-using-grunt-and-chrome-workspaces-for-in-browser-development.md
+tags:
+- Grunt
+- Chrome
+- JavaScript
+- Performance
 ---
 
 After some great interest in why I [ditched Sublime Text 2](//twitter.com/toddmotto/status/360672131710844929) for the day to fully code inside Google Chrome, here's the promised screencast on how to do it yourself.

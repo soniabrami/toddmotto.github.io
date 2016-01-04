@@ -3,6 +3,13 @@ layout: post
 permalink: /ultimate-guide-to-learning-angular-js-in-one-day
 title: Ultimate guide to learning AngularJS in one day
 path: 2013-10-02-ultimate-guide-to-learning-angular-js-in-one-day.md
+tags:
+- Tutorial
+- MVVM
+- Components
+- Directives
+- Angular
+- JavaScript
 ---
 
 <h5>Mastered this? Try my <a href="//toddmotto.com/opinionated-angular-js-styleguide-for-teams" style="text-decoration: underline;">Opinionated AngularJS styleguide for teams</a></h5>

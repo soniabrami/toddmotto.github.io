@@ -3,6 +3,11 @@ layout: post
 permalink: /everything-you-wanted-to-know-about-javascript-scope
 title: Everything you wanted to know about JavaScript scope
 path: 2013-12-29-everything-you-wanted-to-know-about-javascript-scope.md
+tags:
+- Scope
+- Globals
+- this
+- JavaScript
 ---
 
 The JavaScript language has a few concepts of "scope", none of which are straightforward or easy to understand as a new JavaScript developer (and even some experienced JavaScript developers). This post is aimed at those wanting to learn about the many depths of JavaScript after hearing words such as `scope`, `closure`, `this`, `namespace`, `function scope`, `global scope`, `lexical scope` and `public/private scope`. Hopefully by reading this post you'll know the answers to:

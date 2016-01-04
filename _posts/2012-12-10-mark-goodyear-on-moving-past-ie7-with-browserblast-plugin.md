@@ -5,6 +5,10 @@ layout: post
 permalink: /mark-goodyear-on-moving-past-ie7-with-browserblast-plugin
 disqus: http://www.toddmotto.com/mark-goodyear-on-moving-past-ie7-with-browserblast-plugin
 path: 2012-12-10-mark-goodyear-on-moving-past-ie7-with-browserblast-plugin.md
+tags:
+- Library
+- jQuery
+- JavaScript
 ---
 
 I’m Mark Goodyear, a front-end developer and designer from Middlesbrough, UK. I also run a creative agency Big Bite Creative.  

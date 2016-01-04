@@ -3,6 +3,10 @@ layout: post
 permalink: /flaunt-js-for-stylish-responsive-navigations-with-nested-click-to-reveal
 title: Flaunt.js for stylish responsive navigations with nested click-to-reveal
 path: 2013-03-24-flaunt-js-for-stylish-responsive-navigations-with-nested-click-to-reveal.md
+tags:
+- Library
+- jQuery
+- JavaScript
 ---
 
 Flaunt.js is a jQuery script that allows you to create a responsive, nested navigation out the box. Flaunt was built to overcome responsive design challenges which faced a huge percentage of websites. This challenge was to show nested navigation items on click-demand, without the event taking you through to the page you've pressed...

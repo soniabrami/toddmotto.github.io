@@ -3,6 +3,11 @@ layout: post
 permalink: /creating-an-angularjs-directive-from-one-of-your-existing-plugins-scripts
 title: Creating an AngularJS Directive from one of your existing plugins/scripts
 path: 2013-10-07-creating-an-angularjs-directive-from-one-of-your-existing-plugins-scripts.md
+tags:
+- Plugins
+- Directives
+- Angular
+- JavaScript
 ---
 
 Writing scripts for your websites or web apps is often a simple process, you write your script, concatenate the file into your main scripts file and it gets pushed into the DOM. Not much to it, but when it comes to AngularJS, they believe in something slightly different...

@@ -3,6 +3,10 @@ layout: post
 permalink: /nofi-detecting-no-wifi-callbacks-for-offline-states-with-html5
 title: NoFi, detecting no WiFi, callbacks for offline states with HTML5
 path: 2013-10-28-nofi-detecting-no-wifi-callbacks-for-offline-states-with-html5.md
+tags:
+- Offline
+- Library
+- JavaScript
 ---
 
 An HTML5 API buried inside the `navigator` Object called `onLine` is where the inspiration for this little tool came from. NoFi detects no WiFi (yes, it also includes non-WiFi, your cables) and allows you to run custom callbacks when the offline event is fired.

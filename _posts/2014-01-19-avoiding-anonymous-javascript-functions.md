@@ -3,6 +3,10 @@ layout: post
 permalink: /avoiding-anonymous-javascript-functions
 title: Avoiding anonymous JavaScript functions
 path: 2014-01-19-avoiding-anonymous-javascript-functions.md
+tags:
+- Scope
+- Functions
+- JavaScript
 ---
 
 Anonymous functions, the art of the callback. I'm going to propose that you never write a callback again using an anonymous function, and I'll sell you the idea now. Firstly, what is an anonymous function? Something like this:

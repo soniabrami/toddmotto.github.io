@@ -3,6 +3,11 @@ layout: post
 permalink: /understanding-regular-expression-matching-with-test-match-exec-search-and-split
 title: Understanding Regular Expression matching with .test(), .match(), .exec(), .search() and .split()
 path: 2013-10-29-understanding-regular-expression-matching-with-test-match-exec-search-and-split.md
+tags:
+- RegExp
+- Test
+- Match
+- JavaScript
 ---
 
 RegularExpressions, often noted as RegEx or RegExp, are seen and used pretty much everywhere in JavaScript. I use them all the time and you've probably seen them out in the wild too. When you first stumble(d) across a RegExp, you probably thought the person had fallen asleep on their keyboard and pushed to production, they look crazy at first, but they are a must have in your developer toolkit.

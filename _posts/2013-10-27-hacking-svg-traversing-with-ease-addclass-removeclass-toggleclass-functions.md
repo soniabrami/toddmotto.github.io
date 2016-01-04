@@ -3,9 +3,13 @@ layout: post
 permalink: /hacking-svg-traversing-with-ease-addclass-removeclass-toggleclass-functions
 title: Hacking SVG, traversing with ease - addClass, removeClass, toggleClass functions
 path: 2013-10-27-hacking-svg-traversing-with-ease-addclass-removeclass-toggleclass-functions.md
+tags:
+- SVG
+- Classnames
+- JavaScript
 ---
 
-### Update: I've turned this into a small JavaScript module named [Lunar](https://github.com/toddmotto/lunar) and pushed to GitHub, I'd advise using that instead as it doesn't extend native DOM APIs and also has accompanying unit tests :)
+### Update: I've turned this into a small JavaScript module named [Lunar](https://github.com/toddmotto/lunar) and pushed to GitHub, please use that code instead as it doesn't extend native DOM APIs and also has accompanying unit tests :)
 
 ----
 
