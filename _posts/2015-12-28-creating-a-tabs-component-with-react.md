@@ -3,6 +3,10 @@ layout: post
 permalink: /creating-a-tabs-component-with-react
 title: Creating a tabs component with React
 path: 2015-12-28-creating-a-tabs-component-with-react.md
+tags:
+- React
+- JavaScript
+- Classes
 ---
 
 I have to say, this is my first proper component built in React. I tried it out last year and absolutely loved it. Feel free to rip this component apart, suggest best practices and improvements!

@@ -19,9 +19,9 @@ layout: default
       </p>
     </div>
     <div class="post__button">
-      <a href="{{ post.url | prepend: site.baseurl }}" class="button">
+      <a href="{{ post.url | prepend: site.baseurl }}" class="button" title="Read {{ post.title }}">
         Read more
-        <img src="{{ site.baseurl }}/img/icons/more.svg" alt="">
+        <img src="{{ site.baseurl }}/img/icons/more.svg" alt="{{ post.title }}">
       </a>
     </div>
   </section>
