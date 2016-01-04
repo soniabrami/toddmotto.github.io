@@ -36,6 +36,9 @@ layout: default
     </div>
     {{ content }}
   </section>
+  <div class="share">
+    <div class="addthis_sharing_toolbox"></div>
+  </div>
 </article>
 
 <div class="author">
@@ -70,7 +73,7 @@ layout: default
             <ul class="similar__posts">
             {% endif %}
             <li>
-              <a href="{{ site.url }}{{ post.url }}">
+              <a href="{{ post.url | prepend: site.baseurl }}">
                 <div class="similar__icon">
                   <img src="{{ site.baseurl }}/img/icons/more.svg" alt="{{ post.title }}">
                 </div>
@@ -118,10 +121,6 @@ layout: default
       </div>
     </form>
   </div>
-</div>
-
-<div class="share">
-  <div class="addthis_sharing_toolbox"></div>
 </div>
 
 <div class="disqus">
