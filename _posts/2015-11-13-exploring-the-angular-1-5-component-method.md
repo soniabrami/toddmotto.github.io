@@ -169,7 +169,7 @@ Now, there are some changes in `.component()` that make sensible assumptions and
 
 {% highlight javascript %}
 // inside angular.js
-controllerAs: identifierForController(options.controller) || options.controllerAs || name,
+controllerAs: identifierForController(options.controller) || options.controllerAs || '$ctrl',
 {% endhighlight %}
 
 Possibility one uses this aptly named `identifierForController` function that looks like so:
@@ -201,7 +201,7 @@ This saves adding the `controllerAs` property... _however_...
 
 We can add the `controllerAs` property to maintain backwards compatibility or keep it if that's within your style for writing Directives/Components.
 
-The third option, and better yet, completely removes all need to think about `controllerAs`, and Angular automatically uses the name of the Component you've created to instantiate the Controller with that alias. For instance:
+The third option, and better yet, completely removes all need to think about `controllerAs`, and Angular automatically uses the name `$ctrl`. For instance:
 
 {% highlight javascript %}
 .component('test', {
@@ -211,7 +211,7 @@ The third option, and better yet, completely removes all need to think about `co
 });
 {% endhighlight %}
 
-The would-be `controllerAs` definition automatically defaults to `test`, so we can use `test.testing` in our `template` which would give us the value of `123`.
+The would-be `controllerAs` definition automatically defaults to `$ctrl`, so we can use `$ctrl.testing` in our `template` which would give us the value of `123`.
 
 Based on this information, we add our `controller`, and refactor our Directive into a Component by dropping the `controllerAs` property:
 
@@ -278,9 +278,9 @@ There's a subtle difference in the `template` property worth noting. Let's add t
   },
   template: [
     '<div class="todo">',
-      '<input type="text" ng-model="counter.count">',
-      '<button type="button" ng-click="counter.decrement();">-</button>',
-      '<button type="button" ng-click="counter.increment();">+</button>',
+      '<input type="text" ng-model="$ctrl.count">',
+      '<button type="button" ng-click="$ctrl.decrement();">-</button>',
+      '<button type="button" ng-click="$ctrl.increment();">+</button>',
     '</div>'
   ].join('')
 });
@@ -295,9 +295,9 @@ The `template` property can be defined as a function that is now injected with `
     // access to $element and $attrs
     return [
       '<div class="todo">',
-        '<input type="text" ng-model="counter.count">',
-        '<button type="button" ng-click="counter.decrement();">-</button>',
-        '<button type="button" ng-click="counter.increment();">+</button>',
+        '<input type="text" ng-model="$ctrl.count">',
+        '<button type="button" ng-click="$ctrl.decrement();">-</button>',
+        '<button type="button" ng-click="$ctrl.increment();">+</button>',
       '</div>'
     ].join('')
   }
@@ -311,37 +311,14 @@ Let's checkout the live working example with Angular version `v1.5.0-build.4376+
 
 That's it for our Directive to Component refactor, however there are a few other changes worth exploring before we finish.
 
-### Assumed transclusion
-
-Components now assume that we'll want some transclusion, so this is enabled by default within these lines of the Angular source:
-
-{% highlight javascript %}
-// angular.js
-{
-  ...
-  transclude: options.transclude === undefined ? true : options.transclude
-  ...
-}
-{% endhighlight %}
-
-Obviously to disable transclusion, set `transclude: false` and you're good to go.
-
 ### Disabling isolate scope
 
-Components are created with isolate scope by default. To disable isolate scope inside `.component()`, we can simply add the following property:
-
-{% highlight javascript %}
-.component('counter', {
-  isolate: false
-});
-{% endhighlight %}
-
-The corresponding section of code in the Angular source uses a ternary operator to automatically assign an empty Object to the `scope` property, and if we disable isolate scope inside a normal `.directive()` and want to inherit, we'll do `scope: true`. Here's the source code:
+Components are always created with isolate scope. Here's the relevant part from the source code:
 
 {% highlight javascript %}
 {
   ...
-  scope: options.isolate === false ? true : {}
+  scope: {},
   ...
 }
 {% endhighlight %}
@@ -365,14 +342,14 @@ component: function(name, options) {
 
     var template = (!options.template && !options.templateUrl ? '' : options.template);
     return {
-      controller: options.controller || function() {},
-      controllerAs: identifierForController(options.controller) || options.controllerAs || name,
+      controller: controller,
+      controllerAs: identifierForController(options.controller) || options.controllerAs || '$ctrl',
       template: makeInjectable(template),
       templateUrl: makeInjectable(options.templateUrl),
-      transclude: options.transclude === undefined ? true : options.transclude,
-      scope: options.isolate === false ? true : {},
+      transclude: options.transclude,
+      scope: {},
       bindToController: options.bindings || {},
-      restrict: options.restrict || 'E'
+      restrict: 'E'
     };
   }
 
