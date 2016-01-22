@@ -127,6 +127,11 @@
   margin: 0 0 80px;
   &.single {
     margin: 0 5%;
+    ul {
+      list-style: square;
+      li {
+      }
+    }
   }
   &__header {
     text-align: center;
