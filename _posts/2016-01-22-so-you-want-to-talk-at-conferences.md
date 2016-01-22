@@ -60,7 +60,7 @@ My first proper conference talk, we were out for the first day's conference part
 
 ### Up on stage
 
-When you're actually on stage, the first 1-2 minutes I find the hardest, how do you transition from saying hello to actually digging into your content? I usually say hello, introduce myself (I don't go there expecting everyone to know who I am, not would I want to come across that way), and then talk about the agenda or what I'm going to talk about.
+When you're actually on stage, the first 1-2 minutes I find the hardest, how do you transition from saying hello to actually digging into your content? I usually say hello, introduce myself (I don't go there expecting everyone to know who I am, nor would I want to come across that way), and then talk about the agenda or what I'm going to talk about.
 
 By this time, the nerves have gone and I'm in my "focus" mode. Then, 30 seconds pass and the talk is over. It goes _so_ fast, and I think that's down to being passionate about what you're talking about. My last talk I thought I was about 10 minutes in, and I was actually 50 minutes in and ran over time.
 
