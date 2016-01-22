@@ -98,6 +98,8 @@ There are also other variants:
 
 But I wouldn't use them.
 
+Check out [Disassembling JavaScript's IIFE Syntax](https://blog.mariusschulz.com/2016/01/13/disassembling-javascripts-iife-syntax) by [@mariusschulz](https://twitter.com/mariusschulz) for a detailed explanation of the IIFE syntax and its variants.
+
 ### Arguments
 
 Now we know how it works, we can pass in arguments to our IIFE:
@@ -122,7 +124,7 @@ Local variables are faster to resolve than the global variables, but this is on 
 
 ### What about `undefined`?
 
-In ECMAScript 3, `undefined` is mutable. Which means it's value could be reassigned, something like `undefined = true;` for instance, oh my! Thankfully in ECMASCript 5 strict mode (`'use strict';`) the parser will throw an error telling you you're an idiot. Before this, we started protecting our IIFE's by doing this:
+In ECMAScript 3, `undefined` is mutable. Which means its value could be reassigned, something like `undefined = true;` for instance, oh my! Thankfully in ECMAScript 5 strict mode (`'use strict';`) the parser will throw an error telling you you're an idiot. Before this, we started protecting our IIFE's by doing this:
 
 {% highlight javascript %}
 (function (window, document, undefined) {
