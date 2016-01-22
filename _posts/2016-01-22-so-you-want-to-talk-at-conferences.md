@@ -44,7 +44,7 @@ One thing I found awesome when I first spoke was walking around with this name b
 
 I don't speak at a huge amount of conferences, maybe 2-3 a year - and I'd like to speak at more. But when I do, I feel like an impostor! I don't mind saying it, but I'm no one special, and I feel extremely valued in being asked to speak. I get a lot of speaking requests throughout Europe and the USA, and can only attend a select few, and really appreciate the asking.
 
-Some refer to me as a "big name", and I usually end up laughing calling them silly. To me, I'm just a kid in England that enjoys writing code and speaking about it - I don't put myself on a pedastal and require any special treatment (though if you're flying me longhaul then complimentary sleeping pills are appreciated).
+Some refer to me as a "big name", and I usually end up laughing calling them silly. To me, I'm just a kid in England that enjoys writing code and speaking about it - I don't put myself on a pedestal and require any special treatment (though if you're flying me longhaul then complimentary sleeping pills are appreciated).
 
 I'm not sure the impostor feeling will ever disappear, and I hope it doesn't if I'm honest - it pushes me to deliver better content and not think I'm better than everyone else.
 
