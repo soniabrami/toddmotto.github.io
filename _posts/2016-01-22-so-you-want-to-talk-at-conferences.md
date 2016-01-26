@@ -28,9 +28,13 @@ I received tonnes of feedback about the jQuery to JavaScript talk being "the bes
 I really don't like giving "new" talks, new slide decks make me really nervous. I hate to say this, and it probably goes against what every other speaker tells you to do:
 
 * I don't use speaker notes
-* I don't rehearse the talk, ever
+* I don't rehearse the talk end to end after I've written all the slides
 
-I just create my slides, and roll with it. The key for me is to remember what I'm going to say on each slide, so each slide has absolute flow. I enjoy keeping things very raw and conversational like, have a pretty great memory and know what I'm going to say on each slide. I wouldn't enjoy reciting words from a list. If you know your content you don't need notes - that's my view. Plus I usually find rehearsing a talk is 100% different to actually delivering one on stage - so I find rehearsing a waste of time. I ensure the flow is right and estimate the time it'll take me to deliver it. My best guess I finished 25 seconds before the end of my talk - perfect. One last year I went over by 10 minutes (sorry).
+* I do, however, prep in my mind as I go long
+* I "batch" rehearse them, know the flow and think of various things I could say on each slide
+* I do, however, know the flow and reason for each slide
+
+The key for me is to remember what I'm going to say on each slide, so each slide has absolute flow. I enjoy keeping things very raw and conversational like, have a pretty great memory and know what I'm going to say on each slide. I . I wouldn't enjoy reciting words from a list. If you know your content you don't need notes - that's my view. Plus I usually find rehearsing a talk is 100% different to actually delivering one on stage - so I find rehearsing a waste of time. I ensure the flow is right and estimate the time it'll take me to deliver it. My best guess I finished 25 seconds before the end of my talk - perfect. One last year I went over by 10 minutes (sorry).
 
 ### We're just people
 
