@@ -178,7 +178,7 @@ helloTodd(); // will call the closure and log 'Hello, Todd'
 Okay, I lied, you _can_ call it, and you may have seen functions like this, but this will call your closure:
 
 {% highlight javascript %}
-sayHello2('Bob')(); // calls the returned function without assignment
+sayHello('Bob')(); // calls the returned function without assignment
 {% endhighlight %}
 
 AngularJS uses the above technique for it's `$compile` method, where you pass the current scope reference into the closure:
