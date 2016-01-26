@@ -30,7 +30,7 @@ I really don't like giving "new" talks, new slide decks make me really nervous. 
 * I don't use speaker notes
 * I don't rehearse the talk, ever
 
-I just create my slides, and roll with it. I enjoy keeping things very raw and conversational like. I wouldn't enjoy reciting words from a list. If you know your content you don't need notes - that's my view. Plus I usually find rehearsing a talk is 100% different to actually delivering one on stage - so I find rehearsing a waste of time. I ensure the flow is right and estimate the time it'll take me to deliver it. My best guess I finished 25 seconds before the end of my talk - perfect. One last year I went over by 10 minutes (sorry).
+I just create my slides, and roll with it. The key for me is to remember what I'm going to say on each slide, so each slide has absolute flow. I enjoy keeping things very raw and conversational like, have a pretty great memory and know what I'm going to say on each slide. I wouldn't enjoy reciting words from a list. If you know your content you don't need notes - that's my view. Plus I usually find rehearsing a talk is 100% different to actually delivering one on stage - so I find rehearsing a waste of time. I ensure the flow is right and estimate the time it'll take me to deliver it. My best guess I finished 25 seconds before the end of my talk - perfect. One last year I went over by 10 minutes (sorry).
 
 ### We're just people
 
