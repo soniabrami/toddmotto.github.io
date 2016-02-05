@@ -182,7 +182,7 @@ There's a small few things to keep in mind when using one-way bindings (as menti
 
 ### Caveats
 
-In one-way binding, Object values are set to the isolate Component using the same value, the parent Object has an identity. When we break this identity (like I did above in the examples), we're technically "breaking" that identity binding and the parent's `$watch` will not fire. Objects are bound by reference, which means that if we change a property, it'll still kind-of two-way bind:
+In one-way binding, Object values are set to the isolate Component using the same value, the parent Object's identity. When we break this identity (like I did above in the examples), we're technically "breaking" that identity binding and the parent's `$watch` will not fire. Objects are bound by reference, which means that if we change a property, it'll still kind-of two-way bind:
 
 Our isolate property `parent.someObject` is isolated as `obj`, which means we can access `this.obj.todd.age` to get my age. We can also mutate this property by setting a new value. This will force the `parent` to also update as Objects are bound by reference and not copied by Angular.
 
