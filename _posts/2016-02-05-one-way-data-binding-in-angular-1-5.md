@@ -32,8 +32,8 @@ var example = {
       <h4>
         Isolate Component
       </h4>
-      <p>Object: {{ $ctrl.obj }}</p>
-      <p>Primitive: {{ $ctrl.prim }}</p>
+      <p>Object: {% raw %}{{ $ctrl.obj }}{% endraw %}</p>
+      <p>Primitive: {% raw %}{{ $ctrl.prim }}{% endraw %}</p>
       <a href="" ng-click="$ctrl.updateValues();">
         Change Isolate Values
       </a>
@@ -92,10 +92,10 @@ Let's bootstrap the app and get it running with some HTML, passing in attributes
         Parent
       </h4>
       <p>
-        Object: {{ parent.someObject }}
+        Object: {% raw %}{{ parent.someObject }}{% endraw %}
       </p>
       <p>
-        Primitive: {{ parent.somePrimitive }}
+        Primitive: {% raw %}{{ parent.somePrimitive }}{% endraw %}
       </p>
       <a href="" ng-click="parent.updateValues();">
         Change Parent Values
@@ -127,8 +127,8 @@ var example = {
       <h4>
         Isolate Component
       </h4>
-      <p>Object: {{ $ctrl.obj }}</p>
-      <p>Primitive: {{ $ctrl.prim }}</p>
+      <p>Object: {% raw %}{{ $ctrl.obj }}{% endraw %}</p>
+      <p>Primitive: {% raw %}{{ $ctrl.prim }}{% endraw %}</p>
       <a href="" ng-click="$ctrl.updateValues();">
         Change Isolate Values
       </a>
