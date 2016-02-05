@@ -174,7 +174,7 @@ angular
 
 Go ahead and touch the live demo. You'll be able to change the isolate bindings without affecting the `parent` scope. However, the `$watch` is setup on the `parent` data source, so when changes occur, it'll propogate down and flow into the Component to update it with new data. One-way binding: it's as easy as that.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/sdxuc80o/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/wauana12/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ... Or is it?
 
