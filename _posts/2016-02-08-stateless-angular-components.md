@@ -111,4 +111,8 @@ Voila:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/t242uxna/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-Components can now just act as stateless templates, and that's awesome and lightweight.
+Components can now just act as stateless templates, and that's awesome and lightweight. 
+
+### Caveats
+
+The only caveat to this implementation is being forced to use `$ctrl` in your templates, which kind of seems crazy as you're not technically using a Controller. You could override it with the `controllerAs` property, but we're back to the start then.
