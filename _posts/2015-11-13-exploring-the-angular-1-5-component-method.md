@@ -11,15 +11,13 @@ tags:
 - Angular
 ---
 
-Angular 1.5 is set to introduce the `.component()` helper method, which is much simpler than the `.directive()` definition and advocates best practices and common default behaviours. Using `.component()` will allow developers to write in an Angular 2 style as well, which will in turn make upgrading to Angular 2 an easier feat.
+Angular 1.5 introduced the `.component()` helper method, which is much simpler than the `.directive()` definition and advocates best practices and common default behaviours. Using `.component()` will allow developers to write in an Angular 2 style as well, which will in turn make upgrading to Angular 2 an easier feat.
 
 Let's compare the differences in syntax and the super neat abstraction that `.component()` gives us over using the `.directive()` method.
 
-_Please note: Angular 1.5 is still in `beta` phase, keep an eye out for it's release!_
-
 ### Update: use component() now in Angular 1.3+
 
-I've back-ported the Angular 1.5 `component()` functionality to Angular 1.3 and above! [Read the article](/angular-component-method-back-ported-to-1.3) and grab the [code on GitHub](https://github.com/toddmotto/angular-component).
+I've back-ported the Angular 1.5 `.component()` functionality to Angular 1.3 and above! [Read the article](/angular-component-method-back-ported-to-1.3) and grab the [code on GitHub](https://github.com/toddmotto/angular-component).
 
 ### Screencast
 
@@ -127,7 +125,7 @@ With the `bindings` property on `.component()` we can remove this boilerplate an
 
 ### Controller and controllerAs changes
 
-Nothing has changed in the way we declare `controller`, however it's now a little smarter.
+Nothing has changed in the way we declare `controller`, however it's now a little smarter and has a default `controllerAs` value of `$ctrl`.
 
 If we're using a controller local to the component, we'll do this:
 
@@ -151,7 +149,7 @@ If we're using another Controller defined elsewhere, we'll do this:
 }
 {% endhighlight %}
 
-If we want to define `controllerAs` at this stage, we'll need to create a new property and define the instance alias:
+If we want to define `controllerAs` at this stage (which will over-ride the default `$ctrl` value), we'll need to create a new property and define the instance alias:
 
 {% highlight javascript %}
 // 1.4
@@ -305,11 +303,44 @@ The `template` property can be defined as a function that is now injected with `
 }
 {% endhighlight %}
 
-Let's checkout the live working example with Angular version `v1.5.0-build.4376+sha.aff74ec`:
-
 <iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/xqauz9aa/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 That's it for our Directive to Component refactor, however there are a few other changes worth exploring before we finish.
+
+### Inheriting behaviour using "require"
+
+If you're not familiar with "require", check [my article on using require](/directive-to-directive-communication-with-require).
+
+{% highlight javascript %}
+{
+  ...
+  require: '^parentComponent',
+  controller: function () {
+    // use this.parent to access required Objects
+    this.parent.foo();
+  }
+  ...
+}
+{% endhighlight %}
+
+Inherited Directive or Component methods will be bound to the `this.parent` property in the Controller.
+
+### One-way bindings
+
+A new syntax expression for isolate scope values, for example:
+
+{% highlight javascript %}
+{
+  ...
+  bindings: {
+    oneWay: '<',
+    twoWay: '='
+  },
+  ...
+}
+{% endhighlight %}
+
+Read my full write-up about [one-way bindings](/one-way-data-binding-in-angular-1-5).
 
 ### Disabling isolate scope
 
