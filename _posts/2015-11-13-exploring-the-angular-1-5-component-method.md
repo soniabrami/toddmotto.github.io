@@ -354,6 +354,31 @@ Components are always created with isolate scope. Here's the relevant part from 
 }
 {% endhighlight %}
 
+### Stateless components
+
+There's not the ability to create "stateless" components, read my in-depth artice on [stateless components](/stateless-angular-components) in the `.component()` method.
+
+Essentially we can just use a `template` and `bindings`:
+
+{% highlight javascript %}
+var NameComponent = {
+  bindings: {
+    name: '=',
+    age: '='
+  },
+  template: [
+    '<div>',
+      '<p>Name: {{$ctrl.name}}</p>',
+      '<p>Age: {{$ctrl.age}}</p>',
+    '</div>'
+  ].join('')
+};
+
+angular
+  .module('app', [])
+  .component('nameComponent', NameComponent);
+{% endhighlight %}
+
 ### Sourcecode for comparison
 
 Throughout the article I've referred to some Angular source code snippets to cross reference against. You can [find the source code here](https://github.com/angular/angular.js/blob/54e816552f20e198e14f849cdb2379fed8570c1a/src/loader.js#L362-L396) or check it out below, it's a really nice abstraction:
