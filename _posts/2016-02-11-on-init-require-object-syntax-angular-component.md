@@ -187,7 +187,7 @@ angular
     },
     template: `
       <div>
-        Component! {{ $ctrl.state }}
+        Component! {% raw %}{{ $ctrl.state }}{% endraw %}
       </div>
     `
   });
@@ -220,7 +220,7 @@ angular
     },
     template: `
       <div>
-        Component! {{ $ctrl.state }}
+        Component! {% raw %}{{ $ctrl.state }}{% endraw %}
       </div>
     `
   });
