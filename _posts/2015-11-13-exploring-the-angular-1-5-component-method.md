@@ -356,7 +356,7 @@ Components are always created with isolate scope. Here's the relevant part from 
 
 ### Stateless components
 
-There's not the ability to create "stateless" components, read my in-depth artice on [stateless components](/stateless-angular-components) in the `.component()` method.
+There's now the ability to create "stateless" components, read my in-depth artice on [stateless components](/stateless-angular-components) in the `.component()` method.
 
 Essentially we can just use a `template` and `bindings`:
 
