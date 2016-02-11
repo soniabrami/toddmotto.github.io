@@ -314,7 +314,9 @@ If you're not familiar with "require", check [my article on using require](/dire
 {% highlight javascript %}
 {
   ...
-  require: '^parentComponent',
+  require: {
+    parent: '^parentComponent'
+  },
   controller: function () {
     // use this.parent to access required Objects
     this.parent.foo();
@@ -381,13 +383,15 @@ angular
 
 ### Sourcecode for comparison
 
-Throughout the article I've referred to some Angular source code snippets to cross reference against. You can [find the source code here](https://github.com/angular/angular.js/blob/54e816552f20e198e14f849cdb2379fed8570c1a/src/loader.js#L362-L396) or check it out below, it's a really nice abstraction:
+Throughout the article I've referred to some Angular source code snippets to cross reference against. Here's the source code below:
 
 {% highlight javascript %}
-component: function(name, options) {
+this.component = function registerComponent(name, options) {
+  var controller = options.controller || function() {};
+
   function factory($injector) {
     function makeInjectable(fn) {
-      if (angular.isFunction(fn)) {
+      if (isFunction(fn) || isArray(fn)) {
         return function(tElement, tAttrs) {
           return $injector.invoke(fn, this, {$element: tElement, $attrs: tAttrs});
         };
@@ -405,20 +409,23 @@ component: function(name, options) {
       transclude: options.transclude,
       scope: {},
       bindToController: options.bindings || {},
-      restrict: 'E'
+      restrict: 'E',
+      require: options.require
     };
   }
 
-  if (options.$canActivate) {
-    factory.$canActivate = options.$canActivate;
-  }
-  if (options.$routeConfig) {
-    factory.$routeConfig = options.$routeConfig;
-  }
+  // Copy any annotation properties (starting with $) over to the factory function
+  // These could be used by libraries such as the new component router
+  forEach(options, function(val, key) {
+    if (key.charAt(0) === '$') {
+      factory[key] = val;
+    }
+  });
+
   factory.$inject = ['$injector'];
 
-  return moduleInstance.directive(name, factory);
-}
+  return this.directive(name, factory);
+};
 {% endhighlight %}
 
 Again, please note that Angular 1.5 isn't released just yet, so this article uses an API that _may_ be subject to slight change.
