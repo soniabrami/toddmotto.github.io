@@ -17,7 +17,7 @@ There have been many style opinions around this, of which I've adopted myself, p
 To get a feel of what I was previously working from, let's start from the `var vm = this;` days.
 
 ### var vm = this;
-This has been a really popular way of binding our variables to the Controller (which gets bound to `$scope`). Taking a simple example (not the `// exports` comment where I "bind" to the `vm` variable:
+This has been a really popular way of binding our variables to the Controller (which gets bound to `$scope`). Taking a simple example (note the `// exports` comment where I "bind" to the `vm` variable:
 
 {% highlight javascript %}
 function MainCtrl () {
