@@ -42,8 +42,9 @@
   }
   &__img {
     img {
-      max-width: 90px;
+      max-width: 110px;
       border-radius: 50%;
+      border: 1px solid rgba(255,255,255,.1);
     }
   }
   &__bio {
