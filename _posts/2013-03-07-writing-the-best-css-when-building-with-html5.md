@@ -123,7 +123,7 @@ div#logo {}
 div.post {}
 {% endhighlight %}
 
-This only lengthens the CSS document and limits the scability of our CSS. At the end of the day, CSS is about building resuable components, not creating static ones that are very limited and difficult to maintain. Dropping the qualified name from your CSS will open you up to more CSS scalability potential.
+This only lengthens the CSS document and limits the scalability of our CSS. At the end of the day, CSS is about building reusable components, not creating static ones that are very limited and difficult to maintain. Dropping the qualified name from your CSS will open you up to more CSS scalability potential.
 
 ### Incorrectly used HTML5 elements
 Apart from using HTML5 elements in your CSS reset, no other declarations are going to benefit you. HTML5 is a more flexible language, more openly interpreted and you can use elements more than one on a page.
@@ -228,7 +228,7 @@ CSS properties are technically variables, and can change, that's why presentatio
 }
 {% endhighlight %}
 
-You could then imagine the parent element of the 'alert-success' class being called 'alert', with an interchangable class name inside, for example:
+You could then imagine the parent element of the 'alert-success' class being called 'alert', with an interchangeable class name inside, for example:
 
 {% highlight css %}
 .alert {

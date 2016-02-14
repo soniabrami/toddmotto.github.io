@@ -205,7 +205,7 @@ mobileNav.onclick = function() {
 }
 {% endhighlight %}
   
-And that's it. JavaScript and mobile performance is amazing, no lagging/juttering as the navigation menu is opened or closed, and we've successfuly created a great foundation to extend a responsive navigation menu for any project.
+And that's it. JavaScript and mobile performance is amazing, no lagging/juttering as the navigation menu is opened or closed, and we've successfully created a great foundation to extend a responsive navigation menu for any project.
 
 The great thing about mobile is they also interpret hover as a touch method, which means if you wanted to add hover capabilities to another nested menu (just like a secondary nested dropdown you could get away with using :hover pseudo selectors to display the nested content).
 

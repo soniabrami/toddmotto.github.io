@@ -150,7 +150,7 @@ function FooCtrl (FooService) {
 }
 {% endhighlight %}
 
-With arrow functions, we have a better option, which allows us to "inherit" the scope we're in if needed. Which means if we changed our inital example to the following, the `this` value would be bound correctly:
+With arrow functions, we have a better option, which allows us to "inherit" the scope we're in if needed. Which means if we changed our initial example to the following, the `this` value would be bound correctly:
 
 {% highlight javascript %}
 function FooCtrl (FooService) {

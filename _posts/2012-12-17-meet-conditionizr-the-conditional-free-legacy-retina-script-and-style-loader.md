@@ -23,7 +23,7 @@ Why you’ll love Conditionizr:
 
 ### Conditional free HTML tags
 
-With legacy browsers, we often see Conditionial statements wrapped around our HTML element, so the browser can use the HTML tag relevant to the browser. Conditionizr steps in to take this conditional approach one step further, detecting those IE versions, and adds the relevant class-name to the HTML tag. This means no more conditional statements on the HTML tag. Conditionizr automates the process.
+With legacy browsers, we often see Conditional statements wrapped around our HTML element, so the browser can use the HTML tag relevant to the browser. Conditionizr steps in to take this conditional approach one step further, detecting those IE versions, and adds the relevant class-name to the HTML tag. This means no more conditional statements on the HTML tag. Conditionizr automates the process.
 
 ### Conditional loading
 

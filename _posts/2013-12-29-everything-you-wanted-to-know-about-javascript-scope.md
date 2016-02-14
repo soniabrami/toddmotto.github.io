@@ -42,7 +42,7 @@ Everyone's used jQuery before, as soon as you do this...
 jQuery('.myClass');
 {% endhighlight %}
 
-... we're accessing jQuery in _global_ scope, we can refer to this access as the `namespace`. The namespace is sometimes an interchangable word for scope, but usually the refers to the highest level scope. In this case, `jQuery` is in the global scope, and is also our namespace. The `jQuery` namespace is defined in the global scope, which acts as a namespace for the jQuery library as everything inside it becomes a descendent of that namespace.
+... we're accessing jQuery in _global_ scope, we can refer to this access as the `namespace`. The namespace is sometimes an interchangeable word for scope, but usually the refers to the highest level scope. In this case, `jQuery` is in the global scope, and is also our namespace. The `jQuery` namespace is defined in the global scope, which acts as a namespace for the jQuery library as everything inside it becomes a descendent of that namespace.
 
 ### What is Local Scope?
 A local scope refers to any scope defined past the global scope. There is typically one global scope, and each function defined has its own (nested) local scope. Any function defined within another function has a local scope which is linked to the outer function.
@@ -419,7 +419,7 @@ var Module = (function () {
 })();
 {% endhighlight %}
 
-This allows a very powerful level of interactivity, as well as code security. A very important part of JavaScript is ensuring security, which is exactly _why_ we can't afford to put all functions in the global scope as they'll be publically available, which makes them open to vulnerable attacks.
+This allows a very powerful level of interactivity, as well as code security. A very important part of JavaScript is ensuring security, which is exactly _why_ we can't afford to put all functions in the global scope as they'll be publicly available, which makes them open to vulnerable attacks.
 
 Here's an example of returning an Object, making use of `public` and `private` methods:
 

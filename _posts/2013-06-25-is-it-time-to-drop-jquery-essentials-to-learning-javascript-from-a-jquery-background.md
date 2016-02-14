@@ -394,6 +394,6 @@ document.addEventListener('DOMContentLoaded', function() {
 }, false);
 {% endhighlight %}
 
-jQuery has had a tendancy to be called _the_ solution and there's no other alternative ever, ever ever. It's bad for upcoming developers to rely on it and it's imperative to learn, or at least have some understanding of, native JavaScript. The more powerful HTML5 becomes, the more we can utilise these rapid HTML5 native capabilities. And the more powerful the features become, the less we need jQuery, the more useless it becomes!
+jQuery has had a tendency to be called _the_ solution and there's no other alternative ever, ever ever. It's bad for upcoming developers to rely on it and it's imperative to learn, or at least have some understanding of, native JavaScript. The more powerful HTML5 becomes, the more we can utilise these rapid HTML5 native capabilities. And the more powerful the features become, the less we need jQuery, the more useless it becomes!
 
 Embrace new technologies now, I'm not suggesting throw away your jQuery workflow and start going native instantly, but a native future is coming - are you ready!

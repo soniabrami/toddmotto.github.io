@@ -172,7 +172,7 @@ angular
   .controller('ParentController', ParentController);
 {% endhighlight %}
 
-Go ahead and touch the live demo. You'll be able to change the isolate bindings without affecting the `parent` scope. However, the `$watch` is setup on the `parent` data source, so when changes occur, it'll propogate down and flow into the Component to update it with new data. One-way binding: it's as easy as that.
+Go ahead and touch the live demo. You'll be able to change the isolate bindings without affecting the `parent` scope. However, the `$watch` is setup on the `parent` data source, so when changes occur, it'll propagate down and flow into the Component to update it with new data. One-way binding: it's as easy as that.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/wauana12/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
@@ -186,7 +186,7 @@ In one-way binding, Object values are set to the isolate Component using the sam
 
 Our isolate property `parent.someObject` is isolated as `obj`, which means we can access `this.obj.todd.age` to get my age. We can also mutate this property by setting a new value. This will force the `parent` to also update as Objects are bound by reference and not copied by Angular.
 
-I've ommited the `Primitive` properties for this as it's not what we're interested in:
+I've omitted the `Primitive` properties for this as it's not what we're interested in:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/zenbyrcb/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 

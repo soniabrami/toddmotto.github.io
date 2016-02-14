@@ -56,7 +56,7 @@ Here's the old plugin configuration for the jBar version 1.0.0:
 Sure it looks okay, but it's not needed at all. We pass the plugin a bunch of _options_ which are then parsed through the plugin logic and it outputs your code entirely.
 
 ### No more default options
-One thing you're probably used to seeing is jQuery plugin _defaults_ that are actually inside the plugin script itself which you essentially override with your own _options_ when you call the script. Using the IIDE methodology, I decided this wasn't at all necessary and completely ignored the need for it. Why? Because it's not really needed either - the defaults are in the markup for one, and secondly, we can check to see if the user has added the JSON data to the data-&#42; attribute and run a function if necesary - light work.
+One thing you're probably used to seeing is jQuery plugin _defaults_ that are actually inside the plugin script itself which you essentially override with your own _options_ when you call the script. Using the IIDE methodology, I decided this wasn't at all necessary and completely ignored the need for it. Why? Because it's not really needed either - the defaults are in the markup for one, and secondly, we can check to see if the user has added the JSON data to the data-&#42; attribute and run a function if necessary - light work.
 
 ### New plugin development + config
 I'm an advocate for ideas and changing things, not without good reason though, but generally because things make sense and following the direction of the industry. I really see this methodology pushing the way for future plugin development, and web development in general. I use IIDE for a lot of my application development work, with data-&#42; attributes the possibilities are endless.

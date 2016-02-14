@@ -229,7 +229,7 @@ You can then use JavaScript to read the properties whilst looping through the el
 ### Food for thought
 I hope you've been a little intrigued at least from this article and what it presents, if so, here's some things to remember for future coding to aim for:
 
-1. Use `data-js` attributes and approriate values for DOM selectors
+1. Use `data-js` attributes and appropriate values for DOM selectors
 2. For repetitive JS, create a small Module and expose an API, pass in your selectors and keep your JavaScript free of the DOM
 3. Start to structure functions a little better using the (Revealing) Module Pattern where necessary
 4. Separate behaviour from style

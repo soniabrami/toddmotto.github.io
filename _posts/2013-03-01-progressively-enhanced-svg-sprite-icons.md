@@ -133,7 +133,7 @@ Here's an example of two icons:
 {% endhighlight %}
 
 ### Not relying on 'hacky' techniques
-The image downscaling technique, a good idea at the time but with terrible output. I say this because of a few things. Creating x2 images is such a bad solution to overcoming retina displays, then downscaling the image to achieve a good 'retina' image. It's a drag on performance, a cheap technique which was popularised at the time, but SVG is the real future of website graphics, creating infinitely scalable graphics that are super-futureproof. Image downscaling is not future proof at all, and when a proper solution comes along, previous techniques will be obselete and not even part of any standard.
+The image downscaling technique, a good idea at the time but with terrible output. I say this because of a few things. Creating x2 images is such a bad solution to overcoming retina displays, then downscaling the image to achieve a good 'retina' image. It's a drag on performance, a cheap technique which was popularised at the time, but SVG is the real future of website graphics, creating infinitely scalable graphics that are super-futureproof. Image downscaling is not future proof at all, and when a proper solution comes along, previous techniques will be obsolete and not even part of any standard.
 
 <div class="download-box">
   <a href="//toddmotto.com/labs/svg-icons" onclick="_gaq.push(['_trackEvent', 'Click', 'Demo SVG Icons, 'SVG Icons Demo']);">Demo</a>

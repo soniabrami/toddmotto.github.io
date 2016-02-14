@@ -12,7 +12,7 @@ I have to say, this is my first proper component built in React. I tried it out 
 
 ### Component design
 
-First we'll want to "design" the markup. Obviously for this I'll be using the wonderful JSX syntax, so let's look at what we want to create (this would be used inside the `render` function so I've ommited the rest):
+First we'll want to "design" the markup. Obviously for this I'll be using the wonderful JSX syntax, so let's look at what we want to create (this would be used inside the `render` function so I've omitted the rest):
 
 {% highlight html %}
 <Tabs>

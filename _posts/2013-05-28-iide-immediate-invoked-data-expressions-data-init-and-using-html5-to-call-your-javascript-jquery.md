@@ -48,7 +48,7 @@ We do this:
 <div class="slides" data-init="slides"></div>
 {% endhighlight %}
 
-If an element exists with a data-&#42; attribute with the value of _slides_, it runs the function. You may think this is weird, but it's really very sensible. I spend my days writing Object-Orientated front-end web software and this really makes a difference to productivity and resuable components.
+If an element exists with a data-&#42; attribute with the value of _slides_, it runs the function. You may think this is weird, but it's really very sensible. I spend my days writing Object-Orientated front-end web software and this really makes a difference to productivity and reusable components.
 
 This is great for a few reasons, we bake in the function calls to the scripts/plugins themselves so they only run when the elements required are there, which means the data-&#42; calls are not bound to our HTML. Before, calling your plugin/script on a particular element was bound/restricting that plugin numerous times to one use, unless you called it multiple times (unproductive). Sometimes you'll get Console errors saying things like _Cannot set property X of null_ - which means the element probably doesn't exist on the page. The beauty of this is that it will only fire when it exists (run the element check inside the plugin/script).
 

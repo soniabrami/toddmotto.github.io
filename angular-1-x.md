@@ -30,7 +30,7 @@ class: angular-1
 ### Directives and components
 
 * Creating a Directive (todo)
-* Defintion Object walkthrough (todo)
+* Definition Object walkthrough (todo)
 * Restricting Directive usage (todo)
 * Replacing root Custom Elements
 * template/templateUrl syntaxes explained (todo)
