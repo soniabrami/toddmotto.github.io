@@ -44,7 +44,7 @@ Having broken it down, things seem a little simpler, we have Objects versus Prim
 
 From [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof): _"The `typeof` operator returns a string indicating the type of the unevaluated operand"_.
 
-Based on our newly aquired knowledge from the above, you wouldn't expect this to happen:
+Based on our newly acquired knowledge from the above, you wouldn't expect this to happen:
 
 {% highlight javascript %}
 typeof []; // object
@@ -128,7 +128,7 @@ if (getType(person) === '[object Object]') {
 }
 {% endhighlight %}
 
-To keep things DRY and save writing `=== '[object Object]'` or whatever out each time, we can create methods to simply reference. I've used `.slice(8, -1);` inside the `getType` function to remove the unecessary `[object ` and `]` parts of the String:
+To keep things DRY and save writing `=== '[object Object]'` or whatever out each time, we can create methods to simply reference. I've used `.slice(8, -1);` inside the `getType` function to remove the unnecessary `[object ` and `]` parts of the String:
 
 {% highlight javascript %}
 var getType = function (elem) {

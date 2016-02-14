@@ -604,7 +604,7 @@ Use `ng-annotate` for automated dependency injection annotation, as `ng-min` is 
 
 With our function declarations outside of the module references, we need to use the `@ngInject` comment to explicitly tell `ng-annotate` where to inject our dependencies. This method uses `$inject` which is faster than the Array syntax.
 
-Manually specifiying the dependency injection arrays costs too much time.
+Manually specifying the dependency injection arrays costs too much time.
 
 ###### Bad: 
 {% highlight javascript %}

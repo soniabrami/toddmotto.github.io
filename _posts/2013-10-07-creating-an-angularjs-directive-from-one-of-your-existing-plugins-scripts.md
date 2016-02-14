@@ -14,7 +14,7 @@ Writing scripts for your websites or web apps is often a simple process, you wri
 
 No _DOM manipulation_ should be carried out inside a Controller, the Controller is where most of your magic happens, a communications channel between your Model data and the browser. It can be tempting to simply whack in an existing script in there (as it'll work just fine), but this goes against Angular's principles.
 
-So here's how to migrate one of your existing scripts or plugins across into a tightly coded AngularJS directive, this also makes code readability and reuse ultra-efficient, as Directives take the strain of repetative code out the window.
+So here's how to migrate one of your existing scripts or plugins across into a tightly coded AngularJS directive, this also makes code readability and reuse ultra-efficient, as Directives take the strain of repetitive code out the window.
 
 Directives are Angular's answer to Web Components 'Shadow DOM' but are compatible in all browsers (not just cutting edge HTML5 supporting ones) - bringing you the power of the future technology, today. Shadow DOM injects new content based on the element, has it's own CSS and JavaScript scope and introduces some incredible behaviour mechanisms, and this is what Directives mimic to bring you this technology today.
 
@@ -136,7 +136,7 @@ Using an Angular Directive allowed me to use less individual DOM manipulation as
 The video ratio isn't here as this is calculated by the JavaScript and appended to each individual element, that ensures each video gets a custom ratio as intended by any initial iframe embeds.
 
 ### Release Candidate errors with cross-domain media
-Whilst porting FluidVids over to AngularJS, it was really easy testing until I hit the Release Candidate (version 1.2.0-rc.2). They've actually done this to help you out, but you actually need to whitelist external domains that you'll be retreiving media from. I got this error whilst changing from version 1.0.8 to 1.2.0-rc.2:
+Whilst porting FluidVids over to AngularJS, it was really easy testing until I hit the Release Candidate (version 1.2.0-rc.2). They've actually done this to help you out, but you actually need to whitelist external domains that you'll be retrieving media from. I got this error whilst changing from version 1.0.8 to 1.2.0-rc.2:
 
 {% highlight sh %}
 Error: [$interpolate:interr] http://errors.angularjs.org/undefined/$interpolate/interr?p0=%7B%7B%20src%2…%24sce%2Finsecurl%3Fp0%3D%252F%252Fplayer.vimeo.com%252Fvideo%252F23919731

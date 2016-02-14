@@ -183,7 +183,7 @@ The above function is a really simple usage of the localStorage API, but you can
 The web storage API was implemented a few years back now, and as such was integrated into IE8 (and obviously IE9). This makes it even better when working with it, as we can all start to move away from supporting IE7. IE8 is actually a blessing on a few levels compared to IE7, it's still a massively popular browser world-wide, but it supports things like querySelector, localStorage, and also CSS such as box-sizing:border-box - all things modern development thrives upon. It's not all doom and gloom, see the silver linings.
 
 ### Impressive localStorage
-Those times you've filled out forms, the internet dies, or you accidentally refreshed, gone back, an error occured and wiped the form - gone! What's even better is that you can even turn off your computer, disconnect from the internet - everything - and it'll still be there when you come back. Try it on the demo, type anything you want, refresh, reboot, have a play - and download should you feel you can use it in any of your projects.
+Those times you've filled out forms, the internet dies, or you accidentally refreshed, gone back, an error occurred and wiped the form - gone! What's even better is that you can even turn off your computer, disconnect from the internet - everything - and it'll still be there when you come back. Try it on the demo, type anything you want, refresh, reboot, have a play - and download should you feel you can use it in any of your projects.
 
 <div class="download-box">
   <a href="//toddmotto.com/labs/html5-local-storage" onclick="_gaq.push(['_trackEvent', 'Click', 'Demo HTML5 localStorage, 'HTML5 localStorage Demo']);">Demo</a>

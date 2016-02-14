@@ -123,7 +123,7 @@ I don't want my code to be susceptible to things like that, it could happen and 
 #### Problem #7: Scalability
 If I wanted to take the NodeList and ship it into another method, I'd have to completely rewrite the `forEach` hack and then ship it into a method, which then means more testing and opening up to more bugs. Write code properly the first time and you'll be able to extend your code excellently.
 
-#### Problem #8: Readibility
+#### Problem #8: Readability
 A random `forEach` (usually seen at the end of a script) is completely meaningless, what does it do? Loops are usually based around manipulating objects/elements of some kind, so wrapping it inside a method of your own would likely be better.
 
 #### Problem #9: Confusing syntax

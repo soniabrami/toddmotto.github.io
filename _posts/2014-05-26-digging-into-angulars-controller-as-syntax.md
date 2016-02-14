@@ -89,7 +89,7 @@ Take this for example:
 </div>
 {% endhighlight %}
 
-Firstly, we're going to get interpolation issues as `{% raw %}{{ title }}{% endraw %}` will be very confusing to use and most likely one scope will take precidence over another. We also don't know which one that might be. Whereas if we did this things are far clearer and variables can be accessed properly across scopes:
+Firstly, we're going to get interpolation issues as `{% raw %}{{ title }}{% endraw %}` will be very confusing to use and most likely one scope will take precedence over another. We also don't know which one that might be. Whereas if we did this things are far clearer and variables can be accessed properly across scopes:
 
 {% highlight html %}
 <div ng-controller="MainCtrl as main">

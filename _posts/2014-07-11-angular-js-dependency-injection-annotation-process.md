@@ -301,7 +301,7 @@ ExampleMethod.$inject = ['$scope', '$rootScope', 'SomeService'];
 
 This took some further digging, and the way Angular maps minified function arguments to real names is _so_ unbelievably simple! The steps are:
 
-* Get the dependecy list in Array form (as we have above)
+* Get the dependency list in Array form (as we have above)
 * Apply the dependencies list over the top of the minified variables (pass them in as arguments when invoking the function)
 
 We've already completed the first step, let's assume we have `['$scope', '$rootScope', 'SomeService']` on standby from an `$inject` property on the function, and the said function with minified arguments:
