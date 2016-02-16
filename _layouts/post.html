@@ -152,7 +152,7 @@ JekyllRandom('.similar__posts', data);
 </div>
 <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-567a0f80a03a6fbe" async></script>
 <script>
-  var disqus_url = {%if page.disqus %}'{{ page.disqus }}'{%else %}'http://toddmotto.com{{ page.url }}'{% endif %};
+  var disqus_url = ({%if page.disqus %}'{{ page.disqus }}'{%else %}'http://toddmotto.com{{ page.url }}'{% endif %}).replace(/\/$/, '');
   var disqus_title = '{{ page.title }}';
   var disqus_shortname = 'toddmotto';
   var dsq = document.createElement('script');
