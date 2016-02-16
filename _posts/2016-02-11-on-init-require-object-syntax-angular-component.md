@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /on-init-require-object-syntax-angular-component
+permalink: /on-init-require-object-syntax-angular-component/
 title: $onInit and new "require" Object syntax in Angular components
 path: 2016-02-11-on-init-require-object-syntax-angular-component.md
 ---
