@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /reengineering-the-jbar-plugin-with-immediately-invoked-data-expressions
+permalink: /reengineering-the-jbar-plugin-with-immediately-invoked-data-expressions/
 title: Re-engineering the jBar plugin with Immediately-Invoked-Data-Expressions
 path: 2013-06-01-reengineering-the-jbar-plugin-with-immediately-invoked-data-expressions.md
 tags:

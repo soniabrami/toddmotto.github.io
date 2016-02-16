@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /revisiting-svg-workflow-for-performance-and-progressive-development-with-transparent-data-uris
+permalink: /revisiting-svg-workflow-for-performance-and-progressive-development-with-transparent-data-uris/
 title: Revisiting SVG workflow for performance and progressive development with transparent data URIs
 path: 2013-05-30-revisiting-svg-workflow-for-performance-and-progressive-development-with-transparent-data-uris.md
 tags:

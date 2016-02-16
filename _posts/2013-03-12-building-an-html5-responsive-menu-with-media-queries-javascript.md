@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /building-an-html5-responsive-menu-with-media-queries-javascript
+permalink: /building-an-html5-responsive-menu-with-media-queries-javascript/
 title: Building an HTML5 responsive menu with media queries and JavaScript
 path: 2013-03-12-building-an-html5-responsive-menu-with-media-queries-javascript.md
 tags:

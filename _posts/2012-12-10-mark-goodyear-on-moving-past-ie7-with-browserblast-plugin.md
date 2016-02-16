@@ -2,7 +2,7 @@
 title: Mark Goodyear on moving past IE7, with BrowserBlast Plugin
 author: Todd Motto
 layout: post
-permalink: /mark-goodyear-on-moving-past-ie7-with-browserblast-plugin
+permalink: /mark-goodyear-on-moving-past-ie7-with-browserblast-plugin/
 disqus: http://www.toddmotto.com/mark-goodyear-on-moving-past-ie7-with-browserblast-plugin
 path: 2012-12-10-mark-goodyear-on-moving-past-ie7-with-browserblast-plugin.md
 tags:

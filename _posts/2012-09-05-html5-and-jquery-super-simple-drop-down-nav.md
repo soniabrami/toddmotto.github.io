@@ -2,7 +2,7 @@
 title: HTML5 and jQuery Super Simple Drop Down Nav
 author: Todd Motto
 layout: post
-permalink: /html5-and-jquery-super-simple-drop-down-nav
+permalink: /html5-and-jquery-super-simple-drop-down-nav/
 disqus: http://www.toddmotto.com/html5-and-jquery-super-simple-drop-down-nav
 path: 2012-09-05-html5-and-jquery-super-simple-drop-down-nav.md
 tags:

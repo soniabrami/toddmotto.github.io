@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /rethinking-angular-js-controllers
+permalink: /rethinking-angular-js-controllers/
 title: Rethinking AngularJS Controllers
 path: 2014-06-09-rethinking-angular-js-controllers.md
 tags:

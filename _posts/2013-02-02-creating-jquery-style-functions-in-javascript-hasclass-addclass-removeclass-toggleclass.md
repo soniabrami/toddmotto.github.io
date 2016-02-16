@@ -2,7 +2,7 @@
 title: Creating jQuery-style functions in JavaScript, hasClass, addClass, removeClass, toggleClass
 author: Todd Motto
 layout: post
-permalink: /creating-jquery-style-functions-in-javascript-hasclass-addclass-removeclass-toggleclass
+permalink: /creating-jquery-style-functions-in-javascript-hasclass-addclass-removeclass-toggleclass/
 disqus: http://www.toddmotto.com/creating-jquery-style-functions-in-javascript-hasclass-addclass-removeclass-toggleclass
 path: 2013-02-02-creating-jquery-style-functions-in-javascript-hasclass-addclass-removeclass-toggleclass.md
 tags:

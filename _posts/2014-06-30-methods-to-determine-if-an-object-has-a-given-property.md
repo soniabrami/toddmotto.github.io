@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /methods-to-determine-if-an-object-has-a-given-property
+permalink: /methods-to-determine-if-an-object-has-a-given-property/
 title: Methods to determine if an Object has a given property
 path: 2014-06-30-methods-to-determine-if-an-object-has-a-given-property.md
 tags:

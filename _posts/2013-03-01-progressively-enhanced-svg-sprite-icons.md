@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /progressively-enhanced-svg-sprite-icons
+permalink: /progressively-enhanced-svg-sprite-icons/
 title: Progressively enhanced SVG sprite icons
 path: 2013-03-01-progressively-enhanced-svg-sprite-icons.md
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /super-fast-angular-ng-model-options-limit-digest-cycles
+permalink: /super-fast-angular-ng-model-options-limit-digest-cycles/
 title: Superfast Angular&#58; use ngModelOptions to limit &dollar;digest cycles
 path: 2015-10-24-super-fast-angular-ng-model-options-limit-digest-cycles.md
 tags:

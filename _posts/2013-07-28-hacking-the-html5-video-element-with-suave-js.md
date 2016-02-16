@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /hacking-the-html5-video-element-with-suave-js
+permalink: /hacking-the-html5-video-element-with-suave-js/
 title: Hacking the HTML5 &lt;video&gt; element with Suave.js
 path: 2013-07-28-hacking-the-html5-video-element-with-suave-js.md
 tags:

@@ -2,7 +2,7 @@
 title: How to (easily) use Cufon font replacement
 author: Todd Motto
 layout: post
-permalink: /how-to-easily-use-cufon-font-replacement
+permalink: /how-to-easily-use-cufon-font-replacement/
 disqus: http://www.toddmotto.com/how-to-easily-use-cufon-font-replacement
 path: 2012-06-07-how-to-easily-use-cufon-font-replacement.md
 tags:

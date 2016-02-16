@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /stratos-js-simplifying-object-manipulation
+permalink: /stratos-js-simplifying-object-manipulation/
 title: Stratos.js simplifying Object manipulation
 path: 2014-02-22-stratos-js-simplifying-object-manipulation.md
 tags:

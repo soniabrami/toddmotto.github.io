@@ -2,7 +2,7 @@
 title: Overriding the Default Text Selection Colour
 author: Todd Motto
 layout: post
-permalink: /overriding-the-default-text-selection-colour
+permalink: /overriding-the-default-text-selection-colour/
 disqus: http://www.toddmotto.com/overriding-the-default-text-selection-colour
 path: 2012-04-09-overriding-the-default-text-selection-colour.md
 tags:

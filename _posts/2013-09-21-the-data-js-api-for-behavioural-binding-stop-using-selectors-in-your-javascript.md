@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /the-data-js-api-for-behavioural-binding-stop-using-selectors-in-your-javascript
+permalink: /the-data-js-api-for-behavioural-binding-stop-using-selectors-in-your-javascript/
 title: The [data-js] API for behavioural-binding; stop using selectors in your JavaScript
 path: 2013-09-21-the-data-js-api-for-behavioural-binding-stop-using-selectors-in-your-javascript.md
 tags:

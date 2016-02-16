@@ -2,7 +2,7 @@
 title: Browser-based responsive development tool, viewport resizing, custom widths
 author: Todd Motto
 layout: post
-permalink: /browser-based-responsive-development-tool-viewport-resizing-custom-widths
+permalink: /browser-based-responsive-development-tool-viewport-resizing-custom-widths/
 disqus: http://www.toddmotto.com/browser-based-responsive-development-tool-viewport-resizing-custom-widths
 path: 2013-01-18-browser-based-responsive-development-tool-viewport-resizing-custom-widths.md
 tags:

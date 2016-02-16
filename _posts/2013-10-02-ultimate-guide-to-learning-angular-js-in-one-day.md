@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /ultimate-guide-to-learning-angular-js-in-one-day
+permalink: /ultimate-guide-to-learning-angular-js-in-one-day/
 title: Ultimate guide to learning AngularJS in one day
 path: 2013-10-02-ultimate-guide-to-learning-angular-js-in-one-day.md
 tags:

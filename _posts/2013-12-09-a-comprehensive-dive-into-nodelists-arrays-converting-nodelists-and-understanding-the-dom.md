@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /a-comprehensive-dive-into-nodelists-arrays-converting-nodelists-and-understanding-the-dom
+permalink: /a-comprehensive-dive-into-nodelists-arrays-converting-nodelists-and-understanding-the-dom/
 title: A comprehensive dive into NodeLists, Arrays, converting NodeLists and understanding the DOM
 path: 2013-12-09-a-comprehensive-dive-into-nodelists-arrays-converting-nodelists-and-understanding-the-dom.md
 tags:

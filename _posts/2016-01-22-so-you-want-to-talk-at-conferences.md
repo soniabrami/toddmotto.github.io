@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /so-you-want-to-talk-at-conferences
+permalink: /so-you-want-to-talk-at-conferences/
 title: So you want to talk at conferences? This is what it&#39;s like.
 path: 2016-01-22-so-you-want-to-talk-at-conferences.md
 ---

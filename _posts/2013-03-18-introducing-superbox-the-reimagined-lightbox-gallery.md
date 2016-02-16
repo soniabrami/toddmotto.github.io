@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /introducing-superbox-the-reimagined-lightbox-gallery
+permalink: /introducing-superbox-the-reimagined-lightbox-gallery/
 title: Introducing SuperBox the re-imagined lightbox gallery
 path: 2013-03-18-introducing-superbox-the-reimagined-lightbox-gallery.md
 tags:

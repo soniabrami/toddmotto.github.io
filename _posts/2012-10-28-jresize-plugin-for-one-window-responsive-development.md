@@ -2,7 +2,7 @@
 title: jResize Plugin, for one window responsive development
 author: Todd Motto
 layout: post
-permalink: /jresize-plugin-for-one-window-responsive-development
+permalink: /jresize-plugin-for-one-window-responsive-development/
 disqus: http://www.toddmotto.com/jresize-plugin-for-one-window-responsive-development
 path: 2012-10-28-jresize-plugin-for-one-window-responsive-development.md
 tags:

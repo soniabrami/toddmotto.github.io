@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /creating-an-angularjs-directive-from-one-of-your-existing-plugins-scripts
+permalink: /creating-an-angularjs-directive-from-one-of-your-existing-plugins-scripts/
 title: Creating an AngularJS Directive from one of your existing plugins/scripts
 path: 2013-10-07-creating-an-angularjs-directive-from-one-of-your-existing-plugins-scripts.md
 tags:

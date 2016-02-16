@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /a-year-in-review-of-todd-motto
+permalink: /a-year-in-review-of-todd-motto/
 title: A year in review of toddmotto​.com
 path: 2015-12-20-a-year-in-review-of-todd-motto.md
 ---

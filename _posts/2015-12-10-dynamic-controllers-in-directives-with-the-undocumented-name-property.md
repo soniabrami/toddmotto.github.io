@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /dynamic-controllers-in-directives-with-the-undocumented-name-property
+permalink: /dynamic-controllers-in-directives-with-the-undocumented-name-property/
 title: Dynamic Controllers in Directives with the undocumented "name" property
 path: 2015-12-10-dynamic-controllers-in-directives-with-the-undocumented-name-property.md
 tags:

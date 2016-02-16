@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /angular-one-time-binding-syntax
+permalink: /angular-one-time-binding-syntax/
 title: AngularJS one-time binding syntax
 path: 2014-12-12-angular-one-time-binding-syntax.md
 tags:

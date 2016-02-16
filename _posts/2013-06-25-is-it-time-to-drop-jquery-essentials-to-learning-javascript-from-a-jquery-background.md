@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /is-it-time-to-drop-jquery-essentials-to-learning-javascript-from-a-jquery-background
+permalink: /is-it-time-to-drop-jquery-essentials-to-learning-javascript-from-a-jquery-background/
 title: Is it time to drop jQuery&#63; Essentials to learning JavaScript from a jQuery background
 path: 2013-06-25-is-it-time-to-drop-jquery-essentials-to-learning-javascript-from-a-jquery-background.md
 tags:

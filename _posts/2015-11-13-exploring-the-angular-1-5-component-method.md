@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /exploring-the-angular-1-5-component-method
+permalink: /exploring-the-angular-1-5-component-method/
 title: Exploring the Angular 1.5 .component() method
 path: 2015-11-13-exploring-the-angular-1-5-component-method.md
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /opinionated-angular-js-styleguide-for-teams
+permalink: /opinionated-angular-js-styleguide-for-teams/
 title: Opinionated AngularJS styleguide for teams
 path: 2014-07-23-opinionated-angular-js-styleguide-for-teams.md
 tags:

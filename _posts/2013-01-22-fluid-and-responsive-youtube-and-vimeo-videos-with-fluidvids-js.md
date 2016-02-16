@@ -2,7 +2,7 @@
 title: Fluid and responsive YouTube and Vimeo videos with fluidvids.js
 author: Todd Motto
 layout: post
-permalink: /fluid-and-responsive-youtube-and-vimeo-videos-with-fluidvids-js
+permalink: /fluid-and-responsive-youtube-and-vimeo-videos-with-fluidvids-js/
 disqus: http://www.toddmotto.com/fluid-and-responsive-youtube-and-vimeo-videos-with-fluidvids-js
 path: 2013-01-22-fluid-and-responsive-youtube-and-vimeo-videos-with-fluidvids-js.md
 tags:

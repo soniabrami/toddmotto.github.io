@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /progressively-enhancing-html5-forms-creating-a-required-attribute-fallback-with-jquery
+permalink: /progressively-enhancing-html5-forms-creating-a-required-attribute-fallback-with-jquery/
 title: Progressively enhancing HTML5 forms, creating a required attribute fallback with jQuery
 external: http://tech.pro/tutorial/1318/progressively-enhancing-html5-forms-creating-a--required--attribute-fallback-with-jquery
 path: 2013-05-20-progressively-enhancing-html5-forms-creating-a-required-attribute-fallback-with-jquery.md

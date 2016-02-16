@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /flaunt-js-for-stylish-responsive-navigations-with-nested-click-to-reveal
+permalink: /flaunt-js-for-stylish-responsive-navigations-with-nested-click-to-reveal/
 title: Flaunt.js for stylish responsive navigations with nested click-to-reveal
 path: 2013-03-24-flaunt-js-for-stylish-responsive-navigations-with-nested-click-to-reveal.md
 tags:

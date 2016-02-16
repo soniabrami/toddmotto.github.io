@@ -2,7 +2,7 @@
 title: HTML5 Blank, Rapid WordPress Theme Development
 author: Todd Motto
 layout: post
-permalink: /html5-blank-rapid-wordpress-theme-development
+permalink: /html5-blank-rapid-wordpress-theme-development/
 disqus: http://www.toddmotto.com/html5-blank-rapid-wordpress-theme-development
 path: 2012-09-16-html5-blank-rapid-wordpress-theme-development.md
 tags:

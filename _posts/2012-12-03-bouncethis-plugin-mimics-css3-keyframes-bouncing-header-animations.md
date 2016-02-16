@@ -2,7 +2,7 @@
 title: bounceThis plugin, mimics CSS3 keyframes bouncing header animations
 author: Todd Motto
 layout: post
-permalink: /bouncethis-plugin-mimics-css3-keyframes-bouncing-header-animations
+permalink: /bouncethis-plugin-mimics-css3-keyframes-bouncing-header-animations/
 disqus: http://www.toddmotto.com/bouncethis-plugin-mimics-css3-keyframes-bouncing-header-animations
 path: 2012-12-03-bouncethis-plugin-mimics-css3-keyframes-bouncing-header-animations.md
 tags:

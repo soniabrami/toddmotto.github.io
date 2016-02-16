@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /avoiding-anonymous-javascript-functions
+permalink: /avoiding-anonymous-javascript-functions/
 title: Avoiding anonymous JavaScript functions
 path: 2014-01-19-avoiding-anonymous-javascript-functions.md
 tags:

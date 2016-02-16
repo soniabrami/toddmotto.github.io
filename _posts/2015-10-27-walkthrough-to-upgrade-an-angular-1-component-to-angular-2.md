@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /walkthrough-to-migrate-an-angular-1-component-to-angular-2
+permalink: /walkthrough-to-migrate-an-angular-1-component-to-angular-2/
 title: Walkthrough to upgrade an Angular 1.x component to Angular 2
 path: 2015-10-27-walkthrough-to-upgrade-an-angular-1-component-to-angular-2.md
 tags:

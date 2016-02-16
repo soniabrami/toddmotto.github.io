@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /angular-js-dependency-injection-annotation-process
+permalink: /angular-js-dependency-injection-annotation-process/
 title: Angular’s dependency injection annotation process
 path: 2014-07-11-angular-js-dependency-injection-annotation-process.md
 tags:

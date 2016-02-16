@@ -2,7 +2,7 @@
 title: Creating a responsive, dynamic mobile select navigation from pure javascript
 author: Todd Motto
 layout: post
-permalink: /creating-a-responsive-dynamic-mobile-navigation-from-pure-javascript
+permalink: /creating-a-responsive-dynamic-mobile-navigation-from-pure-javascript/
 disqus: http://www.toddmotto.com/creating-a-responsive-dynamic-mobile-navigation-from-pure-javascript
 path: 2013-01-01-creating-a-responsive-dynamic-mobile-navigation-from-pure-javascript.md
 tags:

@@ -2,7 +2,7 @@
 title: Thoughts on progressive and relative images
 author: Todd Motto
 layout: post
-permalink: /thoughts-on-progressive-and-relative-images
+permalink: /thoughts-on-progressive-and-relative-images/
 disqus: http://www.toddmotto.com/thoughts-on-progressive-and-relative-images
 path: 2012-07-02-thoughts-on-progressive-and-relative-images.md
 tags:

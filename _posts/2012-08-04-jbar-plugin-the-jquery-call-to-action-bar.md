@@ -2,7 +2,7 @@
 title: jBar Plugin, the jQuery call to action bar
 author: Todd Motto
 layout: post
-permalink: /jbar-plugin-the-jquery-call-to-action-bar
+permalink: /jbar-plugin-the-jquery-call-to-action-bar/
 disqus: http://www.toddmotto.com/jbar-plugin-the-jquery-call-to-action-bar
 path: 2012-08-04-jbar-plugin-the-jquery-call-to-action-bar.md
 tags:

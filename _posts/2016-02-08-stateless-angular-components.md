@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /stateless-angular-components
+permalink: /stateless-angular-components/
 title: Stateless Angular components
 path: 2016-02-08-stateless-angular-components.md
 ---

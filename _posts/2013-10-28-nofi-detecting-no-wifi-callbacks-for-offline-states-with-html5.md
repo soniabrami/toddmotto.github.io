@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /nofi-detecting-no-wifi-callbacks-for-offline-states-with-html5
+permalink: /nofi-detecting-no-wifi-callbacks-for-offline-states-with-html5/
 title: NoFi, detecting no WiFi, callbacks for offline states with HTML5
 path: 2013-10-28-nofi-detecting-no-wifi-callbacks-for-offline-states-with-html5.md
 tags:

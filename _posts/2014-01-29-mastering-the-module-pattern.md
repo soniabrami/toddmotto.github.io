@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /mastering-the-module-pattern
+permalink: /mastering-the-module-pattern/
 title: Mastering the Module Pattern
 path: 2014-01-29-mastering-the-module-pattern.md
 tags:

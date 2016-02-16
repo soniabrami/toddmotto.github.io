@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /hacking-svg-traversing-with-ease-addclass-removeclass-toggleclass-functions
+permalink: /hacking-svg-traversing-with-ease-addclass-removeclass-toggleclass-functions/
 title: Hacking SVG, traversing with ease - addClass, removeClass, toggleClass functions
 path: 2013-10-27-hacking-svg-traversing-with-ease-addclass-removeclass-toggleclass-functions.md
 tags:

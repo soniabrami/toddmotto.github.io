@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /everything-you-wanted-to-know-about-javascript-scope
+permalink: /everything-you-wanted-to-know-about-javascript-scope/
 title: Everything you wanted to know about JavaScript scope
 path: 2013-12-29-everything-you-wanted-to-know-about-javascript-scope.md
 tags:

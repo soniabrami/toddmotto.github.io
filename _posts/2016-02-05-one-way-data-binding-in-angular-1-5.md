@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /one-way-data-binding-in-angular-1-5
+permalink: /one-way-data-binding-in-angular-1-5/
 title: One-way data-binding in Angular 1.5
 path: 2016-02-05-one-way-data-binding-in-angular-1-5.md
 ---

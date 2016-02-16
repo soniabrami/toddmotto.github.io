@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /understanding-javascript-types-and-reliable-type-checking
+permalink: /understanding-javascript-types-and-reliable-type-checking/
 title: Understanding JavaScript types and reliable type checking
 path: 2014-06-02-understanding-javascript-types-and-reliable-type-checking.md
 tags:

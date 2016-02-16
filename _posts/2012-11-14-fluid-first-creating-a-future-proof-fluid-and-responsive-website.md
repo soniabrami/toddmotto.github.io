@@ -2,7 +2,7 @@
 title: 'Fluid-first: creating a future proof fluid and responsive website'
 author: Todd Motto
 layout: post
-permalink: /fluid-first-creating-a-future-proof-fluid-and-responsive-website
+permalink: /fluid-first-creating-a-future-proof-fluid-and-responsive-website/
 disqus: http://www.toddmotto.com/fluid-first-creating-a-future-proof-fluid-and-responsive-website
 path: 2012-11-14-fluid-first-creating-a-future-proof-fluid-and-responsive-website.md
 tags:

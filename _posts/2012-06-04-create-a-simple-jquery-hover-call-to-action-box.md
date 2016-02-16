@@ -2,7 +2,7 @@
 title: Create a simple jQuery hover call-to-action box
 author: Todd Motto
 layout: post
-permalink: /create-a-simple-jquery-hover-call-to-action-box
+permalink: /create-a-simple-jquery-hover-call-to-action-box/
 disqus: http://www.toddmotto.com/create-a-simple-jquery-hover-call-to-action-box
 path: 2012-06-04-create-a-simple-jquery-hover-call-to-action-box.md
 tags:

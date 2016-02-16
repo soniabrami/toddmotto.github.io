@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /writing-a-standalone-ajax-xhr-javascript-micro-library
+permalink: /writing-a-standalone-ajax-xhr-javascript-micro-library/
 title: Writing a standalone Ajax/XHR JavaScript micro-library
 path: 2014-03-31-writing-a-standalone-ajax-xhr-javascript-micro-library.md
 tags:

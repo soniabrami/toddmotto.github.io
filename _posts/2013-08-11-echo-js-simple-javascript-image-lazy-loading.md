@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /echo-js-simple-javascript-image-lazy-loading
+permalink: /echo-js-simple-javascript-image-lazy-loading/
 title: Echo.js, simple JavaScript image lazy loading
 path: 2013-08-11-echo-js-simple-javascript-image-lazy-loading.md
 tags:

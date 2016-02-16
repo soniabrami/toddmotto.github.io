@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /data-js-selectors-enhancing-html5-development-by-separating-css-from-javascript
+permalink: /data-js-selectors-enhancing-html5-development-by-separating-css-from-javascript/
 title: data-js selectors, enhancing HTML5 development by separating CSS from JavaScript
 path: 2013-04-19-data-js-selectors-enhancing-html5-development-by-separating-css-from-javascript.md
 tags:

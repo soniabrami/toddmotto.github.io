@@ -2,7 +2,7 @@
 title: Contact forms; the HTML5 way. Semantics, inputs, data attributes, javascript feature detection
 author: Todd Motto
 layout: post
-permalink: /creating-an-html5-responsive-ready-contact-form-with-custom-javascript-feature-detection
+permalink: /creating-an-html5-responsive-ready-contact-form-with-custom-javascript-feature-detection/
 disqus: http://www.toddmotto.com/creating-an-html5-responsive-ready-contact-form-with-custom-javascript-feature-detection
 path: 2013-01-26-creating-an-html5-responsive-ready-contact-form-with-custom-javascript-feature-detection.md
 tags:

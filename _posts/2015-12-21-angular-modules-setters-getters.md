@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /angular-modules-setters-getters
+permalink: /angular-modules-setters-getters/
 title: Angular modules, setters, getters and bootstrapping
 path: 2015-12-21-angular-modules-setters-getters.md
 tags:

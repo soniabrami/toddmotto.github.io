@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /stateless-react-components
+permalink: /stateless-react-components/
 title: Stateless React components
 path: 2015-12-28-stateless-react-components.md
 tags:

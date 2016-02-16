@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /apollo-js-standalone-class-manipulation-api-for-html5-and-legacy-dom
+permalink: /apollo-js-standalone-class-manipulation-api-for-html5-and-legacy-dom/
 title: Apollo.js, standalone class manipulation API for HTML5 and legacy DOM
 path: 2013-11-09-apollo-js-standalone-class-manipulation-api-for-html5-and-legacy-dom.md
 tags:

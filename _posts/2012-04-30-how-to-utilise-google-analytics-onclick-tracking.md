@@ -2,7 +2,7 @@
 title: How to utilise Google Analytics onClick Tracking
 author: Todd Motto
 layout: post
-permalink: /how-to-utilise-google-analytics-onclick-tracking
+permalink: /how-to-utilise-google-analytics-onclick-tracking/
 disqus: http://www.toddmotto.com/how-to-utilise-google-analytics-onclick-tracking
 path: 2012-04-30-how-to-utilise-google-analytics-onclick-tracking.md
 tags:

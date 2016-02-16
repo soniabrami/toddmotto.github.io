@@ -2,7 +2,7 @@
 title: Flawless clickable drop-down navigation
 author: Todd Motto
 layout: post
-permalink: /flawless-clickable-drop-down-navigation
+permalink: /flawless-clickable-drop-down-navigation/
 disqus: http://www.toddmotto.com/flawless-clickable-drop-down-navigation
 path: 2012-11-25-flawless-clickable-drop-down-navigation.md
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /conditionizr-reloaded-what-every-developer-has-been-waiting-for
+permalink: /conditionizr-reloaded-what-every-developer-has-been-waiting-for/
 title: Conditionizr reloaded, what every developer has been waiting for
 path: 2013-10-24-conditionizr-reloaded-what-every-developer-has-been-waiting-for.md
 tags:

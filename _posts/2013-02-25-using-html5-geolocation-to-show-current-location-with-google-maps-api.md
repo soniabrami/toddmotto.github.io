@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /using-html5-geolocation-to-show-current-location-with-google-maps-api
+permalink: /using-html5-geolocation-to-show-current-location-with-google-maps-api/
 title: Using HTML5 Geolocation to show current location with Google Maps API
 path: 2013-02-25-using-html5-geolocation-to-show-current-location-with-google-maps-api.md
 tags:

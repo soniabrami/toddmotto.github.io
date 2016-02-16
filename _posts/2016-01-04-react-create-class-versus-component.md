@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /react-create-class-versus-component
+permalink: /react-create-class-versus-component/
 title: React.createClass versus extends React.Component
 path: 2016-01-04-react-create-class-versus-component.md
 ---

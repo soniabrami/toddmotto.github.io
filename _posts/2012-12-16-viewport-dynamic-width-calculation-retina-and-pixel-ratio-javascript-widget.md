@@ -2,7 +2,7 @@
 title: ViewPort dynamic width calculation, retina and pixel ratio JavaScript widget
 author: Todd Motto
 layout: post
-permalink: /viewport-dynamic-width-calculation-retina-and-pixel-ratio-javascript-widget
+permalink: /viewport-dynamic-width-calculation-retina-and-pixel-ratio-javascript-widget/
 disqus: http://www.toddmotto.com/viewport-dynamic-width-calculation-retina-and-pixel-ratio-javascript-widget
 path: 2012-12-16-viewport-dynamic-width-calculation-retina-and-pixel-ratio-javascript-widget.md
 tags:

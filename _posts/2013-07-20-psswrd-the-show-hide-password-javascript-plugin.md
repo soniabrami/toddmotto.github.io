@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /psswrd-the-show-hide-password-javascript-plugin
+permalink: /psswrd-the-show-hide-password-javascript-plugin/
 title: Psswrd, the show/hide password JavaScript plugin
 path: 2013-07-20-psswrd-the-show-hide-password-javascript-plugin.md
 tags:

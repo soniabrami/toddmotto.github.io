@@ -2,7 +2,7 @@
 title: Mastering SVG use for a retina web, fallbacks with PNG script
 author: Todd Motto
 layout: post
-permalink: /mastering-svg-use-for-a-retina-web-fallbacks-with-png-script
+permalink: /mastering-svg-use-for-a-retina-web-fallbacks-with-png-script/
 disqus: http://www.toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script
 path: 2012-11-25-flawless-clickable-drop-down-navigation.md
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /moving-from-ng-model-parsers-to-ng-model-validates-ng-messages
+permalink: /moving-from-ng-model-parsers-to-ng-model-validates-ng-messages/
 title: Moving from ngModel.$parsers /ng-if to ngModel.$validators /ngMessages
 path: 2015-10-18-moving-from-ng-model-parsers-to-ng-model-validates-ng-messages.md
 tags:

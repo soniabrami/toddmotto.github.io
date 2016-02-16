@@ -2,7 +2,7 @@
 title: Email address Spam Protection with JavaScript
 author: Todd Motto
 layout: post
-permalink: /email-address-spam-protection-with-javascript
+permalink: /email-address-spam-protection-with-javascript/
 disqus: http://www.toddmotto.com/email-address-spam-protection-with-javascript
 path: 2012-08-18-email-address-spam-protection-with-javascript.md
 tags:

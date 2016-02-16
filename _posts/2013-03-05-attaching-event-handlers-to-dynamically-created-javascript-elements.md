@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /attaching-event-handlers-to-dynamically-created-javascript-elements
+permalink: /attaching-event-handlers-to-dynamically-created-javascript-elements/
 title: Attaching event handlers to dynamically created JavaScript elements
 path: 2013-03-05-attaching-event-handlers-to-dynamically-created-javascript-elements.md
 tags:

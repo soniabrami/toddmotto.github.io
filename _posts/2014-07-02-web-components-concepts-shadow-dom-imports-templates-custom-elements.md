@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /web-components-concepts-shadow-dom-imports-templates-custom-elements
+permalink: /web-components-concepts-shadow-dom-imports-templates-custom-elements/
 title: Web Components and concepts&#44; ShadowDOM&#44; imports&#44; templates&#44; custom elements
 path: 2014-07-02-web-components-concepts-shadow-dom-imports-templates-custom-elements.md
 tags:

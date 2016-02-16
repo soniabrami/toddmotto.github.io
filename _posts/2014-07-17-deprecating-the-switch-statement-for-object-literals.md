@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /deprecating-the-switch-statement-for-object-literals
+permalink: /deprecating-the-switch-statement-for-object-literals/
 title: Replacing switch statements with Object literals
 path: 2014-07-17-deprecating-the-switch-statement-for-object-literals.md
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /what-function-window-document-undefined-iife-really-means
+permalink: /what-function-window-document-undefined-iife-really-means/
 title: What (function (window, document, undefined) {})(window, document); really means
 path: 2014-06-03-what-function-window-document-undefined-iife-really-means.md
 tags:

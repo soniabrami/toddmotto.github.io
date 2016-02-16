@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /es6-arrow-functions-syntaxes-and-lexical-scoping
+permalink: /es6-arrow-functions-syntaxes-and-lexical-scoping/
 title: ES6 arrow functions, syntax and lexical scoping
 path: 2015-04-14-es6-arrow-functions-syntaxes-and-lexical-scoping.md
 tags:

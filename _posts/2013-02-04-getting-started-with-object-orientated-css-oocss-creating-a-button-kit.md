@@ -2,7 +2,7 @@
 title: Getting started with Object-Orientated CSS (OOCSS), creating a button kit
 author: Todd Motto
 layout: post
-permalink: /getting-started-with-object-orientated-css-oocss-creating-a-button-kit
+permalink: /getting-started-with-object-orientated-css-oocss-creating-a-button-kit/
 disqus: http://www.toddmotto.com/getting-started-with-object-orientated-css-oocss-creating-a-button-kit
 path: 2013-02-04-getting-started-with-object-orientated-css-oocss-creating-a-button-kit.md
 tags:

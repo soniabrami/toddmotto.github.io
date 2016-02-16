@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /creating-a-tabs-component-with-react
+permalink: /creating-a-tabs-component-with-react/
 title: Creating a tabs component with React
 path: 2015-12-28-creating-a-tabs-component-with-react.md
 tags:

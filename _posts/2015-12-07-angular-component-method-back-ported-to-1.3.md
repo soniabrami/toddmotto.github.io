@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /angular-component-method-back-ported-to-1.3
+permalink: /angular-component-method-back-ported-to-1.3/
 title: Angular component() method back-ported to 1.3+
 path: 2015-12-07-angular-component-method-back-ported-to-1.3.md
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /building-out-an-html5-experience-with-intels-html5-hub-for-rolling-stone-magazine
+permalink: /building-out-an-html5-experience-with-intels-html5-hub-for-rolling-stone-magazine/
 title: Building out an HTML5 experience with Intels HTML5 Hub, for Rolling Stone magazine
 path: 2013-09-10-building-out-an-html5-experience-with-intels-html5-hub-for-rolling-stone-magazine.md
 tags:

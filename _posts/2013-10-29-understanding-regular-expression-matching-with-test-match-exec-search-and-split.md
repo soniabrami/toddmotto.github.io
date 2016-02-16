@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /understanding-regular-expression-matching-with-test-match-exec-search-and-split
+permalink: /understanding-regular-expression-matching-with-test-match-exec-search-and-split/
 title: Understanding Regular Expression matching with .test(), .match(), .exec(), .search() and .split()
 path: 2013-10-29-understanding-regular-expression-matching-with-test-match-exec-search-and-split.md
 tags:

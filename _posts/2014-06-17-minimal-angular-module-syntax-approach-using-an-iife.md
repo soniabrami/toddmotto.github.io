@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /minimal-angular-module-syntax-approach-using-an-iife
+permalink: /minimal-angular-module-syntax-approach-using-an-iife/
 title: Minimal Angular module/syntax approach using an IIFE
 path: 2014-06-17-minimal-angular-module-syntax-approach-using-an-iife.md
 tags:

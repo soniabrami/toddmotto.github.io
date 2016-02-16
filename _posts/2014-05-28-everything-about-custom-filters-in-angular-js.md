@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /everything-about-custom-filters-in-angular-js
+permalink: /everything-about-custom-filters-in-angular-js/
 title: Everything about custom filters in AngularJS
 path: 2014-05-28-everything-about-custom-filters-in-angular-js.md
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /use-controller-filters-to-prevent-digest-performance-issues
+permalink: /use-controller-filters-to-prevent-digest-performance-issues/
 title: Using Controller $filters to prevent $digest performance issues
 path: 2015-12-15-use-controller-filters-to-prevent-digest-performance-issues.md
 tags:

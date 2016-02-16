@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /iide-immediate-invoked-data-expressions-data-init-and-using-html5-to-call-your-javascript/jquery
+permalink: /iide-immediate-invoked-data-expressions-data-init-and-using-html5-to-call-your-javascript-jquery/
 title: IIDE, Immediate-Invoked-Data-Expressions, data-init and using HTML5 to call your JavaScript/jQuery
 path: 2013-05-28-iide-immediate-invoked-data-expressions-data-init-and-using-html5-to-call-your-javascript-jquery.md
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /directive-to-directive-communication-with-require
+permalink: /directive-to-directive-communication-with-require/
 title: Directive to Directive communication with "require"
 path: 2015-12-14-directive-to-directive-communication-with-require.md
 tags:

@@ -2,7 +2,7 @@
 title: Local host WordPress development with MAMP
 author: Todd Motto
 layout: post
-permalink: /local-host-wordpress-development-with-mamp
+permalink: /local-host-wordpress-development-with-mamp/
 disqus: http://www.toddmotto.com/local-host-wordpress-development-with-mamp
 path: 2012-09-25-local-host-wordpress-development-with-mamp.md
 tags:

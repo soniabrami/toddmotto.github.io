@@ -2,7 +2,7 @@
 title: Meet Conditionizr, the conditional free legacy, retina, script and style loader
 author: Todd Motto
 layout: post
-permalink: /meet-conditionizr-the-conditional-free-legacy-retina-script-and-style-loader
+permalink: /meet-conditionizr-the-conditional-free-legacy-retina-script-and-style-loader/
 disqus: http://www.toddmotto.com/meet-conditionizr-the-conditional-free-legacy-retina-script-and-style-loader
 path: 2012-12-17-meet-conditionizr-the-conditional-free-legacy-retina-script-and-style-loader.md
 ---

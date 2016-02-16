@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /no-scope-soup-bind-to-controller-angularjs
+permalink: /no-scope-soup-bind-to-controller-angularjs/
 title: No $scope soup, bindToController in AngularJS
 path: 2015-07-21-no-scope-soup-bind-to-controller-angularjs.md
 tags:

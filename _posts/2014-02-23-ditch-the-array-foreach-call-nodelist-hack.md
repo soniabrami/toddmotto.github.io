@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /ditch-the-array-foreach-call-nodelist-hack
+permalink: /ditch-the-array-foreach-call-nodelist-hack/
 title: Ditch the [].forEach.call(NodeList) hack
 path: 2014-02-23-ditch-the-array-foreach-call-nodelist-hack.md
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /fireshell-fiercely-quick-front-end-boilerplate-and-workflows
+permalink: /fireshell-fiercely-quick-front-end-boilerplate-and-workflows/
 title: FireShell, fiercely quick front-end boilerplate and workflows
 path: 2013-09-15-fireshell-fiercely-quick-front-end-boilerplate-and-workflows.md
 tags:

@@ -2,7 +2,7 @@
 title: Using PHP to keep Copyright footer year current
 author: Todd Motto
 layout: post
-permalink: /using-php-to-keep-copyright-footer-year-current
+permalink: /using-php-to-keep-copyright-footer-year-current/
 disqus: http://www.toddmotto.com/using-php-to-keep-copyright-footer-year-current
 path: 2012-03-26-using-php-to-keep-copyright-footer-year-current.md
 tags:

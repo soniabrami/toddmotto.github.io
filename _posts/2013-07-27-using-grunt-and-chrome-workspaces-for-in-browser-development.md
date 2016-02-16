@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /using-grunt-and-chrome-workspaces-for-in-browser-development
+permalink: /using-grunt-and-chrome-workspaces-for-in-browser-development/
 title: Using Grunt and Chrome Workspaces for in-browser development
 path: 2013-07-27-using-grunt-and-chrome-workspaces-for-in-browser-development.md
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /stop-toggling-classes-with-js-use-behaviour-driven-dom-manipulation-with-data-states
+permalink: /stop-toggling-classes-with-js-use-behaviour-driven-dom-manipulation-with-data-states/
 title: Stop toggling classes with JS, use behaviour driven DOM manipulation with data-states
 path: 2013-12-17-stop-toggling-classes-with-js-use-behaviour-driven-dom-manipulation-with-data-states.md
 tags:

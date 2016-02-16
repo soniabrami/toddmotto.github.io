@@ -2,7 +2,7 @@
 title: Highlight your Current Page with WordPress Conditionals
 author: Todd Motto
 layout: post
-permalink: /highlight-your-current-page-with-wordpress-conditionals
+permalink: /highlight-your-current-page-with-wordpress-conditionals/
 disqus: http://www.toddmotto.com/highlight-your-current-page-with-wordpress-conditionals
 path: 2012-08-18-highlight-your-current-page-with-wordpress-conditionals.md
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /storing-data-in-the-browser-with-the-html5-local-storage-api
+permalink: /storing-data-in-the-browser-with-the-html5-local-storage-api/
 title: Storing data in the browser with the HTML5 localStorage API
 path: 2013-03-14-storing-data-in-the-browser-with-the-html5-local-storage-api.md
 tags:

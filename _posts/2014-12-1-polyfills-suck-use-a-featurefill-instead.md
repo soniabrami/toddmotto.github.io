@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /polyfills-suck-use-a-featurefill-instead
+permalink: /polyfills-suck-use-a-featurefill-instead/
 title: Polyfills suck&#44; use a featurefill instead
 path: 2014-12-1-polyfills-suck-use-a-featurefill-instead.md
 tags:

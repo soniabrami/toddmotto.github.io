@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /killing-it-with-angular-directives-structure-and-mvvm
+permalink: /killing-it-with-angular-directives-structure-and-mvvm/
 title: Killing it with Angular Directives&#59; Structure and MVVM
 path: 2015-04-17-killing-it-with-angular-directives-structure-and-mvvm.md
 tags:

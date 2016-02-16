@@ -2,7 +2,7 @@
 title: imgShufflr, randomised inline and CSS background images plugin
 author: Todd Motto
 layout: post
-permalink: /imgshufflr-randomised-inline-and-css-background-images-plugin
+permalink: /imgshufflr-randomised-inline-and-css-background-images-plugin/
 disqus: http://www.toddmotto.com/imgshufflr-randomised-inline-and-css-background-images-plugin
 path: 2012-12-06-imgshufflr-randomised-inline-and-css-background-images-plugin.md
 tags:

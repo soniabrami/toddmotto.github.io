@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /smarten-your-front-end-workflow-with-conditionizr-screencast-on-all-the-apis
+permalink: /smarten-your-front-end-workflow-with-conditionizr-screencast-on-all-the-apis/
 title: Smarten your front-end workflow with @conditionizr, screencast on all the APIs
 path: 2013-11-26-smarten-your-front-end-workflow-with-conditionizr-screencast-on-all-the-apis.md
 tags:

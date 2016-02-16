@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /writing-the-best-css-when-building-with-html5
+permalink: /writing-the-best-css-when-building-with-html5/
 title: Writing the best CSS when building with HTML5
 path: 2013-03-07-writing-the-best-css-when-building-with-html5.md
 tags:

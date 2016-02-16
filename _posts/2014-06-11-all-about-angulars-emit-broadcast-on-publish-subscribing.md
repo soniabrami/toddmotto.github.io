@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /all-about-angulars-emit-broadcast-on-publish-subscribing
+permalink: /all-about-angulars-emit-broadcast-on-publish-subscribing/
 title: Understanding Angular’s $scope and $rootScope event system $emit, $broadcast and $on
 path: 2014-06-11-all-about-angulars-emit-broadcast-on-publish-subscribing.md
 tags:
