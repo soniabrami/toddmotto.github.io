@@ -26,9 +26,9 @@ To chat to me about something else such as a JavaScript/Angular training, speaki
 
 ### Timeline
 
-| Date | Feat |
+| Date | Comments |
 | ---- | ---- |
-| 22.02.2016 | Joined Telerik as Developer Advocate |
+| 22.02.2016 | Joined [Telerik](http://telerik.com) as Developer Advocate |
 | 18.03.2016 | Keynote Speaker at [ng-nl](http://ng-nl.org) (Amsterdam, Holland) |
 | 11.11.2015 | Launched [Voux](//voux.io) |
 | 13.10.2015 | Angular workshop, Falsy Values (Warsaw, Poland) |
