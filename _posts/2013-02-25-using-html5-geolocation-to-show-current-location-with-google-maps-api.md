@@ -32,7 +32,7 @@ Here's how we would gather our current position using JavaScript's getCurrentPos
 navigator.geolocation.getCurrentPosition();
 {% endhighlight %}
 
-We then need to hook this up with our Longtitude and Latitude:
+We then need to hook this up with our Longitude and Latitude:
 
 {% highlight javascript %}
 var latitude = position.coords.latitude;
@@ -105,7 +105,7 @@ Merging a simple Google maps basepoint and hooking it into our Geolocation, we a
 })();
 {% endhighlight %}
 
-Walking through the function, we run the feature detection, declare the map options, then feed off the navigator to create the location stamp and other details we need. You'll see I've also included some &lt;h1&gt; and &lt;h2&gt; tags for showing the user where we are in terms of exact Longtitude/Latitude using the JavaScript position co-ordinates. These co-ordinates are then created as a variable and passed into Google Maps API's setCenter method, plotting us on the map where we are!
+Walking through the function, we run the feature detection, declare the map options, then feed off the navigator to create the location stamp and other details we need. You'll see I've also included some &lt;h1&gt; and &lt;h2&gt; tags for showing the user where we are in terms of exact Longitude/Latitude using the JavaScript position co-ordinates. These co-ordinates are then created as a variable and passed into Google Maps API's setCenter method, plotting us on the map where we are!
 
 ### Handling errors
 Should Geolocation fail, or the service be unavailable, we should ideally provide some sort of notification. I haven't done it in this in my example, but here's how you can target different error codes:

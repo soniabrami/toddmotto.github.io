@@ -96,7 +96,7 @@ To demonstrate how `$scope` works when firing the events, here's a simple hierar
 </div>
 {% endhighlight %}
 
-If `SiblingTwoCtrl` fired `$scope.$broadcast`, then `SiblineOneCtrl` would _never_ know it happened. This can be an annoyance, but a (slightly hacky-feely) remedy can be done:
+If `SiblingTwoCtrl` fired `$scope.$broadcast`, then `SiblingOneCtrl` would _never_ know it happened. This can be an annoyance, but a (slightly hacky-feely) remedy can be done:
 
 {% highlight javascript %}
 $scope.$parent.$broadcast('myevent', 'Some data');

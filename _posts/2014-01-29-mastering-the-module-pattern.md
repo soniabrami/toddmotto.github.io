@@ -106,7 +106,7 @@ var Module = (function () {
     publicMethodOne: function () {
       // I can call `privateMethod()` you know...
     },
-    publicMethodtwo: function () {
+    publicMethodTwo: function () {
 
     },
     publicMethodThree: function () {
@@ -138,7 +138,7 @@ var Module = (function () {
 })();
 {% endhighlight %}
 
-You'll then see on the last line inside the Module that `myObject` is returned. Our global `Module` doesn't care that the locally scoped `Object` has a name, we'll only get the actualy Object sent back, not the name. It offers for better code management.
+You'll then see on the last line inside the Module that `myObject` is returned. Our global `Module` doesn't care that the locally scoped `Object` has a name, we'll only get the actual Object sent back, not the name. It offers for better code management.
 
 ### Stacked locally scoped Object Literal
 

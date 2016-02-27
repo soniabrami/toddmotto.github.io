@@ -54,7 +54,7 @@ Apollo.hasClass(element, className);
 When I first wrote the APIs to allow you to create your own class manipulation functions, I used some _while_ loops, and the implementation was good, not great. I'm going to look at the _removeClass_ function now, and show you the difference in the new API.
 
 #### Old API:
-The old API was complex, but worked fantastically. It's important to note than when using a library that handles classes, that it actually removes _all_ instances and doesn't assume the class exists just onces.
+The old API was complex, but worked fantastically. It's important to note than when using a library that handles classes, that it actually removes _all_ instances and doesn't assume the class exists just once.
 
 {% highlight javascript %}
 function hasClass(elem, className) {

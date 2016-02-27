@@ -94,7 +94,7 @@ $(function() {
     background: '#FAF4AF', // Background color of banner
     textColor: '#333', // Text color
     fontSize: '12px', // Font size
-    fontFamily: 'sans-serif', // Font familiy
+    fontFamily: 'sans-serif', // Font family
     borderSize: '2', // Border size
     borderStyle: 'solid', // Border style
     borderColor: '#D4C790', // Border color
