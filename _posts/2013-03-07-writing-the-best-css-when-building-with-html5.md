@@ -94,7 +94,7 @@ Using qualified selectors, you can then target the HTML like so:
 header {}
 {% endhighlight %}
 
-Looking at it now, this was really bad. I never do this anymore due to the life of real world development. Briefs change, goalposts move, I've had clients back out from using HTML5 elements back to HTML4, and had to make painstaking (and unncessary) changes to both my HTML _and_ CSS.
+Looking at it now, this was really bad. I never do this anymore due to the life of real world development. Briefs change, goalposts move, I've had clients back out from using HTML5 elements back to HTML4, and had to make painstaking (and unnecessary) changes to both my HTML _and_ CSS.
 
 With HTML agnostic coding, you can become much more efficient and use your classes. Nothing will change apart from your HTML. CSS is not HTML5 at the end of the day, so you shouldn't write code for it. Let HTML do it's job, and let CSS do it's job.
 

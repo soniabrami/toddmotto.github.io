@@ -291,7 +291,7 @@ myFunction.call(scope); // invoke myFunction using .call()
 {% endhighlight %}
 
 #### .bind()
-Unlike the above, using `.bind()` does not _invoke_ a function, it merely binds the values before the function is invoked. It's a real shame this was introduced in ECMASCript 5 and not earlier as this method is fantastic. As you know we can't pass parameters into function references, something like this:
+Unlike the above, using `.bind()` does not _invoke_ a function, it merely binds the values before the function is invoked. It's a real shame this was introduced in ECMAScript 5 and not earlier as this method is fantastic. As you know we can't pass parameters into function references, something like this:
 
 {% highlight javascript %}
 // works

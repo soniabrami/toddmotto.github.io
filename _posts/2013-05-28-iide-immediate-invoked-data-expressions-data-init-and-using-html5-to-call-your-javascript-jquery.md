@@ -81,7 +81,7 @@ It's derived from JavaScript for representing data structures and arrays and obj
 </div>
 {% endhighlight %}
 
-This is fine, but what about when the website scales, or you want to change your view (HTML)? If you add or change a class name, you're going to have to add it to each, which is repetitive work and uneccessary. For a simple slider this is fine, but it's not maintainable when you're thinking big or HTML agnostic development.
+This is fine, but what about when the website scales, or you want to change your view (HTML)? If you add or change a class name, you're going to have to add it to each, which is repetitive work and unnecessary. For a simple slider this is fine, but it's not maintainable when you're thinking big or HTML agnostic development.
 
 Coming back to JSON now, let's use HTML5 data-&#42; attributes to define an array of images inside a JSON array. The beauty of JSON arrays/objects is that they can be manually typed (like I have below), or dynamically fed down from a server - perfect for so many use cases.
 

@@ -83,7 +83,7 @@ When you get your hands on CSS3, it's amazing, you can make everything super-sli
 }
 {% endhighlight %}
 
-After each CSS3 declaration on each button name, the CSS was huge. But at the time it didn't really bother me as it was all about diving into CSS3 - but it should have; as performance, speed and managability should be at the forefront of each piece of code you write. Taking this knowledge, I've come up with a better way to do this using the opacity property which is applied to each icon.
+After each CSS3 declaration on each button name, the CSS was huge. But at the time it didn't really bother me as it was all about diving into CSS3 - but it should have; as performance, speed and manageability should be at the forefront of each piece of code you write. Taking this knowledge, I've come up with a better way to do this using the opacity property which is applied to each icon.
 
 This is done like so:
 {% highlight css %}
