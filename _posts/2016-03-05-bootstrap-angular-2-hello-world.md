@@ -11,7 +11,7 @@ So let's walk through the bare essentials in a sensible order to get started and
 
 ### TypeScript
 
-For the purposes of the tutorial, we're going to be using TypeScript, however I will be showing the ES2015/ES6 equivalent at the end.
+For the purposes of the tutorial, we're going to be using TypeScript.
 
 ### Boilerplate
 
