@@ -244,20 +244,21 @@ I've made a change above to the `.test` class, adding `background: red;` as a pr
 
 It means that CSS we write globally will inherit, however styles defined using the same class inside the Component will override existing styling.
 
-### Thoughts
+### Web Component footsteps
 
-One thing I'd like to see is Angular 2 Components head towards the Shadow DOM spec a little further and use the CSS `:host {}` selector, be it with `Native` or `Emulated` styles. A quick example of my thinking:
+Angular 2 moves even closer to the Web Components spec through the use of the `:host {}` selector, both with `Native` or `Emulated` styles. A quick example of using the `:host {}` selector:
 
 {% highlight javascript %}
+import {Component, ViewEncapsulation} from 'angular2/core';
+
 @Component({
   selector: 'my-app',
   encapsulation: ViewEncapsulation.Native,
   styles: [`
     :host {
+      display: block;
       padding: 10px;
-    }
-    .test {
-      /* other styles */
+      background: red;
     }
   `],
   template: `
@@ -273,3 +274,11 @@ export class AppComponent {
   public title = 'Hello!';
 }
 {% endhighlight %}
+
+Notice how the red background now spans the full element using the `:host` selector. Now the important thing to remember is the `:host` selector targets the _declared_ element, not any of the Component's children (such as the template).
+
+<iframe src="//embed.plnkr.co/iVatYgdxXXiKwaZlpYdZ" frameborder="0" border="0" cellspacing="0" cellpadding="0" width="100%" height="250"></iframe>
+
+##### What does this mean?
+
+It means we can use the `:host` selector to style the declared element, in this case the `:host` is the same element as Angular 2 annotated above in the `ViewEncapsulation.Emulated` overview as `<my-app _nghost-cmy-1="">`. Note the `_nghost-*` attribute, in `Native` mode this attribute is removed and we use native Shadow DOM, in which case just `<my-app>` refers to the host element and therefore is targeted by the `:host {}` selector.
