@@ -69,7 +69,10 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
       <a href="http://www.meetup.com/DeveloperSouthCoast/events/226862117/">DeveloperSouthCoast</a>, Southampton (England, UK), <span>17.12.2015</span>
     </li>
     <li>
-      <a href="http://www.meetup.com/DeveloperSouthCoast/events/226862117/">Falsy Values</a>, Warsaw (Poland), <span>12.10.2015</span>
+      <a href="https://falsyvalues.com">Falsy Values</a>, Warsaw (Poland), <span>12.10.2015</span>
+    </li>
+    <li>
+      <a href="http://futureinsights.com">Future Of Web Apps</a>, London (England, UK), <span>06.10.2015</span>
     </li>
     <li>
       <a href="http://futureinsights.com">Future Of Web Apps</a>, Boston (USA), <span>28.10.2014</span>
