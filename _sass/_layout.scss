@@ -481,7 +481,7 @@ table {
 .speaking {
   &__grid {
     ul {
-      list-style: none;
+      list-style: none !important;
       overflow: hidden;
       li {
         float: left;
