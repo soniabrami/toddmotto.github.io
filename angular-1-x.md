@@ -59,7 +59,7 @@ class: angular-1
 ### Services
 
 * Creating a Service (todo)
-* factory() versus service() (todo)
+* [factory() versus service()](/factory-versus-service)
 
 ### Filters
 

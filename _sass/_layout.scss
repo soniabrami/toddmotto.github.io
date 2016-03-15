@@ -477,3 +477,32 @@ table {
     padding: 5px 15px;
   }
 }
+
+.speaking {
+  &__grid {
+    ul {
+      list-style: none;
+      overflow: hidden;
+      li {
+        float: left;
+        max-width: 25%;
+        img {
+          min-width: 100%;
+        }
+      }
+    }
+  }
+  &__upcoming {
+    ul {
+      list-style: none;
+      overflow: hidden;
+      li {
+        padding: 20px;
+        border-bottom: 1px solid #e5e5e5;
+        &:first-child {
+          border-top: 1px solid #e5e5e5;
+        }
+      }
+    }
+  }
+}
