@@ -31,15 +31,15 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
 
 <div class="speaking__list">
   <ul>
-    <li>
+    <!--<li>
       <a href="http://2016.render-conf.com">Render Conf (TBC)</a>, Oxford (England, UK), <span>21.04.2016</span>
-    </li>
+    </li>-->
     <li>
       <a href="https://voxxeddays.com/ticino/">VoxxedDays</a>, Lugano (Switzerland), <span>30.04.2016</span>
     </li>
-    <li>
+    <!--<li>
       <a href="http://dotnet-cologne.de/">Dotnet Cologne (TBC)</a>, Cologne (Germany), <span>13.05.2016</span>
-    </li>
+    </li>-->
     <li>
       <a href="https://2016.front-trends.com/speakers/">FrontTrends</a>, Warsaw (Poland), <span>18.05.2016</span>
     </li>
