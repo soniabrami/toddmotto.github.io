@@ -17,33 +17,35 @@ For those coming from an Angular 1.x background, this concept looks a little lik
 
 {% highlight javascript %}
 function counter() {
-  scope: {},
-  bindToController: {
-    counterValue: '='
-  },
-  controller: function () {
-    this.counterValue = this.counterValue || 0;
-    this.increment = function () {
-      this.counterValue++;
-    }
-    this.decrement = function () {
-      this.counterValue--;
-    }
-  },
-  template: `
-    <div class="counter">
-      <div class="counter__container">
-        <button ng-click="$ctrl.decrement();" class="counter__button">
-          -
-        </button>
-        <input type="text" class="counter__input" ng-model="$ctrl.counterValue">
-        <button ng-click="$ctrl.increment();" class="counter__button">
-          +
-        </button>
+  return {
+    scope: {},
+    bindToController: {
+      counterValue: '='
+    },
+    controller: function () {
+      this.counterValue = this.counterValue || 0;
+      this.increment = function () {
+        this.counterValue++;
+      }
+      this.decrement = function () {
+        this.counterValue--;
+      }
+    },
+    template: `
+      <div class="counter">
+        <div class="counter__container">
+          <button ng-click="$ctrl.decrement();" class="counter__button">
+            -
+          </button>
+          <input type="text" class="counter__input" ng-model="$ctrl.counterValue">
+          <button ng-click="$ctrl.increment();" class="counter__button">
+            +
+          </button>
+        </div>
       </div>
-    </div>
-  `
-};
+    `
+  };
+}
 angular
   .module('app')
   .directive('counter', counter);
