@@ -258,4 +258,4 @@ The rule for this one is `internalProp:externalProp`, in this case `counterValue
 
 ### Next steps
 
-Wouldn't it be great to be notified of changes when the internal `counterValue` (inside `CounterComponent`) has changed? Well, instead of `@Input`, we can use `@Output` and `EventEmitter` - [let's explore in the next tutorial](reacting-to-child-component-events-event-emitter-output-angular-2).
+Wouldn't it be great to be notified of changes when the internal `counterValue` (inside `CounterComponent`) has changed? Well, instead of `@Input`, we can use `@Output` and `EventEmitter` - [let's explore in the next tutorial](/component-events-event-emitter-output-angular-2).
