@@ -132,7 +132,7 @@ export class CounterComponent {
 
 ### @Input decorator for property bindings
 
-Let's focus on `public counterValue:number = 0;` now, it's currently an inner value of the `CounterComponent`, however we would ideally like to set the initial data and keep a bound reference from the parent. This is where we need to use Angular 2's `@Input()` decorator. We import `Input` from the Angular core, and inside the `class `CounterComponent` it's a simple switch out:
+Let's focus on `public counterValue:number = 0;` now, it's currently an inner value of the `CounterComponent`, however we would ideally like to set the initial data and keep a bound reference from the parent. This is where we need to use Angular 2's `@Input()` decorator. We import `Input` from the Angular core, and inside the `class CounterComponent` it's a simple switch out:
 
 {% highlight javascript %}
 import {Component, Input} from 'angular2/core';
