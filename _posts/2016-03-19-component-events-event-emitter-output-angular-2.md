@@ -314,6 +314,6 @@ The rule for this one is `internalProp:externalProp`, in this case `counterChang
 
 Altogether the `CounterComponent` has the following properties for `@Input` and `@Output` based on the above custom property setups:
 
-{% highlight javascript %}
+{% highlight html %}
 <counter [init]="myValue" (change)="myValueChange($event);"></counter>
 {% endhighlight %}
