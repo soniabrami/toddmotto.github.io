@@ -9,9 +9,9 @@ tags:
 - JavaScript
 ---
 
-I'm a massive fan of JavaScript's Module Pattern and I'd like to share some use cases and differences in the pattern, and why they're important. The Module Pattern is what we'd call a "design pattern", and it's extremely useful for a vast amount of reasons. My main attraction to the Module Pattern (and it's variant, the Revealing Module Pattern) are because it makes scoping a breeze, and doesn't overcomplicate JavaScript design.
+I'm a massive fan of JavaScript's Module Pattern and I'd like to share some use cases and differences in the pattern, and why they're important. The Module Pattern is what we'd call a "[design pattern](http://code.tutsplus.com/tutorials/understanding-design-patterns-in-javascript--net-25930),"and it's extremely useful for a vast amount of reasons. My main attraction to the Module Pattern (and its variant, the Revealing Module Pattern) is it makes scoping a breeze and doesn't overcomplicate program design. 
 
-It also keeps things very simple and easy to read and use, uses Objects in a very nice way, and doesn't bloat your code with repetitive `this` and `prototype` declarations. I thought I'd share some insight as to the awesome parts of the Module, and how you can master it and its variants and features.
+It also keeps things very simple and easy to read and use, uses Objects in a very nice way, and doesn't bloat your code with repetitive `this` and `prototype` declarations. I thought I'd share some insight as to the awesome parts of the Module, and how you can master it, its variants and features.
 
 ### Creating a Module
 To understand what a Module can give you, you'll need to understand what the following `function` concept does:
@@ -22,7 +22,7 @@ To understand what a Module can give you, you'll need to understand what the fol
 })();
 {% endhighlight %}
 
-It declares a function, which then calls itself immediately. These are also known as [Immediately-Invoked-Function-Expressions](http://benalman.com/news/2010/11/immediately-invoked-function-expression)'s, in which the `function` creates new scope and creates "privacy". JavaScript doesn't have privacy, but creating new scope emulates this when we wrap all our function logic inside them. The idea then is to return only the parts we need, leaving the other code out of the `global scope`.
+It declares a function, which then calls itself immediately. These are also known as [Immediately-Invoked-Function-Expressions](http://benalman.com/news/2010/11/immediately-invoked-function-expression), in which the `function` creates new scope and creates "privacy". JavaScript doesn't have privacy, but creating new scope emulates this when we wrap all our function logic inside them. The idea then is to return only the parts we need, leaving the other code out of the `global` scope.
 
 After creating new `scope`, we need to namespace our code so that we can access any methods we return. Let's create a namespace for our anonymous Module.
 
@@ -35,7 +35,7 @@ var Module = (function () {
 We then have `Module` declared in the global scope, which means we can call it wherever we like, and even pass it into another Module.
 
 ### Private methods
-You'll see and hear a lot about `private` methods in JavaScript, but it doesn't _strictly_ have them, but we _can_ create it.
+You'll see and hear a lot about `private` methods in JavaScript. But Javascript doesn't _strictly_ have `private` methods, but we _can_ create a working equivalent.
 
 What _are_ private methods you might be asking? Private methods are anything you don't want users/devs/hackers to be able to see/call outside the scope they're in. We might be making server calls and posting sensitive data, we _don't_ want to expose those functions publicly, they could post anything back then and take advantage of our code. So we can create closure and be more sensible (as best as we can with JavaScript) at protecting our code. It's not _all_ about protection however, there are also naming conflicts. I bet when you first started out writing jQuery/JavaScript, that you dumped all your code in one file and it was just `function, function, function`. Little did you know these were all global, and you probably suffered the consequence at some point. If so, you'll learn why, and what to do to change it.
 
@@ -90,7 +90,7 @@ var myObjLiteral = {
 myObjLiteral.someMethod();
 {% endhighlight %}
 
-But the issue with Object Literals is we can abuse the pattern and bolt "private" methods onto it, which as they're part of the Object, will be accessible too. This is where the Module comes in to save us, by allowing us to define all our private stuff locally and only return "the good parts".
+But the issue with Object Literals is the pattern can be abused. Methods _intended_ to be "private" will be accessible by users because they are part of the Object. This is where the Module comes in to save us, by allowing us to define all our "private" stuff locally and only return "the good parts".
 
 Let's look at a more Object Literal syntax, and a perfectly good Module Pattern and the `return` keyword's role. Usually a Module will return an Object, but how that Object is defined and constructed is totally up to you. Depending on the project and the role/setup of the code, I may use one of a few syntaxes.
 
@@ -116,6 +116,8 @@ var Module = (function () {
 
 })();
 {% endhighlight %}
+
+@TODO: edit pause
 
 ### Locally scoped Object Literal
 Local scope means a variable/function declared inside a scope. On the [Conditionizr](//conditionizr.com) project, we use a locally scoped namespace as the file is over 100 lines, so it's good to be able to see what are the public and private methods without checking the `return` statement. In this sense, it's _much_ easier to see what _is_ public, because they'll have a locally scoped namespace attached:
