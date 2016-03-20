@@ -20,7 +20,7 @@ function counter($rootScope) {
     bindToController: {
       counterValue: '='
     },
-    controller: function () {
+    controller() {
       this.counterValue = this.counterValue || 0;
       this.increment = function () {
         this.counterValue++;
