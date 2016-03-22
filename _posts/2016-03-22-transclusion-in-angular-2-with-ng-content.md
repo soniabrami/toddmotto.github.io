@@ -5,7 +5,11 @@ title: Transclusion in Angular 2
 path: 2016-03-22-transclusion-in-angular-2-with-ng-content.md
 ---
 
-Transclusion is an Angular 1.x term, lost is the rewrite of Angular 2, so let's bring it back for this article just do you know what concept I'm talking about. The word "transclusion" may be gone, but the concepts remain. Essentially transclusion in Angular 1.x is/was taking content such as a text node or HTML, and injecting it into a template at a specific entry point. This is now done in Angular 2 through modern web APIs such as Shadow DOM and known as "Content Projection". Let's explore!
+Transclusion is an Angular 1.x term, lost is the rewrite of Angular 2, so let's bring it back for this article just concept clarity. The word "transclusion" may be gone, but the concepts remain.
+
+Essentially, transclusion in Angular 1.x is/was taking content such as a text node or HTML, and injecting it into a template at a specific entry point.
+
+This is now done in Angular 2 through modern web APIs such as Shadow DOM and known as "Content Projection". Let's explore!
 
 ### Angular 1.x transclusion
 
