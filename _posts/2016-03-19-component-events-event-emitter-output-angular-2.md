@@ -305,9 +305,15 @@ export class CounterComponent {
   public counterValue = 0;
   increment() {
     this.counterValue++;
+    this.counterChange.emit({
+      value: this.counterValue
+    })
   }
   decrement() {
     this.counterValue--;
+    this.counterChange.emit({
+      value: this.counterValue
+    })
   }
 }
 {% endhighlight %}
