@@ -7,7 +7,7 @@ path: 2016-03-19-component-events-event-emitter-output-angular-2.md
 
 Angular 2 Components have a far better way of notifying parent Components that something has happened via events. There is no longer two-way data binding in Angular 2 in the same way we knew it in Angular 1.x, it's designed around a uni-directional data flow system that adopts a much more reasonable approach to application development. Let's finalise the basics of parent-child and child-parent communication.
 
-This tutorial will cover local Component events using the `EventEmitter` API and `@Output` decorator, which follows nicely from the previous article on [/passing-data-angular-2-components-input](passing data in Angular 2 Components). For the purposes of this article we'll be continuing to use the Counter Component we built in the [first article](/creating-your-first-angular-2-component) - so familiarise yourself with this first.
+This tutorial will cover local Component events using the `EventEmitter` API and `@Output` decorator, which follows nicely from the previous article on [passing data in Angular 2 Components](/passing-data-angular-2-components-input). For the purposes of this article we'll be continuing to use the Counter Component we built in the [first article](/creating-your-first-angular-2-component) - so familiarise yourself with this first.
 
 ### Angular 1.x
 
