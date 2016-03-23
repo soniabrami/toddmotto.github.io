@@ -125,7 +125,7 @@ export class AppComponent {
 }
 {% endhighlight %}
 
-Note how we've used `(counterChange)` with brackets around it, this tells Angular that this is an event binding, similar to `(click)`. Now we need to mirror this API inside the `CounterComponent`.
+Note how we've used `(counterChange)` with parentheses around it, this tells Angular that this is an event binding, similar to `(click)`. Now we need to mirror this API inside the `CounterComponent`.
 
 ### @Output and EventEmitter
 
