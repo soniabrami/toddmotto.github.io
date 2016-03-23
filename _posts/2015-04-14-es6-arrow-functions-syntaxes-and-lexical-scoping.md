@@ -9,7 +9,7 @@ tags:
 - JavaScript
 ---
 
-ES6/Harmony/whatever introduces a really nice feature that punches above it's weight in terms of simplicity to integrate versus time saving and feature output. This feature is the arrow function.
+ES2015 (ES6) introduces a really nice feature that punches above it's weight in terms of simplicity to integrate versus time saving and feature output. This feature is the arrow function.
 
 Before we dive into the features of the arrow function and what it actually does for us, let's understand what an arrow function is _not_. It's not a replacement for the `function` keyword, at all. This means you can't do a find and replace on every single `function` keyword and everything works perfectly, because it likely won't.
 
@@ -171,3 +171,5 @@ function FooCtrl (FooService) {
   .doSomething((response) => this.foo = response);
 }
 {% endhighlight %}
+
+The interesting thing to note is that the `this` value (internally) is not _actually_ bound to the arrow function. Normal functions in JavaScript bind their own `this` value, however the `this` value used in arrow functions is actually fetched lexically from the scope it sits inside. It has no `this`, so when you use `this` you're talking to the outer scope.
