@@ -4,7 +4,7 @@ layout: page
 class: about
 ---
 
-I'm Todd, a 25 year old front-end engineer from England, UK working as a Developer Advocate at [Telerik](http://telerik.com). Founder of [Voux](//voux.io), a project to bring JavaScript and Angular training to developers all around the world through online and workshop training. I'm also a [Developer Expert](//developers.google.com/experts/people/todd-motto) at Google, [conference speaker](//speakerdeck.com/toddmotto) and [open source](//github.com/toddmotto) evangelist.
+I'm Todd, a 25 year old front-end engineer from England, UK, working as a Developer Advocate at [Telerik](http://telerik.com). Founder of [Voux](//voux.io), a project to bring JavaScript and Angular training to developers all around the world through online and workshop training. I'm also a [Developer Expert](//developers.google.com/experts/people/todd-motto) at Google, [conference speaker](//speakerdeck.com/toddmotto) and [open source](//github.com/toddmotto) evangelist.
 
 <div class="about__talk">
   <img src="img/about.jpg">
@@ -28,8 +28,9 @@ To chat to me about something else such as a JavaScript/Angular training, speaki
 
 | Date | Comments |
 | ---- | ---- |
+| 13.03.2016 | 15,000ft sky dive ([video](https://www.youtube.com/watch?v=iFYYkTlJDWg)) |
 | 22.02.2016 | Joined [Telerik](http://telerik.com) as Developer Advocate |
-| 18.03.2016 | Keynote Speaker at [ng-nl](http://ng-nl.org) (Amsterdam, Holland) |
+| 18.02.2016 | Keynote Speaker at [ng-nl](http://ng-nl.org) (Amsterdam, Holland) |
 | 11.11.2015 | Launched [Voux](//voux.io) |
 | 13.10.2015 | Angular workshop, Falsy Values (Warsaw, Poland) |
 | 12.10.2015 | Angular: The Performance Parts (Warsaw, Poland) [slides](https://speakerdeck.com/toddmotto/angularjs-the-performance-parts) |
