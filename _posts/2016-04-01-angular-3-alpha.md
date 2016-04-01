@@ -68,7 +68,7 @@ ASX is an extremely powerful and expressive language, and ships with a vast amou
 
 ### Expressions
 
-There's no longer the requirement for `{{ foo }}` style handlebar templating expressions, we can use the `ASX-exp` module to handle inline JavaScript with the `@EXP()` decorator:
+There's no longer the requirement for `{% raw %}{{ foo }}{% endraw %}` style handlebar templating expressions, we can use the `ASX-exp` module to handle inline JavaScript with the `@EXP()` decorator:
 
 {% highlight javascript %}
 ...
