@@ -194,3 +194,7 @@ cd <my-project>
 npm install ng2-transformer-asx
 ng2 upgrade --april-fools
 {% endhighlight %}
+
+### Getting started
+
+There's a simple tutorial on the [Angular3.io](https://www.youtube.com/watch?v=dQw4w9WgXcQ) webpage that will get you kickstarted. Enjoy!
