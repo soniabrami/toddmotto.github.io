@@ -28,7 +28,12 @@ export class Toggle@Component(::@scope(() => { 'button' )) {
 
 ### Template syntax with ASX
 
-After AtScript was dropped in Angular 2's development, the Angular team have worked very closely with React to create a fork of JSX's internal virtual DOM implementation, dubbed "ASX". An implementation for our above `Toggle` Component might look something like this:
+After AtScript was dropped in Angular 2's development, the Angular team have worked very closely with React to create a fork of JSX's internal virtual DOM implementation, dubbed "ASX".
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en-gb"><p lang="en" dir="ltr"><a href="https://twitter.com/spcfran">@spcfran</a> <a href="https://twitter.com/toddmotto">@toddmotto</a> <a href="https://twitter.com/michlbrmly">@michlbrmly</a> If folks are wondering, ASX is pronounced &#39;ask&#39;.</p>&mdash; Brad Green (@bradlygreen) <a href="https://twitter.com/bradlygreen/status/716000239291932673">1 April 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+An implementation for our above `Toggle` Component might look something like this:
 
 {% highlight javascript %}
 import {ButtonComponent} from './button';
