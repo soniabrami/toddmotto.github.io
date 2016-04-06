@@ -115,7 +115,7 @@ var myFunction = function () {
 // `My name is Todd`
 {% endhighlight %}
 
-Lexical scope is easy to work with, _any_ variables/objects/functions defined in _it's_ parent scope, are available in the scope chain. For example:
+Lexical scope is easy to work with, _any_ variables/objects/functions defined in _its_ parent scope, are available in the scope chain. For example:
 
 {% highlight javascript %}
 var name = 'Todd';
