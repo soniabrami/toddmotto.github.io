@@ -41,7 +41,7 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
       <a href="https://2016.front-trends.com/speakers/">FrontTrends</a>, Warsaw (Poland), <span>18.05.2016</span>
     </li>
     <li>
-      <a href="http://atthefrontend.dk">AtTheFrontend (TBC)</a>, Copenhagen (Denmark), <span>24-25.05.2016</span>
+      <a href="http://atthefrontend.dk">AtTheFrontend</a>, Copenhagen (Denmark), <span>24-25.05.2016</span>
     </li>
     <li>
       <a href="http://buzzjs.com">BuzzJS (TBC)</a>, Times Square NYC (USA), <span>03.06.2016</span>
