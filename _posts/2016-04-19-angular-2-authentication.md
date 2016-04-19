@@ -142,7 +142,7 @@ interface User {
     <ul>
       <li *ngFor="user of users">
         <img [src]="user.image">
-        <span>{{user.name}}</span>
+        <span>{% raw %}{{user.name}}{% endraw %}</span>
       </li>
     </ul>
   `
