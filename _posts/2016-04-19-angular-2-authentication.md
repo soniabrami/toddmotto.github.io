@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /angular-2-authentication
-title: Angular 2 authentication with Auth0 and NodeJS
+title: Angular 2 authentication with AuthO and NodeJS
 path: 2016-04-19-angular-2-authentication.md
 ---
 
