@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: component-events-event-emitter-output-angular-2
+permalink: /component-events-event-emitter-output-angular-2
 title: Component events with EventEmitter and "Output" in Angular 2
 path: 2016-03-19-component-events-event-emitter-output-angular-2.md
 ---

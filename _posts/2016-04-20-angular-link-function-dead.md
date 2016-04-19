@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /angular-link-function-dead
-title: Angular 1.x, the link function is dead
+title: Angular
 path: 2016-04-20-angular-link-function-dead.md
 ---
 

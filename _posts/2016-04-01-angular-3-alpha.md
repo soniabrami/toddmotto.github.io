@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: angular-3-alpha
+permalink: /angular-3-alpha
 title: A sneak peak at Angular 3 alpha
 path: 2016-04-01-angular-3-alpha.md
 ---

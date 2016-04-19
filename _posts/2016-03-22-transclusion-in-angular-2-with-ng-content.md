@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: transclusion-in-angular-2-with-ng-content
+permalink: /transclusion-in-angular-2-with-ng-content
 title: Transclusion in Angular 2
 path: 2016-03-22-transclusion-in-angular-2-with-ng-content.md
 ---

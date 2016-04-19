@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: creating-your-first-angular-2-component
+permalink: /creating-your-first-angular-2-component
 title: Creating your first Angular 2 Component
 path: 2016-03-17-creating-an-angular-2-component.md
 ---

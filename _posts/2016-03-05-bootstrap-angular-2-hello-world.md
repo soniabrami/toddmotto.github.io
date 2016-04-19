@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: bootstrap-angular-2-hello-world
+permalink: /bootstrap-angular-2-hello-world
 title: Bootstrapping your first Angular 2 application
 path: 2016-03-05-bootstrap-angular-2-hello-world.md
 ---

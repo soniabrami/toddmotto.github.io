@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: emulated-native-shadow-dom-angular-2-view-encapsulation
+permalink: /emulated-native-shadow-dom-angular-2-view-encapsulation
 title: Emulated or Native Shadow DOM in Angular 2 with ViewEncapsulation
 path: 2016-03-06-emulated-native-shadow-dom-angular-2-view-encapsulation.md
 ---

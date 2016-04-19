@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: passing-data-angular-2-components-input
+permalink: /passing-data-angular-2-components-input
 title: Passing data into Angular 2 Components with "Input"
 path: 2016-03-18-passing-data-angular-2-components-input.md
 ---
