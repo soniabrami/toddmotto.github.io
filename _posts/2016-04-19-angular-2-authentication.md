@@ -1,7 +1,7 @@
 ---
 layout: post
-permalink: angular-2-authentication
-title: Angular 2 authentication with Auth0 and Node.js
+permalink: /angular-2-authentication
+title: Angular 2 authentication with Auth0 and NodeJS
 path: 2016-04-19-angular-2-authentication.md
 ---
 
@@ -11,7 +11,7 @@ When it comes to adding authentication to an Angular 2 app, we still need to thi
 
 Implementing authentication on the front end is only half the battle though - we also need to create some backend code that checks the user's credentials, signs tokens for them, and checks whether the token is valid when requests are made to our API endpoints. Which is a lot of work! It's also prone to error and is something that's really important to get right, obviously!
 
-So, in this post we're going to demonstrate how to handle authentication using Angular 2, [Node.js](https://nodejs.org) and  [Auth0](https://auth0.com/?utm_source=toddmotto&utm_medium=gp&utm_campaign=angular2_auth) which I've used with working on Angular 1.x, so this is great to be able to dive into Angular 2 with what I'm used to. Auth0 lets us forget about most of the backend logic altogether (I'm no backend programmer) and integrates nicely with Node, so all we really need to do is make sure that our Angular app is set up to save and send JWTs. Let's get started!
+So, in this post we're going to demonstrate how to handle authentication using Angular 2, [Node.js](https://nodejs.org) and [Auth0](https://auth0.com/?utm_source=toddmotto&utm_medium=gp&utm_campaign=angular2_auth) which I've used with working on Angular 1.x, so this is great to be able to dive into Angular 2 with what I'm used to. Auth0 lets us forget about most of the backend logic altogether (I'm no backend programmer) and integrates nicely with Node, so all we really need to do is make sure that our Angular app is set up to save and send JWTs. Let's get started!
 
 ### Prerequisites
 
