@@ -25,7 +25,7 @@ Before we can dive into Angular 2 + Node, we need to configure some fake users i
 
 ### Next steps
 
-Auth0 provides a smart login widget that we can drop into our app, so I'm going to be using that because I'm not reinventing the wheel (if you want to create your own then just use [the API](https://auth0.com/docs/auth-api/?utm_source=toddmotto&utm_medium=gp&utm_campaign=angular2_auth)).
+Auth0 provides a smart login widget that we can drop into our app, so I'm going to be using that because I'm not reinventing the wheel, if you want to create your own then just use [the API](https://auth0.com/docs/auth-api/?utm_source=toddmotto&utm_medium=gp&utm_campaign=angular2_auth).
 
 Now we simply drop in the lock script into our `index.html` file somewhere in the `<head>`:
 
@@ -42,7 +42,7 @@ Now we simply drop in the lock script into our `index.html` file somewhere in th
 
 ### Angular 2 Authentication Service
 
-One question that frequents when implementing auth in Angular apps is "where does the logic go?". Sometimes our apps will only have one location where the login is managed and other times there will be multiple locations. So we're going to just be creating one Service to keep things simple. Now using Angular 2, we're going to be creating an `AuthService` and mark it as `@Injectable()` so we can dependency inject it wherever we want.
+One question that frequents when implementing auth in Angular apps is "where does the logic go?". Sometimes our apps will only have one location where the login is managed and other times there will be multiple locations. So we're going to just be creating one Service to keep things simple. Now using Angular 2, we're going to be creating an `AuthService` and mark it as `@Injectable()` so we can dependency inject it wherever we want:
 
 {% highlight javascript %}
 // services/auth.service.ts
