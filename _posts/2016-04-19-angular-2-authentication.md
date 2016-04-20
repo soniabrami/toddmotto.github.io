@@ -195,7 +195,7 @@ var authCheck = jwt({
 var users = [
   { id: 1, name: 'Todd Motto', image: 'image-1.jpg' },
   { id: 2, name: 'Brad Green', image: 'image-2.jpg' },
-  { id: 2, name: 'Igor Minar', image: 'image-3.jpg' }
+  { id: 3, name: 'Igor Minar', image: 'image-3.jpg' }
 ];
 
 app.get('/api/users', authCheck, function(req, res) {
