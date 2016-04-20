@@ -117,7 +117,7 @@ Our JSON Web Token and user profile are now saved in `localStorage` and are read
 
 Our JWT is stored and ready to go, but how do we actually send it in requests to the API? We can get the JWT from `localStorage` and attach it as a header to HTTP requests manually, or we can use Auth0's [angular2-jwt](https://github.com/auth0/angular2-jwt) module to do this automatically, we can `npm i` it into our project:
 
-{% highlight javascript %}
+{% highlight bash %}
 npm i angular2-jwt
 {% endhighlight %}
 
@@ -142,7 +142,7 @@ interface User {
     <ul>
       <li *ngFor="user of users">
         <img [src]="user.image">
-        <span>{% raw %}{{user.name}}{% endraw %}</span>
+        <span></span>
       </li>
     </ul>
   `
@@ -169,7 +169,7 @@ We also need a server that will check for the JWT and only pass the data back if
 
 Let's install `express`, `express-jwt` and `cors`:
 
-{% highlight javascript %}
+{% highlight bash %}
 mkdir server && cd server
 npm i express express-jwt cors
 {% endhighlight %}
