@@ -19,14 +19,6 @@ Let's compare the differences in syntax and the super neat abstraction that `.co
 
 I've back-ported the Angular 1.5 `.component()` functionality to Angular 1.3 and above! [Read the article](/angular-component-method-back-ported-to-1.3) and grab the [code on GitHub](https://github.com/toddmotto/angular-component).
 
-### Screencast
-
-My screencast overview from [Voux.io](http://voux.io):
-
-<div class="embed">
-  <iframe src="https://www.youtube.com/embed/Ca5rzXGmld4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
-
 ### .directive() to .component()
 
 The syntax change is very simple:
