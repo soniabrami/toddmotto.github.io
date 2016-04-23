@@ -83,7 +83,7 @@ Well, that was simple. Now we can inject the Service wherever we want! For insta
 {% highlight javascript %}
 // components/toolbar.component.ts
 import {Component} from 'angular2/core';
-import {AuthService} from './services/auth.service';
+import {AuthService} from '../services/auth.service';
 
 @Component({
   selector: 'toolbar',
@@ -92,7 +92,8 @@ import {AuthService} from './services/auth.service';
       <button (click)="auth.login()">Login</button>
       <button (click)="auth.logout()">Logout</button>
     </div>
-  `
+  `,
+  providers:[AuthService]
 })
 export class ToolbarComponent {
   constructor(private auth: AuthService) {}
