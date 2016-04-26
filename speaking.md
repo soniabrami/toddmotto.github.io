@@ -32,9 +32,6 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
 <div class="speaking__list">
   <ul>
     <li>
-      <a href="http://2016.render-conf.com">[Attending only] RenderConf</a>, Oxford (England), <span>21-22.04.2016</span>
-    </li>
-    <li>
       <a href="https://voxxeddays.com/ticino">VoxxedDays</a>, Lugano (Switzerland), <span>30.04.2016</span>
     </li>
     <li>
@@ -50,7 +47,13 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
       <a href="http://angularcamp.org/">AngularCamp</a>, Barcelona (Spain), <span>01-03.07.2016</span>
     </li>
     <li>
+      Not available <span>29-31.08.2016</span>
+    </li>
+    <li>
       <a href="http://angularconnect.com/2016">AngularConnect</a>, London (England, UK), <span>27.09.2016</span>
+    </li>
+    <li>
+      Not available <span>09.12.2016</span>
     </li>
   </ul>
 </div>
@@ -59,6 +62,9 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
 
 <div class="speaking__list">
   <ul>
+    <li>
+      <a href="http://2016.render-conf.com">[Attended] RenderConf</a>, Oxford (England), <span>21-22.04.2016</span>
+    </li>
     <li>
       <a href="http://meetup.com/AngularJS-London/events/229406462/">AngularJS London</a>, London (England, UK), <span>14.03.2016</span>
     </li>
@@ -91,6 +97,9 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
     </li>
     <li>
       <a href="http://www.londonwebmeetup.org">London Web</a>, London (England, UK), <span>16.01.2014</span>
+    </li>
+    <li>
+      <a href="http://html5devconf.com">[Attended] HTML5DevConf</a>, San Francisco (USA), <span>22-23.10.2013</span>
     </li>
   </ul>
 </div>
