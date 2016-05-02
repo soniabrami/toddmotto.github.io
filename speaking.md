@@ -32,9 +32,6 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
 <div class="speaking__list">
   <ul>
     <li>
-      <a href="https://voxxeddays.com/ticino">VoxxedDays</a>, Lugano (Switzerland), <span>30.04.2016</span>
-    </li>
-    <li>
       <a href="https://2016.front-trends.com/speakers/">FrontTrends</a>, Warsaw (Poland), <span>18.05.2016</span>
     </li>
     <li>
@@ -62,6 +59,9 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
 
 <div class="speaking__list">
   <ul>
+    <li>
+      <a href="https://voxxeddays.com/ticino">VoxxedDays</a>, Lugano (Switzerland), <span>30.04.2016</span>
+    </li>
     <li>
       <a href="http://2016.render-conf.com">[Attended] RenderConf</a>, Oxford (England), <span>21-22.04.2016</span>
     </li>
