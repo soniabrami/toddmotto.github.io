@@ -47,7 +47,7 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
       <a href="http://angularconnect.com/2016">AngularConnect</a>, London (England, UK), <span>27.09.2016</span>
     </li>
     <li>
-      <a href="https://voxxeddays.com/thessaloniki/">Voxxed Thessaloniki</a>, Thessaloniki (Greece), <span>21.10.2016</span>
+      <a href="https://voxxeddays.com/thessaloniki/">Voxxed Thessaloniki (TBC)</a>, Thessaloniki (Greece), <span>21.10.2016</span>
     </li>
     <li>
       Not available <span>09.12.2016</span>
