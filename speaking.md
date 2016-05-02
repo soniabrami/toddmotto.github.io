@@ -38,9 +38,6 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
       <a href="http://atthefrontend.dk">AtTheFrontend</a>, Copenhagen (Denmark), <span>24-25.05.2016</span>
     </li>
     <li>
-      <a href="http://buzzjs.com">BuzzJS (TBC)</a>, Times Square NYC (USA), <span>03.06.2016</span>
-    </li>
-    <li>
       <a href="http://angularcamp.org/">AngularCamp</a>, Barcelona (Spain), <span>01-03.07.2016</span>
     </li>
     <li>
@@ -48,6 +45,9 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
     </li>
     <li>
       <a href="http://angularconnect.com/2016">AngularConnect</a>, London (England, UK), <span>27.09.2016</span>
+    </li>
+    <li>
+      <a href="https://voxxeddays.com/thessaloniki/">Voxxed Thessaloniki</a>, Thessaloniki (Greece), <span>21.10.2016</span>
     </li>
     <li>
       Not available <span>09.12.2016</span>
