@@ -41,6 +41,9 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
       <a href="http://angularcamp.org/">AngularCamp</a>, Barcelona (Spain), <span>01-03.07.2016</span>
     </li>
     <li>
+      <a href="http://angularcamp.org/">FullStack 2016</a>, London (England, UK), <span>13-15.07.2016</span>
+    </li>
+    <li>
       Not available <span>29-31.08.2016</span>
     </li>
     <li>
