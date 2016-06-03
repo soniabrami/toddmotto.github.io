@@ -133,6 +133,22 @@ var myComponent = {
 };
 {% endhighlight %}
 
+Notice, that with Angular 1.5.6 (see the [CHANGELOG](https://github.com/angular/angular.js/blob/master/CHANGELOG.md#156-arrow-stringification-2016-05-27)) the require now supports to omit the required controller name if it is the same used to bind the requiring controller. This feature does not introduce breaking changes and can be used as follows:
+
+{% highlight javascript %}
+var myComponent = {
+  ...
+  require: {
+    parent: '^^'
+  },
+  controller: function () {
+    ...
+  }
+};
+{% endhighlight %}
+
+As you can see we completely omitted the name of the required controller and only used `^^` instead. So `^^parent` simply becomes `^^`. Remember that in the examples above we always used `parent: '^^anotherComponent'` to demonstrate that we are requiring another component. However, to use this new feature and to omit the name the key must match the name of the controller you wish to require.
+
 ##### Real world $onInit + require
 
 Let's create a tabs component that uses `$onInit` and `require`. First up, the markup, this is what we want:
@@ -287,19 +303,19 @@ Next we'll delegate the `addTab` method to the component using `require` on `tab
 var tab = {
   ...
   require: {
-    tabs: '^^tabs'
+    tabs: '^^'
   },
   ...
 };
 {% endhighlight %}
 
-As we learned at the beginning of this chapter covering `$onInit` and `require`, we'll be using `^^tabs` syntax over `^tabs` (single `^`), as we only require the logic from the parent and not the local component itself. Ready for the easy part? Looking at the `{ tabs: '^^tabs' }` hash, we have a property name called `{ tabs: ... }` so all we need to do is `this.tabs` inside `$onInit` and simply call the parent method:
+As we learned at the beginning of this chapter covering `$onInit` and `require`, we'll be using `^^` syntax over `^`, as we only require the logic from the parent and not the local component itself. Additionally, we are omitting the name of the required controller, since this is a new feature that has been merged with version 1.5.6. Ready for the easy part? Looking at the `{ tabs: '^^' }` hash, we have a property name called `{ tabs: ... }` so all we need to do is `this.tabs` inside `$onInit` and simply call the parent method:
 
 {% highlight javascript %}
 var tab = {
   ...
   require: {
-    tabs: '^^tabs'
+    tabs: '^^'
   },
   controller: function () {
     this.$onInit = function () {
@@ -307,7 +323,7 @@ var tab = {
         label: this.label,
         selected: false
       };
-      // this.tabs === require: { tabs: '^^tabs' }
+      // this.tabs === require: { tabs: '^^' }
       this.tabs.addTab(this.tab);
     };
   }
@@ -323,7 +339,7 @@ var tab = {
     label: '@'
   },
   require: {
-    tabs: '^^tabs'
+    tabs: '^^'
   },
   transclude: true,
   template: `
@@ -375,8 +391,7 @@ var tabs = {
 
 Click on a tab and the contents are revealed. But wait, why don't we setup an initial tab to be selected? This is where we dive into `$postLink`.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/ebev22ac/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-
+<iframe width="100%" height="300" src="<script async src="http://jsfiddle.net/gms17dLm/embedded/result,js,html/"></script>" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ### $postLink
 
