@@ -657,7 +657,7 @@ this.$onChanges = function (changes) {
 };
 {% endhighlight %}
 
-This is my preferred approach (using `this.user`).
+This is my preferred approach (using `angular.copy(this.user)`).
 
 Try it now, a copied Object from the `bindings`, passed from the parent, then cloned and reassigned:
 
