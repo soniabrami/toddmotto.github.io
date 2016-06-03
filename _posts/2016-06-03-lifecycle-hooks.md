@@ -411,7 +411,7 @@ function myDirective() {
 }
 {% endhighlight %}
 
-The two are the same if we only want to useTake note here of `post: function() {...}` - this is our guy. I've added a note here saying that "access to child elements that are linked", which means the child elements of the template are compiled and linked to the current directive. It can be uncommon to use `compile` and `pre` linking functions, so we have a lifecycle hook that enables us to hook into the final phase of the compile process - where we know for sure our child elements are compiled and linked.
+The two are the same if we only want to use the `postLink` function. Take note here of `post: function() {...}` - this is our guy. I've added a note here saying that "access to child elements that are linked", which means the child elements of the template are compiled and linked to the current directive. It can be uncommon to use `compile` and `pre` linking functions, so we have a lifecycle hook that enables us to hook into the final phase of the compile process - where we know for sure our child elements are compiled and linked.
 
 ##### Using $postLink
 
