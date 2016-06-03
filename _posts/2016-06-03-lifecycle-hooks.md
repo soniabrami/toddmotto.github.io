@@ -468,7 +468,7 @@ var tabs = {
       // a safer option would be to parseInt(this.selected, 10)
       // to coerce to a Number to lookup the Array index, however
       // this works just fine for the demo :)
-      this.selectTab(this.selected);
+      this.selectTab(this.selected || 0);
     };
   },
   ...
