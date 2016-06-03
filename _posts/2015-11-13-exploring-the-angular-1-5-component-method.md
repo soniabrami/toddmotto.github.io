@@ -17,7 +17,7 @@ Let's compare the differences in syntax and the super neat abstraction that `.co
 
 ### Update: use component() now in Angular 1.3+
 
-I've back-ported the Angular 1.5 `.component()` functionality to Angular 1.3 and above! [Read the article](/angular-component-method-back-ported-to-1.3) and grab the [code on GitHub](https://github.com/toddmotto/angular-component).
+I've back-ported the Angular 1.5 `.component()` functionality to Angular 1.3 and above! [Read the article](/angular-component-method-back-ported-to-1.3) and grab the _latest_ [source code on GitHub](https://github.com/toddmotto/angular-component).
 
 ### .directive() to .component()
 
@@ -78,13 +78,13 @@ Let's start from the top and refactor the `function` argument to become an `Obje
 // before
 .directive('counter', function counter() {
   return {
-    
+
   };
 });
 
 // after
 .component('counter', {
-    
+
 });
 {% endhighlight %}
 
@@ -307,7 +307,7 @@ If you're not familiar with "require", check [my article on using require](/dire
 {
   ...
   require: {
-    parent: '^parentComponent'
+    parent: '^^parentComponent'
   },
   controller: function () {
     // use this.parent to access required Objects
@@ -336,6 +336,10 @@ A new syntax expression for isolate scope values, for example:
 
 Read my full write-up about [one-way bindings](/one-way-data-binding-in-angular-1-5).
 
+### Lifecycle hooks
+
+Each component has a well-defined set of lifecycle hooks, read the [full article here](https://toddmotto.com/angular-1-5-lifecycle-hooks).
+
 ### Disabling isolate scope
 
 Components are always created with isolate scope. Here's the relevant part from the source code:
@@ -357,8 +361,8 @@ Essentially we can just use a `template` and `bindings`:
 {% highlight javascript %}
 var NameComponent = {
   bindings: {
-    name: '=',
-    age: '='
+    name: '<',
+    age: '<'
   },
   template: [
     '<div>',
