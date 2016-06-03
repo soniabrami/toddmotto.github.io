@@ -174,9 +174,22 @@
   margin: 0 0 80px;
   &.single {
     margin: 0 5%;
+    h3 {
+      border-bottom: 1px solid #e5e5e5;
+      padding: 0 0 10px;
+    }
     ul {
-      list-style: square;
+      margin: 0 0 0 20px;
+      padding: 0;
+      list-style: disc;
       li {
+        ul {
+          margin: 0 0 0 35px;
+          list-style: circle;
+          li {
+
+          }
+        }
       }
     }
   }
