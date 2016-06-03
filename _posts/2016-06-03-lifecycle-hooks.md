@@ -814,6 +814,8 @@ Try it:
 
 Yes. One-way binding is established as the best way to approach data flow, React, Angular 2 and others all use it. Now it's Angular 1's turn, a little late to the party, but hey, this is insanely powerful and changes the way new Angular 1.x apps are created.
 
+<img src="/img/posts/binding-dead.jpg" style="max-width: 100%;">
+
 ##### Using isFirstChange()
 
 One more feature from `$onChanges`, is inside the `changes` hash we're given, it's actually an instance of a simple constructor called `SimpleChange` that contains an `isFirstChange` method on the prototype:
