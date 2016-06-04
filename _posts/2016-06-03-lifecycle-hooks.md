@@ -391,7 +391,7 @@ var tabs = {
 
 Click on a tab and the contents are revealed. But wait, why don't we setup an initial tab to be selected? This is where we dive into `$postLink`.
 
-<iframe width="100%" height="300" src="<script async src="http://jsfiddle.net/gms17dLm/embedded/result,js,html/"></script>" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/gms17dLm/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ### $postLink
 
