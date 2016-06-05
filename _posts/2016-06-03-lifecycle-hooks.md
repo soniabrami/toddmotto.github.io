@@ -825,6 +825,8 @@ Try it:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/u9apsefe/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
+There's also a free video available from my AngularJS master course on `$onChanges` and one-way dataflow, you can [check it out here](//courses.toddmotto.com/products/ultimate-angularjs-master).
+
 ##### Is two-way binding through "=" syntax dead?
 
 Yes. One-way binding is established as the best way to approach data flow, React, Angular 2 and others all use it. Now it's Angular 1's turn, a little late to the party, but hey, this is insanely powerful and changes the way new Angular 1.x apps are created.
