@@ -6,8 +6,8 @@
   </div>
   <div class="header__bio">
     <p>
-      Developer Advocate <a href="http://www.telerik.com/">@Telerik</a>. Founder of <a href="http://voux.io">Voux</a>. 
-      JavaScript, Angular, React, conference speaker. Developer Expert 
+      Developer Advocate <a href="http://www.telerik.com/">@Telerik</a>. Founder of <a href="http://voux.io">Voux</a>.
+      JavaScript, Angular, React, conference speaker. Developer Expert
       at <a href="//developers.google.com/experts/people/todd-motto">Google</a>, open source lover.
     </p>
   </div>
@@ -45,7 +45,7 @@
   </ul>
 </nav>
 <div class="courses">
-  <a href="//courses.toddmotto.com?utm_source=toddmotto.com" target="_blank">
+  <a class="courses__out" href="//courses.toddmotto.com?utm_source=toddmotto.com" target="_blank">
     <img class="courses__logo" src="{{ site.baseurl }}/img/courses-logo.png" alt="">
     <h3>
       Master AngularJS with my online courses
@@ -60,4 +60,12 @@
       See the packages
     </button>
   </a>
+  <script>
+    (function () {
+      var banner = document.querySelector('.courses__out');
+      if (!banner) return;
+      var url = window.location.pathname;
+      banner.href = banner.href + url;
+    })();
+  </script>
 </div>
