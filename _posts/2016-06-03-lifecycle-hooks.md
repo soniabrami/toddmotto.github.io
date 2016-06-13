@@ -678,7 +678,7 @@ Try it now, a copied Object from the `bindings`, passed from the parent, then cl
 
 <iframe width="100%" height="300" src="//jsfiddle.net/toddmotto/Lf8md3dh/embedded/result,js,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-Feels good right? Now we have a cloned Object that we can fully mutate without two-way binding (which is not really recommend anymore, sorry). So what do we do once we've updated data? We send it back via an event. This isn't specifically part of any lifecycle hook, but it's what `$onChanges` was designed for. Inputs and Outputs (Input = data, Output = events). Let's do it.
+Feels good right? Now we have a cloned Object that we can fully mutate without two-way binding (which is not really recommended anymore, sorry). So what do we do once we've updated data? We send it back via an event. This isn't specifically part of any lifecycle hook, but it's what `$onChanges` was designed for. Inputs and Outputs (Input = data, Output = events). Let's do it.
 
 ##### One-way dataflow + events
 
