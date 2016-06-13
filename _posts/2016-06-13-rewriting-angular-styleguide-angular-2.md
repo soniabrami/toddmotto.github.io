@@ -2,16 +2,16 @@
 layout: post
 permalink: /rewriting-angular-styleguide-angular-2
 title: A new Angular 1.x ES2015 styleguide, the path to Angular 2
-path: 2016-06-12-rewriting-angular-styleguide-angular-2.md
+path: 2016-06-13-rewriting-angular-styleguide-angular-2.md
 ---
 
-As many of you know, I created an Angular 1.x styleguide [back in July 2014](https://github.com/toddmotto/angular-styleguide/commit/47a125d71c50a56515c7b4aadcd31247d74dc723), it's grown in popularity since inception, and has served many teams across the world to be a reference to code consistency. Angular has also changed, and many of the practices used back then aren't relevant today with the latest version of 1.5. As of now, the old styleguide is deprecated in favour of the new release.
+As many of you know, I created an Angular 1.x styleguide [back in July 2014](https://github.com/toddmotto/angular-styleguide/commit/47a125d71c50a56515c7b4aadcd31247d74dc723), it's grown in popularity since inception, and has served many teams across the world to be a reference to code consistency. Angular has also changed, and many of the practices used back then aren't relevant today. As of now, the old styleguide is deprecated in favour of the new release.
 
 Read the [new Styleguide on GitHub](https://github.com/toddmotto/angular-styleguide) dedicated to ES2015, component architecture and one-way dataflow practices.
 
 ## What are the goals of the new styleguide?
 
-First off, the styleguide has been overhauled with a new approach - to _not_ compare "good" versus "bad" things to do with Angular. It also doesn't focus on wishy-washy type, it's straight to the point and more of an architectural guide with code examples for all the latest standards. Instead, the styleguide focuses purely on what's good practice, and how we can utilise them with ES2015. Most importantly, it focuses on the design patterns associated with Angular (state management suggestions, stateless, stateful and routed components and component routing). It's focusing on the right ingredients, and how to prepare your apps for a new Angular 1.x standard, as well as integrating patterns for upgrading to Angular 2.
+First off, the styleguide has been overhauled with a new approach - to _not_ compare "good" versus "bad" things to do with Angular. It also doesn't focus on wishy-washy type stuff that we are old enough to decide for ourselves, it's straight to the point and more of an architectural guide with code examples for all the latest standards. Instead, the styleguide focuses purely on what's good practice, and how we can utilise them with ES2015. Most importantly, it focuses on the design patterns associated with Angular (state management suggestions, stateless, stateful and routed components and component routing). It's focusing on the right ingredients, and how to prepare your apps for a new Angular 1.x standard, as well as integrating patterns for upgrading to Angular 2.
 
 Angular 1.x has changed vastly since the original styleguide was created, and many of the recommendations there and best practices have been implemented via Angular updates, and ES6/ES2015 has now become a defacto standard in new projects that allow us to move away from problems we faced. The new styleguide focuses on using ES2015, offering recommendations on tooling to use it today. These means a few things for us, so let's dive in to explore the reasons why this styleguide ignores most of the original styleguide content and why I believe it's crucial for us now.
 
