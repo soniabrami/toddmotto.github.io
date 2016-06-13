@@ -5,7 +5,7 @@ title: A new Angular 1.x ES2015 styleguide, the path to Angular 2
 path: 2016-06-12-rewriting-angular-styleguide-angular-2.md
 ---
 
-As many of you know, I created an Angular 1.x styleguide [back in July 2014](https://github.com/toddmotto/angular-styleguide/commit/47a125d71c50a56515c7b4aadcd31247d74dc723), it's grown in popularity since inception, and has served many teams across the world to be a reference to code consistency. Angular has also changed, and many of the practices used back then aren't relevant today. As of now, the old styleguide is deprecated in favour of the new release.
+As many of you know, I created an Angular 1.x styleguide [back in July 2014](https://github.com/toddmotto/angular-styleguide/commit/47a125d71c50a56515c7b4aadcd31247d74dc723), it's grown in popularity since inception, and has served many teams across the world to be a reference to code consistency. Angular has also changed, and many of the practices used back then aren't relevant today with the latest version of 1.5. As of now, the old styleguide is deprecated in favour of the new release.
 
 Read the [new Styleguide on GitHub](https://github.com/toddmotto/angular-styleguide) dedicated to ES2015, component architecture and one-way dataflow practices.
 
