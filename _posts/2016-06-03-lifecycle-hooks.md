@@ -15,7 +15,7 @@ I've spent some time [polyfilling the `.component()` method](https://github.com/
   - <a href="#using-oninit">Using $onInit</a>
   - <a href="#oninit--require">$onInit + "require"</a>
   - <a href="#real-world-example">Real world $onInit + "require"</a>
-- <a href="#oninit">$postLink</a>
+- <a href="#postlink">$postLink</a>
   - <a href="#using-postlink">Using $postLink</a>
   - <a href="#real-world-postlink">Real world $postLink</a>
   - <a href="#what-postlink-is-not">What $postLink is not</a>
