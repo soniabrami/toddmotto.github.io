@@ -15,7 +15,7 @@ I regularly speak at conferences in Europe and America, if you'd like me to join
       <img src="img/speaking/ng-nl.jpg">
     </li>
     <li>
-      <img src="img/speaking/woe.jpg">
+      <img src="img/speaking/3.jpg">
     </li>
     <li>
       <img src="img/speaking/falsy-values.jpg">
