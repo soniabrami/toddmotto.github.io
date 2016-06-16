@@ -32,12 +32,6 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
 <div class="speaking__list">
   <ul>
     <li>
-      <a href="https://2016.front-trends.com/speakers/">FrontTrends</a>, Warsaw (Poland), <span>18.05.2016</span>
-    </li>
-    <li>
-      <a href="http://atthefrontend.dk">AtTheFrontend</a>, Copenhagen (Denmark), <span>24-25.05.2016</span>
-    </li>
-    <li>
       <a href="http://angularcamp.org/">AngularCamp</a>, Barcelona (Spain), <span>01-03.07.2016</span>
     </li>
     <li>
@@ -60,8 +54,16 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
 
 ### Past events
 
+Events I've spoken at. Check my [YouTube Channel](https://www.youtube.com/channel/UCNtFk-g4CCmXMYL4pYNmoEA/videos) for recordings of conference sessions.
+
 <div class="speaking__list">
   <ul>
+    <li>
+      <a href="https://2016.front-trends.com/speakers/">FrontTrends</a>, Warsaw (Poland), <span>18.05.2016</span>
+    </li>
+    <li>
+      <a href="http://atthefrontend.dk">AtTheFrontend</a>, Copenhagen (Denmark), <span>24-25.05.2016</span>
+    </li>
     <li>
       <a href="https://voxxeddays.com/ticino">VoxxedDays</a>, Lugano (Switzerland), <span>30.04.2016</span>
     </li>
