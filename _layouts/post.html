@@ -67,7 +67,7 @@ layout: default
   </div>
 </aside>
 <script>
-/*! linkify.js v1.0.0 | (c) 2016 @toddmotto | https://github.com/toddmotto/linkify */
+/*! linkjuice.js v1.0.0 | (c) 2016 @toddmotto | https://github.com/toddmotto/linkjuice */
 (function (global, factory) {
   if (typeof define === "function" && define.amd) {
     define(['exports'], factory);
@@ -78,7 +78,7 @@ layout: default
       exports: {}
     };
     factory(mod.exports);
-    global.linkify = mod.exports;
+    global.linkjuice = mod.exports;
   }
 })(this, function (exports) {
   'use strict';
@@ -93,13 +93,13 @@ layout: default
   var wrapNode = function wrapNode(node) {
     var a = document.createElement('a');
     a.href = '#' + node.id;
-    a.className = 'linkify';
-    a.innerHTML = '<span class="linkify-icon">' + inject + '</span>' + node.innerHTML;
+    a.className = 'linkjuice';
+    a.innerHTML = '<span class="linkjuice-icon">' + inject + '</span>' + node.innerHTML;
     node.innerHTML = '';
     node.appendChild(a);
   };
 
-  var linkify = function linkify(mount, _ref) {
+  var linkjuice = function linkjuice(mount, _ref) {
     var _ref$icon = _ref.icon;
     var icon = _ref$icon === undefined ? '#' : _ref$icon;
     var _ref$selectors = _ref.selectors;
@@ -115,11 +115,11 @@ layout: default
   };
 
   var init = exports.init = function init(mount, options) {
-    return linkify(mount, options);
+    return linkjuice(mount, options);
   };
 });
 
-linkify.init('.post__content', {
+linkjuice.init('.post__content', {
   selectors: ['h2', 'h3'],
   icon: '#'
 });
