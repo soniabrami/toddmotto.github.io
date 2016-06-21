@@ -177,6 +177,22 @@
     h3 {
       border-bottom: 1px solid #e5e5e5;
       padding: 0 0 10px;
+      .linkify {
+        color: #444;
+        &:hover {
+          color: #57ad68;
+        }
+        position: relative;
+        &-icon {
+          position: absolute;
+          right: 100%;
+          display: block;
+          opacity: .3;
+          padding-right: 15px;
+          font-size: 65%;
+          top: 5px;
+        }
+      }
     }
     ul {
       margin: 0 0 0 20px;
