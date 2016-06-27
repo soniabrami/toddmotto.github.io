@@ -3,17 +3,17 @@
  */
 .wrapper {
   width: 96%;
-  max-width: 980px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
 .courses {
-  background: #34495e;
+  background: #292c2f;
   background-image: url(../img/courses.png);
   background-repeat: no-repeat;
   background-position: 95% center;
   background-size: 328px 190px;
-  padding: 20px;
+  padding: 30px 55px;
   cursor: pointer;
   text-align: left;
   @media screen and (max-width: 725px) {
@@ -36,15 +36,14 @@
   }
   button {
     cursor: pointer;
-    padding: 8px 12px;
+    padding: 8px 20px;
     margin: 10px 0 0;
     font-size: 20px;
-    background: #338dbc;
-    border-radius: 3px;
+    background: #57ad68;
+    border-radius: 150px;
     color: #fff;
     border: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
+    font-family: 'Museo Slab', 'Helvetica', 'Arial', sans-serif;
     span {
       font-size: 16px;
       font-weight: 300;
@@ -58,7 +57,7 @@
  */
 .button {
   display: inline-block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Museo Slab', 'Helvetica', 'Arial', sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   color: #b1b1b1;
@@ -79,26 +78,43 @@
  * HEADER
  */
 .header {
-  padding: 50px 0;
+  padding: 30px 55px;
   z-index: 5;
-  text-align: center;
-  color: #aaa;
+  color: #fff;
+  background: #292c2f;
+  margin: 15px 0 0px;
+  display: table;
+  @media screen and (max-width: 725px) {
+    text-align: center;
+    min-width: 100%;
+    display: block;
+  }
   a {
-    color: #fff;
+    color: #57ad68;
   }
   &__img {
+    display: table-cell;
+    vertical-align: top;
+    min-width: 120px;
+    @media screen and (max-width: 725px) {
+      width: 120px;
+      margin: 0 auto;
+      display: block;
+    }
     img {
-      max-width: 110px;
+      max-width: 100%;
       border-radius: 50%;
-      border: 1px solid rgba(255,255,255,.1);
+      border: 5px solid #35393d;
     }
   }
   &__bio {
-    max-width: 500px;
-    margin: 25px auto;
-  }
-  &__follow {
-    height: 26px;
+    display: table-cell;
+    vertical-align: top;
+    padding: 0 0 0 25px;
+    width: 100%;
+    @media screen and (max-width: 725px) {
+      display: none;
+    }
   }
 }
 
@@ -106,18 +122,19 @@
  * NAV
  */
 .nav {
-  font-family: 'Montserrat', sans-serif;
-  border-radius: 3px 3px 0 0;
-  background: #252525;
-  text-align: center;
-  text-transform: uppercase;
+  font-family: 'Museo Slab', 'Helvetica', 'Arial', sans-serif;
+  background: #2e3134;
   ul {
-    margin: 0;
+    margin: 0 0 0 45px;
+    @media screen and (max-width: 500px) {
+      margin: 0;
+    }
   }
   li {
     display: inline-block;
     @media screen and (max-width: 500px) {
       width: 100%;
+      text-align: center;
     }
   }
   a {
@@ -125,7 +142,7 @@
     text-decoration: none;
     display: block;
     padding: 30px 15px;
-    font-size: 14px;
+    font-size: 16px;
     @media screen and (max-width: 500px) {
       padding: 15px 0;
     }
@@ -141,7 +158,7 @@
 .footer {
   margin: 50px 0;
   text-align: center;
-  color: #aaa;
+  color: #444;
   &__copyright {
     margin: 0 0 10px;
   }
@@ -157,7 +174,7 @@
         display: block;
         img {
           opacity: .8;
-          width: 18px;
+          width: 22px;
         }
       }
     }
@@ -173,7 +190,7 @@
 .post {
   margin: 0 0 80px;
   &.single {
-    margin: 0 5%;
+    // margin: 0 5%;
     .linkjuice {
       color: #444;
       &:hover {
@@ -189,10 +206,25 @@
         font-size: 65%;
         top: 5px;
       }
+      &__icon {
+        background: url(../img/icons/link.svg) no-repeat 0 0;
+        display: block;
+        height: 25px;
+        width: 22px;
+      }
     }
     h3 {
-      border-bottom: 1px solid #e5e5e5;
-      padding: 0 0 10px;
+      font-size: 30px;
+      font-weight: normal;
+      border-top: 30px solid #f1f2f1;
+      margin: 55px -55px;
+      padding: 55px 0 0 55px;
+      @media screen and (max-width: 750px) {
+        font-size: 24px;
+        border-top: 20px solid #f1f2f1;
+        margin: 20px -55px;
+        padding: 35px 0 0 55px;
+      }
     }
     ul {
       margin: 0 0 0 20px;
@@ -252,11 +284,11 @@
 
 .pagination {
   color: #fff;
-  background: #252525;
+  background: #292c2f;
   text-align: center;
-  margin: 0 -90px -90px;
+  margin: 0 -55px -55px;
   padding: 40px 20px;
-  font-family: 'Montserrat', serif;
+  font-family: 'Museo Slab', 'Helvetica', 'Arial', sans-serif;
   text-transform: uppercase;
   @media screen and (max-width: 860px) {
     margin: 0 -40px -40px;
@@ -284,7 +316,7 @@
 
 .content {
   background: #fff;
-  padding: 90px;
+  padding: 55px;
   overflow-x: hidden;
   @media screen and (max-width: 850px) {
     padding: 50px 40px;
@@ -298,31 +330,43 @@
  * AUTHOR
  */
 .author {
-  border-top: 1px solid #f5f5f5;
-  padding: 30px 90px;
-  margin: 90px -90px 0;
+  padding: 25px 55px;
+  margin: 0 -55px;
+  display: table;
+  color: #fff;
+  background: #292c2f;
+  border-top: 30px solid #f1f2f1;
   @media screen and (max-width: 500px) {
     text-align: center;
   }
   &__content {
     position: relative;
-    margin: 0 5%;
   }
   &__pic {
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    max-width: 75px;
-    border-radius: 50%;
-    @media screen and (max-width: 500px) {
-      position: static;
+    min-width: 120px;
+    vertical-align: top;
+    display: table-cell;
+    @media screen and (max-width: 550px) {
+      width: 40%;
+      text-align: center;
       margin: 0 auto;
+      display: block;
+    }
+    img {
+      vertical-align: bottom;
+      border-radius: 50%;
+      border: 5px solid #35393d;
     }
   }
   &__bio {
-    padding: 0 0 0 90px;
-    @media screen and (max-width: 500px) {
+    color: #fff;
+    width: 100%;
+    vertical-align: top;
+    display: table-cell;
+    padding: 0 0 0 25px;
+    @media screen and (max-width: 550px) {
+      min-width: 100%;
+      text-align: center;
       padding: 0;
     }
   }
@@ -332,11 +376,11 @@
  * SIMILAR
  */
 .similar {
-  background: #f5f5f5;
-  padding: 60px 90px;
-  margin: 0 -90px;
+  background: #fff;
+  padding: 60px 55px;
+  margin: 0 -55px 35px;
   &__content {
-    margin: 0 5%;
+
   }
   &__title {
     margin: 0;
@@ -382,7 +426,7 @@
         }
         h3 {
           span {
-            font-family: 'Lora', serif;
+            font-family: 'Museo Slab', 'Helvetica', 'Arial', sans-serif;
             letter-spacing: 0.5px;
             display: block;
             font-size: 14px;
@@ -400,16 +444,17 @@
  * SIGNUP
  */
 .signup {
-  border-bottom: 1px solid #f5f5f5;
-  padding: 60px 90px;
-  margin: 0 -90px 90px;
+  padding: 60px 0;
+  margin: 0 -55px;
+  background: #2e3134;
+  color: #fff;
   @media screen and (max-width: 850px) {
     padding: 30px 40px;
-    margin: 40px -40px;
+    margin: 0 -40px;
   }
   @media screen and (max-width: 500px) {
     padding: 30px 15px;
-    margin: 15px -15px;
+    margin: 0 -15px;
   }
   #mc_embed_signup {
     margin: 0 5%;
@@ -440,7 +485,7 @@
     }
     button {
       position: relative;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Museo Slab', 'Helvetica', 'Arial', sans-serif;
       text-transform: uppercase;
       cursor: pointer;
       font-size: 14px;
@@ -457,6 +502,7 @@
       @media screen and (max-width: 550px) {
         margin: 10px 0 0;
         width: 100%;
+        max-width: 100%;
       }
       &:hover {
         background: darken($green, 5%);
@@ -540,7 +586,7 @@ table {
   th {
     padding: 5px 15px;
     text-align: left;
-    background: #252525;
+    background: #292c2f;
     color: #fff;
   }
   tr {
