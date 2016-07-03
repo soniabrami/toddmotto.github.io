@@ -9,7 +9,7 @@ Static Components can be great, however most Components have the need for data t
 
 This tutorial will cover passing data into a Component. For the purposes of this article we'll be using the Counter Component we built in the previous one, so if you've not dived in and learned how to create a Component in Angular 2, [check that out here](/creating-your-first-angular-2-component) or play with the below Plunker, as we'll be using the same source code to continue building.
 
-<iframe src="//embed.plnkr.co/JqDECa0EdvvASzIS3Pvl" frameborder="0" border="0" cellspacing="0" cellpadding="0" width="100%" height="250"></iframe>
+<iframe src="//embed.plnkr.co/JqDECa0EdvvASzIS3Pvl?deferRun" frameborder="0" border="0" cellspacing="0" cellpadding="0" width="100%" height="250"></iframe>
 
 ### Angular 1.x
 
@@ -163,7 +163,7 @@ Note how `@Input counterValue` sets a default value of `0`, which means if no da
 
 And that's it! Let's take a look at the rendered Component, you can also dig through the source files in Plunker:
 
-<iframe src="//embed.plnkr.co/zFzyTcAJAJ1UAhDr1U3k" frameborder="0" border="0" cellspacing="0" cellpadding="0" width="100%" height="250"></iframe>
+<iframe src="//embed.plnkr.co/zFzyTcAJAJ1UAhDr1U3k?deferRun" frameborder="0" border="0" cellspacing="0" cellpadding="0" width="100%" height="250"></iframe>
 
 ### Without @Input decorator
 
@@ -195,7 +195,7 @@ export class CounterComponent {
 
 Here's a working version of that:
 
-<iframe src="//embed.plnkr.co/v9P0NYUT9l5zxNq9pED3" frameborder="0" border="0" cellspacing="0" cellpadding="0" width="100%" height="250"></iframe>
+<iframe src="//embed.plnkr.co/v9P0NYUT9l5zxNq9pED3?deferRun" frameborder="0" border="0" cellspacing="0" cellpadding="0" width="100%" height="250"></iframe>
 
 ### Custom public property naming
 
@@ -226,7 +226,7 @@ export class CounterComponent {
 
 Demo:
 
-<iframe src="//embed.plnkr.co/QtrBJ1SOYdXiuO49R91u" frameborder="0" border="0" cellspacing="0" cellpadding="0" width="100%" height="250"></iframe>
+<iframe src="//embed.plnkr.co/QtrBJ1SOYdXiuO49R91u?deferRun" frameborder="0" border="0" cellspacing="0" cellpadding="0" width="100%" height="250"></iframe>
 
 We can also achieve the same thing with the `inputs: []` property by setting the value of `['counterValue:init']`:
 
@@ -256,7 +256,7 @@ export class CounterComponent {
 
 The rule for this one is `internalProp:externalProp`, in this case `counterValue:init`. Demo:
 
-<iframe src="//embed.plnkr.co/I6zaiA8kVcY06tTZSUyE" frameborder="0" border="0" cellspacing="0" cellpadding="0" width="100%" height="250"></iframe>
+<iframe src="//embed.plnkr.co/I6zaiA8kVcY06tTZSUyE?deferRun" frameborder="0" border="0" cellspacing="0" cellpadding="0" width="100%" height="250"></iframe>
 
 ### Next steps
 
