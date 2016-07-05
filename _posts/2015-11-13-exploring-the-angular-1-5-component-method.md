@@ -53,13 +53,13 @@ I've prebuilt a simple `counter` component for the purposes of this exercise in 
       this.decrement = decrement;
     },
     controllerAs: 'counter',
-    template: [
-      '<div class="todo">',
-        '<input type="text" ng-model="counter.count">',
-        '<button type="button" ng-click="counter.decrement();">-</button>',
-        '<button type="button" ng-click="counter.increment();">+</button>',
-      '</div>'
-    ].join('')
+    template: `
+      <div class="todo">
+        <input type="text" ng-model="$ctrl.count">
+        <button type="button" ng-click="$ctrl.decrement();">-</button>
+        <button type="button" ng-click="$ctrl.increment();">+</button>
+      </div>
+    `
   };
 });
 {% endhighlight %}
@@ -266,13 +266,13 @@ There's a subtle difference in the `template` property worth noting. Let's add t
     this.increment = increment;
     this.decrement = decrement;
   },
-  template: [
-    '<div class="todo">',
-      '<input type="text" ng-model="$ctrl.count">',
-      '<button type="button" ng-click="$ctrl.decrement();">-</button>',
-      '<button type="button" ng-click="$ctrl.increment();">+</button>',
-    '</div>'
-  ].join('')
+  template: `
+    <div class="todo">
+      <input type="text" ng-model="$ctrl.count">
+      <button type="button" ng-click="$ctrl.decrement();">-</button>
+      <button type="button" ng-click="$ctrl.increment();">+</button>
+    </div>
+  `
 });
 {% endhighlight %}
 
@@ -283,13 +283,13 @@ The `template` property can be defined as a function that is now injected with `
   ...
   template: function ($element, $attrs) {
     // access to $element and $attrs
-    return [
-      '<div class="todo">',
-        '<input type="text" ng-model="$ctrl.count">',
-        '<button type="button" ng-click="$ctrl.decrement();">-</button>',
-        '<button type="button" ng-click="$ctrl.increment();">+</button>',
-      '</div>'
-    ].join('')
+    return `
+      <div class="todo">
+        <input type="text" ng-model="$ctrl.count">
+        <button type="button" ng-click="$ctrl.decrement();">-</button>
+        <button type="button" ng-click="$ctrl.increment();">+</button>
+      </div>
+    `
   }
   ...
 }
@@ -364,12 +364,12 @@ var NameComponent = {
     name: '<',
     age: '<'
   },
-  template: [
-    '<div>',
-      '<p>Name: {{$ctrl.name}}</p>',
-      '<p>Age: {{$ctrl.age}}</p>',
-    '</div>'
-  ].join('')
+  template: `
+    <div>
+      <p>Name: {% raw %}{{ $ctrl.name }}{% endraw %}</p>
+      <p>Age: {% raw %}{{ $ctrl.age }}{% endraw %}</p>
+    </div>
+  `
 };
 
 angular
@@ -431,26 +431,27 @@ Again, please note that Angular 1.5 isn't released just yet, so this article use
 Writing components in this style will allow you to upgrade your Components using `.component()` into Angular 2 very easily, it'd look something like this in ECMAScript 5 and new template syntax:
 
 {% highlight javascript %}
-var Counter = ng
-.Component({
+import {Component} from '@angular/core';
+
+@Component({
   selector: 'counter',
-  template: [
-    '<div class="todo">',
-      '<input type="text" [(ng-model)]="count">',
-      '<button type="button" (click)="decrement();">-</button>',
-      '<button type="button" (click)="increment();">+</button>',
-    '</div>'
-  ].join('')
+  template: `
+    <div class="todo">
+      <input type="text" [(ng-model)]="count">
+      <button type="button" (click)="decrement();">-</button>
+      <button type="button" (click)="increment();">+</button>
+    </div>
+  `
 })
-.Class({
-  constructor: function () {
-    this.count = 0;
-  },
-  increment: function () {
+export default class CounterComponent {
+  constructor() {
+    
+  }
+  increment() {
     this.count++;
-  },
-  decrement: function () {
+  }
+  decrement() {
     this.count--;
   }
-});
+}
 {% endhighlight %}
