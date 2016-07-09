@@ -9,7 +9,7 @@ I regularly speak at conferences in Europe and America, if you'd like me to join
 <div class="speaking__grid">
   <ul>
     <li>
-      <img src="img/speaking/angular-london.jpg">
+      <img src="img/speaking/6.jpg">
     </li>
     <li>
       <img src="img/speaking/ng-nl.jpg">
@@ -19,6 +19,18 @@ I regularly speak at conferences in Europe and America, if you'd like me to join
     </li>
     <li>
       <img src="img/speaking/falsy-values.jpg">
+    </li>
+    <li>
+      <img src="img/speaking/4.jpg">
+    </li>
+    <li>
+      <img src="img/speaking/1.jpg">
+    </li>
+    <li>
+      <img src="img/speaking/2.jpg">
+    </li>
+    <li>
+      <img src="img/speaking/angular-london.jpg">
     </li>
   </ul>
 </div>
