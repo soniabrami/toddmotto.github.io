@@ -79,7 +79,7 @@ angular
   .directive('tabs', tabs);
 {% endhighlight %}
 
-The Controller now has an `addTab` method bound. But how do we add a tab? We need to get started with adding the child `tab` Directive, and require it's Controller functionality:
+The Controller now has an `addTab` method bound. But how do we add a tab? We need to get started with adding the child `tab` Directive, and require its Controller functionality:
 
 {% highlight javascript %}
 function tab() {
@@ -107,7 +107,7 @@ angular
   .directive('tabs', tabs);
 {% endhighlight %}
 
-We've successfully used `require: '^tabs'` to include the parent `tabs` Directive's Controller, so we now have access to it's functionality through the `link` function. We need to now inject a fourth argument, `$ctrl`, to get our Controller reference:
+We've successfully used `require: '^tabs'` to include the parent `tabs` Directive's Controller, so we now have access to its functionality through the `link` function. We need to now inject a fourth argument, `$ctrl`, to get our Controller reference:
 
 {% highlight javascript %}
 function tab() {

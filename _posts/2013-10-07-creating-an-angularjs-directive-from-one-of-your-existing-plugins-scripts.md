@@ -16,7 +16,7 @@ No _DOM manipulation_ should be carried out inside a Controller, the Controller 
 
 So here's how to migrate one of your existing scripts or plugins across into a tightly coded AngularJS directive, this also makes code readability and reuse ultra-efficient, as Directives take the strain of repetitive code out the window.
 
-Directives are Angular's answer to Web Components 'Shadow DOM' but are compatible in all browsers (not just cutting edge HTML5 supporting ones) - bringing you the power of the future technology, today. Shadow DOM injects new content based on the element, has it's own CSS and JavaScript scope and introduces some incredible behaviour mechanisms, and this is what Directives mimic to bring you this technology today.
+Directives are Angular's answer to Web Components 'Shadow DOM' but are compatible in all browsers (not just cutting edge HTML5 supporting ones) - bringing you the power of the future technology, today. Shadow DOM injects new content based on the element, has its own CSS and JavaScript scope and introduces some incredible behaviour mechanisms, and this is what Directives mimic to bring you this technology today.
 
 <div class="download-box">
   <a href="//toddmotto.com/labs/fluidvids-angular">Demo</a>

@@ -78,7 +78,7 @@ I really liked this as it suddenly made some sense in a crazy way. The _blank.gi
 The above 'Google' technique I like to explain to others as a transparent window image with a background image, essentially you're looking through a transparent image to see a background image. This is also amazing for icons...
 
 ### Why a clear &lt;img&gt; tag, over the &lt;i&gt; element for icons?
-I've stopped using &lt;i&gt; for icons, it really isn't a good element. It's semantic meaning is that the contents should be italic, yes it starts with 'i' for 'icon' so I assume this is why it's popularity has risen, but it's semantic use is incorrect and it should be swapped for the _blank.gif_ technique, as really - icons are images too.
+I've stopped using &lt;i&gt; for icons, it really isn't a good element. Its semantic meaning is that the contents should be italic, yes it starts with 'i' for 'icon' so I assume this is why its popularity has risen, but its semantic use is incorrect and it should be swapped for the _blank.gif_ technique, as really - icons are images too.
 
 ### Data URIs
 Instead of using a _blank.gif_ physical image, we could trump Google a little and create a transparent Data URI image out of it, and embed the image data inline. This is done to save uploading and creating a transparent image as well as to save an HTTP request:
@@ -120,7 +120,7 @@ So far, I've covered a better SVG detect, and a better way to use icons and imag
 {% endhighlight %}
 
 ### Script before Style (just this time)
-Advancing from the above markup, the &lt;html&gt; tag has an _svg_ class and the feature detect comes _before_ the &lt;style&gt; tag. You've probably been slapped on the wrist before for putting scripts before styles (please never do this with _.js_ files!) - but for feature detects this is perfect. The script is not running on document ready (DOM ready) as we want to run it as fast as possible and get the feature detect result for the CSS to do it's thing.
+Advancing from the above markup, the &lt;html&gt; tag has an _svg_ class and the feature detect comes _before_ the &lt;style&gt; tag. You've probably been slapped on the wrist before for putting scripts before styles (please never do this with _.js_ files!) - but for feature detects this is perfect. The script is not running on document ready (DOM ready) as we want to run it as fast as possible and get the feature detect result for the CSS to do its thing.
 
 When we now add SVG, this will benefit our performance too. If SVG is supported, the SVG override in the CSS will take action _before_ the PNG fallback is loaded, meaning this saves an HTTP request and pointless image download. We don't want to load extra images and override them with prettier SVGs - just one is a perfect scenario.
 

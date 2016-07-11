@@ -96,7 +96,7 @@ header {}
 
 Looking at it now, this was really bad. I never do this anymore due to the life of real world development. Briefs change, goalposts move, I've had clients back out from using HTML5 elements back to HTML4, and had to make painstaking (and unnecessary) changes to both my HTML _and_ CSS.
 
-With HTML agnostic coding, you can become much more efficient and use your classes. Nothing will change apart from your HTML. CSS is not HTML5 at the end of the day, so you shouldn't write code for it. Let HTML do it's job, and let CSS do it's job.
+With HTML agnostic coding, you can become much more efficient and use your classes. Nothing will change apart from your HTML. CSS is not HTML5 at the end of the day, so you shouldn't write code for it. Let HTML do its job, and let CSS do its job.
 
 Here's a much better way of targeting the &lt;header&gt; element:
 
@@ -115,7 +115,7 @@ We can then become free of relying on our markup for styling like so:
 And what happens if we need to revert back to using the well-known &lt;div&gt;? Easy switch back. This isn't the only practicality for this method of coding for HTML5…
 
 ### Avoiding qualified name selectors
-A lot of developers like to add the qualified name to CSS selectors, this again has no real point to it as the CSS should be specific enough to do it's job properly. Here's an example of using a qualified name alongside a CSS selector:
+A lot of developers like to add the qualified name to CSS selectors, this again has no real point to it as the CSS should be specific enough to do its job properly. Here's an example of using a qualified name alongside a CSS selector:
 
 {% highlight css %}
 header.header {}

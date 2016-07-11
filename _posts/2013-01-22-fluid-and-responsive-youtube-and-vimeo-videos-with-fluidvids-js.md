@@ -206,7 +206,7 @@ Here's what our finished script looks like. The things we've been able to achiev
 
 ### Usage
 
-Just drop the JavaScript file into your page (this needs to be placed before the closing &lt;/body&gt; tag or inside a DOM ready function wrapper) and let it work it's magic. No config required. Minified version also included in the download.
+Just drop the JavaScript file into your page (this needs to be placed before the closing &lt;/body&gt; tag or inside a DOM ready function wrapper) and let it work its magic. No config required. Minified version also included in the download.
 
 ### Browser Compatibility
 

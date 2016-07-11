@@ -53,7 +53,7 @@ if ('onLine' in navigator) {
 {% endhighlight %}
 
 ### Recursive setTimeout()
-Recursive functions are awesome, and so is a recursive `setTimeout()`. Stop using `setInterval()`, these are very bad and will keep setting an interval despite whether it's finished it's operations or not. Using a recursive `setTimeout()` means all the operations inside the timeout are finished as we recursive right at the bottom, it's sexy:
+Recursive functions are awesome, and so is a recursive `setTimeout()`. Stop using `setInterval()`, these are very bad and will keep setting an interval despite whether it's finished its operations or not. Using a recursive `setTimeout()` means all the operations inside the timeout are finished as we recursive right at the bottom, it's sexy:
 
 {% highlight javascript %}
 if ('onLine' in navigator) {

@@ -15,7 +15,7 @@ Before I get into Polymer, we'll look at Web Components in this post, what it me
 
 Gone are the days of actually creating HTML structures and "pages" (what're those?). The web is becoming "all about components", and those components are completely up to us thanks to Web Components.
 
-We aren't really at a stage where we can use Web Components to it's fullest, browser support is still ongoing implementations and IE are [in consideration](http://status.modern.ie) of the entire spec (blows a single fanfare). But it's coming together, give it a few years and we'll get there. Or do we have to wait that long?...
+We aren't really at a stage where we can use Web Components to its fullest, browser support is still ongoing implementations and IE are [in consideration](http://status.modern.ie) of the entire spec (blows a single fanfare). But it's coming together, give it a few years and we'll get there. Or do we have to wait that long?...
 
 Google are innovating in this area like no tomorrow with [Polymer.js](http://www.polymer-project.org), a polyfill and platform (that provides additional features such as data-binding, event callbacks and much more) for those missing pieces in modern browsers that don't fully support Web Components.
 
@@ -50,7 +50,7 @@ template.querySelector('.profile__social').textContent = 'Follow me on Twitter';
 document.body.appendChild(template);
 {% endhighlight %}
 
-You'll notice that this is just JavaScript, no new APIs or anything confusing. Nice! For me, a `<template>` is useless without it's good buddy _Custom Elements_. We need this to do something useful with the tech, things are all global and disgusting as of now.
+You'll notice that this is just JavaScript, no new APIs or anything confusing. Nice! For me, a `<template>` is useless without its good buddy _Custom Elements_. We need this to do something useful with the tech, things are all global and disgusting as of now.
 
 #### Custom Elements
 Custom Elements allow us to define (you guessed it), our own element. This can be anything, but before you go crazy, your elements must have a dash, presumably to avoid any potential naming clashes with future HTML implementations - I think that's a good idea as well.
@@ -110,7 +110,7 @@ window.MyElement = document.registerElement('user-profile', {
 New elements must inherit from the `HTMLElement.prototype`. More on the above setup and callbacks etc [here](https://github.com/webcomponents/hello-world-element/blob/master/src/hello-world.html), cheers [Zeno](//twitter.com/zenorocha).
 
 ##### Extending and inheriting
-What if we wanted to extend an existing element, such as an `<h1>` tag? There will be many cases of this, such as riding off an existing element and creating a "special" version of it, rather than a totally new element. We introduce the `{ extends: '' }` property to declare where what element we're extending. Using an extended element is simple, drop the `is=""` attribute on an existing element and it'll inherit it's new extension. Pretty simple, I guess.
+What if we wanted to extend an existing element, such as an `<h1>` tag? There will be many cases of this, such as riding off an existing element and creating a "special" version of it, rather than a totally new element. We introduce the `{ extends: '' }` property to declare where what element we're extending. Using an extended element is simple, drop the `is=""` attribute on an existing element and it'll inherit its new extension. Pretty simple, I guess.
 
 {% highlight html %}
 <template>

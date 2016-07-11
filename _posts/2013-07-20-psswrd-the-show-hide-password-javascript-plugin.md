@@ -10,7 +10,7 @@ tags:
 
 Show/hide toggling for password inputs. Psswrd is a neat little script I've put together to aid in better user experience when users are completing your forms or actioning things inside web apps. For instance, instead of another irritating 'confirm password' field, we provide a 'show password' for them to double-check before signing up, logging in, filling out various 'secret questions', or whatever else you can think of.
 
-Psswrd is a small script (1KB minified) that does exactly that. It's also really easy to integrate. It might not be an everyday usage script, but it certainly has it's place. At the minute, there are no simple to integrate scripts that are written in raw JavaScript, most are jQuery dependent - so I wanted to mix it up and go all out on raw JS.
+Psswrd is a small script (1KB minified) that does exactly that. It's also really easy to integrate. It might not be an everyday usage script, but it certainly has its place. At the minute, there are no simple to integrate scripts that are written in raw JavaScript, most are jQuery dependent - so I wanted to mix it up and go all out on raw JS.
 
 <div class="download-box">
   <a href="//toddmotto.com/labs/psswrd" onclick="_gaq.push(['_trackEvent', 'Click', 'Demo Psswrd', 'Psswrd Demo']);">Demo</a>

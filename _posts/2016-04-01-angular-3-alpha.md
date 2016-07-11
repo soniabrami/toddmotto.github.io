@@ -7,7 +7,7 @@ path: 2016-04-01-angular-3-alpha.md
 
 <img src="/img/posts/angular-3.jpg">
 
-Austin ([@amcdnl](https://twitter.com/amcdnl)) and I are huge Angular 1.x and 2.x fans, and have taken some time out to get some behind the scenes scoop on the Angular 3 developments. The Google team have been working long and hard at delivering Angular 2, and with it's imminent release, we're excited about the Angular 3 developments. Here's the lowdown on things to come in 2017.
+Austin ([@amcdnl](https://twitter.com/amcdnl)) and I are huge Angular 1.x and 2.x fans, and have taken some time out to get some behind the scenes scoop on the Angular 3 developments. The Google team have been working long and hard at delivering Angular 2, and with its imminent release, we're excited about the Angular 3 developments. Here's the lowdown on things to come in 2017.
 
 [ This was an April fools joke, read on with that in mind :) ]
 

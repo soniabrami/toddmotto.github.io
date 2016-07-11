@@ -148,7 +148,7 @@ $('[required]').each(function () {
 {% endhighlight %}
 
 ### Form submission
-Attributes are all setup now for form submission, which of course will only fire if a _required_ class exists, meaning we don't need to do another feature check and can simply include a _$('.required')_ selector inside the form handler. Let's look at how we can set that up. Our form has a class of 'form' for simplicity and is the only markup-reliant selector our script will need, the rest will automatically do it's magic.
+Attributes are all setup now for form submission, which of course will only fire if a _required_ class exists, meaning we don't need to do another feature check and can simply include a _$('.required')_ selector inside the form handler. Let's look at how we can set that up. Our form has a class of 'form' for simplicity and is the only markup-reliant selector our script will need, the rest will automatically do its magic.
 
 {% highlight javascript %}
 $('.form').on('submit', function () {

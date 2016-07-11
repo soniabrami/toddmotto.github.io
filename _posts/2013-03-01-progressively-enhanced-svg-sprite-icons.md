@@ -66,7 +66,7 @@ Let's create some markup then, minimising the HTML as much as possible, but maki
 <a href="#" class="s-icon s-icon-twitter"></a>
 {% endhighlight %}
 
-This is OOCSS at it's most minimal form, adding a separate class (with some nice naming conventions to show relationship between classes) to help with the construction of the element. The markup is minimal in this instance, helping us easily maintain it in the CSS. Previously, I used an &lt;img&gt; tag for each button, which would result in lots of HTTP requests to download each image.
+This is OOCSS at its most minimal form, adding a separate class (with some nice naming conventions to show relationship between classes) to help with the construction of the element. The markup is minimal in this instance, helping us easily maintain it in the CSS. Previously, I used an &lt;img&gt; tag for each button, which would result in lots of HTTP requests to download each image.
 
 ### Better CSS techniques, enhanced performance
 When you get your hands on CSS3, it's amazing, you can make everything super-slick, colourful and looking like a PhotoShop design in seconds. I admittedly went overboard with my previous set of buttons, creating triple the amount of code that I should have. I created a generic state, a hover, and active for each icon, which looked like so:

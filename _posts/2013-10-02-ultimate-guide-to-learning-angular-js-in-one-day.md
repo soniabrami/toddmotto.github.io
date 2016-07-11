@@ -189,7 +189,7 @@ For this exercise, I'm going to keep it really simple and create a custom type o
 
 I prefer using them as an attribute, custom elements are coming in the future of HTML5 under the Web Components, but Angular report these quite buggy in some older browsers.
 
-Now you know how to declare where Directives are used/injected, let's create this custom button. Again, I'll hook into my global namespace _myApp_ for the application, this is a directive in it's simplest form:
+Now you know how to declare where Directives are used/injected, let's create this custom button. Again, I'll hook into my global namespace _myApp_ for the application, this is a directive in its simplest form:
 
 {% highlight javascript %}
 myApp.directive('customButton', function () {
@@ -201,7 +201,7 @@ myApp.directive('customButton', function () {
 });
 {% endhighlight %}
 
-I define my directive using the _.directive()_ method, and pass in the directive's name 'customButton'. When you capitalise a letter in a Directive's name, it's use case is then split via a hyphen in the DOM (as above).
+I define my directive using the _.directive()_ method, and pass in the directive's name 'customButton'. When you capitalise a letter in a Directive's name, its use case is then split via a hyphen in the DOM (as above).
 
 A directive simply returns itself via an Object and takes a number of parameters. The most important for me to master first are, _restrict_, _replace_, _transclude_, _template_ and _templateUrl_, and of course the _link_ property. Let's add those others in:
 
@@ -372,7 +372,7 @@ Output:
 
 You can see that we passed the greeting data to a filter via the pipe (|) character, applying the reverse filter to the greeting data.
 
-And it's usage inside an _ng-repeat_:
+And its usage inside an _ng-repeat_:
 
 {% highlight html%}
 <ul>
@@ -397,7 +397,7 @@ myApp.controller('MainCtrl', ['$scope', function ($scope) {
 }]);
 {% endhighlight %}
 
-And it's usage inside an _ng-repeat_:
+And its usage inside an _ng-repeat_:
 
 {% highlight html%}
 <li ng-repeat="number in numbers | filter:greaterThanNum">
@@ -414,7 +414,7 @@ That's the main bulk behind AngularJS and its APIs, this is only diving into the
 ### Two-way data-binding
 When I first heard about two-way data-binding, I wasn't really sure what it was. Two-way data-binding is best described as a full-circle of synchronised data: update the _Model_ and it updates the _View_, update the _View_ and it updates the _Model_. This means that data is kept in sync without making any fuss. If I bind an _ng-model_ to an &lt;input&gt; and start typing, this creates (or updates an existing) model at the same time.
 
-Here I create the &lt;input&gt; and bind a Model called 'myModel', I can then use the curly handlebars syntax to reflect this model and it's updates in the view all at once:
+Here I create the &lt;input&gt; and bind a Model called 'myModel', I can then use the curly handlebars syntax to reflect this model and its updates in the view all at once:
 
 {% highlight html %}
 <div ng-app="myApp">
@@ -442,7 +442,7 @@ You've got the idea when it comes to pushing basic data to the _$scope_ now, and
 
 When you're developing locally, you're possibly using something like Java, ASP .NET, PHP or something else to run a local server. Whether you're contacting a local database or actually using the server as an API to communicate to another resource, this is much the same setup.
 
-Enter 'dollar http'. Your best friend from now on. The _$http_ method is a nice Angular wrapper for accessing data from the server, and so easy to use you could do it blindfolded. Here's a simple example of a 'GET' request, which (you guessed it) gets data from the server. It's syntax is very jQuery-like so transitioning is a breeze:
+Enter 'dollar http'. Your best friend from now on. The _$http_ method is a nice Angular wrapper for accessing data from the server, and so easy to use you could do it blindfolded. Here's a simple example of a 'GET' request, which (you guessed it) gets data from the server. Its syntax is very jQuery-like so transitioning is a breeze:
 
 {% highlight javascript %}
 myApp.controller('MainCtrl', ['$scope', '$http', function ($scope, $http) {
@@ -589,7 +589,7 @@ myApp.controller('MainCtrl', ['$scope', function ($scope) {
 }]);
 {% endhighlight %}
 
-Pro tip: It's important to think about deleting _data_ from the Model. You're not deleting elements or anything actual DOM related, Angular is an MVC framework and will handle all this for you with it's two-way binding and callback-free world, you just need to setup your code intelligently to let it respond to your data!
+Pro tip: It's important to think about deleting _data_ from the Model. You're not deleting elements or anything actual DOM related, Angular is an MVC framework and will handle all this for you with its two-way binding and callback-free world, you just need to setup your code intelligently to let it respond to your data!
 
 Binding functions to the scope are also run through _ng-*_ Directives, this time it's an _ng-click_ Directive:
 
@@ -697,7 +697,7 @@ We could then have _emails.html_ simply loaded with our HTML which generates our
 There is a lot more to the _$routeProvider_ service which is well worth reading up on, but this'll get the ball rolling for you. There are things such as _$http_ interceptors that'll fire events when an Ajax call is in progress, things we could show some spinners for whilst we load in fresh data.
 
 ### Global static data
-Gmail handles a lot of it's initial data by writing the JSON into the page (right-click View Source). If you want to instantly set data in your page, it'll quicken up rendering time and Angular will hit the ground running.
+Gmail handles a lot of its initial data by writing the JSON into the page (right-click View Source). If you want to instantly set data in your page, it'll quicken up rendering time and Angular will hit the ground running.
 
 When I develop our apps, Java tags are placed in the DOM and when rendered, the data is sent down from the backend. [I've zero experience with Java so you'll get a made up declaration from me below, you could use any language though on the server.] Here's how to write JSON into your page and then pass it into a Controller for immediate binding use:
 

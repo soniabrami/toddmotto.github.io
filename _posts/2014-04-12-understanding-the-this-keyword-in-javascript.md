@@ -49,7 +49,7 @@ myFunction();
 
 #### Object literals
 
-Inside Object literals, the `this` value will always refer to it's own Object. Nice and simple to remember. That is good news when invoking our functions, and one of the reasons I adopt patterns such as the module pattern for organising my objects.
+Inside Object literals, the `this` value will always refer to its own Object. Nice and simple to remember. That is good news when invoking our functions, and one of the reasons I adopt patterns such as the module pattern for organising my objects.
 
 Here's how that might look:
 

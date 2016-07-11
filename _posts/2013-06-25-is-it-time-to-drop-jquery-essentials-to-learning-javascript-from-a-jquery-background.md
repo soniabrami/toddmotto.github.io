@@ -9,17 +9,17 @@ tags:
 - JavaScript
 ---
 
-jQuery has been a godsend to pretty much all of us front-end developers since it's release, it's intuitive methods, easy functions make light work of JavaScript's loosely typed language. JavaScript is hard, it's hard to get into, it's much harder than jQuery. But the time is nearly here, going native is going to be the future of front-end - HTML5.
+jQuery has been a godsend to pretty much all of us front-end developers since its release, its intuitive methods, easy functions make light work of JavaScript's loosely typed language. JavaScript is hard, it's hard to get into, it's much harder than jQuery. But the time is nearly here, going native is going to be the future of front-end - HTML5.
 
 HTML5 doesn't just mean a few extra HTML elements, if you're putting down on your CV/Resume that you know HTML5 because you've used the new elements, then think again! HTML5 covers such a mass of technology, and also alongside it comes ECMAScript 5, the future of JavaScript. Combining HTML5 APIs, of which most require JavaScript, we need to adopt a more native structure of working as each day jQuery becomes less important, and here's why.
 
 This article takes a jQuery lover through some of the harder, more misunderstood, JavaScript methods, functions and more to show how native technology has caught up, how it's not as difficult as it seems and that native JavaScript is probably going to hit you like a brick in the face fairly soon - if it hasn't already. As a front-end developer I am pretty passionate about knowing my tech, and admittedly I began with jQuery and moved to learning JavaScript, I know many others have too. This article is here to talk anyone looking to dive into native JavaScript development over jQuery, and should hopefully open up some doors into the future of your coding.
 
 ### Selectors
-jQuery selectors are the big seller, we don't even have to think about it, selecting our elements is a no brainer, it's super simple. jQuery uses Sizzle, an engine also created by the jQuery Foundation (but available as a standalone) to use as it's selector engine. The mighty code behind Sizzle will make you think twice before overcomplicating your selectors, and the raw JavaScript alternative will make you think twice about jQuery altogether!
+jQuery selectors are the big seller, we don't even have to think about it, selecting our elements is a no brainer, it's super simple. jQuery uses Sizzle, an engine also created by the jQuery Foundation (but available as a standalone) to use as its selector engine. The mighty code behind Sizzle will make you think twice before overcomplicating your selectors, and the raw JavaScript alternative will make you think twice about jQuery altogether!
 
 #### Class selectors
-JavaScript had no native _className_ method for grabbing elements with classes until fairly recent, which I feel has hindered it's popularity from the start. Classes are the best for our HTML/CSS development, but weren't well supported with native JavaScript - makes sense not to want to 'learn JavaScript' and go with jQuery. Until now.
+JavaScript had no native _className_ method for grabbing elements with classes until fairly recent, which I feel has hindered its popularity from the start. Classes are the best for our HTML/CSS development, but weren't well supported with native JavaScript - makes sense not to want to 'learn JavaScript' and go with jQuery. Until now.
 
 Let's look at the options:
 {% highlight javascript %}
@@ -58,7 +58,7 @@ document.getElementsByTagName('div');
 {% endhighlight %}
 
 #### querySelector/querySelectorAll
-This is where things heat up - enter querySelector. Had it not been for jQuery, querySelector may not have made it's way into the JavaScript language as quickly or as efficiently as it has - so we have jQuery to thank for this.
+This is where things heat up - enter querySelector. Had it not been for jQuery, querySelector may not have made its way into the JavaScript language as quickly or as efficiently as it has - so we have jQuery to thank for this.
 
 The magic behind querySelector is astounding, it's a multi-purpose native tool that you can use in various instances (this is raw JavaScript). There are two types of querySelector, the first which is plain old _document.querySelector('')_ returns the first Node in the NodeList, regardless of how many Node Objects it might find. The second, ultimately the best and most powerful is _document.querySelectorAll('')_ which returns a NodeList every time. I've been using _document.querySelectorAll('')_ as standard as it's easier to grab the first item in the returned NodeList than it is to reverse engineer _document.querySelector('')_.
 

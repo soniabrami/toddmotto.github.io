@@ -9,7 +9,7 @@ tags:
 - JavaScript
 ---
 
-ES2015 (ES6) introduces a really nice feature that punches above it's weight in terms of simplicity to integrate versus time saving and feature output. This feature is the arrow function.
+ES2015 (ES6) introduces a really nice feature that punches above its weight in terms of simplicity to integrate versus time saving and feature output. This feature is the arrow function.
 
 Before we dive into the features of the arrow function and what it actually does for us, let's understand what an arrow function is _not_. It's not a replacement for the `function` keyword, at all. This means you can't do a find and replace on every single `function` keyword and everything works perfectly, because it likely won't.
 
@@ -109,7 +109,7 @@ numbers.map((number) => number * 2);
 {% endhighlight %}
 
 ### Functionality: lexical scoping "this"
-Now we're past the sugar syntax excitement, we can dig into the benefits of the arrow function and it's implications on execution context.
+Now we're past the sugar syntax excitement, we can dig into the benefits of the arrow function and its implications on execution context.
 
 Typically if we're writing ES5, we'll use something like `Function.prototype.bind` to grab the `this` value from another scope to change a function's execution context. This will mainly be used in callbacks inside a different scope.
 
