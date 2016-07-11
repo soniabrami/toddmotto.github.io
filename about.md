@@ -4,25 +4,25 @@ layout: page
 class: about
 ---
 
-I'm Todd, a 25 year old front-end engineer from England, UK, working as a Developer Advocate at [Telerik](http://telerik.com). Founder of [Voux](//voux.io), a project to bring JavaScript and Angular training to developers all around the world through online and workshop training. I'm also a [Developer Expert](//developers.google.com/experts/people/todd-motto) at Google, [conference speaker](//speakerdeck.com/toddmotto) and [open source](//github.com/toddmotto) evangelist.
+I'm Todd, a 25 year old front-end engineer from England, UK, working as a Developer Advocate at [Telerik](http://telerik.com). Founder of [Voux](//voux.io), a project to bring JavaScript and Angular training to developers, as well as the [Ultimate Angular](https://courses.toddmotto.com) online courses project. I'm also a [Developer Expert](//developers.google.com/experts/people/todd-motto) at Google, [conference speaker](//speakerdeck.com/toddmotto) and [open source](//github.com/toddmotto) lover.
 
 <div class="about__talk">
   <img src="img/about.jpg">
 </div>
 
-I've been fortunate enough to travel the world speaking and teaching Angular and JavaScript. I've taught workshops for Google (San Francisco, USA), [Falsy Values](https://2015.falsyvalues.com) (Warsaw, Poland), [Future of Web Apps](https://futureofwebapps.com) (Boston, USA 2014 and London, UK (2014 and 2015)), [Future of Web Design](https://futureofwebdesign.com) (London, UK).
+I've been fortunate enough to travel the world speaking and teaching Angular and JavaScript. I've taught workshops for Google, Virgin Media, Salesforce, General Assembly employees and many more.
 
-Co-created [Conditionizr](http://conditionizr.com) (.NET Magazine's Open Source Project of the Year finalist), partnered with Intel and [Rolling Stone](http://rollingstone.com/feature/the-geeks-on-the-frontlines) to bring an HTML5 experience to life. Many other brands have recognised and used/shared my ideas/code: Rolling Stone, Intel, Adobe, NASA, HTML5 Hub, AppendTo, Google, Esquire, Microsoft/MSDN, Wired, Huffington Post, KitKat, Smashing Magazine, Net Magazine, TechPro.
+Co-created [Conditionizr](http://conditionizr.com) (.NET Magazine's Open Source Project of the Year finalist), partnered with Intel and Rolling Stone to bring an HTML5 experience to life. Many other brands have recognised and used/shared my ideas/code: Rolling Stone, Intel, Adobe, NASA, HTML5 Hub, AppendTo, Google, Esquire, Microsoft/MSDN, Wired, Huffington Post, KitKat, Smashing Magazine, Net Magazine, TechPro.
 
 ### Contact
 
 Want to ask a general question? Use my [GitHub AMA](//github.com/toddmotto/ama) for that!
 
-I most likely will not respond to individual code queries due to the volume, please defer to StackOverflow (sorry)!
+I most likely will not respond to individual code queries due to the volume and time constraints, please defer to StackOverflow (sorry)!
 
 [Tweeting me](//twitter.com/toddmotto) is the fastest way to get hold of me.
 
-To chat to me about something else such as a JavaScript/Angular training, speaking or workshop event, please email me through <a href="//voux.io/contact" target="_blank">Voux's contact form</a>.
+To chat to me about something else such as a JavaScript/Angular training, speaking or workshop event, please email me through my <a href="https://courses.toddmotto.com/pages/contact" target="_blank">contact form</a>.
 
 ### Timeline
 
