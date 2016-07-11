@@ -31,7 +31,7 @@ Here's the markup to specify the image source, which is literal so you'll be abl
 <img src="img/blank.gif" alt="" data-echo="img/album-1.jpg">
 {% endhighlight %}
 
-Just drop the script into your page before the closing _&lt;/body&gt;_ tag and let it do it's thing. For modern browsers I've used the _DOMContentLoaded_ event incase you _really_ need it in the _&lt;head&gt;_, which is a native 'DOM Ready', and a fallback to onload for IE7/8 if you need to go that far so all works nicely.
+Just drop the script into your page before the closing _&lt;/body&gt;_ tag and let it do its thing. For modern browsers I've used the _DOMContentLoaded_ event incase you _really_ need it in the _&lt;head&gt;_, which is a native 'DOM Ready', and a fallback to onload for IE7/8 if you need to go that far so all works nicely.
 
 ### JavaScript
 As always, I'll talk through the script for those interested in the behind the scenes working. Here's the full script:
@@ -193,7 +193,7 @@ var echoImages = function () {
 };
 {% endhighlight %}
 
-The OO piece of the script looks inside the _prototype_ extension, which has a few functions inside. The first is the _init()_ function, that simply pushes the current element into our data store array. The _render()_ function checks to see if an _addEventListener_ event exists, which will then invoke the _echoImages_ function once the _DOMContentLoaded_ event is fired. If it doesn't exist, likely inside IE7/8, it'll just run _onload_. The _listen()_ function will just run the function again each time the window is scrolled, to poll and see if any elements come into view to work it's magic some more.
+The OO piece of the script looks inside the _prototype_ extension, which has a few functions inside. The first is the _init()_ function, that simply pushes the current element into our data store array. The _render()_ function checks to see if an _addEventListener_ event exists, which will then invoke the _echoImages_ function once the _DOMContentLoaded_ event is fired. If it doesn't exist, likely inside IE7/8, it'll just run _onload_. The _listen()_ function will just run the function again each time the window is scrolled, to poll and see if any elements come into view to work its magic some more.
 
 {% highlight javascript %}
 Echo.prototype = {

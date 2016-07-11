@@ -309,7 +309,7 @@ So working from what we've already got above, I created some chained methods for
 });
 {% endhighlight %}
 
-Using atomic.js is just as easy as any other library, except it's got a very readable syntax, it's less than 1KB, and punches well above it's weight in functionality.
+Using atomic.js is just as easy as any other library, except it's got a very readable syntax, it's less than 1KB, and punches well above its weight in functionality.
 
 I've got some ideas planned for the future development of atomic, and of course feel free to help out!
 

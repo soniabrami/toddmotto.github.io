@@ -249,7 +249,7 @@ I've been chatting with [Jonathan](https://twitter.com/jcreamer898) recently on 
 
 We kind of agreed on a mix of both and that there are many options and opinions. We also agreed that using `Controller as` mixed with the above approach is superb architecture for Angular. The word "Model" might not be completely correct on what I'm describing above, business logic might be another word, but to keep things easy I've stuck with "Model".
 
-Jasmine/Karma unit testing is made much easier as well, we can test the Factory to ensure it's hitting all it's endpoints, fetching and updating the local data - and when testing the Controller we can go in knowing our Factory is bulletproof which will help us track down errors faster, and make our Controller tests even slimmer.
+Jasmine/Karma unit testing is made much easier as well, we can test the Factory to ensure it's hitting all its endpoints, fetching and updating the local data - and when testing the Controller we can go in knowing our Factory is bulletproof which will help us track down errors faster, and make our Controller tests even slimmer.
 
 ### Using $scope
 

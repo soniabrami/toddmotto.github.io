@@ -120,7 +120,7 @@ li.onclick = dynamicEvent; // Attach the event!
 All done. But let's put it into a more practical use. "What can I use it for?" - anything! I ran into this when creating jResize and my browser-based responsive development tool (though I cheated a bit with jQuery so here's the JavaScript way).
 
 ### Practical usage
-In the demo I've setup, you'll see the existing list of items, give one or two a click and watch the text change and a nice icon appear. Voila! Now, the next step is to create your own element, which I've created a nice little script and small form to do exactly that. Simply type a word into the field input, and generate your element. The newly created element will be born with it's onclick function attached.
+In the demo I've setup, you'll see the existing list of items, give one or two a click and watch the text change and a nice icon appear. Voila! Now, the next step is to create your own element, which I've created a nice little script and small form to do exactly that. Simply type a word into the field input, and generate your element. The newly created element will be born with its onclick function attached.
 
 ### Keeping functions outside the loop
 JSLint likes to remind everyone that you shouldn't create functions inside a loop, in some cases it's okay to do, but for this tutorial I totally agree. It will save us from writing duplicated markup when running the function on both the static and dynamically created elements (which is why dynamicEvent is created outside the loop and simply called).

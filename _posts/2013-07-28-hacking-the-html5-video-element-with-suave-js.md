@@ -41,7 +41,7 @@ So here's where Suave comes in. Thanks to my little script, you no longer have t
 <video data-src="video/mymovie.{mp4, ogv, webm}"></video>
 {% endhighlight %}
 
-All you need to do is feed it the file extensions you require for each video inside a _data-*_ attribute, easy. Suave is fully modular as well, call it as many times on the page and it'll just keep doing it's thing. What I also like about this solution is that I'm enhancing HTML5, _with_ HTML5. Of course some people will disagree and say I'm missing a few codecs, lost my mind and am hashing out strange ideas, but my project would be finished ontime and save countless future hours.
+All you need to do is feed it the file extensions you require for each video inside a _data-*_ attribute, easy. Suave is fully modular as well, call it as many times on the page and it'll just keep doing its thing. What I also like about this solution is that I'm enhancing HTML5, _with_ HTML5. Of course some people will disagree and say I'm missing a few codecs, lost my mind and am hashing out strange ideas, but my project would be finished ontime and save countless future hours.
 
 I've been using Grunt.js a lot recently and I love how you can simply include some curly braces to say 'or this too', so that's where the idea came from to simplify an overcomplicated system. This is fully semantic stuff too, if anything this improves the semantics of the &lt;video&gt; tag! With the current HTML5 spec, if you only have one HTML format, you can do this:
 

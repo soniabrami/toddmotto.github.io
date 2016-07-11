@@ -40,7 +40,7 @@ angular
 
 This pattern is great (and has other variations such as binding `vm.doSomething = function () {}` directly without declaring the function above and assigning), and has been really helpful in working with Angular. The reason `vm` was created was to help with referencing the correct context inside other functions, as `this` doesn't follow the lexical scoping rules like other variables do, so we assign `this` to `vm` to make a "reference".
 
-When you start having to bind a lot of things, we repeat `vm` so many times and end up with `vm.*` references all over our code. We don't really need to bind directly to the `this` value, JavaScript can work on it's own (such as updating `var foo = {};` locally in a callback rather than `vm.foo`) for instance. An example with lots of `vm.*` bindings:
+When you start having to bind a lot of things, we repeat `vm` so many times and end up with `vm.*` references all over our code. We don't really need to bind directly to the `this` value, JavaScript can work on its own (such as updating `var foo = {};` locally in a callback rather than `vm.foo`) for instance. An example with lots of `vm.*` bindings:
 
 {% highlight javascript %}
 function MainCtrl () {

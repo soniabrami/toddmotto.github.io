@@ -15,7 +15,7 @@ tags:
 
 I encountered how painful traversing inline SVG can be when working on a recent project, simple DOM APIs such as adding, removing and toggling classes just aren't there, or supported by tools such as jQuery (yes, I even tried jQuery).
 
-Inline SVG is SVG in the DOM, rendered from it's XML. Here's a quick look at example inline SVG which would sit anywhere in the DOM:
+Inline SVG is SVG in the DOM, rendered from its XML. Here's a quick look at example inline SVG which would sit anywhere in the DOM:
 
 {% highlight html %}
 <svg id="svg" xmlns="http://www.w3.org/2000/svg" version="1.1" height="190">
@@ -32,7 +32,7 @@ var mySVG = document.querySelector('#svg');
 
 ### Problem: DOM stuff
 
-But the problem begins when trying to do the 'usual' DOM stuff, adding a class, or removing a class. You'd think it would be pretty simple, but even using jQuery's APIs don't allow it to work either, so I wrote my own and I'm pretty pleased with it's compactness. The trick is to _set_ the attribute again, you can't keep adding/removing classes using the _.className_ method. The _getAttribute_ method is what I've used to grab the class attribute's value, and then the idea behind it is to grab that attribute, manipulate it and then set it back again.
+But the problem begins when trying to do the 'usual' DOM stuff, adding a class, or removing a class. You'd think it would be pretty simple, but even using jQuery's APIs don't allow it to work either, so I wrote my own and I'm pretty pleased with its compactness. The trick is to _set_ the attribute again, you can't keep adding/removing classes using the _.className_ method. The _getAttribute_ method is what I've used to grab the class attribute's value, and then the idea behind it is to grab that attribute, manipulate it and then set it back again.
 
 Let's say I have a function, I need to add a class to an SVG circle onclick:
 
@@ -53,7 +53,7 @@ mySVG.setAttribute('class', 'myClass');
 I have to think as the 'class' attribute as totally made up and that _className_ doesn't exist. And manipulating this is where the magic happens.
 
 ### hasClass API
-As with all the APIs, I'm hanging these off the SVGElement's prototype constructor so all SVG nodes inherit the methods. With _hasClass_, I'm extending the native Object with a function. This method allows simple declaration of the APIs. Inside the _hasClass_ function, I'm creating a new Regular Expression, which gets dynamically created through it's _className_ parameter and immediately tested against it's attribute value. JavaScript's _.test()_ returns a boolean (true/false), a simple way to test a class presence.
+As with all the APIs, I'm hanging these off the SVGElement's prototype constructor so all SVG nodes inherit the methods. With _hasClass_, I'm extending the native Object with a function. This method allows simple declaration of the APIs. Inside the _hasClass_ function, I'm creating a new Regular Expression, which gets dynamically created through its _className_ parameter and immediately tested against its attribute value. JavaScript's _.test()_ returns a boolean (true/false), a simple way to test a class presence.
 
 {% highlight javascript %}
 SVGElement.prototype.hasClass = function (className) {

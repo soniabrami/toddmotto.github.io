@@ -157,7 +157,7 @@ function identifierForController(controller, ident) {
 
 ### Patching "bindToController"
 
-The `bindToController` property was introduced in Angular 1.3, however it's value was limited to a Boolean until 1.4. If we wanted to use it, we would declare `bindToController: true` on the Directive definition Object. This means we had to use `scope: { prop: '=' }` when accessing inherited members. In Angular 1.4, we could use `scope: {}, bindToController: { prop: '=' }` and move our bindings to the `bindToController` property to be more explicit in saying "I want to bind these to a Controller". This is just syntax sugar, and obviously Angular 1.3 doesn't support an Object as the value of `bindToController`, so this needed to change.
+The `bindToController` property was introduced in Angular 1.3, however its value was limited to a Boolean until 1.4. If we wanted to use it, we would declare `bindToController: true` on the Directive definition Object. This means we had to use `scope: { prop: '=' }` when accessing inherited members. In Angular 1.4, we could use `scope: {}, bindToController: { prop: '=' }` and move our bindings to the `bindToController` property to be more explicit in saying "I want to bind these to a Controller". This is just syntax sugar, and obviously Angular 1.3 doesn't support an Object as the value of `bindToController`, so this needed to change.
 
 Underneath it's identical, and it's also under a wrapper as we use `bindings` inside the `component()` method, so it doesn't really matter how we do the underlying detection and bindings.
 

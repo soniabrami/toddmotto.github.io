@@ -98,7 +98,7 @@ var myFunction = function () {
 };
 {% endhighlight %}
 
-You'll notice that `myOtherFunction` _isn't_ being called here, it's simply defined. It's order of call also has effect on how the scoped variables react, here I've defined my function and called it _under_ another `console` statement:
+You'll notice that `myOtherFunction` _isn't_ being called here, it's simply defined. Its order of call also has effect on how the scoped variables react, here I've defined my function and called it _under_ another `console` statement:
 
 {% highlight javascript %}
 var myFunction = function () {
@@ -181,7 +181,7 @@ Okay, I lied, you _can_ call it, and you may have seen functions like this, but 
 sayHello('Bob')(); // calls the returned function without assignment
 {% endhighlight %}
 
-AngularJS uses the above technique for it's `$compile` method, where you pass the current scope reference into the closure:
+AngularJS uses the above technique for its `$compile` method, where you pass the current scope reference into the closure:
 
 {% highlight javascript %}
 $compile(template)(scope);

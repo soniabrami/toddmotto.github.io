@@ -26,7 +26,7 @@ So I did...
 
 ### forEach.js
 
-`forEach.js` is a simple script, it's not part of a library or even a module, it's just a function, here's it's syntax and a quick example using an `Array`:
+`forEach.js` is a simple script, it's not part of a library or even a module, it's just a function, here's its syntax and a quick example using an `Array`:
 
 {% highlight javascript %}
 // syntax

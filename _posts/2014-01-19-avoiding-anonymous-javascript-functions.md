@@ -172,7 +172,7 @@ element.addEventListener('click', toggleMenu(param1, param2), false);
 element.addEventListener('click', toggleMenu.bind(null, param1, param2), false);
 {% endhighlight %}
 
-You can read more about `.bind()` [here](/everything-you-wanted-to-know-about-javascript-scope) and [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind).You can grab the `.bind()` [polyfill here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) so that all browsers can use `.bind()` (as it's current IE9+ and all modern browsers)
+You can read more about `.bind()` [here](/everything-you-wanted-to-know-about-javascript-scope) and [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind). You can grab the `.bind()` [polyfill here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) so that all browsers can use `.bind()` (as it's current IE9+ and all modern browsers).
 
 If you don't want to polyfill and go "oldschool" then you'll need to wrap it inside a function:
 

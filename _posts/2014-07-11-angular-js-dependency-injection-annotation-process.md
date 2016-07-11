@@ -60,7 +60,7 @@ angular
   }]);
 {% endhighlight %}
 
-[John Papa](//twitter.com/John_Papa) and I have been discussing the first pattern in depth recently and advocate it's use over the latter, that's another story though.
+[John Papa](//twitter.com/John_Papa) and I have been discussing the first pattern in depth recently and advocate its use over the latter, that's another story though.
 
 #### 3. $inject
 

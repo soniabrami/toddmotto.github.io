@@ -13,7 +13,7 @@ Before creating your first Component however, you'll need to learn how to [Boots
 
 ### Creating a Component with @Component
 
-In Angular 2, there's a heavy push and recommendation towards using TypeScript and it's superset features, in this case we're going to be using TypeScript and it's decorators (such as `@Component`), which are just functions prefixed with an `@` symbol.
+In Angular 2, there's a heavy push and recommendation towards using TypeScript and its superset features, in this case we're going to be using TypeScript and its decorators (such as `@Component`), which are just functions prefixed with an `@` symbol.
 
 First thing after bootstrapping your application, we'll need to import some funky stuff from Angular's core. Let's create a file called `app.component.ts` and add some boilerplate code:
 

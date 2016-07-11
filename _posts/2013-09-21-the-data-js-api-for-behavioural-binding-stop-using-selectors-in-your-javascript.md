@@ -24,7 +24,7 @@ I'm going to show you how to:
 The behavioural-binding concept is binding repeating behaviours to DOM elements, instead of selecting elements and manipulating them. In a sense, it's what you're not used to doing. Probably:
 
 _Previously_; you targeted an element, wrapped it in a function and did some DOM wizardry.
-_Now_; you write your JavaScript logic independent of elements, and bind the behaviours with `data-*` attributes. The implementation is quite similar, but the thinking behind it is the separation key and how you'll need to think ahead for all future elements and not tie your JS so closely to your HTML. Behavioural-binding doesn't care what element it is, it'll just do it's thing (if it's a valid method).
+_Now_; you write your JavaScript logic independent of elements, and bind the behaviours with `data-*` attributes. The implementation is quite similar, but the thinking behind it is the separation key and how you'll need to think ahead for all future elements and not tie your JS so closely to your HTML. Behavioural-binding doesn't care what element it is, it'll just do its thing (if it's a valid method).
 
 ### Reuse and the problem scenario
 The initial problem with DOM logic and JavaScript binding is simple, take three inputs for example with different classes:
@@ -184,7 +184,7 @@ $('div.className > ul:first-child li.className').on('click', function () {
 });
 {% endhighlight %}
 
-It happens all the time, and jQuery's amazing selector engine Sizzle promotes it's power, which is vastly abused by so many developers. Of course when you're learning, you don't know any different. I mean, when I faced challenges in DOM selectors and JavaScript logic in early days I'd duplicate a script and just change a selector to get it to work twice - crazy looking back at it.
+It happens all the time, and jQuery's amazing selector engine Sizzle promotes its power, which is vastly abused by so many developers. Of course when you're learning, you don't know any different. I mean, when I faced challenges in DOM selectors and JavaScript logic in early days I'd duplicate a script and just change a selector to get it to work twice - crazy looking back at it.
 
 If you're writing JavaScript with selector vomit you probably shouldn't be writing it at all. JavaScript provides functionality, it shouldn't be dependent on a Node somewhere in the DOM tree.
 

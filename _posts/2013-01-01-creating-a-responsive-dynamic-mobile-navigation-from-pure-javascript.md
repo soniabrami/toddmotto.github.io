@@ -289,7 +289,7 @@ Include the script inside your  tag, and call the function just before the closi
 </html>
 {% endhighlight %}
 
-If you are using a DOM ready function handler or putting scripts before the closing body tag, then you can of course remove the script entirely from it's function wrap, and add it like this:
+If you are using a DOM ready function handler or putting scripts before the closing body tag, then you can of course remove the script entirely from its function wrap, and add it like this:
 
 {% highlight javascript %}
 var select = document.createElement('select');

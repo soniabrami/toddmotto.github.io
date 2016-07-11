@@ -92,7 +92,7 @@ Because the lifecycles are well-defined (and well-timed in execution order) we c
 
 First what we'd have to do though, is use `require`, I've written a more in-depth post on using [$onInit and require](/on-init-require-object-syntax-angular-component/), but let's cover some basics here too and provide a real world example after.
 
-Let's take our `myComponent` example and use `require` in it's new Object form (only for `.component()`, when using `require` with `.directive()` you can still use an Array or String syntax for requiring controllers):
+Let's take our `myComponent` example and use `require` in its new Object form (only for `.component()`, when using `require` with `.directive()` you can still use an Array or String syntax for requiring controllers):
 
 {% highlight javascript %}
 var myComponent = {

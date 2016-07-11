@@ -63,7 +63,7 @@ angular
   .filter('testFilter', testFilter);
 {% endhighlight %}
 
-This majestic `testFilter` will be bound to an `ng-repeat`, and each time the filter is called, it'll increment it's internal counter and log it out in the console for us.
+This majestic `testFilter` will be bound to an `ng-repeat`, and each time the filter is called, it'll increment its internal counter and log it out in the console for us.
 
 We can add it to the `ng-repeat` like so:
 

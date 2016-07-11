@@ -110,7 +110,7 @@ If I told you I could replicate the above, now, wouldn't that be sweet? Well, I 
 
 At first you might be thinking _"what on earth..."_
 
-But, I would say that is pretty clean, and helps us a lot with our coding. I can easily tell what the code is doing, and there are no adding or removing of classes happening here. I am merely going to be toggling the value of the data-state attribute, and the CSS will do it's work.
+But, I would say that is pretty clean, and helps us a lot with our coding. I can easily tell what the code is doing, and there are no adding or removing of classes happening here. I am merely going to be toggling the value of the data-state attribute, and the CSS will do its work.
 
 ### Toggling the data-state
 

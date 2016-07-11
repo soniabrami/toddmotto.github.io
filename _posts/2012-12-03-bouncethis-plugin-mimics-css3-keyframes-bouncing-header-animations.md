@@ -97,7 +97,7 @@ First we start off by creating the plugin, using a semi-colon as a safety net fo
       $this.wrap('<div class="bounceThis" />');
       
       // Target our newly created element, give it the exact height as the targeted element
-      // We do this to mimic it's physical space when animating
+      // We do this to mimic its physical space when animating
       // Position it relative, to setup more relative positioning on the child element
       $('.bounceThis').css({
         height: itemheight,

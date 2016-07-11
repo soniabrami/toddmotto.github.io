@@ -51,7 +51,7 @@ I've added the `displayName: 'Tabs'` to help with JSX's debugging (JSX will set 
 
 Next up I've added the `render` function that returns the chunk of HTML I need.
 
-Now it's time to show the tab's contents passed through. I'll create a "private" method on the Class, it won't actually be private but it's naming convention with the underscore prefix will let me know it is.
+Now it's time to show the tab's contents passed through. I'll create a "private" method on the Class, it won't actually be private but its naming convention with the underscore prefix will let me know it is.
 
 {% highlight javascript %}
 const Tabs = React.createClass({
@@ -318,7 +318,7 @@ const Pane = React.createClass({
 
 ### propTypes validation
 
-React is absolutely fantastic with it's debugging error messages, and we can improve that inline by using `propTypes` and the relevant validation of the type. Let's start with the tab component:
+React is absolutely fantastic with its debugging error messages, and we can improve that inline by using `propTypes` and the relevant validation of the type. Let's start with the tab component:
 
 {% highlight javascript %}
 const Tabs = React.createClass({

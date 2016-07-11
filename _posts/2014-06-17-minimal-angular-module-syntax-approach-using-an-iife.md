@@ -84,7 +84,7 @@ app.controller('MainCtrl',
 });
 {% endhighlight %}
 
-So what about moving it outside into it's own function to make Angular less visible and my JavaScript more "standalone":
+So what about moving it outside into its own function to make Angular less visible and my JavaScript more "standalone":
 
 {% highlight javascript %}
 function MainCtrl ($scope, SomeFactory) {

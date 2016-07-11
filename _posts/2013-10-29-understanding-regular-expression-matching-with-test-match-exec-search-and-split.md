@@ -18,7 +18,7 @@ Here's an example of a RegExp that's intended to blow your mind if you've never 
 /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
 {% endhighlight %}
 
-This is infact a RegExp for matching the HTML5 email format (what the `input[type=email]` looks for in it's native validation). I'm going to cover the use cases for testing RegExps in a few ways, each with a specific use case. This will include the most popular JavaScript APIs; `.test()`, `.match()` and `.exec()`.
+This is infact a RegExp for matching the HTML5 email format (what the `input[type=email]` looks for in its native validation). I'm going to cover the use cases for testing RegExps in a few ways, each with a specific use case. This will include the most popular JavaScript APIs; `.test()`, `.match()` and `.exec()`.
 
 ### .test()
 Using `.test()` is probably my favourite method of testing RegExps, it's a beautiful API, the fastest and the simplest to use. The `.test()` API runs a search for a match between a RegExp and a String.
@@ -95,7 +95,7 @@ _Notable features/tips:_
 1. Great for splitting chunks of data
 2. Returns a new array
 
-Here's an example of splitting a string by it's RegExp equivalent of whitespace:
+Here's an example of splitting a string by its RegExp equivalent of whitespace:
 
 {% highlight javascript %}
 // returns ["Hello,", "my", "name", "is", "Todd", "Motto"]
