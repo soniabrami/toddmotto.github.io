@@ -47,6 +47,9 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
       Not available <span>29-31.08.2016</span>
     </li>
     <li>
+      Not available <span>07-12.09.2016</span>
+    </li>
+    <li>
       <a href="http://angularconnect.com/2016">AngularConnect</a>, London (England, UK), <span>27.09.2016</span>
     </li>
     <li>
