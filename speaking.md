@@ -44,12 +44,6 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
 <div class="speaking__list">
   <ul>
     <li>
-      <a href="http://angularcamp.org/">AngularCamp</a>, Barcelona (Spain), <span>01-03.07.2016</span>
-    </li>
-    <li>
-      <a href="http://angularcamp.org/">FullStack 2016</a>, London (England, UK), <span>13-15.07.2016</span>
-    </li>
-    <li>
       Not available <span>29-31.08.2016</span>
     </li>
     <li>
@@ -70,6 +64,12 @@ Events I've spoken at. Check my [YouTube Channel](https://www.youtube.com/channe
 
 <div class="speaking__list">
   <ul>
+    <li>
+      <a href="http://angularcamp.org/">AngularCamp</a>, Barcelona (Spain), <span>01-03.07.2016</span>
+    </li>
+    <li>
+      <a href="http://angularcamp.org/">FullStack 2016</a>, London (England, UK), <span>13-15.07.2016</span>
+    </li>
     <li>
       <a href="https://2016.front-trends.com/speakers/">FrontTrends</a>, Warsaw (Poland), <span>18.05.2016</span>
     </li>
