@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /factory-versus-service
-title: .service() versus .factory(), the actual answer
+title: Angular .service() or .factory(), the actual answer
 path: 2016-03-11-factory-versus-service-the-actual-answer.md
 ---
 
