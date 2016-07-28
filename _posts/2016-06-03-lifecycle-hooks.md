@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /angular-1-5-lifecycle-hooks
-title: Comprehensive dive into Angular 1.5 lifecycle hooks
+title: Lifecycle hooks in Angular 1.5
 path: 2016-06-03-lifecycle-hooks.md
 ---
 
