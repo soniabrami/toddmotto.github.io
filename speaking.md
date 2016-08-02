@@ -50,7 +50,13 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
       Not available <span>07-12.09.2016</span>
     </li>
     <li>
+      <a href="http://conference2016.twf.community">TWF (TBC)</a>, Krakow (Poland), <span>22-24.09.2016</span>
+    </li>
+    <li>
       <a href="http://angularconnect.com/2016">AngularConnect</a>, London (England, UK), <span>27.09.2016</span>
+    </li>
+    <li>
+      <a href="#">Frontend Titans</a>, Cluj (Romania), <span>07-11.10.2016</span>
     </li>
     <li>
       <a href="https://voxxeddays.com/thessaloniki/">Voxxed Thessaloniki</a>, Thessaloniki (Greece), <span>21.10.2016</span>
