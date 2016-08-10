@@ -9,7 +9,7 @@ tags:
 - JavaScript
 ---
 
-Using a class to manipulate the DOM is dead (or at least should be). Let's not do that anymore, it has many issues, the main one for me is that adding classes to elements to change their state crosses the behaviour and styling paradigm. Behaviour is separate to style and as our web becomes more rich with functionality, the behaviour side of things is harder to control.
+Using a class to manipulate the DOM? What about this idea. Using classes have many issues, the main one for me is that adding classes to elements to change their state crosses the behaviour and styling paradigm. Behaviour is separate to style and as our web becomes richer with functionality, the line between styling and state is a challenge, and also at times messy.
 
 Anything beyond using `:hover` pseudo to style your website components introduces JavaScript, you might add an _open_ class for your menu, a _toggled_ class for your tabs, and so on. This is a nice semantic name for our hover event, but the two don't really meet at a real solution for managing our code's behaviour.
 
