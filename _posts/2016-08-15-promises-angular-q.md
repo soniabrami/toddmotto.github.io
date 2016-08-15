@@ -5,7 +5,7 @@ title: All about $q and Promises in Angular
 path: 2016-08-15-promises-angular-q.md
 ---
 
-You've seen `$q`, maybe used it but haven't uncovered some of the awesome features `$q` provides. This post is all about `$q`, enjoy!
+You've seen `$q`, maybe used it but haven't uncovered some of the awesome features `$q` provides such as `$q.all()` and `$q.race()`. This article dives into ES2015 Promise API and how it maps across to `$q` for AngularJS. This post is all about `$q`, enjoy!
 
 ### Table of contents
 
@@ -341,3 +341,5 @@ $q.race({
 Use `$q` for constructing promises from non-promise Objects/callbacks, and utilise `$q.all()` and `$q.race()` to work with existing promises.
 
 If you like this article, check out my advanced [Angular 1.5 master course](https://courses.toddmotto.com/products/ultimate-angularjs-master) which covers all the `$q`, `$httpProvider.interceptors`, `ui-router`, component architecture and the new `.component()` API.
+
+For anything else, [the $q documentation](https://docs.angularjs.org/api/ng/service/$q).
