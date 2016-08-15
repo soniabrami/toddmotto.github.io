@@ -18,7 +18,6 @@ You've seen `$q`, maybe used it but haven't uncovered some of the awesome featur
 - <a href="#qreject">$q.reject()</a>
 - <a href="#qall">$q.all()</a>
 - <a href="#qrace">$q.race()</a>
-- <a href="#real-world-q-example">Real world $q example</a>
 
 ### What is a Promise?
 
