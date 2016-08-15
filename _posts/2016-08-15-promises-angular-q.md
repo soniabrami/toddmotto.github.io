@@ -38,7 +38,7 @@ let promise = new Promise((resolve, reject) => {
   }
 });
 
-promise().then(data => {
+promise.then(data => {
   console.log(data);
 });
 {% endhighlight %}
@@ -81,7 +81,7 @@ let promise = $q((resolve, reject) => {
   }
 });
 
-promise().then(data => {
+promise.then(data => {
   console.log(data);
 });
 {% endhighlight %}
@@ -189,7 +189,7 @@ let getStuff = $q((resolve, reject) => {
   xhr.send();
 });
 
-getStuff().then(data => {
+getStuff.then(data => {
   console.log('Boom!', data);
 });
 {% endhighlight %}
