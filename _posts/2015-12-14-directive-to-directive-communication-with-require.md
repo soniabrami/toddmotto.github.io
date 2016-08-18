@@ -10,9 +10,9 @@ tags:
 - Angular
 ---
 
-Communication between Directives can be done in various ways, when dealing with Directives that have a hierarchical relationship between them, we can use Directive Controllers to talk between them.
+Communication between Directives can be done in various ways. When dealing with Directives that have a hierarchical relationship we can use Directive Controllers to talk between them.
 
-In this article, we'll build a tabs Directive that uses another Directive to add the tabs, using the `require` property of a Directive's definition Object.
+In this article we'll build a `tabs` Directive that uses another Directive to add the tabs, using the `require` property of a Directive's definition Object.
 
 First let's define the HTML:
 
@@ -58,7 +58,7 @@ angular
 
 For this `tabs` Directive, we're going to use transclusion to pass each `tab` through and manage each `tab` individually.
 
-Inside the `tabs` Controller, we're going to need to add a function to add a new tab, so that our tabs are dynamically added to the parent/host Directive:
+Inside the `tabs` Controller, we'll need a function to add a new tab, so that our tabs are dynamically added to the parent/host Directive:
 
 {% highlight javascript %}
 function tabs() {
@@ -107,7 +107,7 @@ angular
   .directive('tabs', tabs);
 {% endhighlight %}
 
-We've successfully used `require: '^tabs'` to include the parent `tabs` Directive's Controller, so we now have access to its functionality through the `link` function. We need to now inject a fourth argument, `$ctrl`, to get our Controller reference:
+We've successfully used `require: '^tabs'` to include the parent `tabs` Directive's Controller, so we now have access to its functionality through the `link` function. Now we need to inject a fourth argument, `$ctrl`, to get our Controller reference:
 
 {% highlight javascript %}
 function tab() {
@@ -148,7 +148,7 @@ function tab() {
 
 Now, each time a new `tab` Directive is used, this `$ctrl.addTab` function is called and pushed into the `this.tabs` Array inside the `tabs` Controller.
 
-With three tabs, our `$ctrl.addTab` function will be called three times, and the Array will have three items inside. We can then use the Array to iterate over the tab titles and add clickable behaviour to select the correct tab once the title is clicked:
+With three tabs our `$ctrl.addTab` function will be called three times, and the Array will contain three items. We can then use the Array to iterate over the tab titles and add clickable behaviour to select the correct tab when each title is clicked:
 
 {% highlight javascript %}
 function tabs() {
@@ -183,9 +183,9 @@ function tabs() {
 }
 {% endhighlight %}
 
-You'll now notice `selectTab` has been added to the `tabs` Controller, this allows us to set an initial tab's index which will then reveal that specific tab's content. For instance `this.selectTab(0);` will set the first tab's content to be displayed, as we're using Array indexes to manage our logic.
+You'll now notice `selectTab` has been added to the `tabs` Controller. This allows us specify a tab's index, which will then reveal that tab's content. For instance `this.selectTab(0);` will set the first tab's content to be displayed, as we're using Array indexes to manage our logic.
 
-Due to the compiling procedure of Angular, the `controller` is instantiated first, and the `link` function once the Directive has been compiled and linked, which means to set an initial tab's visibility we need to inject our Directive's Controller using `$ctrl` and call the method there:
+Due to the Angular's compiling procedure, the `controller` is instantiated first, then the `link` function once the Directive has been compiled and linked, which means to set an initial tab's visibility we need to inject our Directive's Controller using `$ctrl` and call the method there:
 
 {% highlight javascript %}
 function tabs() {
@@ -199,7 +199,7 @@ function tabs() {
 }
 {% endhighlight %}
 
-We might however want to be more clever and allow an attribute to set an initial tab, allowing more choice for the developer:
+However, we might want to be more clever and allow an attribute to set the initial tab, giving the developer more flexibility:
 
 {% highlight html %}
 <tabs active="2">
@@ -209,7 +209,7 @@ We might however want to be more clever and allow an attribute to set an initial
 </tabs>
 {% endhighlight %}
 
-This would dynamically set the Array index `2`, so element number `3` in the Array. We can utilise `$attrs` in the `link` function to obtain the attribute's presence, and set the index that way, or if the `$attrs.active` doesn't exist or is falsy (`0` evaluates to `false` so it'll fallback to `0` anyway), it'll fallback to setting the initial tab's index.
+This would set the tab at Array index `2` (so the third element in the Array). We can utilise `$attrs` in the `link` function to obtain the attribute's presence, and set the index that way, or if the `$attrs.active` doesn't exist or is falsy (`0` evaluates to `false` so it'll fall back to `0` anyway), it'll fall back to setting the initial tab's index.
 
 {% highlight javascript %}
 function tabs() {
