@@ -39,9 +39,7 @@ const Tabs = React.createClass({
   displayName: 'Tabs',
   render() {
     return (
-      <div className="tabs">
-
-      </div>
+      <div className="tabs"></div>
     );
   }
 });
