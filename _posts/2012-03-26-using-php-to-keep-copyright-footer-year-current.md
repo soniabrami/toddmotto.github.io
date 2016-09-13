@@ -11,7 +11,7 @@ tags:
 - JavaScript
 ---
 
-Here’s the start of the Web Development series as part of the new addition to my Blog, including code tutorials and code snippets free for use. This article includes a small snippet of code that you can add to your site to ensure your footer PHP date is always at the current year. I’m sure the eagle-eyed users of the web are still seeing sites stuck on ‘© 2011 Copyright’ – so here’s a few easy ways to overcome it, forever!
+Here’s the start of the Web Development series as part of the new addition to my Blog, including code tutorials and code snippets free for use. This article includes a small snippet of code that you can add to your site to ensure your footer PHP date is always at the current year. I’m sure the eagle-eyed users of the web are still seeing sites stuck on ‘© 2011 Copyright’ – so here’s a few easy ways to overcome it, forever.
 
 First thing you’ll need is a PHP web page. If your server handles PHP, then use the code below to insert into your website’s footer. Please note this will only work with PHP web pages not static HTML.
 
