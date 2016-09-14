@@ -44,7 +44,7 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
 <div class="speaking__list">
   <ul>
     <li>
-      <a href="http://conference2016.twf.community">TWF (TBC)</a>, Krakow (Poland), <span>22-24.09.2016</span>
+      <a href="http://conference2016.twf.community">TWF Conf</a>, Kraków (Poland), <span>22-24.09.2016</span>
     </li>
     <li>
       <a href="http://angularconnect.com/2016">AngularConnect</a>, London (England, UK), <span>27.09.2016</span>
