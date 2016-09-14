@@ -44,12 +44,6 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
 <div class="speaking__list">
   <ul>
     <li>
-      Not available <span>29-31.08.2016</span>
-    </li>
-    <li>
-      Not available <span>07-12.09.2016</span>
-    </li>
-    <li>
       <a href="http://conference2016.twf.community">TWF (TBC)</a>, Krakow (Poland), <span>22-24.09.2016</span>
     </li>
     <li>
