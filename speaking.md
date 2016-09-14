@@ -56,7 +56,10 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
       <a href="https://voxxeddays.com/thessaloniki/">Voxxed Thessaloniki</a>, Thessaloniki (Greece), <span>21.10.2016</span>
     </li>
     <li>
-      <a href="https://ng-be.org">NG-BE</a>, Ghent (Belgium), <span>08-09.11.2016</span>
+      <a href="http://ng-poland.pl">ngPoland</a>, Warsaw (Poland), <span>21-22.11.2016</span>
+    </li>
+    <li>
+      <a href="https://ng-be.org">NG-BE</a>, Ghent (Belgium), <span>08-09.12.2016</span>
     </li>
   </ul>
 </div>
