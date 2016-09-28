@@ -10,28 +10,9 @@ tags:
 - JavaScript
 ---
 
-Last month [Jonathan Creamer](https://twitter.com/jcreamer898) wrote an awesome article on Angular and MVC, _[The state of AngularJS Controllers](http://jonathancreamer.com/the-state-of-angularjs-controllers/)_. The article touches on misconceptions of client-side MVC and true Model and Controller separation, as well as things we often do wrong by incorrectly using a Controller as a Model.
+*Note: please don't use this approach anymore, use [Components and one-way dataflow](/exploring-the-angular-1-5-component-method/)*
 
-<div class="airpairme">
- <a href="http://airpair.me/toddmotto?utm_source=expert&utm_medium=homepage&utm_content=button&utm_campaign=airpairme">
-  <img src="http://www.airpair.com/images/me.png" />
- </a>
- <p>For live <a href="http://www.airpair.com/angularjs" style="color:#CE5424">AngularJS help</a> on AirPair</p>
- <style>
-  .airpairme > a {
-   width:100%;
-   display:block;
-   padding:10px 0;
-   margin: 10px 0;
-   background:#fff;
-   text-align:center;
-   border:1px solid #d3d3d3;
-   border-radius:5px;
-  }
-  .airpairme > a:hover { background: #f9f9f9 }
-  .airpairme p { font:11px arial;text-align:center;margin:0;padding:3px 0 0 6px }
- </style>
-</div>
+Last month [Jonathan Creamer](https://twitter.com/jcreamer898) wrote an awesome article on Angular and MVC, _[The state of AngularJS Controllers](http://jonathancreamer.com/the-state-of-angularjs-controllers/)_. The article touches on misconceptions of client-side MVC and true Model and Controller separation, as well as things we often do wrong by incorrectly using a Controller as a Model.
 
 This article is my rethinking of Angular Controllers, and best practices when using them in your team or for yourself. Getting and setting data outside of the Controller, resolving data is key to using a Model correctly.
 
