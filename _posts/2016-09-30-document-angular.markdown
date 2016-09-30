@@ -404,7 +404,9 @@ function GuideController() {
 }
 GuideController.$inject = [""];
 ````
+
 ### Creating our index page
+
 Alright, moving on, we now need to create our index template. Create `indexPage.template.html` under `/docs/config/template`:
 
 ````html
