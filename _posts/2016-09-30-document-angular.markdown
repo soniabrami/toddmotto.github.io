@@ -30,7 +30,7 @@ In this example I will show you how you can easily document your AngularJS appli
 - <a href="#conclusion">Conclusion</a>
 
 
-## What's Dgeni
+### What's Dgeni
 
 Dgeni (pronounced Jenny) is an extremely powerful NodeJS documentation generation utility. It was built by people from the Angular team, so it does make everything easy to document Angular projects although it can be used for other projects as well. AngularJS, Ionic Framework, Protractor and Angular Material are currently using Dgeni in production to generate their documentation.
 
@@ -41,7 +41,7 @@ All of your documentation needs to be written in a form of JSDoc, which is a sta
 Dgeni does not provide a web application to display the output files, but it allows you to do what you want with it. It's up to the developer to decide and n this example we'll actually wrap our documentation in a simple Angular app.
 
 
-## Why you should document your code
+### Why you should document your code
 
 There are many reasons why you should document your code, but we won't be getting into specifics in this article. The main reason I will evoke here is that it allows your code to be more concise and clear, and this is extremely important when you are working in a team environment.
 
@@ -55,7 +55,7 @@ Having a up-to-date documentation will allow you to:
 - Document business rules and complex algorythms
 - Document dependencies between modules and services
 
-## 1. Installing NPM dependencies
+### 1. Installing NPM dependencies
 
 We will need a couple of NodeJS packages for documenting our application:
 - Dgeni, our documentation generator
@@ -77,7 +77,7 @@ If you are not using Gulp or Grunt in your project, install it globally as this 
 npm i gulp -g
 ````
 
-## 2. Create folder structure
+### 2. Create folder structure
 
 First thing we are going to do is create a `docs` folder where we will have our configuration files, our static content as well as the actual documentation. In this case, I opted to simply put it in the same directory under `build`, but you could package it in a `dist` folder if you want.
 
@@ -97,7 +97,7 @@ Under `config`, we will be creating our configuration file (index.js) and we wil
 
 Under `content`, we will be adding our static documentation. Dgeni reads `.md` files by default (using the ngDocFileReader) and will convert them to HTML partials once it's setup correctly.
 
-## 3. Setup configuration file
+### 3. Setup configuration file
 Now, let's open up `/docs/config/index.js`, and let's start configuring this beast !
 
 ````javascript
@@ -118,7 +118,7 @@ module.exports = new Package('myDoc', [
 
 Alright, so we've loaded Dgeni, our dgeni packages dependencies and created a new package for us to generate documentation. Next step, we will tell Dgeni which files we want to process and where to output them
 
-### Setup the file reading and writing
+#### Setup the file reading and writing
 ````javascript
 .config(function(log, readFilesProcessor, writeFilesProcessor) {
 
@@ -139,7 +139,7 @@ Alright, so we've loaded Dgeni, our dgeni packages dependencies and created a ne
 })
 ````
 
-### Setup the templates
+#### Setup the templates
 Next, let's specify where are custom templates are located
 
 ````javascript
@@ -151,7 +151,7 @@ Next, let's specify where are custom templates are located
 
 Looks pretty simple so far? We are merely using the default Dgeni processors to specify how we want to process and then convert our source files. Next, let's setup how we want to convert the source files for each document type
 
-### Setup the Dgeni processors
+#### Setup the Dgeni processors
 ````javascript
 .config(function(computePathsProcessor) {
 
@@ -182,7 +182,7 @@ And... that's it! Although Dgeni as been lightly configured, if you we're to run
 
 But we'll discuss about setup for generating code later on, now's let's talk about creating static documentation.
 
-## 4. Creating static documentation
+### 4. Creating static documentation
 
 You may be wondering, Why would I want to do static documentation? Well, you may want to document other things besides the code. You may have a Developer guide, REST API References, Tutorials, Notes, Information regarding Unit & E2E tests, libraries behind used in the project... basically anything you can think of!
 
@@ -226,7 +226,7 @@ velit nec fringilla consectetur, dolor nibh bibendum velit, sed porta augue eros
 
 You can also do the same in your other 2 pages, these will serve as the index pages for the `api` and `guide` pages of our documentation app. You can also add other folders and other Markdown files if you like, Dgeni will parse the files the same way as the others and generate HTML partials. The `api` folder (and section) is where your code-generated documentation will be located, Dgeni uses that folder by default.
 
-### Adding our static content to Dgeni
+#### Adding our static content to Dgeni
 Now that we've added static content, we need to tell Dgeni where that content is located, and setup the computePathsProcessor so we can output the content to HTML partials. Let's do this now!
 
 First, let's add the Markdown files to the sourceFiles list:
@@ -270,7 +270,7 @@ computePathsProcessor.pathTemplates.push({
     outputPathTemplate: 'partials/${path}.html'
 });
 ````
-## Create the content template
+#### Create the content template
 We also need to create a template for our document of type `content` else Dgeni will throw an exception. Let's create a `content.template.html` file under `/docs/config/templates` and include the following
 
 {% raw %}
@@ -281,7 +281,7 @@ We also need to create a template for our document of type `content` else Dgeni 
 ````
 {% endraw %}
 
-## 5. Basic export to HTML partials
+### 5. Basic export to HTML partials
 
 Now that most of the configuration is done, we'll create a Gulp task to generate the documentation. Open up your `gulpfile.js` and add the following
 
@@ -337,7 +337,7 @@ And we are going to do just that! We'll be wrapping up all of our documentation 
 
 **One thing to note is that Dgeni doesn't remove the partials while generating the docs. I advise you add another task that will clean up the `/build` folder before it generates the documentation.**
 
-## 6. Creating an Angular app to show the documentation
+### 6. Creating an Angular app to show the documentation
 
 Now let's create the Angular app that will house and show our HTML partials. Our app will be pretty simple and will only contain:
 
@@ -349,7 +349,7 @@ Now let's create the Angular app that will house and show our HTML partials. Our
 - Bootstrap (for quick styling purposes)
 - Angular and UI-Router (multiple ui-views)
 
-### Creating our Angular app files
+#### Creating our Angular app files
 Create `app.module.js` and `app.config.js` under `/docs/app` and add the following.
 
 ````javascript
@@ -471,7 +471,7 @@ Alright, moving on, we now need to create our index template. Create `indexPage.
 
 We could just add that index file directly in `/app`, but we're actually going to generate the page using a processor we will create ourselves. Dgeni will then run the processor and output our index template.
 
-## 7. Creating a processor for our Angular index page
+### 7. Creating a processor for our Angular index page
 
 Now, let's configure Dgeni to compile our index page. Create `index-page.js` under `/docs/config/processors`
 
@@ -498,7 +498,7 @@ module.exports = function indexPageProcessor() {
 };
 ````
 
-### Adding the index page processor to the pipeline
+#### Adding the index page processor to the pipeline
 Then, we need to tell Dgeni about this new processor! Let's add it in our config file
 
 ````javascript
@@ -514,7 +514,7 @@ info:    running processor: indexPageProcessor
 
 And if you look into your `build` folder, you'll see the processed index.html! That might seem like an unnecessary step, but Dgeni can output all the files we need to display our documentation app in the folder of our choosing. That means that we don't need an external process to copy the index file.
 
-## 8. Generating a list of pages for our sidebar
+### 8. Generating a list of pages for our sidebar
 
 Now, we will need to tell Angular about all of our HTML partials. First, let's create a javascript template so that our processors can write data to it. Create `constant.data.template.js` under the `templates` folder.
 
@@ -529,7 +529,7 @@ angular
 
 We've created a template, now we need Dgeni that grab all of our partials and store that information in our constants. For that we need to create new processors, let's start with the processor for the API pages.
 
-### Creating the 'API' processor
+#### Creating the 'API' processor
 ````javascript
 // processors/api-data.js
 
@@ -625,7 +625,7 @@ module.exports = function apiPagesProcessor(moduleMap) {
 
 ````
 
-### Creating the 'Guide' processor
+#### Creating the 'Guide' processor
 We also need to do the same for the Guide pages, althought it's a much simpler processor.
 
 ````javascript
@@ -683,7 +683,7 @@ module.exports = function guidePagesProcessor(moduleMap) {
 
 ````
 
-### Adding the processors
+#### Adding the processors
 Now, we need to add those 2 processors to the Dgeni pipeline in the config file
 
 ````javascript
@@ -725,7 +725,7 @@ info:    running processor: writeFilesProcessor
 info:    running processor: checkAnchorLinksProcessor
 ````
 
-### Add the data into our Angular app
+#### Add the data into our Angular app
 Let's go back to our Angular app and modify the following files. We are adding our newly generated constants and binding the data directly to the view.
 
 ````javascript
@@ -744,7 +744,7 @@ function GuideController(GUIDE_DATA) {
 GuideController.$inject = ["GUIDE_DATA"];
 ````
 
-### Creating our application states
+#### Creating our application states
 We also need to create states so that our Angular app can be navigated. Let's do just that! As you will notice, it creates alot of code for 1 file, so it's a good idea to split the routing into separate files for each section. For the case of simplicity, I opted to put all the state definitions in a single file.
 
 ````javascript
@@ -884,7 +884,7 @@ config.$inject = ["$locationProvider", "$stateProvider", "API_DATA", "GUIDE_DATA
 ````
 
 
-## 9. Documenting a Module, Controller, Directive and Service
+### 9. Documenting a Module, Controller, Directive and Service
 
 In the interest of time, I will actually be documenting an existing Angular 1.5 app.
 
@@ -894,7 +894,7 @@ The examples from this guide are also available directly in the app, under `/doc
 
 [dfa622d3]: https://github.com/toddmotto/angular-1-5-components-app "Angular 1.5 Component app"
 
-### Documenting a Module
+#### Documenting a Module
 
 ````javascript
 /**
@@ -917,7 +917,7 @@ The examples from this guide are also available directly in the app, under `/doc
  **/
 ````
 
-### Documenting a Method
+#### Documenting a Method
 Notice how we are appending the name of the Controller (or constructor in which the method is contained) to the name so it gets linked. `@param` and `@return` are actually JSDoc methods!
 
 ````javascript
@@ -932,7 +932,7 @@ Notice how we are appending the name of the Controller (or constructor in which 
  */
 ````
 
-### Documenting a Service
+#### Documenting a Service
 Adding the `@module` JSDoc tag allows Dgeni to understand in which module that Service is located.
 
 ````javascript
@@ -953,7 +953,7 @@ Adding the `@module` JSDoc tag allows Dgeni to understand in which module that S
  */
 ````
 
-### Documenting a Controller
+#### Documenting a Controller
 Controllers are a bit annoying to test because there's no way to parse controllers in ngDoc. When you look at the Dgeni project, they recommend using the `type` tag when describing a Constructor, and since Controllers are Contructors, it makes sense to use it. Also notice that we are also referencing our `@module` so they can be linked.
 
 ````javascript
@@ -974,7 +974,7 @@ Controllers are a bit annoying to test because there's no way to parse controlle
  */
 ````
 
-### Documenting a Directive / Component
+#### Documenting a Directive / Component
 Just like Controllers, they isn't a way to specify a type `component` using ngDoc. To be fair, the component method is still fairly new, so that's not a surprise. What we can do is use the `directive` type and specify it's a component somewhere in our name / description
 
 ````javascript
@@ -1000,11 +1000,12 @@ For more information on how to use all the available tags, you can look at [Angu
 
   [ffe819ce]: https://github.com/angular/angular.js/wiki/Writing-AngularJS-Documentation "AngularJS - How to write documentation"
 
-## 10. Compile and deploy
+
+### 10. Compile and deploy
 
 Now that we've got our app up and running, and we started documenting some code, we can generate our documentation once again to see how it behaves. But... how can we look at our app? We need a server !
 
-### Setting up a simple server
+#### Setting up a simple server
 I recommend installing John Papa's [lite-server][7d5be9d1] because it's a zero-configuration & SPA-friendly server. It configures BrowserSync with a middleware so you can refresh your app and it will redirect everything to index.html (and let Angular handle the routing).
 
 You can install it globally, go directly into the `build` folder and run it (it runs from the current folder by default)
@@ -1022,7 +1023,8 @@ You can also integrate it with your current process and package everything into 
 
   [7d5be9d1]: https://github.com/johnpapa/lite-server "lite-server"
 
-## Conclusion
+
+### Conclusion
 As previously mentioned, Controllers and Components have no tags associated with them, so we do have to use some tricks up our sleeves to document those elements correctly. We could also add our own processors so we can parse specific types, just like we did for our `content` types for our static documentation.
 
 Also, Dgeni doesn't have alot of documentation and/or tutorials, which makes it hard to learn. It was pretty much the basis of this post, not alot of people seem to know about Dgeni and I wanted to blog about it, so that others can learn :)
