@@ -9,16 +9,50 @@
 
 .courses {
   background: #292c2f;
-  background-image: url(../img/courses.png);
+  background-image: url(../img/ua/bg.png);
   background-repeat: no-repeat;
-  background-position: 95% center;
-  background-size: 328px 190px;
-  padding: 30px 55px;
+  background-position: bottom;
+  background-size: cover;
+  padding: 40px 55px 40px 55px;
   cursor: pointer;
-  text-align: left;
-  @media screen and (max-width: 725px) {
-    background-image: none;
-    text-align: center;
+  text-align: center;  
+  position: relative;
+
+  &__a1 {
+    background-image: url(/img/ua/angular-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 120px;
+    top: 50%;
+    margin-top: -50px;
+    @media only screen and (max-width: 1170px) {
+      display: none;
+    }
+  }
+  &__a2 {
+    background-image: url(/img/ua/angular-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 120px;
+    top: 50%;
+    margin-top: -50px;
+    @media only screen and (max-width: 1170px) {
+      display: none;
+    }
+  }
+
+
+  h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
   }
   a {
     display: block;
@@ -33,17 +67,36 @@
   p {
     font-size: 14px;
     margin: 0;
+    margin-bottom: 30px;
+    color: #c6cad4;
   }
   button {
-    cursor: pointer;
-    padding: 8px 20px;
-    margin: 10px 0 0;
-    font-size: 20px;
-    background: #ab70d5;
-    border-radius: 150px;
-    color: #fff;
+    letter-spacing: -0.5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    background-image: url(/img/ua/arrow-right--white.png);
+    background-position: top 16px right 22px;
+    background-repeat: no-repeat;
+    background-size: 6px;
+    background-color: #9d62c8;
+    color: white;
+    -webkit-transition: background-color .3s,-webkit-box-shadow .3s;
+    transition: background-color .3s,-webkit-box-shadow .3s;
+    transition: background-color .3s,box-shadow .3s;
+    transition: background-color .3s,box-shadow .3s,-webkit-box-shadow .3s;
     border: 0;
-    font-family: 'Museo Slab', 'Helvetica', 'Arial', sans-serif;
+    outline: 0;
+    line-height: 1;
+    text-align: center;
+    padding: 12px 40px 14px 24px;
+    font-size: 15px;
+    font-weight: 600;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    text-align: left;
     span {
       font-size: 16px;
       font-weight: 300;
