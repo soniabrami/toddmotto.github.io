@@ -28,6 +28,7 @@ To chat to me about something else such as a JavaScript/Angular training, speaki
 
 | Date | Comments |
 | ---- | ---- |
+| 04.10.2016 | Launched [Ultimate Angular](https://ultimateangular.com) |
 | 13.03.2016 | 15,000ft sky dive ([video](https://www.youtube.com/watch?v=iFYYkTlJDWg)) |
 | 22.02.2016 | Joined [Telerik](http://telerik.com) as Developer Advocate |
 | 18.02.2016 | Keynote Speaker at [ng-nl](http://ng-nl.org) (Amsterdam, Holland) |
