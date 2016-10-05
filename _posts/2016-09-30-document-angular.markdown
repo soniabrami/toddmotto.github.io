@@ -1025,6 +1025,9 @@ You can also integrate it with your current process and package everything into 
 
 
 ### Conclusion
+
+You can check out the [full demo source](https://github.com/toddmotto/angular-1-5-components-app) on Todd's 1.5 component based application inside the `/docs` directory.
+
 As previously mentioned, Controllers and Components have no tags associated with them, so we do have to use some tricks up our sleeves to document those elements correctly. We could also add our own processors so we can parse specific types, just like we did for our `content` types for our static documentation.
 
 Also, Dgeni doesn't have alot of documentation and/or tutorials, which makes it hard to learn. It was pretty much the basis of this post, not alot of people seem to know about Dgeni and I wanted to blog about it, so that others can learn :)
