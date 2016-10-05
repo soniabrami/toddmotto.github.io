@@ -22,7 +22,7 @@ I most likely will not respond to individual code queries due to the volume and 
 
 [Tweeting me](//twitter.com/toddmotto) is the fastest way to get hold of me.
 
-To chat to me about something else such as a JavaScript/Angular training, speaking or workshop event, please email me through my <a href="https://courses.toddmotto.com/pages/contact" target="_blank">contact form</a>.
+To chat to me about something else such as a JavaScript/Angular training, speaking or workshop event, please email me: todd[at]toddmotto[dotcom].
 
 ### Timeline
 
