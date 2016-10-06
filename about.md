@@ -19,6 +19,9 @@ Co-created [Conditionizr](http://conditionizr.com) (.NET Magazine's Open Source 
 | Date | Comments |
 | ---- | ---- |
 | 04.10.2016 | Launched [Ultimate Angular](https://ultimateangular.com) training courses |
+| 07.08.2016 | Visited Sofia, Bulgaria for the first time |
+| 01.07.2016 | Visited Barcelona, Spain for the first time |
+| 25.05.2016 | Visited Copenhagen, Denmark for the first time |
 | 30.04.2016 | Visited Lugano, Switzerland for the first time |
 | 13.03.2016 | 15,000ft sky dive ([video](https://www.youtube.com/watch?v=iFYYkTlJDWg)) |
 | 23.02.2016 | Visited Austin, TX for the first time |
@@ -30,7 +33,7 @@ Co-created [Conditionizr](http://conditionizr.com) (.NET Magazine's Open Source 
 | 12.10.2015 | Angular: The Performance Parts (Warsaw, Poland) [slides](https://speakerdeck.com/toddmotto/angularjs-the-performance-parts) |
 | 12.10.2015 | Visited Poland for the first time |
 | 07.10.2015 | Angular: The Performance Parts (London, UK) [slides](https://speakerdeck.com/toddmotto/angularjs-the-performance-parts) |
-| 04.08.2015 | Visited Amsterdam, NL for the first time |
+| 04.08.2015 | Visited Amsterdam, The Netherlands for the first time |
 | 06.04.2015 | New York Public Library use my Angular style-guide in [v1.3 app migration](http://www.nypl.org/blog/2015/04/06/upgrading-angularjs-1-3) |
 | 16.02.2015 | Director of Web Development role at [Mozio, Inc.](//mozio.com) |
 | 14.11.2014 | Launched [ngAir](http://ng-air.github.io), an Angular hangout/podcast |
@@ -47,6 +50,7 @@ Co-created [Conditionizr](http://conditionizr.com) (.NET Magazine's Open Source 
 | 25.10.2013 | Taught half-day Angular workshop at Google HQ: [slides](//speakerdeck.com/toddmotto/angularjs-in-one-day) |
 | 22.10.2013 | Toured Googleplex HQ campus |
 | 22.10.2013 | Represented Intel at HTML5 Dev Conf in San Francisco evangelising the [HTML5 Hub](http://html5hub.com) |
+| 21.10.2013 | Visited San Francisco, USA for the first time |
 | 23.09.2013 | Re-engineered [Conditionizr 4](http://conditionizr.com) with 5 public APIs and architecture rewrite |
 | 15.09.2013 | Launched [FireShell](http://getfireshell.com) to promote full end to end Sass/SCSS and Grunt workflow |
 | 09.09.2013 | Developed [Rolling Stone's](//rollingstone.com/feature/the-geeks-on-the-frontlines) HTML5 experience as part of Intel's HTML5 Hub |
