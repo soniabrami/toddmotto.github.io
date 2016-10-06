@@ -46,13 +46,7 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
 <div class="speaking__list">
   <ul>
     <li>
-      <a href="http://conference2016.twf.community">TWF Conf</a>, Kraków (Poland), <span>22-24.09.2016</span>
-    </li>
-    <li>
-      <a href="http://angularconnect.com/2016">AngularConnect</a>, London (England, UK), <span>27.09.2016</span>
-    </li>
-    <li>
-      <a href="#">Frontend Titans</a>, Cluj (Romania), <span>07-11.10.2016</span>
+      <a href="#">We Speak JS</a>, Cluj (Romania), <span>07-11.10.2016</span>
     </li>
     <li>
       <a href="https://voxxeddays.com/thessaloniki/">Voxxed Thessaloniki</a>, Thessaloniki (Greece), <span>21.10.2016</span>
@@ -72,6 +66,12 @@ Events I've spoken at. Check my [YouTube Channel](https://www.youtube.com/channe
 
 <div class="speaking__list">
   <ul>
+    <li>
+      <a href="http://angularconnect.com/2016">AngularConnect</a>, London (England, UK), <span>27.09.2016</span>
+    </li>
+    <li>
+      <a href="http://conference2016.twf.community">TWF Conf</a>, Kraków (Poland), <span>22-24.09.2016</span>
+    </li>
     <li>
       <a href="http://angularcamp.org/">AngularCamp</a>, Barcelona (Spain), <span>01-03.07.2016</span>
     </li>
