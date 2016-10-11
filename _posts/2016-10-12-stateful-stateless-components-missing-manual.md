@@ -261,7 +261,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   <ul>
     <li *ngFor="let todo of todos">
       <todo
-  	    [item]="todo"
+        [item]="todo"
     	  (onChange)="onComplete.emit($event)"
       	(onRemove)="onDelete.emit($event)">
       </todo>
