@@ -13,6 +13,19 @@ The goals of this article are to define what stateful and stateless components a
   - <a href="#stateful">Stateful</a>
   - <a href="#stateless">Stateless</a>
   - <a href="#components">Components</a>
+- <a href="#impure-versus-pure-functions">Impure versus Pure functions</a>
+  - <a href="#impure-functions-stateful">Impure functions (stateful)</a>
+  - <a href="#pure-functions-stateless">Pure functions (stateless)</a>
+- <a href="#stateful-components">Stateful Components</a>
+  - <a href="#stateful-todo-component">Stateful Todo component</a>
+- <a href="#stateless-components">Stateless components</a>
+  - <a href="#stateless-todoform-component">Stateless TodoForm component</a>
+  - <a href="#stateless-todolist-component">Stateless TodoList component</a>
+  - <a href="#component-tree">Component Tree</a>
+  - <a href="#final-code">Final code</a>
+- <a href="#angular-1x-version">Angular 1.x version?</a>
+  - <a href="#final-code">Final code</a>
+- <a href="#further-reading">Further reading</a>
 
 ### Terminology
 
@@ -248,7 +261,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
     .complete { text-decoration: line-through; }
   `],
   template: `
-	<div>
+  <div>
     <span [ngClass]="{ complete: item.complete }">{{ item.label }}</span>
     <button
       type="button"
