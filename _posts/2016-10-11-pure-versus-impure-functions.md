@@ -189,7 +189,7 @@ const height = parseInt(form.querySelector('input[name=height]').value, 10);
 const bmi = (weight / (height /100 * height / 100)).toFixed(1);
 {% endhighlight %}
 
-This deals with `parseIn()` and the formula to calculate the BMI. This is not very flexible and likely very error prone when at some point in an application we'd come to refactoring or adding more features.
+This deals with `parseInt()` and the formula to calculate the BMI. This is not very flexible and likely very error prone when at some point in an application we'd come to refactoring or adding more features.
 
 To refactor, we're only going obtain each input's value property alone, and delegate those into a `getBMI` function:
 
