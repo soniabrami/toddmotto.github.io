@@ -16,7 +16,7 @@ The goals of this article are to define what stateful and stateless components a
 - <a href="#impure-versus-pure-functions">Impure versus Pure functions</a>
   - <a href="#impure-functions-stateful">Impure functions (stateful)</a>
   - <a href="#pure-functions-stateless">Pure functions (stateless)</a>
-- <a href="#stateful-components">Stateful Components</a>
+- <a href="#stateful-components">Stateful components</a>
   - <a href="#stateful-todo-component">Stateful Todo component</a>
 - <a href="#stateless-components">Stateless components</a>
   - <a href="#stateless-todoform-component">Stateless TodoForm component</a>
@@ -95,7 +95,7 @@ Here's the thing: all four of the above concepts directly map across to thinking
 
 Let's now take the "impure" functions and look at the stateful component equivalent, followed by the "pure" functions that can be mapped across to stateless components.
 
-### Stateful Components
+### Stateful components
 
 Much like an impure JavaScript function, a stateful component is the driver of what happens, and it therefore utilises any stateless components at our disposal.
 
