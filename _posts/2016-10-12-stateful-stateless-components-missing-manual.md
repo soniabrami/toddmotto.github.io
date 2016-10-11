@@ -21,7 +21,6 @@ The goals of this article are to define what stateful and stateless components a
 - <a href="#stateless-components">Stateless components</a>
   - <a href="#stateless-todoform-component">Stateless TodoForm component</a>
   - <a href="#stateless-todolist-component">Stateless TodoList component</a>
-  - <a href="#component-tree">Component Tree</a>
   - <a href="#final-code">Final code</a>
 - <a href="#angular-1x-version">Angular 1.x version?</a>
   - <a href="#final-code">Final code</a>
@@ -132,6 +131,17 @@ export class AppComponent { }
 
 Inside here, we're rendering a `<todos>` component. This component will be stateful, let us continue! We're not going to teach how to build a todo app, we all know this, so we're going to look at how we can apply stateful and stateless paradigms to Angular 2 components and observe the ideas.
 
+Let's look at the component composition through ASCII art as we progress, so far we have an `<app>` component:
+
+{% highlight html %}
+
+          ┌─────────────────┐          
+          │      <app>      │          
+          └────────┬────────┘          
+{% endhighlight %}
+
+Now onto the `<todos>` component:
+
 {% highlight javascript %}
 import { Component, OnInit } from '@angular/core';
 import { TodoService } from './todo.service';
@@ -176,6 +186,22 @@ You can see from the above that all we have is a container `<div>` wrapping two 
 The rest of the component class are the methods that make up the functionality of the todo component. Immutable operations are taking place inside each callback, and each callback is exposed to a stateless component so that it can run with it. All these functions are expecting is a notification that something has changed, for instance "Oh hey! Here's a new todo label, go ahead and do your thing with it oh-mighty stateful component". Note how the functions are only called from the child, stateless, level.
 
 And that's literally it on stateful. We cover some of the potential concepts that stateful components may contain. Let's move onto the more frequently used stateless components.
+
+ASCII:
+
+{% highlight html %}
+
+          ┌─────────────────┐          
+          │      <app>      │          
+          └────────┬────────┘          
+                   ▼                   
+     ┌─────────────────────────────┐    
+     │           <todos>           │    
+     │     ┌─────────────────┐     │    
+    ┌┤     │   TodoService   │     ├┐   
+    │└─────┴─────────────────┴─────┘│   
+
+{% endhighlight %}
 
 ### Stateless components
 
@@ -281,9 +307,7 @@ export class TodoComponent {
 
 Hopefully you can see a pattern emerging here! Again, we have some inputs and outputs that can send event information up to the parent, then up again (if needed). All of the above Angular 2 components are stateless. They have no knowledge of their surroundings, but are passed data via property bindings and emit changes via event callbacks.
 
-#### Component tree
-
-Here's an ASCII render of the component tree that we've talked through:
+Here's the final ASCII render of the component tree that we've talked through (The `TodoService` represents the injected Service):
 
 {% highlight html %}
 
@@ -304,13 +328,11 @@ Here's an ASCII render of the component tree that we've talked through:
                      └─────────────────┘
 {% endhighlight %}
 
-The `TodoService` represents the injected Service.
-
 #### Final code
 
 Altogether now:
 
-<iframe src="//embed.plnkr.co/ygSstbXkJf5vnGz6Fzdu" frameborder="0" border="0" cellspacing="0" cellpadding="0" width="100%" height="250"></iframe>
+<iframe src="//embed.plnkr.co/ygSstbXkJf5vnGz6Fzdu" frameborder="0" border="0" cellspacing="0" cellpadding="0" width="100%" height="400"></iframe>
 
 ### Angular 1.x version?
 
