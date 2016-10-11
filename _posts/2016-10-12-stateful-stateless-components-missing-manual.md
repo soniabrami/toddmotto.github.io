@@ -173,7 +173,7 @@ export class TodosComponent implements OnInit {
 
 You can see from the above that all we have is a container `<div>` wrapping two further child (stateless) components. There is no other logic in the template other than that. The `<todo-form>` component receives no input, but expects to bind an output called `onAdd`. Next up, the `<todo-list>` component receives the todos data from the `[todos]` input binding, and two outputs `(onComplete)` and `(onDelete)`, delegating the respective functions to the stateless counterparts.
 
-The rest of the component class are the methods that make up the functionality of the todo component. Immutable operations are taking place inside each callback, and each callback is exposed to a stateless component so that it can run with it. All these functions are expecting is a notificaton that something has changed, for instance "Oh hey! Here's a new todo label, go ahead and do your thing with it oh-mighty stateful component". Note how the functions are only called from the child, stateless, level.
+The rest of the component class are the methods that make up the functionality of the todo component. Immutable operations are taking place inside each callback, and each callback is exposed to a stateless component so that it can run with it. All these functions are expecting is a notification that something has changed, for instance "Oh hey! Here's a new todo label, go ahead and do your thing with it oh-mighty stateful component". Note how the functions are only called from the child, stateless, level.
 
 And that's literally it on stateful. We cover some of the potential concepts that stateful components may contain. Let's move onto the more frequently used stateless components.
 
