@@ -237,7 +237,6 @@ import { Component, Output, EventEmitter } from '@angular/core';
 export class TodoFormComponent {
   label: string;
   @Output() onAdd = new EventEmitter();
-
   submit() {
     if (!this.label) return;
     this.onAdd.emit({label: this.label});
@@ -262,15 +261,15 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
     <li *ngFor="let todo of todos">
       <todo
         [item]="todo"
-    	  (onChange)="onComplete.emit($event)"
-      	(onRemove)="onDelete.emit($event)">
+        (onChange)="onComplete.emit($event)"
+        (onRemove)="onDelete.emit($event)">
       </todo>
     </li>
   </ul>
   `
 })
 export class TodoListComponent {
-  @Input()  todos;
+  @Input() todos;
   @Output() onComplete = new EventEmitter();
   @Output() onDelete = new EventEmitter();
 }
