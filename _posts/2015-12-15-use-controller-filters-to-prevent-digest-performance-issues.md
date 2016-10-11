@@ -106,7 +106,7 @@ And the output (note the "Filter count: X" text in the code embed). Please note,
 
 Boom boom boom. Five filter calls every `$digest` loop. This can't be very efficient right? Especially with an `ng-repeat` with `1000` items inside. Think about it.
 
-What's more, typing something inside the `<input ng-model="">` runs a `$digest` and numbers soar into double and triple figures. By the time you've ready down to this stage the figure is probably into the hundreds.
+What's more, typing something inside the `<input ng-model="">` runs a `$digest` and numbers soar into double and triple figures. By the time you've read down to this stage the figure is probably into the hundreds, if not thousands.
 
 Why are our filters running when we're not even filtering the `ng-repeat` with the `ng-model` anymore?
 
