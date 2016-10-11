@@ -137,7 +137,7 @@ Let's look at the component composition through ASCII art as we progress, so far
 
           ┌─────────────────┐          
           │      <app>      │          
-          └────────┬────────┘          
+          └─────────────────┘          
 {% endhighlight %}
 
 Now onto the `<todos>` component:
@@ -187,7 +187,7 @@ The rest of the component class are the methods that make up the functionality o
 
 And that's literally it on stateful. We cover some of the potential concepts that stateful components may contain. Let's move onto the more frequently used stateless components.
 
-ASCII:
+ASCII (the `TodoService` represents the injected Service):
 
 {% highlight html %}
 
@@ -198,8 +198,8 @@ ASCII:
      ┌─────────────────────────────┐    
      │           <todos>           │    
      │     ┌─────────────────┐     │    
-    ┌┤     │   TodoService   │     ├┐   
-    │└─────┴─────────────────┴─────┘│   
+     │     │   TodoService   │     │   
+     └─────┴─────────────────┴─────┘   
 
 {% endhighlight %}
 
@@ -307,7 +307,7 @@ export class TodoComponent {
 
 Hopefully you can see a pattern emerging here! Again, we have some inputs and outputs that can send event information up to the parent, then up again (if needed). All of the above Angular 2 components are stateless. They have no knowledge of their surroundings, but are passed data via property bindings and emit changes via event callbacks.
 
-Here's the final ASCII render of the component tree that we've talked through (The `TodoService` represents the injected Service):
+Here's the final ASCII render of the component tree that we've talked through:
 
 {% highlight html %}
 
