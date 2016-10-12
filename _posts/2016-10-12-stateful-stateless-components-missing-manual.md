@@ -64,7 +64,7 @@ const height = parseInt(form.querySelector('input[name=height]').value, 10);
 const bmi = (weight / (height /100 * height / 100)).toFixed(1);
 {% endhighlight %}
 
-This is great in terms of the fact that it works, however this doesn't create a reusable function that allows us to calculate the BMI elsewhere, test the formula easily, and relies on very procedural code. Let's look at how we can make it "pure".
+This is great in terms of the fact that it works, however this doesn't create a reusable function that allows us to calculate the BMI elsewhere, test the formula easily, and relies on very procedural code. Let's look at how we can make it "pure". The important piece here is that this chunk of code is the driver of changes, and we can rely on pure functions to essentially create small isolated pieces of logic that accept data and return new data without relying on external variables.
 
 #### Pure functions (stateless)
 
