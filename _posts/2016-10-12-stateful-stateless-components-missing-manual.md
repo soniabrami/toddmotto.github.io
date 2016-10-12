@@ -389,7 +389,7 @@ const todoForm = {
   `,
   controller: class TodoFormController {
     constructor() {}
-    submit(label) {
+    submit() {
       if (!this.label) return;
     	this.onAdd({
         $event: { label: this.label }
