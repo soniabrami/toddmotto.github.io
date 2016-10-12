@@ -5,7 +5,7 @@ title: Stateful and stateless components, the missing manual
 path: 2016-10-12-stateful-stateless-components-missing-manual.md
 ---
 
-The goals of this article are to define what stateful and stateless components are, otherwise known as smart and dumb - or container and presentational components. For the purposes of the article, we'll be using Angular 2 Components to explain the stateful/stateless concepts. Bear in mind these concepts are not at all limited to Angular at all, and live in other libs/frameworks such as React.
+The goals of this article are to define what stateful and stateless components are, otherwise known as smart and dumb - or container and presentational components. For the purposes of the article, we'll be using Angular 2 Components to explain the stateful/stateless concepts. Bear in mind these concepts are not at all limited to Angular, and live in other libs/frameworks such as React.
 
 ### Table of contents
 
