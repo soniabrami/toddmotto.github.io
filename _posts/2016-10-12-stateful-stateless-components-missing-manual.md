@@ -106,7 +106,7 @@ Here are some attributes that a stateful component has:
 * Has living knowledge of the current state
 * Is informed by stateless components when something needs to change
 * Can communicate with external dependencies (such as an http layer)
-* Renders child stateless (or even stateful) components, perhaps within with a single `<div>` wrapper for layout containment
+* Renders stateless (or even stateful) child components, perhaps within a single `<div>` wrapper for layout containment
 * Contain Redux actions (ngrx/store or ng2redux for example)
 
 This list, and the one further in the article, was inspired by Dan Abramov's [Presentational and Container components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0) article.
