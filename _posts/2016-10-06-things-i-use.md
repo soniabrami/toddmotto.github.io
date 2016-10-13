@@ -52,7 +52,7 @@ That's literally it, I'm all for keeping it simple.
 * Laptops/Desktops: MacBook Pro 15" retina x 2, MacBook 12", iMac 27"
 * Dock: I do own a [Henge Dock](https://www.hengedocks.com/) but it sucks and I never use it
 * Sound system: [Bose 50](https://www.amazon.co.uk/dp/B00UF6XF2E/ref=pe_1909131_77697001_tnp_email_TE_AMZLdp_1) multimedia system on my desk, remote working noise #ftw
-* Desk: [VariDesk Pro 60](http://www.varidesk.com/product/full-standing-desk-pro-desk-60) standing desk (huge workflow/comfort changer)
+* Desk: [VariDesk Pro 54](http://uk.varidesk.com/en-gb/product/pro-desk-54) standing desk (huge workflow/comfort changer)
 * Monitor: [34" curved LG](https://www.amazon.co.uk/dp/B01BFH1AIM/ref=pe_385721_137066351_TE_dp_1) 21:9 ultrawide (this has completely changed my working style, 100% recommend)
 
 ### Screencasts
