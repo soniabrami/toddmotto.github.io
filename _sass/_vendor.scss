@@ -1,33 +1,70 @@
 @font-face {
-    font-family: 'Museo Slab';
-    src: url('../fonts/Museo_Slab_500_2-webfont.eot');
-    src: url('../fonts/Museo_Slab_500_2-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Museo_Slab_500_2-webfont.woff2') format('woff2'),
-         url('../fonts/Museo_Slab_500_2-webfont.woff') format('woff'),
-         url('../fonts/Museo_Slab_500_2-webfont.ttf') format('truetype'),
-         url('../fonts/Museo_Slab_500_2-webfont.svg#museo_slab500') format('svg');
+    font-family: 'cormorant_garamondSBdIt';
+    src: url('../fonts/cormorantgaramond-semibolditalic-webfont.eot');
+    src: url('../fonts/cormorantgaramond-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cormorantgaramond-semibolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/cormorantgaramond-semibolditalic-webfont.woff') format('woff'),
+         url('../fonts/cormorantgaramond-semibolditalic-webfont.ttf') format('ttf'),
+         url('../fonts/cormorantgaramond-semibolditalic-webfont.svg#cormorant_garamondSBdIt') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
+
 // @font-face {
-//   font-family: 'Lora';
-//   src: url('../fonts/lora-regular-webfont.eot');
-//   src: url('../fonts/lora-regular-webfont.eot?#iefix') format('embedded-opentype'),
-//     url('../fonts/lora-regular-webfont.woff2') format('woff2'),
-//     url('../fonts/lora-regular-webfont.woff') format('woff'),
-//     url('../fonts/lora-regular-webfont.ttf') format('truetype'),
-//     url('../fonts/lora-regular-webfont.svg#loraregular') format('svg');
-//   font-weight: normal;
-//   font-style: normal;
+//     font-family: 'open_sansbold';
+//     src: url('../fonts/opensans-bold-webfont.eot');
+//     src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+//          url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+//          url('../fonts/opensans-bold-webfont.woff') format('woff'),
+//          url('../fonts/opensans-bold-webfont.ttf') format('ttf'),
+//          url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+
 // }
+
+// @font-face {
+//     font-family: 'open_sansitalic';
+//     src: url('../fonts/opensans-italic-webfont.eot');
+//     src: url('../fonts/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+//          url('../fonts/opensans-italic-webfont.woff2') format('woff2'),
+//          url('../fonts/opensans-italic-webfont.woff') format('woff'),
+//          url('../fonts/opensans-italic-webfont.tff') format('ttf'),
+//          url('../fonts/opensans-italic-webfont.svg#open_sansitalic') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+
+// }
+
 @font-face {
-  font-family: 'Montserrat';
-  src: url('../fonts/montserrat-light-webfont.eot');
-  src: url('../fonts/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/montserrat-light-webfont.woff2') format('woff2'),
-    url('../fonts/montserrat-light-webfont.woff') format('woff'),
-    url('../fonts/montserrat-light-webfont.ttf') format('truetype'),
-    url('../fonts/montserrat-light-webfont.svg#montserratlight') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('ttf'),
+         url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../fonts/opensans-semibold-webfont.eot');
+    src: url('../fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-semibold-webfont.woff') format('woff'),
+         url('../fonts/opensans-semibold-webfont.ttf') format('ttf'),
+         url('../fonts/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+// $font--open-sans--bold:   "open_sansbold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font--open-sans--reg:    "open_sansregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font--open-sans--semi:   "open_sanssemibold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $font--open-sans--italic: "open_sansitalic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font--garamond--semi:   "cormorant_garamondSBdIt", georgia, serif;

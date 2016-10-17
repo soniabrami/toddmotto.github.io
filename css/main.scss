@@ -4,9 +4,12 @@
 @charset "utf-8";
 
 
+@import "vendor";
+
+
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: $font--open-sans--reg;
 $base-font-size:   16px;
 $base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
@@ -48,6 +51,7 @@ $tablet:          700px;
 @import
         "base",
         "layout",
-        "syntax-highlighting",
-        "vendor"
+        "header",
+        "post",
+        "syntax-highlighting"
 ;

@@ -4,20 +4,21 @@ layout: default
 
 <div class="posts">
   {% for post in paginator.posts %}
-  <section class="post">
-    <header class="post__header">
-      <h1 class="alpha post__title">
+  <section class="post-single">
+    <header class="post-single__header">
+      <h1 class="post-single__title">
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h1>
       <span class="post__meta">
-        Posted on {{ post.date | date: "%b %-d, %Y" }} by <a href="//twitter.com/toddmotto" target="_blank">Todd Motto</a>
+        Posted on {{ post.date | date: "%b %-d, %Y" }} by <a href="//twitter.com/toddmotto" target="_blank">Todd Motto</a>        
       </span>
+      <div class="post__meta__divider"></div>
     </header>
-    <div class="post__content">
+    <a href="{{ post.url | prepend: site.baseurl }}" class="post-single__content" title="Read {{ post.title }}">
       <p>
         {{ post.content | strip_html | truncatewords: 30 }}
       </p>
-    </div>
+    </a>
     <div class="post__button">
       <a href="{{ post.url | prepend: site.baseurl }}" class="button" title="Read {{ post.title }}">
         Read more

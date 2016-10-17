@@ -1,0 +1,79 @@
+/*
+ * HEADER
+ */
+.header {
+  padding: 48px 0;
+  z-index: 5;
+  color: #fff;
+  background: #21242c;
+  @media screen and (max-width: 725px) {
+    text-align: center;
+    min-width: 100%;
+    display: block;
+  }
+  a {
+    color: #57ad68;
+  }
+  &__img {
+    display: table-cell;
+    vertical-align: top;
+    min-width: 120px;
+    @media screen and (max-width: 725px) {
+      width: 120px;
+      margin: 0 auto;
+      display: block;
+    }
+    a {
+      display: block;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 50%;
+      border: 5px solid #35393d;
+    }
+  }
+  &__bio {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0 0 0 24px;
+    width: 100%;
+    p {
+      margin: 0 0 8px 0;
+    }
+    @media screen and (max-width: 725px) {
+      display: none;
+    }
+  }
+}
+
+/*
+ * NAV
+ */
+.nav {
+  font-family: $font--open-sans--reg;
+  background: #2d313a;
+  text-align: center;
+  ul {
+    margin: 0;
+  }
+  li {
+    display: inline-block;
+    @media screen and (max-width: 500px) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 24px 30px;
+    font-size: 16px;
+    @media screen and (max-width: 500px) {
+      padding: 15px 0;
+    }
+    &:hover {
+      color: #999;
+    }
+  }
+}

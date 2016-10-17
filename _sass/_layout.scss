@@ -1,10 +1,66 @@
 /*
  * WRAPPER
  */
+$site-max-width: 788px;
+
 .wrapper {
-  width: 96%;
-  max-width: 1140px;
+  max-width: $site-max-width;
   margin: 0 auto;
+  padding: 0 64px;
+}
+
+
+.content {
+  background: #fafbfb;
+  padding: 64px 0;
+  overflow-x: hidden;
+  @media screen and (max-width: 850px) {
+    padding: 50px 40px;
+  }
+  @media screen and (max-width: 500px) {
+    padding: 45px 15px;
+  }
+}
+
+
+.card {
+  max-width: $site-max-width;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  &__content {
+    padding: 0 64px 64px 64px;
+    @media screen and (max-width: 850px) {
+      padding: 0 40px 40px 40px;
+    }
+    @media screen and (max-width: 500px) {
+      padding: 0 24px 24px 24px;
+    }
+
+
+    table {
+      margin: 48px -64px;
+      width: auto;
+      th {
+        padding: 16px 25px;
+        text-align: left;
+        background: #21242c;
+        color: #fff;
+      }
+      @media screen and (max-width: 850px) {
+        margin: 40px -40px;
+      }
+      @media screen and (max-width: 500px) {
+        padding: 24px -24px;
+      }
+      td {
+        padding: 8px 25px;
+        line-height: 24px;
+        font-size: 14px;
+      }
+    }
+  }  
 }
 
 .courses {
@@ -13,22 +69,28 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  padding: 40px 55px 40px 55px;
+  padding: 24px 64px 32px;
+ @media screen and (max-width: 850px) {
+    padding: 24px 40px 32px;
+  }
+  @media screen and (max-width: 500px) {
+    padding: 24px 24px 32px;
+  }
   cursor: pointer;
   text-align: center;
   position: relative;
+  border-radius: 2px 2px 0 0;
 
   &__a1 {
     background-image: url(/img/ua/angular-1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     position: absolute;
     left: 120px;
-    top: 50%;
-    margin-top: -50px;
+    top: 30px;
     @media only screen and (max-width: 1170px) {
       display: none;
     }
@@ -38,12 +100,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     position: absolute;
     right: 120px;
-    top: 50%;
-    margin-top: -50px;
+    top: 30px;
     @media only screen and (max-width: 1170px) {
       display: none;
     }
@@ -51,15 +112,20 @@
 
 
   h3 {
-    margin-top: 15px;
-    margin-bottom: 5px;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    @media only screen and (max-width: 550px) {
+      font-size: 20px;
+      line-height: 24px;
+    }
   }
   a {
     display: block;
     color: #fff;
   }
   &__logo {
-    width: 200px;
+    width: 160px;
   }
   &__box {
     width: 250px;
@@ -111,7 +177,7 @@
  */
 .button {
   display: inline-block;
-  font-family: 'Museo Slab', 'Helvetica', 'Arial', sans-serif;
+  font-family: $font--open-sans--semi;
   font-size: 14px;
   text-transform: uppercase;
   color: #b1b1b1;
@@ -128,83 +194,7 @@
 }
 
 
-/*
- * HEADER
- */
-.header {
-  padding: 30px 55px;
-  z-index: 5;
-  color: #fff;
-  background: #292c2f;
-  margin: 15px 0 0px;
-  display: table;
-  @media screen and (max-width: 725px) {
-    text-align: center;
-    min-width: 100%;
-    display: block;
-  }
-  a {
-    color: #57ad68;
-  }
-  &__img {
-    display: table-cell;
-    vertical-align: top;
-    min-width: 120px;
-    @media screen and (max-width: 725px) {
-      width: 120px;
-      margin: 0 auto;
-      display: block;
-    }
-    img {
-      max-width: 100%;
-      border-radius: 50%;
-      border: 5px solid #35393d;
-    }
-  }
-  &__bio {
-    display: table-cell;
-    vertical-align: top;
-    padding: 0 0 0 25px;
-    width: 100%;
-    @media screen and (max-width: 725px) {
-      display: none;
-    }
-  }
-}
 
-/*
- * NAV
- */
-.nav {
-  font-family: 'Museo Slab', 'Helvetica', 'Arial', sans-serif;
-  background: #2e3134;
-  ul {
-    margin: 0 0 0 45px;
-    @media screen and (max-width: 500px) {
-      margin: 0;
-    }
-  }
-  li {
-    display: inline-block;
-    @media screen and (max-width: 500px) {
-      width: 100%;
-      text-align: center;
-    }
-  }
-  a {
-    color: #fff;
-    text-decoration: none;
-    display: block;
-    padding: 30px 15px;
-    font-size: 16px;
-    @media screen and (max-width: 500px) {
-      padding: 15px 0;
-    }
-    &:hover {
-      color: #999;
-    }
-  }
-}
 
 /**
  * FOOTER
@@ -235,196 +225,8 @@
   }
 }
 
-/**
- * POSTS
- */
-.posts {
-  margin: 0 5%;
-}
-.post {
-  margin: 0 0 80px;
-  &.single {
-    // margin: 0 5%;
-    .linkjuice {
-      color: #444;
-      &:hover {
-        color: #57ad68;
-      }
-      position: relative;
-      &-icon {
-        position: absolute;
-        right: 100%;
-        display: block;
-        opacity: .3;
-        padding-right: 15px;
-        font-size: 65%;
-        top: 5px;
-      }
-      &__icon {
-        background: url(../img/icons/link.svg) no-repeat 0 0;
-        display: block;
-        height: 25px;
-        width: 22px;
-      }
-    }
-    h3 {
-      font-size: 30px;
-      font-weight: normal;
-      border-top: 30px solid #f1f2f1;
-      margin: 55px -55px;
-      padding: 55px 0 0 55px;
-      @media screen and (max-width: 750px) {
-        font-size: 24px;
-        border-top: 20px solid #f1f2f1;
-        margin: 20px -55px;
-        padding: 35px 0 0 55px;
-      }
-    }
-    ul {
-      margin: 0 0 0 20px;
-      padding: 0;
-      list-style: disc;
-      li {
-        ul {
-          margin: 0 0 0 35px;
-          list-style: circle;
-          li {
 
-          }
-        }
-      }
-    }
-  }
-  &__header {
-    text-align: center;
-  }
-  &__title {
-    @media screen and (max-width: 850px) {
-      font-size: 34px;
-    }
-    @media screen and (max-width: 500px) {
-      font-size: 28px;
-    }
-    a {
-      color: #444;
-      text-decoration: none;
-      &:hover {
-        color: #888;
-      }
-    }
-  }
-  &__content {
-    margin: 25px 0;
-  }
-  &__ad {
-    margin: 0 0 25px;
-    @media screen and (max-width: 380px) {
-      display: none;
-    }
-  }
-  &__meta {
-    font-size: 14px;
-    color: #b1b1b1;
-    font-style: italic;
-    a {
-      color: $green;
-    }
-  }
-  &__button {
-    text-align: center;
-    margin: 25px 0 0;
-  }
-}
 
-.pagination {
-  color: #fff;
-  background: #292c2f;
-  text-align: center;
-  margin: 0 -55px -55px;
-  padding: 40px 20px;
-  font-family: 'Museo Slab', 'Helvetica', 'Arial', sans-serif;
-  text-transform: uppercase;
-  @media screen and (max-width: 860px) {
-    margin: 0 -40px -40px;
-  }
-  @media screen and (max-width: 500px) {
-    margin: 0 -15px -15px;
-  }
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    li {
-      display: inline-block;
-      margin: 0 10px 0 0;
-      a {
-        color: #999;
-        transition: color 0.2s ease-in-out;
-        &:hover {
-          color: #fff;
-        }
-      }
-    }
-  }
-}
-
-.content {
-  background: #fff;
-  padding: 55px;
-  overflow-x: hidden;
-  @media screen and (max-width: 850px) {
-    padding: 50px 40px;
-  }
-  @media screen and (max-width: 500px) {
-    padding: 45px 15px;
-  }
-}
-
-/**
- * AUTHOR
- */
-.author {
-  padding: 25px 55px;
-  margin: 0 -55px;
-  display: table;
-  color: #fff;
-  background: #292c2f;
-  border-top: 30px solid #f1f2f1;
-  @media screen and (max-width: 500px) {
-    text-align: center;
-  }
-  &__content {
-    position: relative;
-  }
-  &__pic {
-    min-width: 120px;
-    vertical-align: top;
-    display: table-cell;
-    @media screen and (max-width: 550px) {
-      width: 40%;
-      text-align: center;
-      margin: 0 auto;
-      display: block;
-    }
-    img {
-      vertical-align: bottom;
-      border-radius: 50%;
-      border: 5px solid #35393d;
-    }
-  }
-  &__bio {
-    color: #fff;
-    width: 100%;
-    vertical-align: top;
-    display: table-cell;
-    padding: 0 0 0 25px;
-    @media screen and (max-width: 550px) {
-      min-width: 100%;
-      text-align: center;
-      padding: 0;
-    }
-  }
-}
 
 /**
  * SIMILAR
@@ -480,7 +282,7 @@
         }
         h3 {
           span {
-            font-family: 'Museo Slab', 'Helvetica', 'Arial', sans-serif;
+            font-family: $font--open-sans--semi;
             letter-spacing: 0.5px;
             display: block;
             font-size: 14px;
@@ -494,81 +296,6 @@
   }
 }
 
-/**
- * SIGNUP
- */
-.signup {
-  padding: 60px 0;
-  margin: 0 -55px;
-  background: #2e3134;
-  color: #fff;
-  @media screen and (max-width: 850px) {
-    padding: 30px 40px;
-    margin: 0 -40px;
-  }
-  @media screen and (max-width: 500px) {
-    padding: 30px 15px;
-    margin: 0 -15px;
-  }
-  #mc_embed_signup {
-    margin: 0 5%;
-  }
-  &__title {
-    margin: 0;
-  }
-  &__sub {
-    font-size: 15px;
-  }
-  form {
-    overflow: hidden;
-    input.email {
-      font-size: 14px;
-      float: left;
-      max-width: 500px;
-      width: 65%;
-      border-radius: 150px;
-      height: 40px;
-      border: 1px solid #e5e5e5;
-      padding: 10px 15px;
-      @media screen and (max-width: 550px) {
-        width: 100%;
-      }
-      &:focus {
-        border-color: darken(#e5e5e5, 10%);
-      }
-    }
-    button {
-      position: relative;
-      font-family: 'Museo Slab', 'Helvetica', 'Arial', sans-serif;
-      text-transform: uppercase;
-      cursor: pointer;
-      font-size: 14px;
-      float: left;
-      max-width: 150px;
-      width: 30%;
-      border-radius: 150px;
-      background: $green;
-      border: 0;
-      height: 40px;
-      padding: 10px 35px 10px 15px;
-      margin: 0 0 0 10px;
-      color: $white;
-      @media screen and (max-width: 550px) {
-        margin: 10px 0 0;
-        width: 100%;
-        max-width: 100%;
-      }
-      &:hover {
-        background: darken($green, 5%);
-      }
-      img {
-        position: absolute;
-        top: 8px;
-        right: 15px;
-      }
-    }
-  }
-}
 
 .embed {
   position: relative;
@@ -658,6 +385,9 @@ table {
     ul {
       list-style: none !important;
       overflow: hidden;
+      div.page__content & {
+        margin-left: 0;
+      }
       li {
         float: left;
         max-width: 25%;
@@ -668,9 +398,15 @@ table {
     }
   }
   &__list {
+    + h3 {
+      margin-top: 40px;
+    }
     ul {
       list-style: none;
       overflow: hidden;
+      div.page__content & {
+        margin-left: 0;
+      }
       li {
         padding: 20px;
         border-bottom: 1px solid #e5e5e5;

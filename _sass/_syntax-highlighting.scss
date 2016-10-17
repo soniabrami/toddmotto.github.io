@@ -4,32 +4,46 @@
  */
 p {
   > code {
-    background-color: #f5f6f5;
-    padding: 1px 5px;
+    background-color: #f4f7fd;
+    padding: 8px 10px 5px 10px;
     border-radius: 3px;
+    line-height: 24px;
+    @media screen and (max-width: 850px) {
+      padding: 6px 8px 4px 8px;
+    }
   }
 }
-.highlight {
-  margin: 0;
+
+code {
+  font-size: 14px;
+  // font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+  color: #384454;
 }
+
 .highlight pre,
 pre,
 .highlight .hll {
-  overflow-x: auto;
-  white-space: pre;
-  padding: 20px;
+
+  white-space: pre;  
   border-radius: 3px;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
 }
-.highlight {
-  white-space: pre;
-  overflow: auto;
-  word-wrap: normal;
-  background: #222;
-  color: #C1C2C3;
-  margin: 0 -55px 25px;
-  padding: 25px 20px;
-  border-left: 20px solid #35383c;
+
+
+pre code {
+  padding: 48px 64px;
+  display: block;
+  color: #c4d1e1;
+  overflow-y: scroll;
+  @media screen and (max-width: 850px) {
+    padding: 40px 40px;
+  }
+}
+.highlight {  
+  padding: 0; 
+  margin: 0;
 }
 .highlight .hll { background-color: #ffc; }
 .highlight .gd { color: #2e3436; background-color: #0e1416; }
